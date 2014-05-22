@@ -718,13 +718,13 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 50%;
 }
 
-input.dollars {
+.modal-body input.dollars {
 	display: inline-block;
 	text-align: right;
 	width: 4em;
 }
 
-input.cents {
+.modal-body input.cents {
 	display: inline-block;
 	width: 2em;
 }
