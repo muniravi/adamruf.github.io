@@ -65,6 +65,7 @@ window.onkeydown = keydown;
 // Activate tooltips
 $('.tipped').tooltip();
 
+
 // Wufoo Script
 
 addEvent(window, 'load', initForm);
