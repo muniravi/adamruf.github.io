@@ -718,6 +718,17 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 50%;
 }
 
+.dollars {
+	display: inline-block;
+	text-align: right;
+	width: 4em;
+}
+
+.cents {
+	display: inline-block;
+	width: 2em;
+}
+
 .muted {
 	color: rgba(0,0,0,0.25);
 	font-size: 1.2rem;

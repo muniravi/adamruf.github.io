@@ -256,7 +256,7 @@
 					<h2 class="modal-title" id="estRequestLabel">Project Estimate Request</h2>
 				</div>
 				<div class="modal-body">
-			        <form id="estimate-request" method="post" action="request-estimate.php">
+			        <!--<form id="estimate-request" method="post" action="request-estimate.php">
 				        <p><label>Name <span class="muted"> (required)</span></label>
 				        <input type="text" name="name" required=""></p>
 
@@ -271,7 +271,7 @@
 
 				        <button id="submit-contact-form" type="submit" class="button button-med style-green">Submit Request</button>
 				        <p class="muted">I won't share your email with anyone, period.</p>
-				    </form>
+				    </form>-->
 
 				    <form id="form16" name="form16" class="wufoo topLabel page" accept-charset="UTF-8"autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://adamruf.wufoo.com/forms/zrn7kji0o6mczr/#public">
 						<ul class="list-unstyled">
@@ -292,18 +292,16 @@
 								</div>
 							</li>
 							<li id="foli4" class="notranslate      ">
-								<label class="desc" id="title4" for="Field4">
-								Amount <span id="req_4" class="req">*</span>
+								<label class="desc block" id="title4" for="Field4">
+								Budget <span id="req_4" class="req" style="display:block;">*</span>
 								</label>
 								<span class="symbol">$</span>
 								<span>
-									<input id="Field4" name="Field4" type="text" class="field text currency nospin" value="5,000" size="10" tabindex="3" required />
-									<label for="Field4">Dollars</label>
+									<input id="Field4" name="Field4" type="text" class="field text currency nospin dollars" value="5,000" size="10" tabindex="3" required />
 								</span>
 								<span class="symbol radix">.</span>
 								<span class="cents">
-									<input id="Field4-1" name="Field4-1" type="text" class="field text nospin" value="00" size="2" maxlength="2" tabindex="4" />
-									<label for="Field4-1">Cents</label>
+									<input id="Field4-1" name="Field4-1" type="text" class="field text nospin cents" value="00" size="2" maxlength="2" tabindex="4" />
 								</span>
 							</li>
 							<li id="foli5" class="notranslate">
