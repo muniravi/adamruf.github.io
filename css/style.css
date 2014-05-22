@@ -707,6 +707,13 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	margin-bottom: 1em;
 }
 
+.modal-body textarea {
+	height: 4em;
+	line-height: 1.25em;
+	resize: none;
+	width: 100%;
+}
+
 .modal-body input[type="text"], .modal-body input[type="email"] {
 	width: 50%;
 }
