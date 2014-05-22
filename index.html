@@ -257,21 +257,83 @@
 		      </div>
 		      <div class="modal-body">
 		        <form id="estimate-request" method="post" action="request-estimate.php">
-				        <p><label>Name <span class="muted"> (required)</span></label>
-				        <input type="text" name="name" required=""></p>
+			        <p><label>Name <span class="muted"> (required)</span></label>
+			        <input type="text" name="name" required=""></p>
 
-				        <p><label>Email <span class="muted"> (required)</span></label>
-				        <input type="email" name="email" required=""></p>
+			        <p><label>Email <span class="muted"> (required)</span></label>
+			        <input type="email" name="email" required=""></p>
 
-				        <p><label>Budget <span class="muted"> (required)</span></label>
-				        <input type="text" name="budget" required=""></p>
+			        <p><label>Budget <span class="muted"> (required)</span></label>
+			        <input type="text" name="budget" required=""></p>
 
-				        <p><label>Project Description<span class="muted"> (required)</span></label>
-				        <textarea name="project" required=""></textarea></p>
+			        <p><label>Project Description<span class="muted"> (required)</span></label>
+			        <textarea name="project" required=""></textarea></p>
 
-				        <button id="submit-contact-form" type="submit" class="button button-med style-green">Submit Request</button>
-				        <p class="muted">I won't share your email with anyone, period.</p>
-				    </form>
+			        <button id="submit-contact-form" type="submit" class="button button-med style-green">Submit Request</button>
+			        <p class="muted">I won't share your email with anyone, period.</p>
+			    </form>
+
+			    <form id="form16" name="form16" class="wufoo topLabel page" accept-charset="UTF-8"autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://adamruf.wufoo.com/forms/zrn7kji0o6mczr/#public">
+					<ul>
+						<li id="foli12" class="notranslate      ">
+							<label class="desc" id="title12" for="Field12">
+								Name <span id="req_12" class="req">*</span>
+							</label>
+							<div>
+								<input id="Field12" name="Field12" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
+							</div>
+						</li>
+						<li id="foli3" class="notranslate      ">
+							<label class="desc" id="title3" for="Field3">
+							Email <span id="req_3" class="req">*</span>
+							</label>
+							<div>
+								<input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required /> 
+							</div>
+						</li>
+						<li id="foli4" class="notranslate      ">
+							<label class="desc" id="title4" for="Field4">
+							Amount <span id="req_4" class="req">*</span>
+							</label>
+							<span class="symbol">$</span>
+							<span>
+								<input id="Field4" name="Field4" type="text" class="field text currency nospin" value="5,000" size="10" tabindex="3" required />
+								<label for="Field4">Dollars</label>
+							</span>
+							<span class="symbol radix">.</span>
+							<span class="cents">
+								<input id="Field4-1" name="Field4-1" type="text" class="field text nospin" value="00" size="2" maxlength="2" tabindex="4" />
+								<label for="Field4-1">Cents</label>
+							</span>
+						</li>
+						<li id="foli5" class="notranslate">
+							<label class="desc" id="title5" for="Field5">
+								Project Description <span id="req_5" class="req">*</span>
+							</label>
+							<div>
+								<textarea id="Field5" 
+								name="Field5" 
+								class="field textarea medium" 
+								spellcheck="true" 
+								rows="10" cols="50" 
+								tabindex="5" 
+								onkeyup=""
+								required  ></textarea>
+							</div>
+						</li>
+						<li class="buttons">
+							<div>
+								<input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit"/>
+							</div>
+						</li>
+
+						<li class="hide">
+							<label for="comment">Do Not Fill This Out</label>
+							<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+							<input type="hidden" id="idstamp" name="idstamp" value="QsWxiF1qYC7L1CcrAZdwJb3C9t93t18awY4OtvhlTzo=" />
+						</li>
+					</ul>
+				</form>
 		      </div>
 		      <!--<div class="modal-footer">
 		      </div>-->
