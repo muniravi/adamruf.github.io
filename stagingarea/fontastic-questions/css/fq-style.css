@@ -1,0 +1,152 @@
+/* GLOBAL STYLES */
+
+body.index {
+	background-attachment: fixed;
+	background-color: #FF764A;
+	background-image: url('//adamruf.com/fontastic-questions/img/fq-bg-tile.png');
+	background-repeat: repeat;
+	padding-top: 3em;
+	/*-webkit-animation: animatedBackground 30s linear infinite;
+	-moz-animation: animatedBackground 30s linear infinite;
+	-ms-animation: animatedBackground 44s linear infinite;
+	animation: animatedBackground 44s linear infinite;*/
+}
+
+/*@-webkit-keyframes animatedBackground {
+	from { background-position: 0 100%; }
+	to { background-position: 100% 0; }
+}
+
+@-moz-keyframes animatedBackground {
+	from { background-position: 0 100%; }
+	to { background-position: 100% 0; }
+}
+
+@-ms-keyframes animatedBackground {
+	from { background-position: 0 100%; }
+	to { background-position: 100% 0; }
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 100%; }
+	to { background-position: 100% 0; }
+}*/
+
+body.index h1, body.index h2, body.index h3, body.index p {
+	color: #fff;
+	font-family: 'Roboto Slab', 'Helvetica Neue', sans-serif;
+}
+
+body.index h1 {
+	font-size: 13rem;
+	line-height: 11rem;
+}
+
+body.index p {
+	font-size: 2rem;
+}
+
+body.index a {
+	background: transparent;
+	border-radius: 4px;
+	color: rgb(180, 50, 0);
+	margin-left: -0.5em;
+	padding: 0.25em 0.5em;
+	transition: all 0.2s ease-in-out;
+}
+
+body.index a:hover, body.index a:active {
+	background: rgba(255,255,255,0.5);
+	color: rgb(180, 50, 0);
+	margin-left: 1em;
+	text-decoration: none;
+}
+
+body.index footer a, body.index footer a:hover, body.index footer a:active {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+.img-thumbnail {
+	background-color: rgba(255, 255, 255, 0.33);
+	border: 1px solid rgba(180, 50, 0, 0.5);
+	padding: 10px;
+}
+
+.legroom {
+	margin-bottom: 2em;
+}
+
+#cta {
+    margin: 9rem auto 0;
+}
+
+#cta a {
+    font-family: 'Varela Round';
+    font-size: 5rem;
+    letter-spacing: -0.25rem;
+    padding: 0.25em 0.5em;
+}
+
+#cta a:hover, #cta:active {
+	text-decoration: none;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.blue-button {
+	background-color: rgba(0, 173, 240, 0.5);
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff !important;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 30px 20px;
+	transition: all 0.25s ease-in-out;
+}
+
+.blue-button:hover {
+	background-color: rgba(0, 173, 240, 1);
+	box-shadow:  0 4px 0px rgba(2, 136, 179, 1);
+	transition: all 0.25s ease-in-out;
+}
+
+.blue-button:active {
+	background-color: rgba(0, 173, 240, 0.75);
+	box-shadow: none;
+	margin: 2px 0 -2px;
+}
+
+footer {
+        margin: 6em auto 2em;
+}
+
+footer.dark p {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+footer.dark a {
+	color: rgba(0, 0, 0, 0.35);
+
+}
+
+footer.dark a:hover, footer.dark a:active {
+	color: rgba(0, 0, 0, 0.45);
+	text-decoration: underline;
+}
+
+footer.light p {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+footer.light a {
+	color: rgba(255, 255, 255, 0.75);
+
+}
+
+footer.light a:hover, footer.light a:active {
+	color: rgba(255, 255, 255, 0.85);
+	text-decoration: underline;
+}

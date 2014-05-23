@@ -1,0 +1,22 @@
+/* How high is Mount Everest? */
+
+body {
+	background-color: #101010;
+	background-image: url('//adamruf.com/fontastic-questions/img/how-many-stars-bg.jpg');
+	/*background-position: -500px;*/
+	background-size: cover;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'VT323', sans-serif;
+	font-size: 9rem;
+	font-weight: 300;
+	margin: 1em auto;
+	text-align: center;
+	transition: all 2s;
+}
+
+h1:hover {
+	text-shadow: 0 0 25px rgba(255,255,255,1);
+}

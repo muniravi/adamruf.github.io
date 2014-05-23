@@ -1,0 +1,94 @@
+body {
+	background-color: #96DDFF;
+}
+
+h1 {
+	color: transparent;
+	font-family: 'Glegoo', sans-serif;
+	font-size: 16rem;
+	font-weight: 600;
+	line-height: 1em;
+	margin-top: 0.3em;
+	text-shadow: 0 0 30px rgba(0, 173, 240, 0.5);
+	transition: all 2.5s ease-in-out;
+}
+
+h1:hover {
+	color: rgba(0, 173, 240, 0.75);
+	text-shadow: none;
+}
+
+.cloud1, .cloud2, .cloud3 {
+	background-repeat: no-repeat;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+@keyframes animatedClouds {
+	0% {margin-left: 50%;}
+	100% {margin-left: -50%;}
+}
+
+@-webkit-keyframes animatedClouds {
+	0% {margin-left: 50%;}
+	100% {margin-left: -50%;}
+}
+
+@-moz-keyframes animatedClouds {
+	0% {margin-left: 50%;}
+	100% {margin-left: -50%;}
+}
+
+@-ms-keyframes animatedClouds {
+	0% {margin-left: 50%;}
+	100% {margin-left: -50%;}
+}
+
+
+.cloud1 { 
+	background-image: url('//adamruf.com/fontastic-questions/img/cloud-1.png');
+	/*background-position: -11em 7em;*/
+	background-size: 100%;
+	height: 200px;
+	left: 15em;
+	top: 7em;
+	width: 550px;
+	z-index: -1;
+	-webkit-animation: animatedClouds 200s linear infinite;
+	-moz-animation: animatedClouds 200s linear infinite;
+	-ms-animation: animatedClouds 200s linear infinite;
+	animation: animatedClouds 200s linear infinite;
+}
+
+.cloud2 { 
+	background-image: url('//adamruf.com/fontastic-questions/img/cloud-2.png');
+	background-size: 85%;
+	/*background-position: 24em 25em;*/
+	background-repeat: no-repeat;
+	height: 175px;
+	left: -5em;
+	top: 55em;
+	width: 425px;
+	z-index: -1;
+	-webkit-animation: animatedClouds 100s linear infinite;
+	-moz-animation: animatedClouds 100s linear infinite;
+	-ms-animation: animatedClouds 100s linear infinite;
+	animation: animatedClouds 100s linear infinite;
+}
+
+.cloud3 { 
+	background-image: url('//adamruf.com/fontastic-questions/img/cloud-3.png');
+	background-size: 85%;
+	/*background-position: 50em 40em;*/
+	background-repeat: no-repeat;
+	height: 300px;
+	left: 5em;
+	width: 500px;
+	top: 25em;
+	z-index: -1;
+	-webkit-animation: animatedClouds 130s linear infinite;
+	-moz-animation: animatedClouds 130s linear infinite;
+	-ms-animation: animatedClouds 130s linear infinite;
+	animation: animatedClouds 130s linear infinite;
+}
