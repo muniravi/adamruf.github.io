@@ -1,0 +1,436 @@
+body {
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#top-nav-tight {
+	display: none;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.navbar-brand {
+	font-family: 'Just Another Hand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	transition: all 0.3s ease-in-out;
+}
+
+#top-picks-link:after {
+	content: ' Top Picks';
+}
+
+#email-link:after {
+	content: ' Email';
+}
+
+#shortcuts-link:after {
+	content: ' Shortcuts';
+}
+
+#task-mgmt-link:after {
+	content: ' Task Mgmt';
+}
+
+#time-mgmt-link:after {
+	content: ' Time Mgmt';
+}
+
+#meetings-link:after {
+	content: ' Meetings';
+}
+
+#habits-link:after {
+	content: ' Habits';
+}
+
+.container {
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+.row {
+	color: #fff;
+	padding: 3em 3em 4em;
+	margin: 0;
+}
+
+.first-row {
+	padding-top: 10em;
+}
+
+.nav-row {
+	padding: 0 15px;
+}
+
+.red-row {
+	background-color: #e74c3c;
+}
+
+.red-row a:hover, .red-row a:active, .red-row h3:hover, .red-row h3:active  {
+	color: #860D00;
+}
+
+.orange-row {
+	background-color: #e67e22;
+}
+
+.orange-row a:hover, .orange-row a:active, .orange-row h3:hover, .orange-row h3:active  {
+	color: #943B00;
+}
+
+.yellow-row {
+	background-color: #f1c40f;
+}
+
+.yellow-row a:hover, .yellow-row a:active, .yellow-row h3:hover, .yellow-row h3:active {
+	color: #8D7700;
+}
+
+.green-row {
+	background-color: #2ecc71;
+}
+
+.green-row a:hover, .green-row a:active, .green-row h3:hover, .green-row h3:active  {
+	color: #007030;
+}
+
+.blue-row {
+	background-color: #3498db;
+}
+
+.blue-row a:hover, .blue-row a:active, .blue-row h3:hover, .blue-row h3:active  {
+	color: #004C7E;
+}
+
+.purple-row {
+	background-color: #9b59b6;
+}
+
+.purple-row a:hover, .purple-row a:active, .purple-row h3:hover, .purple-row h3:active  {
+	color: #59097A;
+}
+
+.gray-row {
+	background-color: #95a5a6;
+}
+
+.gray-row a:hover, .gray-row a:active, .gray-row h3:hover, .gray-row h3:active  {
+	color: #333;
+}
+
+.dark-row {
+	background-color: #34495e;
+}
+
+.dark-row a:hover, .dark-row a:active, .dark-row h3:hover, .dark-row h3:active  {
+	color: #2c3e50;
+}
+
+.light-row {
+	background-color: #ecf0f1;
+}
+
+.black-row {
+	background-color: #101010;
+}
+
+.red-row, .orange-row, .yellow-row, .green-row, .blue-row, .purple-row, .gray-row, .dark-row, .light-row {
+	background-attachment: fixed;
+	background-image: url('gsd-toolbox-background-tile.png');
+	background-position: 0px 0px;
+	background-repeat: repeat;
+
+	/*-webkit-animation: animatedBackground 10s linear infinite;
+	animation: animatedBackground 10s linear infinite;
+	border-bottom: 1px solid #101010;*/
+}
+
+/*@-webkit-keyframes animatedBackground {
+	from { background-position: 0 125px; }
+	to { background-position: 125px 0; }
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 125px; }
+	to { background-position: 125px 0; }
+}*/
+
+
+
+h1 {
+	color: #333;
+	font-family: 'Just Another Hand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 10em;
+    line-height: 1em;
+	text-shadow: 1px 1px 0px #111, 2px 2px 0px #000, 3px 4px 1px rgba(0,0,0,0.35), 4px 6px 1px rgba(0,0,0,0.15), 5px 4px 1px rgba(0,0,0,0.075), 6px 5px 1px rgba(0,0,0,0.05), 7px 6px 1px rgba(0,0,0,0.05), 8px 7px 1px rgba(0,0,0,0.05), 9px 8px 1px rgba(0,0,0,0.05);
+}
+
+.tagline {
+	font-family: Aldrich;
+	font-size: 1.5em;
+	margin-top: -1em;
+}
+
+#home h2 {
+	color: #555;
+	margin-bottom: 1em;
+	text-shadow: none;
+}
+
+/*h1 ~ p {
+	margin-bottom: 2em;
+}*/
+
+h2 {
+	font-family: 'Just Another Hand', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 75px;
+	margin-bottom: 2px;
+	text-shadow: 1px 1px 0px #bbb, 2px 2px 0px #ccc, 3px 4px 1px rgba(0,0,0,0.35), 4px 6px 1px rgba(0,0,0,0.15), 5px 4px 1px rgba(0,0,0,0.075), 6px 5px 1px rgba(0,0,0,0.05), 7px 6px 1px rgba(0,0,0,0.05), 8px 7px 1px rgba(0,0,0,0.05), 9px 8px 1px rgba(0,0,0,0.05);
+}
+
+h3 {
+	color: #fff;
+	margin-bottom: 6px;
+	margin-top: 1.8em;
+}
+
+h3 i, #main-content li i {
+	opacity: 0.55;
+}
+
+p {
+	color: rgba(0,0,0,0.5);
+	font-size: 16px;
+}
+
+li {
+	margin-bottom: 2em;
+}
+
+ul li ul li {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+.navbar li {
+	margin-bottom: 0;
+}
+
+a {
+	border-radius: 5px;
+	color: #fff;
+	padding: 3px 5px;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	
+}
+
+a:hover, a:active {
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	box-shadow: 0 2px 0 rgba(0,0,0,0.25);
+	text-decoration: none;
+}
+
+a:active {
+	box-shadow: inset 0 2px 0 rgba(0,0,0,0.1);
+}
+
+.no-link:hover {
+	color: #fff !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: #f5f5f5;
+}
+
+.navbar a:hover, .navbar a:active {
+	border: none;
+}
+
+.navbar-inverse {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-inverse .navbar-brand {
+	box-shadow: none;
+	color: #fff;
+	margin: 4px auto -4px;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	text-shadow: 0 0 7px rgba(255,255,255,0.75);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	border-radius: 0;
+	box-shadow: none;
+	color: #bbb;
+	transition: color 0.3s linear;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #000;
+	background: #333;
+	transition: all 0.2s ease-in-out;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #3498db;
+}
+
+.shadowy {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.2s;
+}
+
+.url {
+	display: none;
+}
+
+footer .row {
+	padding: 1em 3em 2em;
+}
+
+footer p {
+	color: #fff;
+	font-size: 0.8em;
+	line-height: 1.75em;
+}
+
+footer a {
+	color: #3498db;
+	padding: 0 0 2px;
+}
+
+footer a:hover, footer a:active {
+	background: none;
+	border-bottom: 2px solid #3498db;
+	border-radius: 0;
+    color: #3498db;
+    padding: 0 0 2px;
+    text-decoration: none;
+}
+
+@media (max-width: 998px) {
+	#top-picks-link:after, #email-link:after, #shortcuts-link:after, #task-mgmt-link:after, #time-mgmt-link:after, #meetings-link:after, #habits-link:after  {
+		display: none;
+	}
+	#top-nav i {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 767px) {
+	#top-picks-link:after, #email-link:after, #shortcuts-link:after, #task-mgmt-link:after, #time-mgmt-link:after, #meetings-link:after, #habits-link:after {
+		display: inline-block;
+		font-size: 18px;
+		padding-left: 5px;
+	}
+}
+
+
+/* Stopwatch Timer */
+
+#page-timer .container {
+	padding: 200px;
+	text-align: center;
+}
+
+.timer {
+	margin: 6px 0 0 10px;
+	overflow: hidden;
+}
+
+.cell {
+	/*Should only display 1 digit. Hence height = line height of .numbers
+	and width = width of .numbers*/
+	width: 13px;
+	height: 40px;
+	font-size: 16px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.numbers {
+	width: 13px;
+	line-height: 40px;
+	font-family: Aldrich, digital, sans-serif;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*Styles for the controls*/
+#timer_controls {
+	margin-top: -5px;
+}
+#timer_controls label {
+	cursor: pointer;
+	padding: 5px 10px;
+	background: #efefef;
+	font-family: arial, verdana, tahoma;
+	font-size: 11px;
+	border-radius: 0 0 3px 3px;
+}
+input[name="controls"] {display: none;}
+
+/*Control code*/
+#stop:checked~.timer .numbers {animation-play-state: paused;}
+#start:checked~.timer .numbers {animation-play-state: running;}
+#reset:checked~.timer .numbers {animation: none;}
+
+.moveten {
+	/*The digits move but dont look good. We will use steps now
+	10 digits = 10 steps. You can now see the digits swapping instead of 
+	moving pixel-by-pixel*/
+	animation: moveten 1s steps(10, end) infinite;
+	/*By default animation should be paused*/
+	animation-play-state: running;
+}
+.movesix {
+	animation: movesix 1s steps(6, end) infinite;
+	animation-play-state: running;
+}
+
+/*Now we need to sync the animation speed with time speed*/
+/*One second per digit. 10 digits. Hence 10s*/
+.second {animation-duration: 10s;}
+.tensecond {animation-duration: 60s;} /*60 times .second*/
+
+.milisecond {animation-duration: 1s;} /*1/10th of .second*/
+.tenmilisecond {animation-duration: 0.1s;}
+.hundredmilisecond {animation-duration: 0.01s;}
+
+.minute {animation-duration: 600s;} /*60 times .second*/
+.tenminute {animation-duration: 3600s;} /*60 times .minute*/
+
+.hour {animation-duration: 36000s;} /*60 times .minute*/
+.tenhour {animation-duration: 360000s;} /*10 times .hour*/
+
+/*The stopwatch looks good now. Lets add some styles*/
+
+/*Lets animate the digit now - the main part of this tutorial*/
+/*We are using prefixfree, so no need of vendor prefixes*/
+/*The logic of the animation is to alter the 'top' value of the absolutely
+positioned .numbers*/
+/*Minutes and Seconds should be limited to only '60' and not '100'
+Hence we need to create 2 animations. One with 10 steps and 10 digits and
+the other one with 6 steps and 6 digits*/
+@keyframes moveten {
+	0% {top: 0;}
+	100% {top: -400px;} 
+	/*height = 40. digits = 10. hence -400 to move it completely to the top*/
+}
+
+@keyframes movesix {
+	0% {top: 0;}
+	100% {top: -240px;} 
+	/*height = 40. digits = 6. hence -240 to move it completely to the top*/
+}
