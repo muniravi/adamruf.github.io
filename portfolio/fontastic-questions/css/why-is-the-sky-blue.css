@@ -47,7 +47,7 @@ h1:hover {
 
 
 .cloud1 { 
-	background-image: url('//adamruf.com/fontastic-questions/img/cloud-1.png');
+	background-image: url('//adamruf.com/portfolio/fontastic-questions/img/cloud-1.png');
 	/*background-position: -11em 7em;*/
 	background-size: 100%;
 	height: 200px;
@@ -62,7 +62,7 @@ h1:hover {
 }
 
 .cloud2 { 
-	background-image: url('//adamruf.com/fontastic-questions/img/cloud-2.png');
+	background-image: url('//adamruf.com/portfolio/fontastic-questions/img/cloud-2.png');
 	background-size: 85%;
 	/*background-position: 24em 25em;*/
 	background-repeat: no-repeat;
@@ -78,7 +78,7 @@ h1:hover {
 }
 
 .cloud3 { 
-	background-image: url('//adamruf.com/fontastic-questions/img/cloud-3.png');
+	background-image: url('//adamruf.com/portfolio/fontastic-questions/img/cloud-3.png');
 	background-size: 85%;
 	/*background-position: 50em 40em;*/
 	background-repeat: no-repeat;
