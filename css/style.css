@@ -52,7 +52,6 @@ h5 {
 p {
 	font-size: 1em;
 	font-weight: 300;
-	/*margin-bottom: 2.5rem;*/
 	margin-bottom: 1.5em
 }
 
@@ -409,9 +408,6 @@ a.img-link:hover:before {
 	color: rgb(65, 145, 65);
 	padding-left: 5px;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.25);
-	/*color: green;
-	padding-left: 5px;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.5);*/
 }
 
 .button-large .green-arrow {
@@ -444,39 +440,6 @@ footer h5 {
 	margin-right: 1.5em;
 }
 
-/*footer a {
-	color: #888;
-}
-
-footer a:hover, footer a:active, footer a:focus {
-	color: #56A363;
-}*/
-
-footer li {
-	font-size: 2.2rem !important;
-	line-height: 1.1em !important;
-	margin-bottom: 0.75em;
-	margin-right: 0.15em;
-	text-transform: uppercase;
-}
-
-footer li a {
-	border-radius: 3px;
-	color: #888;
-	font-family: 'jaf-bernino-sans-comp', sans-serif;
-	letter-spacing: 1px;
-	padding: 4px 6px 2px;
-	text-decoration: none;
-	transition: all 0.2s ease-in-out;
-	word-spacing: 1px;
-}
-
-footer li a:hover, footer li a:active, footer a:focus {
-	background: #7cbd87;
-	color: #fff;
-	text-decoration: none;
-}
-
 footer p {
 	color: #888;
 	font-size: 0.75em;
@@ -495,7 +458,7 @@ footer p {
 	border-radius: 3px;
 	color: #888;
 	display: inline-block;
-	transition: all 0.2s;
+	transition: all 0.3s ease-out;
 	width: 1.4em;
 }
 
@@ -506,41 +469,6 @@ footer p {
 	box-shadow: none;
 }
 
-/*#dribbble {
-	background-image: url('http://adamruf.com/images/dribbble.png');
-	background-position: left bottom;
-	background-repeat: no-repeat;
-	background-size: 16px 18px;
-	height: 18px;
-	width: 16px;
-}
-
-#forrst {
-	background-image: url('http://adamruf.com/images/forrst.png');
-	background-position: left bottom;
-	background-repeat: no-repeat;
-	background-size: 16px 18px;
-	height: 18px;
-	width: 16px;
-}
-
-#linkedin {
-	background-image: url('http://adamruf.com/images/linkedin.png');
-	background-position: left bottom;
-	background-repeat: no-repeat;
-	background-size: 16px 18px;
-	height: 18px;
-	width: 16px;
-}
-
-#twitter {
-	background-image: url('http://adamruf.com/images/twitter.png');
-	background-position: left bottom;
-	background-repeat: no-repeat;
-	background-size: 16px 16px;
-	height: 18px;
-	width: 16px;
-}*/
 
 
 
@@ -566,9 +494,6 @@ a.button:hover, button.button:hover {
 }
 
 a.button:active, button.button:active {
-	/*-webkit-box-shadow: inset 0px 1px 4px rgba(50,50,50,0.4);
-	box-shadow: inset 0px 1px 4px rgba(50,50,50,0.4);
-	text-decoration: none;*/
 	border-bottom: none;
 }
 
@@ -581,8 +506,6 @@ a.button:focus, button.button:focus {
 .style-gray {
 	background-color: #ddd;
 	border: 1px solid #d5d5d5;
-	/*-webkit-box-shadow: inset 0 1px 0 whitesmoke;
-	box-shadow: inset 0 1px 0 whitesmoke;*/
 	color: #666 !important;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
@@ -597,9 +520,6 @@ a.button:focus, button.button:focus {
 }
 
 .style-green {
-	/*background-color: #73AF7D;
-	color: #fff !important;
-	border: 1px solid #659e6e;*/
 	background-color: #5fcf80;
 	color: #fff !important;
 	border: none;
@@ -608,11 +528,6 @@ a.button:focus, button.button:focus {
 }
 
 .style-green:hover {
-	/*background-color: #7cbd87;
-	border: 1px solid #58AF65 /*#579160*//*;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.3);*/
 	background-color: #4fca74;
 	border-bottom-color: #35b15a;
 	border-bottom-style: solid;
@@ -806,12 +721,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	color: #fff;
 }
 
-/*.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
-	background-color: transparent;
-	color: #7cbd87 !important;
-	box-shadow: none;
-}*/
-
 .navbar-toggle .icon-bar {
 	border: 1px solid #777;
 	transition: all 0.3s;
@@ -970,10 +879,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	margin-bottom: 5em;
 	padding: 1px;
 	transition: all 0.2s ease-in-out;
-	/*border: 20px solid #73AF7D;
-	padding: 6px;
-	background: rgb(76, 143, 87);
-	margin-bottom: 5em;*/
 }
 
 .folio-piece img:hover {
@@ -994,19 +899,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	opacity: 1;
 	z-index: 9999;
 }
-
-/*.folio-piece a img, .folio-piece img {
-	border: 1px solid transparent;
-	margin-bottom: 5em;
-	opacity: 1;
-}
-
-.folio-piece a img:hover {
-	border: 1px solid #7cbd87;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-}*/
 
 .foliorow {margin:0 auto;padding:0;text-align:center;}
 /*.foliorow a:active {position: relative; top: 0px;} -- THIS CAUSED BUG IN IE & FF, caused image position to change significantly on mousedown*/
@@ -1046,14 +938,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	text-align: left;
 }
 
-/*.visit-website a {
-	font-weight: lighter !important;
-	background-image: url('http://adamruf.com/images/link-icon.png');
-	background-position: left center;
-	background-repeat: no-repeat;
-	padding-left: 1.75em;
-}*/
-
 .visit-website a {
 	font-weight: lighter !important;
 	background-image: url('http://adamruf.com/images/external-link.png');
@@ -1075,7 +959,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 /* RECENT PROJECTS */
 
 .recent-work {
-	/*margin: 1em auto 5em;*/
 	border-top: 7px solid rgba(238, 238, 238, 0.33);
 	padding: 20px 0 30px;
 	transition: background 0.5s, border-color 0.5s;
@@ -1084,8 +967,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 .recent-work:hover {
 	background: rgba(95, 207, 128, 0.1);
 	border-color: #5fcf80;
-	/*background: rgba(229, 241, 225, 0.5);
-	border-color: rgba(198, 231, 187, 1);*/
 }
 
 .recent-work i.tipped {
@@ -1112,7 +993,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 
 #who-how-what {
-	/*background: rgba(229, 241, 225, 0.5);*/
 	background: rgba(95, 207, 128, 0.1);
 	border-top: 7px solid rgba(95, 207, 128, 0.5) /*rgba(198, 231, 187, 0.4)*/;
 }
@@ -1138,7 +1018,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	opacity: 0.5;
 }
 
-/* RECOMMENDED RESOURCES */
 .gray-text {
 	color: #ccc;
 }
@@ -1168,26 +1047,11 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 .resources:hover {
 	background: rgba(95, 207, 128, 0.1);
 	border-color: #5fcf80;
-	/*background: rgba(229, 241, 225, 0.5);
-	border-color: rgba(198, 231, 187, 1);*/
 }
 
 .full-title {
 	font-size: 18px;
 }
-
-/*.resources a, .resources a:hover, .resources a:active {
-	border-radius: 3px;
-	font-size: 1.3em;
-	line-height: 1em;
-	padding: 0 5px 0 15px;
-	text-decoration: none;
-}
-
-.resources a:hover, .resources a:active {
-	color: #42B665;
-	text-decoration: underline;
-}*/
 
 #resources a:hover, #resources a:active {
 	color: #42B665;
@@ -1227,10 +1091,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	z-index: 2;
 	transition: opacity 1.5s ease-in-out;
 }
-
-/*.mask:hover #profile-pic {
-	opacity: 1;
-}*/
 
 #profile-pic-bw:hover {
 	opacity: 0;
@@ -1280,112 +1140,6 @@ ul.progress-bar ul li {
 	padding-left: 0;
 }
 
-.utility-belt-message {
-	color: #6591a1;
-	font-family: 'museo-slab', 'Maiden Orange', serif;
-	font-size: 4em !important;
-	margin: -0.5em auto 9em !important;
-	text-align: center;
-}
-
-.utility-belt {
-	background: url('http://adamruf.com/images/repeating-sprite.jpg') 0px 1px repeat-x;
-	height:152px;
-	width:100% !important;
-	margin:75px auto;
-	position: absolute;
-	text-align: center;
-	top: 268em !important; /* was 170em before adding progress bars */
-	z-index:1000;
-}
-
-.utility-belt-captions {
-	font-size:1.1em;
-	position: relative;
-	text-align:center;
-	margin:0 auto 15px auto;
-	min-width:850px !important;
-}
-
-#design-eye-caption, #project-love-caption, #right-tools-caption, #smile-guarantee-caption {
-	display: inline-block;
-	width: 202px;
-}
-
-
-.utility-pouches {
-	margin:-125px 0 0 0;
-	min-width: 850px !important;
-	z-index:1001 !important;
-}
-
-.utility-pouches div {
-	background: url('http://adamruf.com/images/about-sprite-2.png') -888px 39px no-repeat;
-	display: inline-block;
-	height: 305px;
-	margin:0;
-	width: 202px;
-}
-
-/*.utility-pouches div p {
-	padding:333px;
-}*/
-
-#design-eye:hover {
-	background: url('http://adamruf.com/images/about-sprite-2.png') -5px 7px no-repeat;
-}
-
-#project-love:hover {
-	background: url('http://adamruf.com/images/about-sprite-2.png') -220px 5px no-repeat;
-}
-
-#right-tools:hover {
-	background: url('http://adamruf.com/images/about-sprite-2.png') -440px 7px no-repeat;
-}
-
-#smile-guarantee:hover {
-	background: url('http://adamruf.com/images/about-sprite-2.png') -671px 5px no-repeat;
-}
-
-#utility-pouch-explanations {
-	display: block;
-	position: relative;
-	margin: 0 auto 33em;
-}
-
-.utility-tooltip {width:155px;height:155px;text-align:left;position:absolute;top:0;padding:10px 15px;-webkit-border-radius:5px;border-radius:5px;}
-.utility-tooltip h4 {
-	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size:1.2em;
-	font-weight:bold;
-	margin-bottom:6px;
-}
-.utility-tooltip p {font-size: 1.15em !important;}
-
-.eye-for-design {
-	background-color:rgba(120,192,24,0.25);
-	border:6px dashed rgba(120, 192, 24, 0.5);
-	left:37px;
-}
-
-.love-your-projects {
-	background-color:rgba(255,128,80,0.25);
-	border:6px dashed rgba(255,128,80,0.5);
-	left:242px;
-}
-
-.the-right-tools {
-	background-color:rgba(151,192,216,0.25);
-	border:6px dashed rgba(151,192,216,0.5);
-	left:447px;
-}
-
-.happiness-guarantee {
-	background-color:rgba(231,232,24,0.25);
-	border:6px dashed rgba(231,232,24,0.5);
-	left:652px;
-}
-
 
 
 
@@ -1401,8 +1155,6 @@ ul.progress-bar ul li {
 /* FOCUS & SELECTION */
 
 input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:focus {
-	/*-webkit-box-shadow: 0px 3px 2px rgba(124, 189, 135, 0.5);
-	box-shadow: 0px 3px 2px rgba(124, 189, 135, 0.5);*/
 	outline: 4px solid #5fcf80;
 	background: #fff !important;
 	color: #35b15a !important;
@@ -1426,6 +1178,11 @@ button::-moz-focus-inner {
 a.button:focus {
 	outline: 0;
 }
+
+
+
+
+/* CUSTOM WUFOO THEME OVERRIDES */
 
 
 
