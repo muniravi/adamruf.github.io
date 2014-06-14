@@ -484,27 +484,29 @@ footer p {
 }
 
 #footer-connect {
+	font-size: 2rem;
 	margin-left: 0.5em;
 	position:relative;
-	vertical-align: text-top;
 }
 
 #footer-connect a {
+	background-color: transparent;
 	border: none;
-	border-radius: 0;
+	border-radius: 3px;
+	color: #888;
 	display: inline-block;
-	margin: 5px 0.5em 0 0;
-	transition: none;
+	transition: all 0.2s;
+	width: 1.4em;
 }
 
 #footer-connect a:hover, #footer-connect a:active, #footer-connect a:focus {
-	background-color: transparent;
-	background-position-y: -2px;
+	background-color: #5FCF80;
+	color: #fff;
 	outline: 0;
 	box-shadow: none;
 }
 
-#dribbble {
+/*#dribbble {
 	background-image: url('http://adamruf.com/images/dribbble.png');
 	background-position: left bottom;
 	background-repeat: no-repeat;
@@ -538,7 +540,7 @@ footer p {
 	background-size: 16px 16px;
 	height: 18px;
 	width: 16px;
-}
+}*/
 
 
 
