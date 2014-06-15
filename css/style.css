@@ -1319,7 +1319,7 @@ a.powertiny {
 }
 
 form li.error, form li.error:focus {
-	background-color: rgba(231, 76, 60, 0.5);
+	background-color: rgba(231, 76, 60, 0.5) !important;
 	border-radius: 4px;
 	margin-bottom: 0.5em !important;
 }
