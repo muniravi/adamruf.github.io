@@ -1199,6 +1199,8 @@ a.button:focus {
 
 .wufoo .info {
 	border-bottom: none;
+	margin: 0;
+	padding: 0 0 0.5em 0;
 }
 
 .wufoo .info h2 {
@@ -1254,9 +1256,10 @@ form li span label {
 }
 
 .wufoo textarea.textarea {
+	height: 108px;
 	line-height: 1.2em;
-	max-width: 26em;
-	min-width: 26em;
+	max-width: 95%;
+	min-width: 95%;
 }
 
 input.btTxt {
