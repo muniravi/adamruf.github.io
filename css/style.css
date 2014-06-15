@@ -1224,7 +1224,7 @@ body#public {
 }
 
 form span.req {
-	color: #e74c3c !important;
+	color: #c0392b !important;
 }
 
 .wufoo input.text, .wufoo textarea.textarea {
@@ -1319,9 +1319,13 @@ a.powertiny {
 }
 
 form li.error, form li.error:focus {
-	background-color: rgba(231, 76, 60, 0.5) !important;
+	background-color: #e74c3c !important;
 	border-radius: 4px;
 	margin-bottom: 0.5em !important;
+}
+
+form li.error .desc {
+	color: #fff !important;
 }
 
 form p.error {
