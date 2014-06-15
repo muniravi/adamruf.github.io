@@ -1260,6 +1260,7 @@ form li span label {
 	line-height: 1.2em;
 	max-width: 95%;
 	min-width: 95%;
+	resize: none;
 }
 
 input.btTxt {
