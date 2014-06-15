@@ -1197,6 +1197,10 @@ a.button:focus {
 	display: none;
 }
 
+.wufoo .info {
+	border-bottom: none;
+}
+
 .wufoo li.focused {
 	background-color: transparent /*rgba(95, 207, 128, 0.33)*/;
 }
