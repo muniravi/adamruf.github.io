@@ -1314,6 +1314,18 @@ a.powertiny {
 	display: none !important;
 }
 
+#errorLi {
+	display: none;
+}
+
+form li.error {
+	margin-bottom: 0.5em;
+}
+
+form p.error {
+	display: none !important;
+}
+
 @media (max-width: 453px) {
 
 	.wufoo .info h2 {
