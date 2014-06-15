@@ -1189,7 +1189,7 @@ a.button:focus {
     width: 100%;
 }
 
-.wufoo {
+.wufoo, .wufoo h2 {
 	font-family: 'jaf-bernino-sans-comp', sans-serif;
 }
 
@@ -1199,6 +1199,10 @@ a.button:focus {
 
 .wufoo .info {
 	border-bottom: none;
+}
+
+.wufoo .info h2 {
+	font-size: 2.618em;
 }
 
 .wufoo li.focused {
@@ -1219,10 +1223,10 @@ form span.req {
 
 .wufoo input.text, .wufoo textarea.textarea {
 	display: block;
-	width: 12em;
-	height: 34px;
-	padding: 6px 12px;
-	font-size: 18px;
+	width: 8em;
+	height: 30px;
+	padding: 6px 10px;
+	font-size: 25px;
 	line-height: 1.5em;
 	color: #555;
 	background-color: #FFF;
@@ -1238,11 +1242,11 @@ span.symbol {
 }
 
 #Field16 {
-	width: 3.3em;
+	width: 2em;
 }
 
 #Field16-1 {
-	width: 1.3em;
+	width: 0.7em;
 }
 
 form li span label {
@@ -1250,9 +1254,9 @@ form li span label {
 }
 
 .wufoo textarea.textarea {
-	height: 6em;
-	max-width: 28em;
-	min-width: 28em;
+	line-height: 1.2em;
+	max-width: 26em;
+	min-width: 26em;
 }
 
 input.btTxt {
@@ -1266,7 +1270,7 @@ input.btTxt {
     color: #fff !important;
 	cursor: pointer;
 	display:inline-block;
-	font-family: 'jaf-bernino-sans-comp', sans-serif;;
+	font-family: 'jaf-bernino-sans-comp', sans-serif;
 	font-weight: bold;
 	margin: 0.25em 0 0 0;
 	padding: 0.55em 0.8em 0.5em;
