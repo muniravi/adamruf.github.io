@@ -1183,6 +1183,10 @@ a.button:focus {
 
 
 /* CUSTOM WUFOO THEME OVERRIDES */
+body#public {
+	background: #fff;
+}
+
 #container {
 	border: none;
     margin: 0;
