@@ -1318,8 +1318,10 @@ a.powertiny {
 	display: none;
 }
 
-form li.error {
-	margin-bottom: 0.5em;
+form li.error, form li.error:focus {
+	background-color: rgba(231, 76, 60, 0.5);
+	border-radius: 4px;
+	margin-bottom: 0.5em !important;
 }
 
 form p.error {
