@@ -1256,6 +1256,7 @@ input.btTxt {
 	font-family: 'jaf-bernino-sans-comp', sans-serif;;
 	font-weight: bold;
 	margin: 0;
+	padding: 0.55em 0.8em 0.5em;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
@@ -1267,15 +1268,17 @@ input.btTxt:hover {
 }
 
 input.btTxt:active {
-	background-color: #5fcf80;
+	background-color: #5fcf80 !important;
 	border: none;
 	box-shadow: none;
 	margin-top: 4px;
+	outline: 0px;
 }
 
 input.btTxt:focus {
-	background-color: #5fcf80;
+	background-color: #5fcf80 !important;
 	box-shadow: 0 0 15px rgba(79, 202, 116, 0.75) !important;
+	outline: 0px;
 }
 
 
