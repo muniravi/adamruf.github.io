@@ -1263,6 +1263,10 @@ form li span label {
 	resize: none;
 }
 
+.wufoo input.btTxt {
+	font-size: 1.5em;
+}
+
 input.btTxt {
 	background-color: #5fcf80;
 	border: none;
@@ -1277,7 +1281,7 @@ input.btTxt {
 	font-family: 'jaf-bernino-sans-comp', sans-serif;
 	font-weight: bold;
 	margin: 0.25em 0 0 0;
-	padding: 0.55em 0.8em 0.5em;
+	padding: 0.25em 0.8em 0.2em;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
