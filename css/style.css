@@ -1198,15 +1198,19 @@ a.button:focus {
 }
 
 .wufoo li.focused {
-	background-color: rgba(95, 207, 128, 0.33);
+	background-color: transparent /*rgba(95, 207, 128, 0.33)*/;
 }
 
 .wufoo label.desc, .wufoo legend.desc {
 	font-size: 1em;
 }
 
+.wufoo li {
+	margin: 0 0 0.5em 0;
+}
+
 form span.req {
-	color: #e74c3c;
+	color: #e74c3c !important;
 }
 
 .wufoo input.text, .wufoo textarea.textarea {
@@ -1229,17 +1233,22 @@ span.symbol {
 	line-height: 210%;
 }
 
-#Field4 {
+#Field16 {
 	width: 3.3em;
 }
 
-#Field4-1 {
+#Field16-1 {
 	width: 1.3em;
 }
 
+form li span label {
+	display: none;
+}
+
 .wufoo textarea.textarea {
-	max-width: 97%;
-	min-width: 97%;
+	height: 6em;
+	max-width: 28em;
+	min-width: 28em;
 }
 
 input.btTxt {
@@ -1255,7 +1264,7 @@ input.btTxt {
 	display:inline-block;
 	font-family: 'jaf-bernino-sans-comp', sans-serif;;
 	font-weight: bold;
-	margin: 0;
+	margin: 0.25em 0 0 0;
 	padding: 0.55em 0.8em 0.5em;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
@@ -1279,6 +1288,10 @@ input.btTxt:focus {
 	background-color: #5fcf80 !important;
 	box-shadow: 0 0 15px rgba(79, 202, 116, 0.75) !important;
 	outline: 0px;
+}
+
+a.powertiny {
+	display: none !important;
 }
 
 
