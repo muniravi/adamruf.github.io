@@ -1274,6 +1274,7 @@ input.btTxt:active {
 }
 
 input.btTxt:focus {
+	background-color: #5fcf80;
 	box-shadow: 0 0 15px rgba(79, 202, 116, 0.75) !important;
 }
 
