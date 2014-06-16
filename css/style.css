@@ -1265,6 +1265,7 @@ form li span label {
 
 form .instruct {
 	margin: 0px 0px 0px -175px;
+	top: 18px;
 	width: 90%;
 }
 
