@@ -1259,6 +1259,15 @@ form li span label {
 	display: none;
 }
 
+.wufoo .instruct small {
+	font-size: 0.9em;
+}
+
+form .instruct {
+	margin: 0px 0px 0px -175px;
+	width: 90%;
+}
+
 .wufoo textarea.textarea {
 	height: 108px;
 	line-height: 1.2em;
