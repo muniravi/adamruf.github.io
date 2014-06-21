@@ -287,7 +287,7 @@ header a, header a:hover, header a:active, header a:focus {
 
 #hero {
 	background-image: url('//adamruf.com/images/hierarchy-ux-needs-small.png');
-	background-position: right bottom;
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: 390px;
 	padding-bottom: 7em;
@@ -313,6 +313,10 @@ header a, header a:hover, header a:active, header a:focus {
 	letter-spacing: -1px;
 	margin-bottom: 1.15em;
 	text-transform: none;
+}
+
+#hero-cta {
+	margin-bottom: 3.7em;
 }
 
 @media screen and (max-width: 991px) {
@@ -659,39 +663,35 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 100%;
 }
 
-.less-headroom {
+.headroom-sm {
 	margin-top: 0.75em !important;
 }
 
-.headroom {
+.headroom-md {
 	margin-top: 5em;
 }
 
-.more-headroom {
+.headroom-lg {
 	margin-top: 7em ;
 }
 
-.negative-legroom, footer ul.negative-legroom {
-	margin-bottom: -1em;
-}
-
-.less-legroom {
-	margin-bottom: 3.3em !important;
-}
-
-.med-legroom {
+.legroom-sm {
 	margin-bottom: 2em;
 }
 
-.legroom {
+.legroom-md {
+	margin-bottom: 3.3em !important;
+}
+
+.legroom-lg {
 	margin-bottom: 4em !important;
 }
 
-.more-legroom {
+.legroom-xl {
 	margin-bottom: 7em;
 }
 
-.extra-legroom {
+.legroom-xxl {
 	margin-bottom: 35em;
 }
 
@@ -1370,7 +1370,7 @@ form p.error {
 }
 
 @media (max-width: 640px) {
-    .more-headroom {
+    .headroom-lg {
   	margin-top: 6em;
 	}
 }
@@ -1387,7 +1387,7 @@ form p.error {
 
 
 @media (max-width: 979px) {
-	.extra-legroom {
+	.legroom-xxl-lg{
 		margin-bottom: 7em;
 	}
 
@@ -1397,7 +1397,7 @@ form p.error {
 }
 
 @media (min-width: 980px) {
-	.extra-legroom {
+	.legroom-xxl-lg{
 		margin-bottom: 35em !important;
 	}
 }
