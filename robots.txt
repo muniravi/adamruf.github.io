@@ -4,3 +4,6 @@ Disallow: /images
 Disallow: /js
 Disallow: /portfolio
 Disallow: /staging
+Disallow: /404.html
+Disallow: /CNAME
+Disallow: /thank-you.html
