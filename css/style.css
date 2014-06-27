@@ -217,7 +217,7 @@ header a, header a:hover, header a:active, header a:focus {
 	box-shadow: none;
 }
 
-.navbar-brand img {
+.navbar-brand img, .navbar-brand svg {
 	margin-top: -15px;
 }
 
