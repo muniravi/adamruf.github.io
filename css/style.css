@@ -217,24 +217,8 @@ header a, header a:hover, header a:active, header a:focus {
 	box-shadow: none;
 }
 
-@media (max-width: 767px) {
-	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand path {
-		height: 66px;
-	}
-}
-
-.navbar-brand svg {
-	margin: -22px 0 0;
-	vertical-align: middle;
-	width: 65px;
-}
-
-.navbar-brand path {
-	transition: all 0.15s;
-}
-
-.navbar-brand:hover path, .navbar-brand:active path, .navbar-brand:focus path {
-	fill: #fff;
+.navbar-brand img {
+	margin-top: -15px;
 }
 
 .navbar-brand span {
