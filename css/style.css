@@ -219,6 +219,7 @@ header a, header a:hover, header a:active, header a:focus {
 
 .navbar-brand img {
 	margin-top: -15px;
+	width: 58px;
 }
 
 .navbar-brand span {
