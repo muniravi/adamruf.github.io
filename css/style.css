@@ -307,6 +307,11 @@ header a, header a:hover, header a:active, header a:focus {
 		-webkit-transform: translateY(-5px);
 	    transform: translateY(-5px);
 	}
+
+	.navbar-inverse .navbar-nav>li.active>a:hover, .navbar-inverse .navbar-nav>li.active>a:focus {
+		-webkit-transform: translateY(0px);
+	    transform: translateY(0px);
+	}
 }
 
 .navbar-inverse .navbar-toggle {
