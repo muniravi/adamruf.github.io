@@ -527,6 +527,8 @@ footer p {
 	color: #fff;
 	outline: 0;
 	box-shadow: none;
+	-webkit-transform: translateY(-5px);
+	transform: translateY(-5px);
 }
 
 
