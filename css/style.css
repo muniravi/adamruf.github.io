@@ -194,8 +194,16 @@ header a, header a:hover, header a:active, header a:focus {
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
 	color: #fff;
-	background-color: #5fcf80 /*#7cbd87*/;
+	background-color: #5fcf80;
 	border-radius: 3px;
+}
+
+@media and (min-width: 768px) {
+	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+		-webkit-transform: translateY(-5px);
+	    transform: translateY(-5px);
+	}
+	
 }
 
 .navbar-nav>li>a:focus {
@@ -528,7 +536,7 @@ footer p {
 	outline: 0;
 	box-shadow: none;
 	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px);
+	transform: translateY(-5px);-webkit-transform: translateY(-5px);
 }
 
 
@@ -777,6 +785,8 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 .navbar-header .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse .nav > li > a:active {
 	background: rgba(115, 175, 125, 0.7);
 	color: #fff;
+	
+	   
 }
 
 .navbar-toggle .icon-bar {
