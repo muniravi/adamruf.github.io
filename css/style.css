@@ -208,6 +208,7 @@ header a, header a:hover, header a:active, header a:focus {
 	font-weight: bold;
 	margin-right: 1em;
 	margin-top: -2px;
+	max-height: 67px;
 	padding: 0 0 0 10px;
 	transition: all 0.15s;
 }
@@ -218,8 +219,8 @@ header a, header a:hover, header a:active, header a:focus {
 }
 
 .navbar-brand img {
-	margin-top: -15px;
-	width: 58px;
+	margin-top: 6px;
+	width: 75px;
 }
 
 .navbar-brand span {
