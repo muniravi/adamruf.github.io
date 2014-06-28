@@ -198,14 +198,6 @@ header a, header a:hover, header a:active, header a:focus {
 	border-radius: 3px;
 }
 
-@media and (min-width: 768px) {
-	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-		-webkit-transform: translateY(-5px);
-	    transform: translateY(-5px);
-	}
-	
-}
-
 .navbar-nav>li>a:focus {
 	outline: none;
 	box-shadow: 0 0 15px rgba(79, 202, 116, 0.75);
@@ -309,6 +301,11 @@ header a, header a:hover, header a:active, header a:focus {
 @media (min-width: 768px) {
 	.navbar-nav>li>a {
 		padding-bottom: 10px;
+	}
+
+	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+		-webkit-transform: translateY(-5px);
+	    transform: translateY(-5px);
 	}
 }
 
