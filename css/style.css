@@ -245,8 +245,8 @@ header a, header a:hover, header a:active, header a:focus {
   }
 
   50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
   }
 
   100% {
@@ -263,9 +263,9 @@ header a, header a:hover, header a:active, header a:focus {
   }
 
   50% {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
   }
 
   100% {
