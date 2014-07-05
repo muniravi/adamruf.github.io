@@ -222,15 +222,17 @@ header a, header a:hover, header a:active, header a:focus {
 	box-shadow: none;
 }
 
-.navbar-brand:hover img {
-	-webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
 .navbar-brand img {
 	margin-right: 0.3em;
 	margin-top: -9px;
+	-webkit-transition: 0.25s ease-out;
+	transition: 0.25s ease-out;
 	width: 30px;
+}
+
+.navbar-brand:hover img {
+	-webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .navbar-brand span {
