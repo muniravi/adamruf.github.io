@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="125px" height="75px" viewBox="0 0 125 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>User Needs Hierarchy Pyramid 3</title>
+    <description>Created with Sketch.</description>
+    <defs>
+        <polygon id="path-1" points="62.5 0 125 75 0 75 "></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="User-Needs-Hierarchy-Pyramid-3" sketch:type="MSLayerGroup">
+            <g id="Bitmap">
+                <mask id="mask-2" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <rect id="blue-5" fill="#39A4EB" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="0" y="0" width="125" height="18.8888889"></rect>
+                <rect id="blue-6" fill="#2BDB7A" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="0" y="18.8888889" width="125" height="18.8888889"></rect>
+                <rect id="blue-7" fill="#FFD20D" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="0" y="37.5" width="125" height="18.8888889"></rect>
+                <rect id="blue-8" fill="#F65842" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="0" y="56.1111111" width="125" height="18.8888889"></rect>
+            </g>
+            <rect id="Rectangle-9" fill="#4A4A4A" sketch:type="MSShapeGroup" x="41" y="37" width="3.81944418" height="12.2857143" rx="8"></rect>
+            <rect id="Rectangle-9" fill="#4A4A4A" sketch:type="MSShapeGroup" x="81" y="37" width="3.81944444" height="12.2857143" rx="8"></rect>
+            <path d="M63,55 C69.0751322,55 74,50.0515683 74,43.9473684 C66.7680729,43.9473684 61.7905729,43.9473684 52,43.9473684 C52,50.0515683 56.9248678,55 63,55 Z" id="Oval-1" opacity="0.504608214" fill="#4A4A4A" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
