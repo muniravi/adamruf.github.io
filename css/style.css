@@ -1152,6 +1152,76 @@ ul.progress-bar ul li {
 	padding-left: 0;
 }
 
+/*.utility-belt-message {
+ color: #6591a1;
+ font-family: 'museo-slab', 'Maiden Orange', serif;
+ font-size: 4em !important;
+ margin: -0.5em auto 9em !important;
+ text-align: center;
+}*/
+
+#utility-belt {
+ background: url('http://adamruf.com/images/utility-belt-bg-tile') 0px 1px repeat-x;
+ height: 354px;
+ width: 100% !important;
+ margin: 75px auto;
+ position: relative;
+ text-align: center;
+ /*top: 268em !important; /* was 170em before adding progress bars */
+ z-index: 1;
+}
+
+/*.utility-belt-captions {
+ font-size: 1.1em;
+ position: relative;
+ text-align:center;
+ margin: 0 auto 15px auto;
+ min-width: 850px !important;
+
+#design-eye-caption, #project-love-caption, #right-tools-caption, #smile-guarantee-caption {
+ display: inline-block;
+ width: 202px;
+}*/
+
+
+.utility-pouches {
+ margin: -125px 0 0 0;
+ min-width: 1720 !important;
+ z-index: 2;
+}
+
+.utility-pouch {
+ background: url('http://adamruf.com/images/utility-belt-sprite.png') -5px 0px no-repeat;
+ display: inline-block;
+ height: 578px;
+ margin: 0;
+ width: 344px;
+}
+
+/*.utility-pouches div p {
+ padding:333px;
+}*/
+
+#pouch-1:hover {
+ background: url('http://adamruf.com/images/utility-belt-sprite.png') -5px 7px no-repeat;
+}
+
+#pouch-2:hover {
+ background: url('http://adamruf.com/images/utility-belt-sprite.png') -220px 5px no-repeat;
+}
+
+#pouch-3:hover {
+ background: url('http://adamruf.com/images/utility-belt-sprite.png') -440px 7px no-repeat;
+}
+
+#pouch-4:hover {
+ background: url('http://adamruf.com/images/utility-belt-sprite.png') -671px 5px no-repeat;
+}
+
+#pouch-5:hover {
+ background: url('http://adamruf.com/images/utility-belt-sprite.png') -671px 5px no-repeat;
+}
+
 
 
 
