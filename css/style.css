@@ -1161,14 +1161,15 @@ ul.progress-bar ul li {
 }*/
 
 #utility-belt {
- background: url('http://adamruf.com/images/utility-belt-bg-tile') 0px 1px repeat-x;
- height: 354px;
- width: 100% !important;
- margin: 75px auto;
- position: relative;
- text-align: center;
- /*top: 268em !important; /* was 170em before adding progress bars */
- z-index: 1;
+	background: url('http://adamruf.com/images/utility-belt-bg-tile.png') 0px 18px repeat-x;
+	background-repeat: repeat-x;
+	background-size: 1px 177px;
+	text-align: center;
+	/* height: 175px; */
+	/* width: 100%; */
+	/* margin: 0 auto 3em; */
+	/* position: relative; */
+	/* z-index: 19; */
 }
 
 /*.utility-belt-captions {
@@ -1202,23 +1203,23 @@ ul.progress-bar ul li {
  padding:333px;
 }*/
 
-#pouch-1:hover {
+#utility-pouch-1:hover {
  background: url('http://adamruf.com/images/utility-belt-sprite.png') -5px 7px no-repeat;
 }
 
-#pouch-2:hover {
+#utility-pouch-2:hover {
  background: url('http://adamruf.com/images/utility-belt-sprite.png') -220px 5px no-repeat;
 }
 
-#pouch-3:hover {
+#utility-pouch-3:hover {
  background: url('http://adamruf.com/images/utility-belt-sprite.png') -440px 7px no-repeat;
 }
 
-#pouch-4:hover {
+#utility-pouch-4:hover {
  background: url('http://adamruf.com/images/utility-belt-sprite.png') -671px 5px no-repeat;
 }
 
-#pouch-5:hover {
+#utility-pouch-5:hover {
  background: url('http://adamruf.com/images/utility-belt-sprite.png') -671px 5px no-repeat;
 }
 
