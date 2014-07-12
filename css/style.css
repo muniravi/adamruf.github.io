@@ -1081,9 +1081,15 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 /* ABOUT */
 
-.relative {
+#adam-photo {
 	height: 275px;
 	position: relative;
+}
+
+@media screen and (max-width: 991px) {
+	#adam-photo {
+		display: none;
+	}
 }
 
 #profile-pic, #profile-pic-bw {
