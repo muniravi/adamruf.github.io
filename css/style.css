@@ -1329,7 +1329,7 @@ body#public {
 }
 
 .wufoo li {
-	margin: 0 0 0.2em 0;
+	margin: 0 0 0.3em 0;
 }
 
 form span.req {
@@ -1348,7 +1348,7 @@ form span.req {
 	font-size: 18px;
 	height: 30px;
 	line-height: 1.5em;
-	padding: 6px 10px;
+	padding: 3px 7px;
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 	width: 15em;
 }
