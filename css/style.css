@@ -385,6 +385,7 @@ header a, header a:hover, header a:active, header a:focus {
 a.img-link {
 	display: block;
 	position: relative;
+	text-decoration: none;
 }
 
 a.img-link:before {
@@ -1323,11 +1324,11 @@ body#public {
 }
 
 .wufoo label.desc, .wufoo legend.desc {
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 .wufoo li {
-	margin: 0 0 0.5em 0;
+	margin: 0 0 0.2em 0;
 }
 
 form span.req {
@@ -1336,7 +1337,7 @@ form span.req {
 
 .wufoo input.text, .wufoo textarea.textarea {
 	display: block;
-	width: 8em;
+	width: 10em;
 	height: 30px;
 	padding: 6px 10px;
 	font-size: 25px;
