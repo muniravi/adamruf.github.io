@@ -490,7 +490,7 @@ footer p {
 
 /* BUTTONS */
 
-a.button, button.button {
+.button {
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	-o-border-radius: 7px;
@@ -504,16 +504,16 @@ a.button, button.button {
 	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
 
-a.button:hover, button.button:hover {
+.button:hover, button.button:hover {
 	text-decoration: none;
 	outline: 0;
 }
 
-a.button:active, button.button:active {
+.button:active, button.button:active {
 	border-bottom: none;
 }
 
-a.button:focus, button.button:focus {
+.button:focus, button.button:focus {
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
 	outline: none;
 	text-decoration: none;
@@ -680,43 +680,43 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 100%;
 }
 
-*.headroom-xs {
+.headroom-xs {
 	margin-top: 0.75em;
 }
 
-*.headroom-sm {
+.headroom-sm {
 	margin-top: 1em;
 }
 
-*.headroom-md {
+.headroom-md {
 	margin-top: 3em;
 }
 
-*.headroom-lg {
+.headroom-lg {
 	margin-top: 5em;
 }
 
-*.headroom-xl {
+.headroom-xl {
 	margin-top: 7em ;
 }
 
-*.legroom-sm {
+.legroom-sm {
 	margin-bottom: 1em;
 }
 
-*.legroom-md {
+.legroom-md {
 	margin-bottom: 3em;
 }
 
-*.legroom-lg {
+.legroom-lg {
 	margin-bottom: 5em;
 }
 
-*.legroom-xl {
+.legroom-xl {
 	margin-bottom: 7em;
 }
 
-*.legroom-xxl {
+.legroom-xxl {
 	margin-bottom: 35em;
 }
 
@@ -1296,7 +1296,7 @@ button::-moz-focus-inner {
 	background: rgba(124, 189, 135, 0.25); /* Firefox */
 }
 
-a.button:focus {
+.button:focus {
 	outline: 0;
 }
 
