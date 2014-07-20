@@ -598,10 +598,13 @@ footer p {
 }
 
 
-/*.modal-content {
-	background: white url('http://adamruf.com/images/request-estimate-bg.jpg') left top repeat;
-	border: 3px solid rgba(0, 105, 155, 0.20);
-}*/
+
+/* MODALS */
+
+.modal-content {
+	-webkit-box-shadow: -15px 15px 0px 7px rgba(0,0,0,0.15);
+    box-shadow: -15px 15px 0px 7px rgba(0,0,0,0.15);
+}
 
 body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
 	margin-right: 0;
