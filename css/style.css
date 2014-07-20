@@ -424,7 +424,7 @@ a.img-link:hover:before {
 	text-shadow: 0 1px 0 rgba(255,255,255,0.25);
 }
 
-.button-large .green-arrow {
+.button-lg .green-arrow {
 	padding-top: 7px;
 }
 
@@ -560,7 +560,7 @@ footer p {
 	box-shadow: 0 0 15px rgba(79, 202, 116, 0.75) !important;
 }
 
-.button-large {
+.button-lg {
 	border-bottom-width: 6px;
 	-o-border-radius: 10px !important;
 	-moz-border-radius: 10px !important;
@@ -570,21 +570,21 @@ footer p {
 	padding: 0.55em 0.8em 0.5em;
 }
 
-.button-large:active {
+.button-lg:active {
 	margin-top: 6px;
 }
 
-.button-med {
+.button-md {
 	border-bottom-width: 5px;
 	font-size: 1.618em;
     padding: 0.35em 0.7em 0.3em;
 }
 
-.button-med:active {
+.button-md:active {
 	margin-top: 5px;
 }
 
-.button-small {
+.button-sm {
 	-o-border-radius: 4px !important;
 	-moz-border-radius: 4px !important;
 	-webkit-border-radius: 4px !important;
@@ -1482,13 +1482,13 @@ form p.error {
 
 /* CUSTOM MEDIA QUERIES */
 @media (max-width: 401px) {
-	.button-large {
+	.button-lg {
 		font-size: 1.9em;
 	}
 }
 
 @media (min-width: 402px) and (max-width: 492px) {
-	.button-large {
+	.button-lg {
 		font-size: 2.1em;
 	}
 }
