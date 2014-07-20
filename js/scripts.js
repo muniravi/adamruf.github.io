@@ -233,6 +233,8 @@ function addEvent( obj, type, fn ) {
   }
 }*/
 
+$('.collapse').on('hidden', function(e){   e.stopPropagation(); });
+
 
 // Mixpanel code
 
