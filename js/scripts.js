@@ -68,7 +68,7 @@ $('.tipped').tooltip();
 
 // Wufoo Script
 
-addEvent(window, 'load', initForm);
+/*addEvent(window, 'load', initForm);
 
 var highlight_array = new Array();
 
@@ -170,7 +170,7 @@ function validateRange(ColumnId, RangeType) {
 /*--------------------------------------------------------------------------*/
 
 //http://www.robertnyman.com/2005/11/07/the-ultimate-getelementsbyclassname/
-function getElementsByClassName(oElm, strTagName, strClassName){
+/*function getElementsByClassName(oElm, strTagName, strClassName){
     var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
     var arrReturnElements = new Array();
     strClassName = strClassName.replace(/\-/g, "\\-");
@@ -222,7 +222,7 @@ function removeClassName(objElement, strClass){
 }
 
 //http://ejohn.org/projects/flexible-javascript-events/
-/*function addEvent( obj, type, fn ) {
+function addEvent( obj, type, fn ) {
   if ( obj.attachEvent ) {
     obj["e"+type+fn] = fn;
     obj[type+fn] = function() { obj["e"+type+fn]( window.event ) };
