@@ -680,28 +680,36 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 100%;
 }
 
+.headroom-xs {
+	margin-top: 0.75em;
+}
+
 .headroom-sm {
-	margin-top: 0.75em !important;
+	margin-top: 1 !important;
 }
 
 .headroom-md {
-	margin-top: 5em;
+	margin-top: 3em;
 }
 
 .headroom-lg {
+	margin-top: 5em;
+}
+
+.headroom-xl {
 	margin-top: 7em ;
 }
 
 .legroom-sm {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .legroom-md {
-	margin-bottom: 3.3em !important;
+	margin-bottom: 3em !important;
 }
 
 .legroom-lg {
-	margin-bottom: 4em !important;
+	margin-bottom: 5em !important;
 }
 
 .legroom-xl {
