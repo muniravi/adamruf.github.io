@@ -680,43 +680,43 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 100%;
 }
 
-.headroom-xs {
+*.headroom-xs {
 	margin-top: 0.75em;
 }
 
-.headroom-sm {
+*.headroom-sm {
 	margin-top: 1em;
 }
 
-.headroom-md {
+*.headroom-md {
 	margin-top: 3em;
 }
 
-.headroom-lg {
+*.headroom-lg {
 	margin-top: 5em;
 }
 
-.headroom-xl {
+*.headroom-xl {
 	margin-top: 7em ;
 }
 
-.legroom-sm {
+*.legroom-sm {
 	margin-bottom: 1em;
 }
 
-.legroom-md {
+*.legroom-md {
 	margin-bottom: 3em;
 }
 
-.legroom-lg {
+*.legroom-lg {
 	margin-bottom: 5em;
 }
 
-.legroom-xl {
+*.legroom-xl {
 	margin-bottom: 7em;
 }
 
-.legroom-xxl {
+*.legroom-xxl {
 	margin-bottom: 35em;
 }
 
