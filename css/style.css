@@ -685,7 +685,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 
 .headroom-sm {
-	margin-top: 1 !important;
+	margin-top: 1em;
 }
 
 .headroom-md {
@@ -705,11 +705,11 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 
 .legroom-md {
-	margin-bottom: 3em !important;
+	margin-bottom: 3em;
 }
 
 .legroom-lg {
-	margin-bottom: 5em !important;
+	margin-bottom: 5em;
 }
 
 .legroom-xl {
