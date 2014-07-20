@@ -621,6 +621,10 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	padding: 0 20px 20px;
 }
 
+.modal-body iframe {
+	min-height: 500px;
+}
+
 .modal-body p {
 	margin-bottom: 1%;
 }
@@ -1317,6 +1321,7 @@ body#public {
 
 .wufoo .info h2 {
 	font-size: 2.618em;
+	margin-bottom: 0.5em;
 }
 
 .wufoo li.focused {
@@ -1350,7 +1355,7 @@ form span.req {
 	line-height: 1.5em;
 	padding: 3px 7px;
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-	width: 15em;
+	width: 16em;
 }
 
 span.symbol {
@@ -1382,8 +1387,8 @@ form .instruct {
 .wufoo textarea.textarea {
 	height: 108px;
 	line-height: 1.2em;
-	max-width: 95%;
-	min-width: 95%;
+	max-width: 96%;
+	min-width: 96%;
 	resize: none;
 }
 
