@@ -1,0 +1,324 @@
+body {
+	background-color: #5fcf80;
+	background-image: url('../img/sp_edited_bg.png');
+	background-size: 225px;
+	color: #fff;
+	font-family: 'Bubblegum Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	text-shadow: 3px 3px 0 #35b15a;
+	background-color: #444;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+}
+
+header {
+	text-align: center;
+}
+
+.banner {
+	background: rgb(249, 93, 67);
+	border-bottom: 15px solid rgba(255, 65, 35, 1);
+	border-top: 15px solid rgba(255, 65, 35, 1);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.25), 0 3px 15px rgba(0,0,0,0.75);
+	margin: 2em 0 0;
+	padding: 1em;
+}
+
+section {
+	margin-bottom: 3.5em;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+h1 {
+	font-size: 4em;
+	letter-spacing: -2px;
+	line-height: 1em;
+	margin-top: 0.65em;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.5);
+}
+
+h1 .label {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.35);
+	letter-spacing: 0;
+	vertical-align: text-top;
+}
+
+.tagline {
+	color: #aaa;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	font-style: italic;
+	margin-bottom: 1.25em;
+	margin-top: -0.5em;
+}
+
+#easter-egg:hover {
+	display: inline-block;
+	-webkit-transform: scale(1.015);
+	-moz-transform: scale(1.015);
+	-ms-transform: scale(1.015);
+	-o-transform: scale(1.015);
+	transform: scale(1.015);
+}
+
+h2 {
+	font-size: 2.5em;
+	margin: 0.75em 0 0.25em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h3:first-of-type {
+	margin-top: 0;
+}
+
+.btn {
+	margin: 0.5em 0;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.35);
+}
+
+.btn-primary {
+	background-color: #35b15a;
+	border-color: #35b15a;
+	box-shadow: inset 0 2px 0 rgba(66, 219, 111, 0.5), 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.btn-primary:hover {
+	background-color: #30A653;
+	border-color: #30A653;
+	box-shadow: 0 3px 1px rgba(0,0,0,0.5);
+}
+
+.btn-primary:active {
+	background-color: #30A653;
+	border-color: #303030;
+	box-shadow: inset 0 3px 3px rgba(0,0,0,0.35);
+}
+
+.btn-primary:focus {
+	background-color: #30A653;
+	border-color: #30A653;
+	box-shadow: inset 0 2px 0 rgba(66, 219, 111, 0.5), 0 3px 1px rgba(0,0,0,0.5);
+	outline: none;
+}
+
+.btn-info {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.35);;
+}
+
+.btn-info:hover {
+	box-shadow: 0 3px 1px rgba(0,0,0,0.35);
+}
+
+.btn-info:active {
+	box-shadow: inset 0 3px 3px rgba(0,0,0,0.35);
+}
+
+.btn-md {
+	font-size: 1.5em;
+}
+
+.btn-lg {
+	font-size: 2em;
+}
+
+.btn i {
+	font-size: 0.75em;
+	margin: 0;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline:none;
+}
+
+i {
+	color: #fff;
+	margin-right: 10px;
+}
+
+#capybara-surprise {
+	border: 15px solid #65daea;
+	border-radius: 50%;
+	box-shadow: 0 5px 10px rgba(0,0,0,1);
+	display: block;
+	height: 0px;
+	margin: 0 auto;
+	opacity: 0;
+	position: relative;
+	top: 20px;
+	transition: all 0.5s ease-in-out;
+	width: 200px;
+}
+
+#capybara-surprise.surprised {
+	display: block;
+	height: 200px;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+
+#capybara-surprise.surprised:hover {
+	-webkit-animation-name: tada;
+	animation-name: tada;
+    -webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	/*-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);*/
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    -ms-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    -ms-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+.profile-pic {
+	box-sizing: border-box;
+	height: 175px;
+	/*margin-bottom: 5em;*/
+	margin-right: 1em;
+	width: 175px;
+}
+
+.img-thumbnail {
+	background-color: rgba(255, 255, 255, 0.75);
+	border: 1px solid #35b15a;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #35b15a;
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,0.5);
+	box-shadow: inset 0 3px 0 rgba(0,0,0,0.15);
+}
+
+#template {
+	color: #555;
+	cursor: not-allowed;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-shadow: none;
+}
+
+.well {
+	background-color: rgba(255, 255, 255, 0.75);
+	border: 1px solid #35b15a;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.5);
+	box-shadow: inset 0 3px 1px rgba(0,0,0,0.15);
+	margin-bottom: 0;
+}
+
+.disclaimer, .disclaimer i {
+	color: rgba(0,0,0,0.5);
+	text-shadow: none;
+}
+
+.disclaimer a {
+	color: rgba(0,0,0,0.5);
+	border-bottom: 2px solid rgba(0,0,0,0.15);
+	text-shadow: none;
+}
+
+.disclaimer a:hover, .disclaimer a:active {
+	color: rgba(0,0,0,0.6);
+	border-color: rgba(0,0,0,0.25);
+	text-decoration:none;
+}
+
+footer {
+	color: rgba(255,255,255,0.25);
+	font-size: 1.1em;
+	margin: 3em 0 2em;
+	text-align: center;
+	text-shadow: none;
+}
+
+footer span {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer span.divider {
+	margin: 0 1em;
+}
+
+footer p.copyright {
+	font-size: 0.8em;
+	margin: 1em 0;
+}
+
+footer a, footer i {
+	color: rgba(255,255,255,0.25);
+	margin-right: 0;
+	transition: all 0.3s;
+}
+
+footer a:hover, footer a:active {
+	border-bottom: 2px solid rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
