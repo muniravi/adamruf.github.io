@@ -31,6 +31,10 @@ section {
 	min-height:11em;
 }
 
+#brightroller i {
+	opacity: 0.5;
+}
+
 
 .row {
 	margin-left: 0;
