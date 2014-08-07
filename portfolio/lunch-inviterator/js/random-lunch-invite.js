@@ -1,6 +1,6 @@
 var yourTeam=[];
 yourTeam[0]={pic:"img/kit-cloudkicker.jpg", firstname:"Kit", lastname:"Cloudkicker", title:"Navigator, Sea Duck", email:"kit@adamruf.com"};
-yourTeam[1]={pic:"img/adam-ruf.jpg", firstname:"Adam", lastname:"Ruf", title:"Senior User Experience Designer", email:"adam@adamruf.com"};
+yourTeam[1]={pic:"img/adam-ruf.jpg", firstname:"Adam", lastname:"Ruf", title:"Sr. UX Designer", email:"adam@adamruf.com"};
 yourTeam[2]={pic:"img/luke-skywalker.jpg", firstname:"Luke", lastname:"Skywalker", title:"Jedi", email:"luke@adamruf.com"};
 yourTeam[3]={pic:"img/sherlock-holmes.jpg", firstname:"Sherlock", lastname:"Holmes", title:"Detective", email:"sherlock@adamruf.com"};
 yourTeam[4]={pic:"img/alan-grant.jpg", firstname:"Alan", lastname:"Grant", title:"Paleontologist", email:"dennis@adamruf.com"};
