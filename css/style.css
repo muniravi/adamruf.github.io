@@ -210,7 +210,6 @@ header a, header a:hover, header a:active, header a:focus {
 
 .navbar-inverse .navbar-brand {
 	color: #777;
-	font-weight: bold;
 	margin-right: 1em;
 	margin-top: -2px;
 	max-height: 67px;
@@ -237,8 +236,12 @@ header a, header a:hover, header a:active, header a:focus {
 }
 
 .navbar-brand span {
-	font-size: 1.25em;
+	font-family: 'museo-slab';
+	font-size: 1.2em;
+	font-weight: 500;
+	letter-spacing: -1px;
 	line-height: 76px;
+	text-transform: capitalize;
 }
 
 @media (min-width: 768px) {
