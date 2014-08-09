@@ -495,7 +495,7 @@ footer p {
 
 
 
-/* BUTTONS */
+/* >>>>> BUTTONS <<<<< */
 
 .button {
 	-webkit-border-radius: 7px;
@@ -677,18 +677,17 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	width: 2em;
 }
 
-.muted {
-	color: rgba(0,0,0,0.25);
-	font-size: 1.2rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-}
-
 #estimate-request textarea {
 	height: 4em;
 	line-height: 1.25em;
 	resize: none;
 	width: 100%;
 }
+
+
+
+
+/* >>>>> HELPERS <<<<< */
 
 .headroom-xs {
 	margin-top: 0.75em;
@@ -730,8 +729,24 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	margin-bottom: 35em;
 }
 
+.see-thru {
+	opacity: 0.5;
+}
 
-/* CUSTOM BOOTSTRAP OVERRIDES */
+.gray-text {
+	color: #ccc;
+}
+
+.muted {
+	color: rgba(0,0,0,0.25);
+	font-size: 1.2rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+/* >>>>> CUSTOM BOOTSTRAP OVERRIDES <<<<< */
 
 .navbar-header .btn-navbar {
 	background: rgba(115, 175, 125, 0.7);
@@ -892,13 +907,36 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 
 
+/* >>>>> INDEX <<<<< */
+
+#who-how-what {
+	background: rgba(95, 207, 128, 0.1);
+	border-top: 7px solid rgba(95, 207, 128, 0.5) /*rgba(198, 231, 187, 0.4)*/;
+}
+
+#who-how-what div.col-md-4 {
+	border-top: 7px solid transparent;
+	margin-top: -7px;
+	padding-top: 2em;
+	transition: border 0.4s ease-in-out;
+}
+
+#who-how-what div.col-md-4:hover {
+	border-color: #5fcf80 /*rgba(198, 231, 187, 1)*/;
+
+}
+
+#who-how-what i {
+	color: #5fcf80;
+	opacity: 0.5;
+}
 
 
 
 
-/* PORTFOLIO */
+/* >>>>> PORTFOLIO <<<<< */
 
-.portfolio-quick-links {
+/*.portfolio-quick-links {
 	font-size: 1.7em;
 	font-weight:lighter;
 	margin: -4.5em 0 4.5em 28em;
@@ -940,7 +978,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 .foliorow {margin:0 auto;padding:0;text-align:center;}
 /*.foliorow a:active {position: relative; top: 0px;} -- THIS CAUSED BUG IN IE & FF, caused image position to change significantly on mousedown*/
-.last-row {margin:0 auto 7em;padding:0;text-align:center;}
+/*.last-row {margin:0 auto 7em;padding:0;text-align:center;}
 
 .folio-frame {
 	background: url('http://adamruf.com/images/portfolio-sprite.jpg') 0px 0px no-repeat;
@@ -990,11 +1028,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding-left: 0.775em;
-}
-
-
-
-/* RECENT PROJECTS */
+}*/
 
 .recent-work {
 	border-top: 7px solid rgba(238, 238, 238, 0.33);
@@ -1030,42 +1064,15 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	font-size: 0.5em;
 }
 
-#who-how-what {
-	background: rgba(95, 207, 128, 0.1);
-	border-top: 7px solid rgba(95, 207, 128, 0.5) /*rgba(198, 231, 187, 0.4)*/;
-}
-
-#who-how-what div.col-md-4 {
-	border-top: 7px solid transparent;
-	margin-top: -7px;
-	padding-top: 2em;
-	transition: border 0.4s ease-in-out;
-}
-
-#who-how-what div.col-md-4:hover {
-	border-color: #5fcf80 /*rgba(198, 231, 187, 1)*/;
-
-}
-
-#who-how-what i {
-	color: #5fcf80;
-	opacity: 0.5;
-}
-
-.see-thru {
-	opacity: 0.5;
-}
-
-.gray-text {
-	color: #ccc;
+.portfolio-icons {
+	display: block;
+	line-height: 0.5em;
 }
 
 
 
 
-
-
-/* RECOMMENDED RESOURCES */
+/* >>>>> RECOMMENDED RESOURCES <<<<< */
 
 .book-cover {
 	margin-bottom: 1em;
@@ -1105,7 +1112,9 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 
 
-/* ABOUT */
+
+
+/* >>>>> ABOUT <<<<< */
 
 #adam-photo {
 	height: 275px;
@@ -1275,7 +1284,7 @@ ul.progress-bar ul li {
 
 
 
-/* 404 */
+/* >>>>> 404 <<<<< */
 
 #missing img {
 	max-height: 650px;
@@ -1284,7 +1293,7 @@ ul.progress-bar ul li {
 
 
 
-/* FOCUS & SELECTION */
+/* >>>>> FOCUS & SELECTION <<<<< */
 
 input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:focus {
 	outline: 4px solid #5fcf80;
@@ -1314,7 +1323,7 @@ button::-moz-focus-inner {
 
 
 
-/* CUSTOM WUFOO THEME OVERRIDES */
+/* >>>>> CUSTOM WUFOO THEME OVERRIDES <<<<< */
 body#public {
 	background: #fff;
 }
@@ -1491,7 +1500,7 @@ form p.error {
 
 
 
-/* CUSTOM MEDIA QUERIES */
+/* >>>>> CUSTOM MEDIA QUERIES <<<<< */
 @media (max-width: 401px) {
 	.button-lg {
 		font-size: 1.9em;
