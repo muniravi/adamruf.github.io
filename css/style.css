@@ -883,6 +883,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 1.25em;
 	font-weight: 600;
+	letter-spacing: 0;
 	max-width: 450px;
 	padding: 0.4em 1em 0.6em;
 	text-align: left;
