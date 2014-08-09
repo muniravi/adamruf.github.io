@@ -1272,7 +1272,7 @@ body#public {
 }
 
 form span.req {
-	color: #c0392b !important;
+	color: #e74c3c;
 }
 
 .wufoo input.text, .wufoo textarea.textarea {
