@@ -406,10 +406,10 @@ a.img-link:before {
 	top: 11px;
 	right: 11px;
 	z-index: 2;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.25s ease-in;
+	-moz-transition: all 0.25s ease-in;
+	-ms-transition: all 0.25s ease-in;
+	transition: all 0.25s ease-in;
 }
 
 .img-thumbnail {
