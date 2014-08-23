@@ -942,11 +942,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 	transition: background 0.5s, border-color 0.5s;
 }
 
-.recent-work:hover {
-	background: rgba(95, 207, 128, 0.1);
-	border-color: #5fcf80;
-}
-
 .recent-work i.tipped {
 	border: none;
 	opacity: 0.25;
