@@ -1267,7 +1267,7 @@ body#public {
 }
 
 form span.req {
-	color: #e74c3c;
+	color: #e74c3c !important;
 }
 
 .wufoo input.text, .wufoo textarea.textarea {
