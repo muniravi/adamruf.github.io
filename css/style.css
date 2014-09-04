@@ -632,7 +632,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 
 .modal-body iframe {
-	max-height: 600px;
+	max-height: 575px;
 	min-height: 575px;
 }
 
