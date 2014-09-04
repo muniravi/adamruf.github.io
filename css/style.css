@@ -1383,7 +1383,12 @@ form li.error .desc {
 }
 
 form p.error {
-	display: none !important;
+	padding: 0  !important;
+	line-height: auto !important;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff !important;
 }
 
 @media (max-width: 453px) {
