@@ -1383,8 +1383,8 @@ form li.error .desc {
 }
 
 form p.error {
-	padding: 0  !important;
-	line-height: auto !important;
+	padding: 3px 0 0 !important;
+	line-height: 14px !important;
 	font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
