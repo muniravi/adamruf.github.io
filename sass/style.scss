@@ -456,7 +456,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 .panel-group {
   .panel {
-    margin-bottom: 1.5rem;
+    background: transparent;
     border-radius: 0px;
     border: none;
     -webkit-box-shadow: none;
@@ -464,12 +464,16 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
     &.panel-info {
       .panel-heading {
         background-color: $green;
-        border-radius: 0;
+        border: none;
+        border-radius: 7px 7px 0 0;
         cursor: pointer;
         padding: 15px;
         transition: all 0.3s;
         &:hover {
           background-color: darken($green, 5%);
+        }
+        &.collapsed {
+          border-radius: 7px;
         }
         .panel-title {
           color: $white;

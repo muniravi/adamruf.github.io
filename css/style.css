@@ -493,19 +493,22 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   border-top: 1px solid rgba(209, 230, 216, 0.75);
 }*/
 .panel-group .panel {
-  margin-bottom: 1.5rem;
+  background: transparent;
   border-radius: 0px;
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none; }
   .panel-group .panel.panel-info .panel-heading {
     background-color: #5fcf80;
-    border-radius: 0;
+    border: none;
+    border-radius: 7px 7px 0 0;
     cursor: pointer;
     padding: 15px;
     transition: all 0.3s; }
     .panel-group .panel.panel-info .panel-heading:hover {
       background-color: #4bc970; }
+    .panel-group .panel.panel-info .panel-heading.collapsed {
+      border-radius: 7px; }
     .panel-group .panel.panel-info .panel-heading .panel-title {
       color: #fff;
       font-size: 2rem;
