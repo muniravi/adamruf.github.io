@@ -58,6 +58,8 @@ nav {
         background-color: $gray;
         color: lighten($gray, 10%);
         &:hover, &:focus {
+          background-color: $gray;
+          color: lighten($gray, 10%);
           -webkit-transform: translateY(0px);
           transform: translateY(0px);
         }

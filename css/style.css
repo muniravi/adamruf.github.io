@@ -178,6 +178,8 @@ nav.navbar-inverse {
       background-color: #555;
       color: #6e6e6e; }
       nav.navbar-inverse .navbar-nav li.active > a:hover, nav.navbar-inverse .navbar-nav li.active > a:focus {
+        background-color: #555;
+        color: #6e6e6e;
         -webkit-transform: translateY(0px);
         transform: translateY(0px); }
   nav.navbar-inverse .navbar-brand {
