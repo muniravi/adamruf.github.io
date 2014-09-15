@@ -55,11 +55,11 @@ nav {
         }
       }
       li.active>a {
-        background-color: $gray;
-        color: lighten($gray, 10%);
+        background-color: fade-out($gray, 0.5);
+        color: lighten($gray, 28%);
         &:hover, &:focus {
-          background-color: $gray;
-          color: lighten($gray, 10%);
+          background-color: fade-out($gray, 0.5);
+          color: lighten($gray, 28%);
           -webkit-transform: translateY(0px);
           transform: translateY(0px);
         }
