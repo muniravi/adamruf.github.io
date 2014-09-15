@@ -55,6 +55,8 @@ nav {
         }
       }
       li.active>a {
+        background-color: $gray;
+        color: lighten($gray, 10%);
         &:hover, &:focus {
           -webkit-transform: translateY(0px);
           transform: translateY(0px);
@@ -465,7 +467,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
         padding: 15px;
         transition: all 0.3s;
         &:hover {
-          background-color: darken($green, 15%);
+          background-color: darken($green, 5%);
         }
         .panel-title {
           color: $white;
@@ -477,6 +479,9 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
           word-spacing: 0;
         }
       }
+    }
+    .panel-body {
+      background-color: fade-out($green, 0.75);
     }
     .panel-heading+.panel-collapse .panel-body {border: none;}
   }
