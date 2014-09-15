@@ -119,7 +119,7 @@ button, .button {
     margin-top: 6px; }
   @media screen and (max-width: 450px) {
     .button-lg {
-      font-size: 2.25em; } }
+      font-size: 2em; } }
 
 .style-green {
   background-color: #5fcf80;
