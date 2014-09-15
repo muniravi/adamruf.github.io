@@ -1,0 +1,98 @@
+@mixin base-font {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+}
+@mixin condensed-font {
+  font-family: "jaf-bernino-sans-comp";
+}
+@mixin slab-font {
+  font-family: "museo-slab";
+}
+@mixin icon-font {
+  font-family: "FontAwesome", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+}
+@mixin text-shadow {
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+h1, h2, h3 {
+  @include condensed-font;
+  letter-spacing: 1px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  word-spacing: 1px;
+}
+
+h1 {
+  color: darken($green, 10%); //#73AF7D
+  font-size: 4.236em;
+  font-weight: 300;
+  margin: 0 0 0.825em
+}
+
+h2 {
+  font-size: 2.618em;
+  font-weight: 300;
+  margin: 0 0 0.515em
+}
+
+h2 .muted {font-size: 0.5em;}
+
+h3 {
+  font-size: 1.618em;
+  font-weight: 600;
+  margin: 0 0 1.1em;
+}
+
+h4, h5 {
+  @include base-font;
+  font-size: 1.618em;
+  font-weight: 300;
+  margin-bottom: 1.5%;
+}
+
+h5 {
+  font-size: 1.618em;
+  margin-bottom: 1.5%;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  a:hover, a:active {
+    border-bottom: 1px solid rgba(66, 182, 101, 0.5);
+    color: #42B665;
+    text-decoration: none;
+  }
+}
+
+a {font-weight: 500;}
+
+blockquote {
+  margin-top: -2em;
+  p {
+    color: #555 /*#4fca74*/;
+    @include slab-font;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.35em;
+  }
+}
+
+ul {margin: 0 0 1.5em;}
+
+.container li {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+}
+
+header {
+  h1 {
+    display: inline-block;
+    font-size: 5.5em;
+    margin: 0 0 10px 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  }
+  a, a:hover, a:active, a:focus {text-decoration: none;}
+}
