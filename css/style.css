@@ -515,7 +515,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
       text-transform: none;
       word-spacing: 0; }
   .panel-group .panel .panel-body {
-    background-color: rgba(95, 207, 128, 0.25); }
+    background: rgba(95, 207, 128, 0.1); }
   .panel-group .panel .panel-heading + .panel-collapse .panel-body {
     border: none; }
 
