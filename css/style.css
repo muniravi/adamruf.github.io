@@ -504,7 +504,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
     border-radius: 7px 7px 0 0;
     cursor: pointer;
     padding: 15px;
-    transition: all 0.3s; }
+    transition: all 0.3s, border 0.15s ease-out; }
     .panel-group .panel.panel-info .panel-heading:hover {
       background-color: #4bc970; }
     .panel-group .panel.panel-info .panel-heading.collapsed {
