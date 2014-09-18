@@ -2,3 +2,4 @@
 .psd
 .sketch
 staging/*
+.sass-cache/*
