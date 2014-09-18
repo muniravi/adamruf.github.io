@@ -538,15 +538,13 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   text-transform: none; }
 
 /* >>>>> INDEX <<<<< */
-#who-how-what {
-  background: rgba(95, 207, 128, 0.1); }
-  #who-how-what div.col-md-4 {
-    border-top: 7px solid transparent;
-    margin-top: -7px;
-    padding-top: 2em;
-    transition: border 0.4s ease-in-out; }
-  #who-how-what i {
-    color: rgba(95, 207, 128, 0.5); }
+#who-how-what div.col-md-4 {
+  border-top: 7px solid transparent;
+  margin-top: -7px;
+  padding-top: 2em;
+  transition: border 0.4s ease-in-out; }
+#who-how-what i {
+  color: rgba(95, 207, 128, 0.5); }
 
 /* >>>>> PORTFOLIO <<<<< */
 .recent-work {
