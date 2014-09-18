@@ -113,17 +113,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/adam-ruf-logo-mark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 719,
-		"inputAbbreviatedPath": "\/images\/adam-ruf-logo-mark.png",
-		"outputAbbreviatedPath": "\/images\/adam-ruf-logo-mark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/adam-ruf-profile-pic-bw.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -256,57 +245,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/hierarchy-ux-needs-small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4113,
-		"inputAbbreviatedPath": "\/images\/hierarchy-ux-needs-small.png",
-		"outputAbbreviatedPath": "\/images\/hierarchy-ux-needs-small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/kawaii-pyramid.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26404,
+		"initialSize": 26026,
 		"inputAbbreviatedPath": "\/images\/kawaii-pyramid.png",
 		"outputAbbreviatedPath": "\/images\/kawaii-pyramid.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/kawaii-pyramid@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74289,
-		"inputAbbreviatedPath": "\/images\/kawaii-pyramid@2x.png",
-		"outputAbbreviatedPath": "\/images\/kawaii-pyramid@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/Logomark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4766,
-		"inputAbbreviatedPath": "\/images\/Logomark.png",
-		"outputAbbreviatedPath": "\/images\/Logomark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/Logomark@2x.png": {
+	"\/images\/logomark@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7344,
-		"inputAbbreviatedPath": "\/images\/Logomark@2x.png",
-		"outputAbbreviatedPath": "\/images\/Logomark@2x.png",
+		"inputAbbreviatedPath": "\/images\/logomark@2x.png",
+		"outputAbbreviatedPath": "\/images\/logomark@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
