@@ -267,6 +267,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/kawaii-pyramid.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26404,
+		"inputAbbreviatedPath": "\/images\/kawaii-pyramid.png",
+		"outputAbbreviatedPath": "\/images\/kawaii-pyramid.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kawaii-pyramid@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74289,
+		"inputAbbreviatedPath": "\/images\/kawaii-pyramid@2x.png",
+		"outputAbbreviatedPath": "\/images\/kawaii-pyramid@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Logomark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4766,
+		"inputAbbreviatedPath": "\/images\/Logomark.png",
+		"outputAbbreviatedPath": "\/images\/Logomark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Logomark@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7344,
+		"inputAbbreviatedPath": "\/images\/Logomark@2x.png",
+		"outputAbbreviatedPath": "\/images\/Logomark@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/mainichi-japanese.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
