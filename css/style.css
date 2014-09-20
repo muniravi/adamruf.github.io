@@ -73,9 +73,6 @@ header h1 {
 header a, header a:hover, header a:active, header a:focus {
   text-decoration: none; }
 
-.row {
-  margin: 0; }
-
 button::-moz-focus-inner {
   border: 0; }
 
@@ -139,6 +136,9 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
   font-size: 18px;
   line-height: 1.55em; }
+
+.row {
+  margin: 0; }
 
 nav.navbar {
   font-family: "jaf-bernino-sans-comp";
@@ -538,14 +538,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   text-transform: none; }
 
 /* >>>>> INDEX <<<<< */
-#who-how-what div.col-md-4 {
-  border-top: 7px solid transparent;
-  margin-top: -7px;
-  padding-top: 2em;
-  transition: border 0.4s ease-in-out; }
-#who-how-what i {
-  color: rgba(95, 207, 128, 0.5); }
-
 /* >>>>> PORTFOLIO <<<<< */
 .recent-work {
   border-top: 7px solid rgba(85, 85, 85, 0.3);

@@ -1,6 +1,5 @@
 @import "_colors.scss";
 @import "_typography.scss";
-@import "_global.scss";
 @import "_buttons.scss";
 
 body {
@@ -9,6 +8,10 @@ body {
   @include base-font;
   font-size: 18px;
   line-height: 1.55em;
+}
+
+.row {
+  margin: 0;
 }
 
 // NAVBAR
@@ -513,17 +516,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 
 /* >>>>> INDEX <<<<< */
-#who-how-what {
-  div.col-md-4 {
-    border-top: 7px solid transparent;
-    margin-top: -7px;
-    padding-top: 2em;
-    transition: border 0.4s ease-in-out;
-  }
-  i {
-    color: fade-out($green, 0.5);
-  }
-}
 
 /* >>>>> PORTFOLIO <<<<< */
 
@@ -830,7 +822,7 @@ body#public {
     background-color: $green;
     border: none;
     border-bottom: 4px solid darken($green, 15%);
-    @include border-radius(7px);
+    @include rounded(7px);
     color: $white !important;
     cursor: pointer;
     display:inline-block;

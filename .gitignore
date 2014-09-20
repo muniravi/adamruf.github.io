@@ -3,3 +3,12 @@
 .sketch
 staging/*
 .sass-cache/*
+*.scssc
+
+*.scssc
+
+sass/.sass-cache/49b81b589fab874d562d9614fe7cdfad541c5bb3/style.scssc
+
+sass/.sass-cache/49b81b589fab874d562d9614fe7cdfad541c5bb3/_buttons.scssc
+
+*.scssc
