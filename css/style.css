@@ -736,7 +736,9 @@ body#public {
   .wufoo li.focused {
     background-color: transparent; }
 .wufoo label.desc, .wufoo legend.desc {
-  font-size: 1.2em;
+  color: #555;
+  font-size: 1em;
+  letter-spacing: 0;
   padding: 0 0 1px 0; }
 .wufoo form li.error, .wufoo form li.error:focus {
   background-color: #e74c3c !important;
