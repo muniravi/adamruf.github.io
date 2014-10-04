@@ -263,8 +263,11 @@ footer {
 /* MODALS */
 
 .modal-content {
-  -webkit-box-shadow: 0px 7px 0px 15px rgba(0,0,0,0.075);
-    box-shadow: 0px 7px 0px 15px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.05);
+  -o-box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.05);
+  -ms-box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.05);
 }
 
 body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
@@ -289,8 +292,8 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   overflow-y: hidden;
   padding: 0 20px 20px;
   iframe {
-    max-height: 560px;
-    min-height: 560px;
+    max-height: 530px;
+    min-height: 530px;
   }
   p {
     margin-bottom: 1%;
