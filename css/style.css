@@ -467,35 +467,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   -ms-transform: none;
   -o-transform: none; }
 
-/*.accordion-group {
-  margin-bottom: 1em;
-  border: none;
-}
-
-.accordion-heading {
-  background: rgba(229, 241, 225, 1);
-  border-bottom: 0;
-  display: block;
-  padding: 8px 15px;
-  transition: all 0.3s;
-  &:hover, &:active {
-    background: rgba(124, 189, 135, 0.5);
-  }
-  a, a:hover, a:focus {
-    color: $green;
-    font-size: 2em;
-    outline: 0;
-    text-decoration: none;
-  }
-}
-
-.accordion ul li {
-  font-size: 1.9em;
-}
-
-.accordion-inner {
-  border-top: 1px solid rgba(209, 230, 216, 0.75);
-}*/
 .panel-group .panel {
   background: transparent;
   border-radius: 0px;
@@ -540,7 +511,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   text-align: left;
   text-transform: none; }
 
-/* >>>>> INDEX <<<<< */
 /* >>>>> PORTFOLIO <<<<< */
 .recent-work {
   border-top: 7px solid rgba(85, 85, 85, 0.3);
@@ -745,7 +715,7 @@ body#public {
   padding: 0 0 1px 0; }
 .wufoo form li.error, .wufoo form li.error:focus {
   background-color: #e74c3c !important;
-  border-radius: 4px;
+  border-radius: 6px !important;
   margin-bottom: 0.5em !important; }
   .wufoo form li.error .desc, .wufoo form li.error:focus .desc {
     color: #fff !important; }

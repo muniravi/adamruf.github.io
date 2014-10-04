@@ -1,6 +1,10 @@
 .ai
 .psd
 .sketch
+.scssc
 staging/*
-*.scssc
-sass/.sass-cache/
+sass/.sass-cache/*
+
+sass/.sass-cache/49b81b589fab874d562d9614fe7cdfad541c5bb3/_typography.scssc
+
+sass/.sass-cache/49b81b589fab874d562d9614fe7cdfad541c5bb3/_colors.scssc
