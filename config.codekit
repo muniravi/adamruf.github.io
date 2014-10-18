@@ -212,6 +212,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/estimate-request-welcome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4303,
+		"inputAbbreviatedPath": "\/images\/estimate-request-welcome.png",
+		"outputAbbreviatedPath": "\/images\/estimate-request-welcome.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/estimate-request-welcome@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39771,
+		"inputAbbreviatedPath": "\/images\/estimate-request-welcome@2x.png",
+		"outputAbbreviatedPath": "\/images\/estimate-request-welcome@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/favorite-fruit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -230,6 +252,17 @@
 		"initialSize": 175806,
 		"inputAbbreviatedPath": "\/images\/fontastic-questions.jpg",
 		"outputAbbreviatedPath": "\/images\/fontastic-questions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Free Project Consult.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13961,
+		"inputAbbreviatedPath": "\/images\/Free Project Consult.png",
+		"outputAbbreviatedPath": "\/images\/Free Project Consult.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2083,6 +2116,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/staging\/sass-index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/staging\/typeform.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/staging\/typeform.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
