@@ -243,14 +243,14 @@ footer {
     display: inline-block;
     transition: all 0.3s ease-out;
     width: 1.4em;
-  }
-  &:hover, &:active, &:focus {
-    background-color: #5FCF80;
-    color: $white;
-    outline: 0;
-    box-shadow: none;
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
+    &:hover, &:active, &:focus {
+      background-color: #5FCF80;
+      color: $white;
+      outline: 0;
+      box-shadow: none;
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
   }
 }
 

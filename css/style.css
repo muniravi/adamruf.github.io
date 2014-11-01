@@ -320,13 +320,13 @@ footer {
     display: inline-block;
     transition: all 0.3s ease-out;
     width: 1.4em; }
-  footer:hover, footer:active, footer:focus {
-    background-color: #5FCF80;
-    color: #fff;
-    outline: 0;
-    box-shadow: none;
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px); }
+    footer a:hover, footer a:active, footer a:focus {
+      background-color: #5FCF80;
+      color: #fff;
+      outline: 0;
+      box-shadow: none;
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px); }
 
 .top-border {
   border-top: 3px solid #eee; }
