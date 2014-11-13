@@ -1,41 +1,200 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1003px" height="642px" viewBox="0 0 1003 642" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
-    <title>kawaii-ux-pyramid-1000px</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="499.756426 -27.2666627 1055.15502 640.311666 -55.6421716 640.311666 "></polygon>
-        <path id="path-3" d="M0.0742291283,0.363006086 C1.66403305,33.8083847 11.0837442,72.7553005 61.5763547,72.7552987 C112.068965,72.7552968 122.084127,34.3005188 123.152706,0.363006072 C123.174432,-0.326999699 0.0249346235,-0.674023299 0.0742291283,0.363006086 Z"></path>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="kawaii-ux-pyramid-1000px" sketch:type="MSLayerGroup" transform="translate(2.000000, 1.000000)">
-            <g id="Pyramid">
-                <mask id="mask-2" sketch:name="Mask" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#FF7777" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
-                <rect id="blue" fill="#39A4EB" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="-55.4438524" y="-16.0517292" width="1110.8877" height="164.007707"></rect>
-                <rect id="green" fill="#2BDB7A" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="-55.4438524" y="147.03867" width="1110.8877" height="164.007707"></rect>
-                <rect id="yellow" fill="#FFD20D" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="-55.4438524" y="310.124424" width="1110.8877" height="164.007707"></rect>
-                <rect id="red" fill="#F65842" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="-55.4438524" y="473.207857" width="1110.8877" height="164.007707"></rect>
-            </g>
-            <g id="eyes---large-2" transform="translate(334.000000, 328.000000)" sketch:type="MSShapeGroup">
-                <g id="Rectangle-9-+-Rectangle-13">
-                    <rect id="Rectangle-9" fill="#4A4A4A" x="0" y="1.23314066" width="24.1278778" height="113.4283" rx="40"></rect>
-                    <rect id="Rectangle-12" fill="#FFFFFF" x="0" y="0" width="24.1278778" height="48.2989812" rx="40"></rect>
-                </g>
-                <g id="Rectangle-9-+-Rectangle-14" transform="translate(308.384438, 0.000000)">
-                    <rect id="Rectangle-9" fill="#4A4A4A" x="0" y="1.23314066" width="24.1278778" height="113.4283" rx="40"></rect>
-                    <rect id="Rectangle-12" fill="#FFFFFF" x="0" y="0" width="24.1278778" height="48.2989812" rx="40"></rect>
-                </g>
-            </g>
-            <g id="Mouth-3-+-Oval-8" transform="translate(438.000000, 388.000000)">
-                <mask id="mask-4" sketch:name="Mouth 3" fill="white">
-                    <use xlink:href="#path-3"></use>
-                </mask>
-                <use id="Mouth-3" fill="#4A4A4A" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
-                <path d="M61.5763547,167.707129 C92.1832682,167.707129 116.995074,86.9543738 116.995074,56.1482362 C116.995074,25.3420986 78.2019704,18.4971098 61.5763547,18.4971098 C44.9507389,18.4971098 6.15763547,25.3420986 6.15763547,56.1482362 C6.15763547,86.9543738 30.9694412,167.707129 61.5763547,167.707129 Z" id="Oval-8" fill="#F65842" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 661.9 423" enable-background="new 0 0 661.9 423" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M305.6,12.6c14-16.8,36.7-16.8,50.7,0L647,362.1c28,33.6,15.2,60.9-28.6,60.9H43.4
+				c-43.8,0-56.6-27.3-28.6-60.9L305.6,12.6z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)" enable-background="new    ">
+			<g>
+				<defs>
+					<rect id="SVGID_3_" x="-0.4" y="-0.5" width="662.4" height="424"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  overflow="visible"/>
+				</clipPath>
+				<g clip-path="url(#SVGID_4_)">
+					<defs>
+						<rect id="SVGID_5_" x="-0.4" y="-0.5" width="662.4" height="424"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  overflow="visible"/>
+					</clipPath>
+					
+						<rect x="-3.3" y="-3.3" clip-path="url(#SVGID_6_)" fill-rule="evenodd" clip-rule="evenodd" fill="#FF7878" width="668.5" height="429.6"/>
+				</g>
+				<g clip-path="url(#SVGID_4_)">
+					<defs>
+						<rect id="SVGID_7_" x="-35.7" y="-10.4" width="733.6" height="108.3"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  overflow="visible"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_8_)">
+						<defs>
+							<rect id="SVGID_9_" x="-0.4" y="-0.5" width="662.4" height="424"/>
+						</defs>
+						<clipPath id="SVGID_10_">
+							<use xlink:href="#SVGID_9_"  overflow="visible"/>
+						</clipPath>
+						
+							<rect x="-39" y="-13.7" clip-path="url(#SVGID_10_)" fill-rule="evenodd" clip-rule="evenodd" fill="#39A4EB" width="740.2" height="114.9"/>
+					</g>
+				</g>
+				<g clip-path="url(#SVGID_4_)">
+					<defs>
+						<rect id="SVGID_11_" x="-35.7" y="97.3" width="733.6" height="108.3"/>
+					</defs>
+					<clipPath id="SVGID_12_">
+						<use xlink:href="#SVGID_11_"  overflow="visible"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_12_)">
+						<defs>
+							<rect id="SVGID_13_" x="-0.4" y="-0.5" width="662.4" height="424"/>
+						</defs>
+						<clipPath id="SVGID_14_">
+							<use xlink:href="#SVGID_13_"  overflow="visible"/>
+						</clipPath>
+						
+							<rect x="-39" y="94" clip-path="url(#SVGID_14_)" fill-rule="evenodd" clip-rule="evenodd" fill="#2BDB7A" width="740.2" height="114.9"/>
+					</g>
+				</g>
+				<g clip-path="url(#SVGID_4_)">
+					<defs>
+						<rect id="SVGID_15_" x="-35.7" y="205" width="733.6" height="108.3"/>
+					</defs>
+					<clipPath id="SVGID_16_">
+						<use xlink:href="#SVGID_15_"  overflow="visible"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_16_)">
+						<defs>
+							<rect id="SVGID_17_" x="-0.4" y="-0.5" width="662.4" height="424"/>
+						</defs>
+						<clipPath id="SVGID_18_">
+							<use xlink:href="#SVGID_17_"  overflow="visible"/>
+						</clipPath>
+						
+							<rect x="-39" y="201.7" clip-path="url(#SVGID_18_)" fill-rule="evenodd" clip-rule="evenodd" fill="#FFD20D" width="740.2" height="114.9"/>
+					</g>
+				</g>
+				<g clip-path="url(#SVGID_4_)">
+					<defs>
+						<rect id="SVGID_19_" x="-35.7" y="312.7" width="733.6" height="108.3"/>
+					</defs>
+					<clipPath id="SVGID_20_">
+						<use xlink:href="#SVGID_19_"  overflow="visible"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_20_)">
+						<defs>
+							<rect id="SVGID_21_" x="-0.4" y="-0.5" width="662.4" height="424"/>
+						</defs>
+						<clipPath id="SVGID_22_">
+							<use xlink:href="#SVGID_21_"  overflow="visible"/>
+						</clipPath>
+						
+							<rect x="-39" y="309.4" clip-path="url(#SVGID_22_)" fill-rule="evenodd" clip-rule="evenodd" fill="#F65842" width="740.2" height="114.9"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_23_" d="M229.4,217.6c-4.4,0-8,3.6-8,8v59c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8v-59
+				C237.4,221.2,233.8,217.6,229.4,217.6z"/>
+		</defs>
+		<clipPath id="SVGID_24_">
+			<use xlink:href="#SVGID_23_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="218.2" y="214.3" clip-path="url(#SVGID_24_)" fill-rule="evenodd" clip-rule="evenodd" fill="#4A4A4A" width="22.5" height="81.5"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_25_" d="M229.4,216.8c-4.4,0-8,3.6-8,8v16c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8v-16
+				C237.4,220.3,233.8,216.8,229.4,216.8z"/>
+		</defs>
+		<clipPath id="SVGID_26_">
+			<use xlink:href="#SVGID_25_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="218.2" y="213.5" clip-path="url(#SVGID_26_)" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="22.5" height="38.5"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_27_" d="M433.1,217.6c-4.4,0-8,3.6-8,8v59c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8v-59
+				C441.1,221.2,437.5,217.6,433.1,217.6z"/>
+		</defs>
+		<clipPath id="SVGID_28_">
+			<use xlink:href="#SVGID_27_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="421.8" y="214.3" clip-path="url(#SVGID_28_)" fill-rule="evenodd" clip-rule="evenodd" fill="#4A4A4A" width="22.5" height="81.5"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_29_" d="M433.1,216.8c-4.4,0-8,3.6-8,8v16c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8v-16
+				C441.1,220.3,437.5,216.8,433.1,216.8z"/>
+		</defs>
+		<clipPath id="SVGID_30_">
+			<use xlink:href="#SVGID_29_"  overflow="visible"/>
+		</clipPath>
+		
+			<rect x="421.8" y="213.5" clip-path="url(#SVGID_30_)" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="22.5" height="38.5"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_31_" d="M290.2,256.6c1,22.1,7.3,47.8,40.6,47.8s40-25.4,40.7-47.8C371.5,256.2,290.2,256,290.2,256.6z"/>
+		</defs>
+		<clipPath id="SVGID_32_">
+			<use xlink:href="#SVGID_31_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_32_)" enable-background="new    ">
+			<g>
+				<defs>
+					<rect id="SVGID_33_" x="290.2" y="255.7" width="81.9" height="48.9"/>
+				</defs>
+				<clipPath id="SVGID_34_">
+					<use xlink:href="#SVGID_33_"  overflow="visible"/>
+				</clipPath>
+				<g clip-path="url(#SVGID_34_)">
+					<defs>
+						<rect id="SVGID_35_" x="290.2" y="255.7" width="81.9" height="48.9"/>
+					</defs>
+					<clipPath id="SVGID_36_">
+						<use xlink:href="#SVGID_35_"  overflow="visible"/>
+					</clipPath>
+					
+						<rect x="286.9" y="252.9" clip-path="url(#SVGID_36_)" fill-rule="evenodd" clip-rule="evenodd" fill="#4A4A4A" width="87.9" height="54.8"/>
+				</g>
+				<g clip-path="url(#SVGID_34_)">
+					<defs>
+						<path id="SVGID_37_" d="M330.8,367.2c20.2,0,36.6-53.3,36.6-73.7c0-20.3-25.6-24.9-36.6-24.9s-36.6,4.5-36.6,24.9
+							C294.2,313.8,310.6,367.2,330.8,367.2z"/>
+					</defs>
+					<clipPath id="SVGID_38_">
+						<use xlink:href="#SVGID_37_"  overflow="visible"/>
+					</clipPath>
+					<g clip-path="url(#SVGID_38_)">
+						<defs>
+							<rect id="SVGID_39_" x="290.2" y="255.7" width="81.9" height="48.9"/>
+						</defs>
+						<clipPath id="SVGID_40_">
+							<use xlink:href="#SVGID_39_"  overflow="visible"/>
+						</clipPath>
+						
+							<rect x="290.9" y="265.3" clip-path="url(#SVGID_40_)" fill-rule="evenodd" clip-rule="evenodd" fill="#F65842" width="79.8" height="105.1"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
