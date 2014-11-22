@@ -1,0 +1,50 @@
+#utility-belt {
+  background: url('http://adamruf.com/images/utility-belt-bg-tile.png') 0px 100px repeat-x;
+  background-repeat: repeat-x;
+  background-size: 1px 177px;
+  display: none;
+  margin: -4.75em 0 5em;
+  text-align: center;
+  @media screen and (min-width: 750px) {
+    display: block;
+  }
+}
+
+.utility-pouch {
+  background: url('http://adamruf.com/images/utility-belt-sprite.png') -15px 0px no-repeat;
+  background-size: 1100px;
+  display: inline-block;
+  height: 300px;
+  margin: 0;
+  width: 175px;
+}
+
+#utility-pouch-1:hover {
+  background-position: -197px 0px;
+  background-size: 1100px;
+}
+
+#utility-pouch-2:hover {
+  background-position: -377px 0px;
+  background-size: 1100px;
+}
+
+#utility-pouch-3:hover {
+  background-position: -557px 0px;
+  background-size: 1100px;
+}
+
+#utility-pouch-4:hover {
+  background-position: -737px 0px;
+  background-size: 1100px;
+}
+
+#utility-pouch-5 {
+  @media screen and (max-width: 950px) {
+      display: none;
+    }
+  &:hover {
+    background-position: -917px 0px;
+    background-size: 1100px;
+  }
+}

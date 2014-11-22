@@ -1,0 +1,69 @@
+.headroom-xs {
+  margin-top: 0.75em;
+}
+
+.headroom-sm {
+  margin-top: 1em;
+}
+
+.headroom-md {
+  margin-top: 3em;
+}
+
+.headroom-lg {
+  margin-top: 5em;
+  @media screen and (max-width: 640px) {
+    margin-top: 6em;
+  }
+}
+
+.headroom-xl {
+  margin-top: 7em ;
+}
+
+.legroom-sm {
+  margin-bottom: 1em;
+}
+
+.legroom-md {
+  margin-bottom: 3em;
+}
+
+.legroom-lg {
+  margin-bottom: 5em;
+}
+
+.legroom-xl {
+  margin-bottom: 7em;
+}
+
+.legroom-xxl {
+  margin-bottom: 35em;
+}
+
+.faded {
+  opacity: 0.5;
+}
+
+.gray-text {
+  color: #ccc;
+}
+
+.tipped {
+  border-bottom: 6px dotted #eee;
+  cursor: help;
+}
+
+.padded {
+  padding: 0 20px;
+}
+
+.recent-work.padded {
+  padding: 0px 1em 1.5em;
+}
+
+.scrollable {
+  box-shadow: inset 0 -1px 0px 0px rgba(0,0,0,0.1), inset 0 1px 0px 0px rgba(0,0,0,0.1);
+  height: 13em;
+  overflow-y: auto;
+}

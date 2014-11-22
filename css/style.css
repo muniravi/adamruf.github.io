@@ -130,16 +130,6 @@ button, .button {
   .style-green:focus {
     box-shadow: 0 0 15px rgba(95, 207, 128, 0.75); }
 
-body {
-  background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;
-  color: #555;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-size: 18px;
-  line-height: 1.55em; }
-
-.row {
-  margin: 0; }
-
 nav.navbar {
   font-family: "jaf-bernino-sans-comp";
   font-size: 1.5em;
@@ -243,95 +233,60 @@ nav.navbar-inverse {
       overflow-y: hidden;
       padding: 0 25px 20px; } }
 
-#hero {
-  background-image: url("//adamruf.com/images/kawaii-ux-pyramid.svg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 300px;
-  padding-bottom: 4em; }
-  #hero .hero-unit h1 {
-    color: #3ac162;
-    font-family: "museo-slab";
-    font-size: 3em;
-    font-weight: 300;
-    letter-spacing: 0px;
-    line-height: 1em;
-    margin-bottom: 0em;
-    text-transform: none;
-    word-spacing: 0px; }
-  #hero .hero-unit h2 {
-    color: #777;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    letter-spacing: -1px;
-    margin-bottom: 1.15em;
-    text-transform: none; }
-  #hero .hero-unit #hero-cta {
-    margin-bottom: 3.7em; }
+.headroom-xs {
+  margin-top: 0.75em; }
 
-a.img-link {
-  display: block;
-  position: relative;
-  text-decoration: none; }
+.headroom-sm {
+  margin-top: 1em; }
 
-a.img-link:before {
-  background: #5fcf80;
-  border-radius: 0 0 0 10px;
-  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  content: ' View Site';
-  display: block;
-  font-family: "FontAwesome", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-size: 1.5em;
-  opacity: 0;
-  padding: 0.5em 0.3em 0.5em 0.4em;
-  position: absolute;
-  top: 11px;
-  right: 11px;
-  z-index: 2;
-  -webkit-transition: all 0.25s ease-in;
-  -moz-transition: all 0.25s ease-in;
-  -ms-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in; }
+.headroom-md {
+  margin-top: 3em; }
 
-.img-thumbnail {
-  padding: 10px;
-  position: relative; }
+.headroom-lg {
+  margin-top: 5em; }
+  @media screen and (max-width: 640px) {
+    .headroom-lg {
+      margin-top: 6em; } }
 
-a.img-link:hover:before {
-  opacity: 1; }
+.headroom-xl {
+  margin-top: 7em; }
 
-footer {
-  background: #222;
-  padding: 2em 0 1em; }
-  footer p {
-    color: #626262;
-    font-size: 0.8em; }
-  footer #footer-connect {
-    font-size: 2rem;
-    margin-left: 0.5em;
-    position: relative; }
-  footer a {
-    background-color: transparent;
-    border: none;
-    border-radius: 3px;
-    color: #626262;
-    display: inline-block;
-    transition: all 0.3s ease-out;
-    width: 1.4em; }
-    footer a:hover, footer a:active, footer a:focus {
-      background-color: #5FCF80;
-      color: #fff;
-      outline: 0;
-      box-shadow: none;
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px); }
+.legroom-sm {
+  margin-bottom: 1em; }
 
-.top-border {
-  border-top: 3px solid #eee; }
+.legroom-md {
+  margin-bottom: 3em; }
 
-/* MODALS */
+.legroom-lg {
+  margin-bottom: 5em; }
+
+.legroom-xl {
+  margin-bottom: 7em; }
+
+.legroom-xxl {
+  margin-bottom: 35em; }
+
+.faded {
+  opacity: 0.5; }
+
+.gray-text {
+  color: #ccc; }
+
+.tipped {
+  border-bottom: 6px dotted #eee;
+  cursor: help; }
+
+.padded {
+  padding: 0 20px; }
+
+.recent-work.padded {
+  padding: 0px 1em 1.5em; }
+
+.scrollable {
+  box-shadow: inset 0 -1px 0px 0px rgba(0, 0, 0, 0.1), inset 0 1px 0px 0px rgba(0, 0, 0, 0.1);
+  height: 13em;
+  overflow-y: auto; }
+
 .modal-content {
   -webkit-box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.05);
@@ -387,116 +342,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
     display: inline-block;
     width: 2em; }
 
-/* >>>>> HELPERS <<<<< */
-.headroom-xs {
-  margin-top: 0.75em; }
-
-.headroom-sm {
-  margin-top: 1em; }
-
-.headroom-md {
-  margin-top: 3em; }
-
-.headroom-lg {
-  margin-top: 5em; }
-  @media screen and (max-width: 640px) {
-    .headroom-lg {
-      margin-top: 6em; } }
-
-.headroom-xl {
-  margin-top: 7em; }
-
-.legroom-sm {
-  margin-bottom: 1em; }
-
-.legroom-md {
-  margin-bottom: 3em; }
-
-.legroom-lg {
-  margin-bottom: 5em; }
-
-.legroom-xl {
-  margin-bottom: 7em; }
-
-.legroom-xxl {
-  margin-bottom: 35em; }
-
-.faded {
-  opacity: 0.5; }
-
-.gray-text {
-  color: #ccc; }
-
-.tipped {
-  border-bottom: 6px dotted #eee;
-  cursor: help; }
-
-.padded {
-  padding: 0 20px; }
-
-.recent-work.padded {
-  padding: 0px 1em 1.5em; }
-
-.scrollable {
-  box-shadow: inset 0 -1px 0px 0px rgba(0, 0, 0, 0.1), inset 0 1px 0px 0px rgba(0, 0, 0, 0.1);
-  height: 13em;
-  overflow-y: auto; }
-
-/* >>>>> CUSTOM BOOTSTRAP OVERRIDES <<<<< */
-.accordion-toggle {
-  transition: all 0.3s; }
-
-.accordion-toggle:after {
-  /* symbol for "opened" panels */
-  font-family: 'FontAwesome';
-  content: "\f054";
-  float: right;
-  color: inherit;
-  transition: all 0.3s;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg); }
-
-.panel-heading.collapsed .accordion-toggle:after {
-  /* symbol for "collapsed" panels */
-  content: "\f054";
-  transition: all 0.3s;
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  -o-transform: none; }
-
-.panel-group .panel {
-  background: transparent;
-  border-radius: 0px;
-  border: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-  .panel-group .panel.panel-info .panel-heading {
-    background-color: #5fcf80;
-    border: none;
-    border-radius: 7px 7px 0 0;
-    cursor: pointer;
-    padding: 15px;
-    transition: all 0.3s; }
-    .panel-group .panel.panel-info .panel-heading:hover {
-      background-color: #4bc970; }
-    .panel-group .panel.panel-info .panel-heading.collapsed {
-      border-radius: 7px; }
-    .panel-group .panel.panel-info .panel-heading .panel-title {
-      color: #fff;
-      font-size: 2rem;
-      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-      font-weight: normal;
-      letter-spacing: 0;
-      text-transform: none;
-      word-spacing: 0; }
-  .panel-group .panel .panel-body {
-    background: rgba(95, 207, 128, 0.1); }
-  .panel-group .panel .panel-heading + .panel-collapse .panel-body {
-    border: none; }
-
 .tooltip.bottom .tooltip-arrow {
   border-bottom-color: rgba(0, 0, 0, 0.85); }
 
@@ -510,6 +355,86 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   padding: 0.4em 1em 0.6em;
   text-align: left;
   text-transform: none; }
+
+#utility-belt {
+  background: url("http://adamruf.com/images/utility-belt-bg-tile.png") 0px 100px repeat-x;
+  background-repeat: repeat-x;
+  background-size: 1px 177px;
+  display: none;
+  margin: -4.75em 0 5em;
+  text-align: center; }
+  @media screen and (min-width: 750px) {
+    #utility-belt {
+      display: block; } }
+
+.utility-pouch {
+  background: url("http://adamruf.com/images/utility-belt-sprite.png") -15px 0px no-repeat;
+  background-size: 1100px;
+  display: inline-block;
+  height: 300px;
+  margin: 0;
+  width: 175px; }
+
+#utility-pouch-1:hover {
+  background-position: -197px 0px;
+  background-size: 1100px; }
+
+#utility-pouch-2:hover {
+  background-position: -377px 0px;
+  background-size: 1100px; }
+
+#utility-pouch-3:hover {
+  background-position: -557px 0px;
+  background-size: 1100px; }
+
+#utility-pouch-4:hover {
+  background-position: -737px 0px;
+  background-size: 1100px; }
+
+@media screen and (max-width: 950px) {
+  #utility-pouch-5 {
+    display: none; } }
+#utility-pouch-5:hover {
+  background-position: -917px 0px;
+  background-size: 1100px; }
+
+body {
+  background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;
+  color: #555;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+  font-size: 18px;
+  line-height: 1.55em; }
+
+.row {
+  margin: 0; }
+
+/* >>>>> HOMEPAGE <<<<< */
+#hero {
+  background-image: url("//adamruf.com/images/kawaii-ux-pyramid.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  padding-bottom: 4em; }
+  #hero .hero-unit h1 {
+    color: #3ac162;
+    font-family: "museo-slab";
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 1em;
+    margin-bottom: 0em;
+    text-transform: none;
+    word-spacing: 0px; }
+  #hero .hero-unit h2 {
+    color: #777;
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 1.15em;
+    text-transform: none; }
+  #hero .hero-unit #hero-cta {
+    margin-bottom: 3.7em; }
 
 /* >>>>> PORTFOLIO <<<<< */
 .recent-work {
@@ -535,6 +460,38 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 .portfolio-icons {
   display: block; }
+
+a.img-link {
+  display: block;
+  position: relative;
+  text-decoration: none; }
+
+a.img-link:before {
+  background: #5fcf80;
+  border-radius: 0 0 0 10px;
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  content: ' View Site';
+  display: block;
+  font-family: "FontAwesome", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+  font-size: 1.5em;
+  opacity: 0;
+  padding: 0.5em 0.3em 0.5em 0.4em;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  z-index: 2;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -ms-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in; }
+
+.img-thumbnail {
+  padding: 10px;
+  position: relative; }
+
+a.img-link:hover:before {
+  opacity: 1; }
 
 /* >>>>> RECOMMENDED RESOURCES <<<<< */
 .book-cover {
@@ -623,51 +580,36 @@ ul.progress-bar ul {
   list-style-position: inside;
   padding-left: 0; }
 
-#utility-belt {
-  background: url("http://adamruf.com/images/utility-belt-bg-tile.png") 0px 100px repeat-x;
-  background-repeat: repeat-x;
-  background-size: 1px 177px;
-  display: none;
-  margin: -4.75em 0 5em;
-  text-align: center; }
-  @media screen and (min-width: 750px) {
-    #utility-belt {
-      display: block; } }
-
-.utility-pouch {
-  background: url("http://adamruf.com/images/utility-belt-sprite.png") -15px 0px no-repeat;
-  background-size: 1100px;
-  display: inline-block;
-  height: 300px;
-  margin: 0;
-  width: 175px; }
-
-#utility-pouch-1:hover {
-  background-position: -197px 0px;
-  background-size: 1100px; }
-
-#utility-pouch-2:hover {
-  background-position: -377px 0px;
-  background-size: 1100px; }
-
-#utility-pouch-3:hover {
-  background-position: -557px 0px;
-  background-size: 1100px; }
-
-#utility-pouch-4:hover {
-  background-position: -737px 0px;
-  background-size: 1100px; }
-
-@media screen and (max-width: 950px) {
-  #utility-pouch-5 {
-    display: none; } }
-#utility-pouch-5:hover {
-  background-position: -917px 0px;
-  background-size: 1100px; }
-
 /* >>>>> 404 <<<<< */
 #missing img {
   max-height: 650px; }
+
+/* >>>>> FOOTER <<<<< */
+footer {
+  background: #222;
+  padding: 2em 0 1em; }
+  footer p {
+    color: #626262;
+    font-size: 0.8em; }
+  footer #footer-connect {
+    font-size: 2rem;
+    margin-left: 0.5em;
+    position: relative; }
+  footer a {
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    color: #626262;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+    width: 1.4em; }
+    footer a:hover, footer a:active, footer a:focus {
+      background-color: #5FCF80;
+      color: #fff;
+      outline: 0;
+      box-shadow: none;
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px); }
 
 /* >>>>> FOCUS & SELECTION <<<<< */
 input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:focus {
@@ -682,131 +624,3 @@ input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:fo
 ::-moz-selection {
   background: rgba(124, 189, 135, 0.25);
   /* Firefox */ }
-
-/* >>>>> CUSTOM WUFOO THEME OVERRIDES <<<<< */
-body#public {
-  background: #fff; }
-
-#container {
-  border: none;
-  margin: 0;
-  width: 100%; }
-
-.wufoo h2 {
-  font-family: "jaf-bernino-sans-comp"; }
-.wufoo .info {
-  border-bottom: none;
-  margin: 0;
-  padding: 0; }
-  .wufoo .info h2 {
-    font-size: 2.618em;
-    margin-bottom: 0.5em; }
-    @media screen and (max-width: 453px) {
-      .wufoo .info h2 {
-        font-size: 2.218em; } }
-.wufoo li {
-  margin: 0 0 0.3em 0; }
-  .wufoo li.focused {
-    background-color: transparent; }
-.wufoo label.desc, .wufoo legend.desc {
-  color: #555;
-  font-size: 1em;
-  letter-spacing: 0;
-  padding: 0 0 1px 0; }
-.wufoo form li.error, .wufoo form li.error:focus {
-  background-color: #e74c3c !important;
-  border-radius: 6px !important;
-  margin-bottom: 0.5em !important; }
-  .wufoo form li.error .desc, .wufoo form li.error:focus .desc {
-    color: #fff !important; }
-.wufoo form li p.error {
-  padding: 3px 0 0 !important;
-  line-height: 14px !important;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: #fff !important; }
-.wufoo form li span.req {
-  color: #e74c3c !important; }
-.wufoo form li span label {
-  display: none; }
-.wufoo form .instruct {
-  margin: 0px 0px 0px -175px;
-  top: 18px;
-  width: 90%; }
-.wufoo input.text, .wufoo textarea.textarea {
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #959595;
-  border-radius: 4px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
-  color: #555;
-  display: block;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-size: 18px;
-  height: 30px;
-  line-height: 1.5em;
-  padding: 3px 7px;
-  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-  width: 16em; }
-.wufoo input.btTxt {
-  background-color: #5fcf80;
-  border: none;
-  border-bottom: 4px solid #34ad58;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-  border-radius: 7px;
-  color: #fff !important;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "jaf-bernino-sans-comp";
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 0.25em 0 0 0;
-  padding: 0.25em 0.8em 0.2em;
-  position: relative;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
-  .wufoo input.btTxt:hover {
-    background-color: #4bc970;
-    border-bottom-color: #31a252; }
-  .wufoo input.btTxt:active {
-    background-color: #4bc970;
-    border: none;
-    box-shadow: none;
-    margin-top: 11px;
-    outline: 0px; }
-  .wufoo input.btTxt:focus {
-    background-color: #4bc970;
-    box-shadow: 0 0 15px rgba(95, 207, 128, 0.75);
-    outline: 0px; }
-.wufoo .instruct small {
-  font-size: 0.9em; }
-.wufoo span.symbol {
-  line-height: 1.85em; }
-.wufoo textarea.textarea {
-  height: 108px;
-  line-height: 1.2em;
-  max-width: 96%;
-  min-width: 96%;
-  resize: none; }
-  @media screen and (max-width: 453px) {
-    .wufoo textarea.textarea {
-      max-width: 93%;
-      min-width: 93%; } }
-
-#logo {
-  display: none; }
-
-#Field16 {
-  width: 3.5em; }
-
-#Field16-1 {
-  width: 1em; }
-
-a.powertiny {
-  display: none !important; }
-
-#errorLi {
-  display: none; }

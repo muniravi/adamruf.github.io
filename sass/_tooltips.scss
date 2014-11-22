@@ -1,0 +1,16 @@
+// TOOLTIPS
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: $navbar-black;
+}
+
+.tooltip-inner {
+  background-color: $navbar-black;
+  @include base-font;
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 0;
+  max-width: 450px;
+  padding: 0.4em 1em 0.6em;
+  text-align: left;
+  text-transform: none;
+}
