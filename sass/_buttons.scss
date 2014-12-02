@@ -28,9 +28,9 @@ button, .button {
     outline: 0;
   }
   &:active {
-    border-bottom: none;
+    border-bottom: 2px solid $gray;
     box-shadow: 0 1px 0px 1px rgba(0, 62, 12, 0.2);
-    margin-top: 5px;
+    margin-top: 3px;
   }
   &:focus {
     box-shadow: 0 2px 0px 1px rgba(0, 62, 12, 0.2);
@@ -45,7 +45,7 @@ button, .button {
   font-size: 2.618em;
   padding: 0.55em 0.8em 0.5em;
   &:active {
-    margin-top: 6px;
+    margin-top: 4px;
   }
   @media screen and (max-width: 450px) {
     font-size: 2em;
@@ -60,6 +60,9 @@ button, .button {
   &:hover {
     background-color: darken($green, 5%);
     border-bottom-color: darken($green, 18%);
+  }
+  &:active {
+    border-color: darken($green, 15%);
   }
   &:focus {
     background-color: darken($green, 5%);
