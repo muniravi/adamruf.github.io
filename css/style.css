@@ -290,6 +290,60 @@ nav.navbar-inverse {
   height: 13em;
   overflow-y: auto; }
 
+.accordion-toggle {
+  transition: all 0.3s; }
+
+.accordion-toggle:after {
+  /* symbol for "opened" panels */
+  font-family: 'FontAwesome';
+  content: "\f054";
+  float: right;
+  color: inherit;
+  transition: all 0.3s;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); }
+
+.panel-heading.collapsed .accordion-toggle:after {
+  /* symbol for "collapsed" panels */
+  content: "\f054";
+  transition: all 0.3s;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none; }
+
+.panel-group .panel {
+  background: transparent;
+  border-radius: 0px;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+  .panel-group .panel.panel-info .panel-heading {
+    background-color: #5fcf80;
+    border: none;
+    border-radius: 7px 7px 0 0;
+    cursor: pointer;
+    padding: 15px;
+    transition: all 0.3s; }
+    .panel-group .panel.panel-info .panel-heading:hover {
+      background-color: #4bc970; }
+    .panel-group .panel.panel-info .panel-heading.collapsed {
+      border-radius: 7px; }
+    .panel-group .panel.panel-info .panel-heading .panel-title {
+      color: #fff;
+      font-size: 2rem;
+      font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+      font-weight: normal;
+      letter-spacing: 0;
+      text-transform: none;
+      word-spacing: 0; }
+  .panel-group .panel .panel-body {
+    background: rgba(95, 207, 128, 0.1); }
+  .panel-group .panel .panel-heading + .panel-collapse .panel-body {
+    border: none; }
+
 .modal-content {
   -webkit-box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.05);
