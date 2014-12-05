@@ -33,11 +33,11 @@ body {
       @include slab-font;
       font-size: 3em;
       font-weight: 300;
-      letter-spacing: 0px;
+      letter-spacing: 0;
       line-height: 1em;
       margin-bottom: 0em;
       text-transform: none;
-      word-spacing: 0px;
+      word-spacing: 0;
     }
     h2 {
       color: #777;
@@ -90,7 +90,7 @@ a.img-link {
 a.img-link:before {
   background: $green;
   border-radius: 0 0 0 10px;
-  box-shadow: 0 2px 0px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.25);
   color: $white;
   content: ' View Site';
   display: block;
@@ -168,7 +168,7 @@ a.img-link:hover:before {
   border-radius: 50%;
   max-height: 250px;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 13%;
 }
 

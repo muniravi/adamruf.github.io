@@ -85,7 +85,7 @@ nav {
       height: 65px;
     }
     &.shadowy {
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
       transition-duration: 0.2s;
     }
     .centered-nav {
@@ -112,11 +112,11 @@ nav {
       button {
         .icon-bar {
           border-color: lighten($gray, 8%);
-          box-shadow: 0 2px 0px rgba(0,0,0,0.15);
+          box-shadow: 0 2px 0 rgba(0,0,0,0.15);
         }
         &:hover .icon-bar {
           border-color: $white;
-          box-shadow: 0 2px 0px rgba(0,0,0,0.15);
+          box-shadow: 0 2px 0 rgba(0,0,0,0.15);
         }
       }
     }
