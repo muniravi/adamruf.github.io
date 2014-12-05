@@ -207,7 +207,7 @@ nav.navbar-inverse {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
     transition-duration: 0.2s; }
   nav.navbar-inverse .centered-nav {
-    width: 22.5em; }
+    width: 22.7em; }
     @media screen and (max-width: 767px) {
       nav.navbar-inverse .centered-nav {
         width: 100%; } }
