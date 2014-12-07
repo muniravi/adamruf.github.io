@@ -64,6 +64,9 @@ ACCORDIONS
     .panel-body {
       background: fade-out($green, 0.9);
     }
-    .panel-heading+.panel-collapse .panel-body {border: none;}
+    .panel-heading+.panel-collapse .panel-body {
+      border: none;
+      border-radius: 0 0 7px 7px;
+    }
   }
 }

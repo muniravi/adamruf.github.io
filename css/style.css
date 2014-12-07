@@ -373,7 +373,8 @@ ACCORDIONS
   .panel-group .panel .panel-body {
     background: rgba(95, 207, 128, 0.1); }
   .panel-group .panel .panel-heading + .panel-collapse .panel-body {
-    border: none; }
+    border: none;
+    border-radius: 0 0 7px 7px; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 MODALS
