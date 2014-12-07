@@ -1,4 +1,7 @@
-// NAVBAR
+/* - - - - - - - - - - - - - - - - - - - - *\
+NAVIGATION
+\* - - - - - - - - - - - - - - - - - - - - */
+
 nav {
   &.navbar {
     @include condensed-font;
@@ -16,7 +19,7 @@ nav {
       margin: 0.35em 0 0;
       li>a {
         border-radius: 4px;
-        color: lighten($gray, 28%);
+        color: $font-light-subtle;
         font-size: 0.9em;
         font-weight: 100;
         letter-spacing: 1px;
@@ -25,7 +28,7 @@ nav {
         padding: 0.2em 0.2em 0.1em 0.25em;
         transition: all 0.3s ease-out;
         &:hover, &:active, &:focus {
-          color: $white;
+          color: $font-light-default;
           background-color: $green;
           @media screen and (min-width: 768px) {
             -webkit-transform: translateY(-4px);
@@ -43,10 +46,10 @@ nav {
       }
       li.active>a {
         background-color: fade-out($gray, 0.5);
-        color: lighten($gray, 28%);
+        color: $font-light-subtle;
         &:hover, &:focus {
           background-color: fade-out($gray, 0.5);
-          color: lighten($gray, 28%);
+          color: $font-light-default;
           -webkit-transform: translateY(0px);
           transform: translateY(0px);
         }
@@ -54,7 +57,7 @@ nav {
     }
     .navbar-brand {
       box-shadow: none;
-      color: lighten($gray, 28%);
+      color: $font-light-subtle;
       margin-right: 1em;
       margin-top: -2px;
       max-height: 67px;
@@ -83,10 +86,6 @@ nav {
     }
     &.navbar-fixed-top {
       height: 65px;
-    }
-    &.shadowy {
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-      transition-duration: 0.2s;
     }
     .centered-nav {
       width: 22.7em;

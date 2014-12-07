@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/* - - - - - - - - - - - - - - - - - - - - *\
+COLORS
+\* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - *\
+TYPOGRAPHY
+\* - - - - - - - - - - - - - - - - - - - - */
 h1, h2, h3 {
   font-family: "jaf-bernino-sans-comp";
   letter-spacing: 1px;
@@ -73,6 +79,9 @@ header h1 {
 header a, header a:hover, header a:active, header a:focus {
   text-decoration: none; }
 
+/* - - - - - - - - - - - - - - - - - - - - *\
+BUTTONS
+\* - - - - - - - - - - - - - - - - - - - - */
 button::-moz-focus-inner {
   border: 0; }
 
@@ -83,7 +92,7 @@ button, .button {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   border-radius: 7px;
-  box-shadow: 0 2px 0 1px rgba(0, 62, 12, 0.2);
+  box-shadow: 0 2px 0 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   display: inline-block;
   font-family: "jaf-bernino-sans-comp";
@@ -98,10 +107,10 @@ button, .button {
     outline: 0; }
   button:active, .button:active {
     border-bottom: 2px solid #555;
-    box-shadow: 0 1px 0 1px rgba(0, 62, 12, 0.2);
+    box-shadow: 0 2px 0 1px rgba(0, 0, 0, 0.2);
     margin-top: 3px; }
   button:focus, .button:focus {
-    box-shadow: 0 2px 0 1px rgba(0, 62, 12, 0.2);
+    box-shadow: 0 2px 0 1px rgba(0, 0, 0, 0.2);
     outline: 0;
     text-decoration: none; }
 
@@ -133,6 +142,9 @@ button, .button {
   .style-green:focus {
     background-color: #3ac162; }
 
+/* - - - - - - - - - - - - - - - - - - - - *\
+NAVIGATION
+\* - - - - - - - - - - - - - - - - - - - - */
 nav.navbar {
   font-family: "jaf-bernino-sans-comp";
   font-size: 1.5em;
@@ -141,12 +153,12 @@ nav.navbar-inverse {
   background-color: rgba(0, 0, 0, 0.85); }
   @media screen and (max-width: 767px) {
     nav.navbar-inverse .navbar-header {
-      background-color: #222; } }
+      background-color: #000; } }
   nav.navbar-inverse .navbar-nav {
     margin: 0.35em 0 0; }
     nav.navbar-inverse .navbar-nav li > a {
       border-radius: 4px;
-      color: #9c9c9c;
+      color: rgba(255, 255, 255, 0.5);
       font-size: 0.9em;
       font-weight: 100;
       letter-spacing: 1px;
@@ -155,7 +167,7 @@ nav.navbar-inverse {
       padding: 0.2em 0.2em 0.1em 0.25em;
       transition: all 0.3s ease-out; }
       nav.navbar-inverse .navbar-nav li > a:hover, nav.navbar-inverse .navbar-nav li > a:active, nav.navbar-inverse .navbar-nav li > a:focus {
-        color: #fff;
+        color: white;
         background-color: #5fcf80; }
         @media screen and (min-width: 768px) {
           nav.navbar-inverse .navbar-nav li > a:hover, nav.navbar-inverse .navbar-nav li > a:active, nav.navbar-inverse .navbar-nav li > a:focus {
@@ -170,15 +182,15 @@ nav.navbar-inverse {
           padding: 0.25em 0 0.15em 0.25em; } }
     nav.navbar-inverse .navbar-nav li.active > a {
       background-color: rgba(85, 85, 85, 0.5);
-      color: #9c9c9c; }
+      color: rgba(255, 255, 255, 0.5); }
       nav.navbar-inverse .navbar-nav li.active > a:hover, nav.navbar-inverse .navbar-nav li.active > a:focus {
         background-color: rgba(85, 85, 85, 0.5);
-        color: #9c9c9c;
+        color: white;
         -webkit-transform: translateY(0px);
         transform: translateY(0px); }
   nav.navbar-inverse .navbar-brand {
     box-shadow: none;
-    color: #9c9c9c;
+    color: rgba(255, 255, 255, 0.5);
     margin-right: 1em;
     margin-top: -2px;
     max-height: 67px;
@@ -203,9 +215,6 @@ nav.navbar-inverse {
       text-transform: capitalize; }
   nav.navbar-inverse.navbar-fixed-top {
     height: 65px; }
-  nav.navbar-inverse.shadowy {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    transition-duration: 0.2s; }
   nav.navbar-inverse .centered-nav {
     width: 22.7em; }
     @media screen and (max-width: 767px) {
@@ -231,11 +240,14 @@ nav.navbar-inverse {
       box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15); }
   @media screen and (max-width: 767px) {
     nav.navbar-inverse .navbar-collapse, nav.navbar-inverse .navbar-form {
-      background: #222;
+      background: #000;
       max-height: 555px;
       overflow-y: hidden;
       padding: 0 25px 20px; } }
 
+/* - - - - - - - - - - - - - - - - - - - - *\
+HELPERS
+\* - - - - - - - - - - - - - - - - - - - - */
 .headroom-xs {
   margin-top: 0.75em; }
 
@@ -290,6 +302,13 @@ nav.navbar-inverse {
   height: 13em;
   overflow-y: auto; }
 
+.shadowy {
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+  transition-duration: 0.2s; }
+
+/* - - - - - - - - - - - - - - - - - - - - *\
+ACCORDIONS
+\* - - - - - - - - - - - - - - - - - - - - */
 .accordion-toggle {
   transition: all 0.3s; }
 
@@ -344,6 +363,9 @@ nav.navbar-inverse {
   .panel-group .panel .panel-heading + .panel-collapse .panel-body {
     border: none; }
 
+/* - - - - - - - - - - - - - - - - - - - - *\
+MODALS
+\* - - - - - - - - - - - - - - - - - - - - */
 .modal-content {
   -webkit-box-shadow: 0 0 0 7px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 0 0 7px rgba(0, 0, 0, 0.05);
@@ -399,6 +421,9 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
     display: inline-block;
     width: 2em; }
 
+/* - - - - - - - - - - - - - - - - - - - - *\
+TOOLTIPS
+\* - - - - - - - - - - - - - - - - - - - - */
 .tooltip.bottom .tooltip-arrow {
   border-bottom-color: rgba(0, 0, 0, 0.85); }
 
@@ -413,6 +438,9 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   text-align: left;
   text-transform: none; }
 
+/* - - - - - - - - - - - - - - - - - - - - *\
+UTILITY BELT
+\* - - - - - - - - - - - - - - - - - - - - */
 #utility-belt {
   background: url("http://adamruf.com/images/utility-belt-bg-tile.png") 0 100px repeat-x;
   background-repeat: repeat-x;
@@ -457,7 +485,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 
 body {
   background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;
-  color: #555;
+  color: rgba(0, 0, 0, 0.75);
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
   font-size: 18px;
   line-height: 1.55em; }
@@ -465,7 +493,9 @@ body {
 .row {
   margin: 0; }
 
-/* >>>>> HOMEPAGE <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+HOMEPAGE
+\* - - - - - - - - - - - - - - - - - - - - */
 #hero {
   background-image: url("//adamruf.com/images/kawaii-ux-pyramid.svg");
   background-position: center bottom;
@@ -479,7 +509,6 @@ body {
     font-weight: 300;
     letter-spacing: 0;
     line-height: 1em;
-    margin-bottom: 0em;
     text-transform: none;
     word-spacing: 0; }
   #hero .hero-unit h2 {
@@ -493,7 +522,9 @@ body {
   #hero .hero-unit #hero-cta {
     margin-bottom: 3.7em; }
 
-/* >>>>> PORTFOLIO <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+PORTFOLIO
+\* - - - - - - - - - - - - - - - - - - - - */
 .recent-work {
   border-top: 7px solid rgba(85, 85, 85, 0.3);
   padding: 20px 0 30px;
@@ -550,7 +581,9 @@ a.img-link:before {
 a.img-link:hover:before {
   opacity: 1; }
 
-/* >>>>> RECOMMENDED RESOURCES <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+RECOMMENDED RESOURCES
+\* - - - - - - - - - - - - - - - - - - - - */
 .book-cover {
   margin-bottom: 1em; }
 
@@ -574,11 +607,13 @@ a.img-link:hover:before {
   color: #34ad58;
   text-decoration: none; }
 #resources cite, #resources p {
-  color: #555; }
+  color: rgba(0, 0, 0, 0.75); }
 #resources p {
   margin-bottom: 1em; }
 
-/* >>>>> ABOUT <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+ABOUT
+\* - - - - - - - - - - - - - - - - - - - - */
 #adam-photo {
   height: 275px;
   position: relative; }
@@ -637,16 +672,20 @@ ul.progress-bar ul {
   list-style-position: inside;
   padding-left: 0; }
 
-/* >>>>> 404 <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+404
+\* - - - - - - - - - - - - - - - - - - - - */
 #missing img {
   max-height: 650px; }
 
-/* >>>>> FOOTER <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+FOOTER
+\* - - - - - - - - - - - - - - - - - - - - */
 footer {
-  background: #222;
+  background: #000;
   padding: 2em 0 1em; }
   footer p {
-    color: #626262;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.8em; }
   footer #footer-connect {
     font-size: 2rem;
@@ -656,19 +695,21 @@ footer {
     background-color: transparent;
     border: none;
     border-radius: 3px;
-    color: #626262;
+    color: rgba(255, 255, 255, 0.5);
     display: inline-block;
     transition: all 0.3s ease-out;
     width: 1.4em; }
     footer a:hover, footer a:active, footer a:focus {
       background-color: #5FCF80;
-      color: #fff;
+      color: white;
       outline: 0;
       box-shadow: none;
       -webkit-transform: translateY(-4px);
       transform: translateY(-4px); }
 
-/* >>>>> FOCUS & SELECTION <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+FOCUS & SELECTION
+\* - - - - - - - - - - - - - - - - - - - - */
 input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:focus {
   outline: 4px solid #5fcf80;
   background: #fff !important;

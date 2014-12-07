@@ -1,10 +1,17 @@
-$black:         #222;
-$blue:          #428bca;
-$gray:          #555;
-$green:         #5fcf80;
-//$dark-green:  #4fca74;
-//$dark-gray:   #444;
-//$light-gray:  #e5e5e5;
-$navbar-black:   rgba(0,0,0,0.85);
-$red:           #e74c3c;
-$white:         #fff;
+/* - - - - - - - - - - - - - - - - - - - - *\
+COLORS
+\* - - - - - - - - - - - - - - - - - - - - */
+
+$black:         		#000;
+$blue:          		#428bca;
+$gray:          		#555;
+$green:         		#5fcf80;
+$navbar-black:   		rgba(0,0,0,0.85);
+$red:           		#e74c3c;
+$white:         		#fff;
+
+// Font Colors
+$font-default: 			rgba(0,0,0,0.75);
+$font-subtle: 			rgba(0,0,0,0.4);
+$font-light-default: 	rgba(255,255,255,1);
+$font-light-subtle: 	rgba(255,255,255,0.5);

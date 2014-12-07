@@ -1,3 +1,7 @@
+/* - - - - - - - - - - - - - - - - - - - - *\
+BUTTONS
+\* - - - - - - - - - - - - - - - - - - - - */
+
 @mixin rounded($radius) {
   -webkit-border-radius:  $radius;
   -moz-border-radius:     $radius;
@@ -13,7 +17,7 @@ button::-moz-focus-inner {
 button, .button {
   border-bottom: 5px solid $gray;
   @include rounded(7px);
-  box-shadow: 0 2px 0 1px rgba(0, 62, 12, 0.2);
+  box-shadow: 0 2px 0 1px rgba(0,0,0,0.2);
   cursor: pointer;
   display:inline-block;
   @include condensed-font;
@@ -29,11 +33,11 @@ button, .button {
   }
   &:active {
     border-bottom: 2px solid $gray;
-    box-shadow: 0 1px 0 1px rgba(0, 62, 12, 0.2);
+    box-shadow: 0 2px 0 1px rgba(0,0,0,0.2);
     margin-top: 3px;
   }
   &:focus {
-    box-shadow: 0 2px 0 1px rgba(0, 62, 12, 0.2);
+    box-shadow: 0 2px 0 1px rgba(0,0,0,0.2);
     outline: 0;
     text-decoration: none;
   }

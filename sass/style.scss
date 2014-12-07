@@ -10,7 +10,7 @@
 
 body {
   background: $white url('http://adamruf.com/images/barely-there-grid-by-adam-ruf.png') left top;
-  color: $gray;
+  color: $font-default;
   @include base-font;
   font-size: 18px;
   line-height: 1.55em;
@@ -20,7 +20,10 @@ body {
   margin: 0;
 }
 
-/* >>>>> HOMEPAGE <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+HOMEPAGE
+\* - - - - - - - - - - - - - - - - - - - - */
+
 #hero {
   background-image: url('//adamruf.com/images/kawaii-ux-pyramid.svg');
   background-position: center bottom;
@@ -35,7 +38,6 @@ body {
       font-weight: 300;
       letter-spacing: 0;
       line-height: 1em;
-      margin-bottom: 0em;
       text-transform: none;
       word-spacing: 0;
     }
@@ -52,7 +54,10 @@ body {
   }
 }
 
-/* >>>>> PORTFOLIO <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+PORTFOLIO
+\* - - - - - - - - - - - - - - - - - - - - */
+
 .recent-work {
   border-top: 7px solid fade-out($gray, 0.70);
   padding: 20px 0 30px;
@@ -117,7 +122,10 @@ a.img-link:hover:before {
   opacity: 1;
 }
 
-/* >>>>> RECOMMENDED RESOURCES <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+RECOMMENDED RESOURCES
+\* - - - - - - - - - - - - - - - - - - - - */
+
 .book-cover {
   margin-bottom: 1em;
 }
@@ -147,14 +155,17 @@ a.img-link:hover:before {
     text-decoration: none;
   }
   cite, p {
-    color: $gray;
+    color: $font-default;
   }
   p {
     margin-bottom: 1em;
   }
 }
 
-/* >>>>> ABOUT <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+ABOUT
+\* - - - - - - - - - - - - - - - - - - - - */
+
 #adam-photo {
   height: 275px;
   position: relative;
@@ -226,17 +237,23 @@ ul.progress-bar ul {
   padding-left: 0;
 }
 
-/* >>>>> 404 <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+404
+\* - - - - - - - - - - - - - - - - - - - - */
+
 #missing img {
   max-height: 650px;
 }
 
-/* >>>>> FOOTER <<<<< */
+/* - - - - - - - - - - - - - - - - - - - - *\
+FOOTER
+\* - - - - - - - - - - - - - - - - - - - - */
+
 footer {
   background: $black;
   padding: 2em 0 1em;
   p {
-    color: lighten($gray, 5%);
+    color: $font-light-subtle;
     font-size: 0.8em;
   }
   #footer-connect {
@@ -248,13 +265,13 @@ footer {
     background-color: transparent;
     border: none;
     border-radius: 3px;
-    color: lighten($gray, 5%);
+    color: $font-light-subtle;
     display: inline-block;
     transition: all 0.3s ease-out;
     width: 1.4em;
     &:hover, &:active, &:focus {
       background-color: #5FCF80;
-      color: $white;
+      color: $font-light-default;
       outline: 0;
       box-shadow: none;
       -webkit-transform: translateY(-4px);
@@ -263,11 +280,10 @@ footer {
   }
 }
 
-// .top-border {
-//   border-top: 3px solid #eee;
-// }
+/* - - - - - - - - - - - - - - - - - - - - *\
+FOCUS & SELECTION
+\* - - - - - - - - - - - - - - - - - - - - */
 
-/* >>>>> FOCUS & SELECTION <<<<< */
 input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:focus {
   outline: 4px solid $green;
   background: $white !important;
