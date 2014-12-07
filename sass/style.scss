@@ -59,8 +59,7 @@ PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */
 
 .recent-work {
-  border-top: 7px solid fade-out($gray, 0.70);
-  padding: 20px 0 30px;
+  padding: 1em 0 2em;
   transition: background 0.5s, border-color 0.5s;
   h2 {
     line-height: 1em;
@@ -82,9 +81,7 @@ PORTFOLIO
   }
 }
 
-.portfolio-icons {
-  display: block;
-}
+.portfolio-icons {display: block;}
 
 a.img-link {
   display: block;
@@ -118,17 +115,13 @@ a.img-link:before {
   position: relative;
 }
 
-a.img-link:hover:before {
-  opacity: 1;
-}
+a.img-link:hover:before {opacity: 1;}
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 RECOMMENDED RESOURCES
 \* - - - - - - - - - - - - - - - - - - - - */
 
-.book-cover {
-  margin-bottom: 1em;
-}
+.book-cover {margin-bottom: 1em;}
 
 .resources {
   font-size: 1em;
@@ -145,9 +138,7 @@ RECOMMENDED RESOURCES
   }
 }
 
-.full-title {
-  font-size: 18px;
-}
+.full-title {font-size: 18px;}
 
 #resources {
   a:hover, a:active {

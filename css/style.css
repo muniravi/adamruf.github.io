@@ -249,10 +249,10 @@ nav.navbar-inverse {
 HELPERS
 \* - - - - - - - - - - - - - - - - - - - - */
 .headroom-xs {
-  margin-top: 0.75em; }
+  margin-top: 1em; }
 
 .headroom-sm {
-  margin-top: 1em; }
+  margin-top: 2em; }
 
 .headroom-md {
   margin-top: 3em; }
@@ -266,8 +266,11 @@ HELPERS
 .headroom-xl {
   margin-top: 7em; }
 
-.legroom-sm {
+.legroom-xs {
   margin-bottom: 1em; }
+
+.legroom-sm {
+  margin-bottom: 2em; }
 
 .legroom-md {
   margin-bottom: 3em; }
@@ -284,11 +287,17 @@ HELPERS
 .img-sm {
   max-width: 300px; }
 
-.faded {
+.faded-50p {
   opacity: 0.5; }
+
+.faded-75p {
+  opacity: 0.25; }
 
 .gray-text {
   color: #ccc; }
+
+.bordered-top {
+  border-top: 3px solid rgba(0, 0, 0, 0.1); }
 
 .tipped {
   border-bottom: 6px dotted #eee;
@@ -522,8 +531,7 @@ HOMEPAGE
 PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */
 .recent-work {
-  border-top: 7px solid rgba(85, 85, 85, 0.3);
-  padding: 20px 0 30px;
+  padding: 1em 0 2em;
   transition: background 0.5s, border-color 0.5s; }
   .recent-work h2 {
     line-height: 1em;
