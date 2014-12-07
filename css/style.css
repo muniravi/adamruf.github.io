@@ -491,7 +491,8 @@ body {
   line-height: 1.55em; }
 
 .row {
-  margin: 0; }
+  margin-left: 0;
+  margin-right: 0; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 HOMEPAGE
