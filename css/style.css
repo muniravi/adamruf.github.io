@@ -531,7 +531,6 @@ HOMEPAGE
 PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */
 .recent-work {
-  padding: 1em 0 2em;
   transition: background 0.5s, border-color 0.5s; }
   .recent-work h2 {
     line-height: 1em;
@@ -539,8 +538,6 @@ PORTFOLIO
     margin-bottom: 0.3em; }
     .recent-work h2 i.tipped {
       font-size: 0.5em; }
-  .recent-work h3 {
-    margin-bottom: 0.3em; }
   .recent-work i.tipped {
     border: none;
     opacity: 0.5;
@@ -551,7 +548,8 @@ PORTFOLIO
     transition: 0.5s; }
 
 .portfolio-icons {
-  display: block; }
+  display: block;
+  margin-bottom: 0.25em; }
 
 a.img-link {
   display: block;

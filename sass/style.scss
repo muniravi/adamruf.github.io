@@ -59,7 +59,7 @@ PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */
 
 .recent-work {
-  padding: 1em 0 2em;
+  // padding: 1em 0 2em;
   transition: background 0.5s, border-color 0.5s;
   h2 {
     line-height: 1em;
@@ -69,7 +69,6 @@ PORTFOLIO
       font-size: 0.5em;
     }
   }
-  h3 {margin-bottom: 0.3em;}
   i.tipped {
     border: none;
     opacity: 0.5;
@@ -81,7 +80,10 @@ PORTFOLIO
   }
 }
 
-.portfolio-icons {display: block;}
+.portfolio-icons {
+  display: block;
+  margin-bottom: 0.25em;
+}
 
 a.img-link {
   display: block;
