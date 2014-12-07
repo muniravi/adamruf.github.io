@@ -531,6 +531,7 @@ HOMEPAGE
 PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */
 .recent-work {
+  padding-top: 1em;
   transition: background 0.5s, border-color 0.5s; }
   .recent-work h2 {
     line-height: 1em;
