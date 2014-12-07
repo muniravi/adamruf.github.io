@@ -101,7 +101,7 @@ button, .button {
   margin: 0;
   padding: 0.35em 0.7em 0.3em;
   position: relative;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); }
   button:hover, .button:hover {
     text-decoration: none;
     outline: 0; }
@@ -496,31 +496,25 @@ body {
 /* - - - - - - - - - - - - - - - - - - - - *\
 HOMEPAGE
 \* - - - - - - - - - - - - - - - - - - - - */
-#hero {
-  background-image: url("//adamruf.com/images/kawaii-ux-pyramid.svg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 300px;
-  padding-bottom: 4em; }
-  #hero .hero-unit h1 {
-    color: #3ac162;
-    font-family: "museo-slab";
-    font-size: 3em;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: 1em;
-    text-transform: none;
-    word-spacing: 0; }
-  #hero .hero-unit h2 {
-    color: #777;
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    letter-spacing: -1px;
-    margin-bottom: 1.15em;
-    text-transform: none; }
-  #hero .hero-unit #hero-cta {
-    margin-bottom: 3.7em; }
+#hero .hero-unit h1 {
+  color: #3ac162;
+  font-family: "museo-slab";
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1em;
+  text-transform: none;
+  word-spacing: 0; }
+#hero .hero-unit h2 {
+  color: #777;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 1.15em;
+  text-transform: none; }
+#hero .hero-unit #hero-cta {
+  margin-bottom: 3.7em; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
