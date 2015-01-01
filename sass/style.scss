@@ -65,6 +65,9 @@ PORTFOLIO
     line-height: 1em;
     margin-top: 0.35em;
     margin-bottom: 0.3em;
+    @media screen and (max-width: 991px) {
+      text-align: center;
+    }
     i.tipped {
       font-size: 0.5em;
     }
@@ -77,6 +80,11 @@ PORTFOLIO
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s;
+  }
+  h3 {
+    @media screen and (max-width: 991px) {
+      text-align: center;
+    }
   }
 }
 
