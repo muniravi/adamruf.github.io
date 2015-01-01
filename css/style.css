@@ -150,10 +150,10 @@ nav.navbar {
   font-size: 1.5em;
   text-transform: uppercase; }
 nav.navbar-inverse {
-  background-color: rgba(0, 0, 0, 0.85); }
+  background-color: rgba(0, 0, 0, 0.92); }
   @media screen and (max-width: 767px) {
     nav.navbar-inverse .navbar-header {
-      background-color: #000; } }
+      background-color: rgba(0, 0, 0, 0.92); } }
   nav.navbar-inverse .navbar-nav {
     margin: 0.35em 0 0; }
     nav.navbar-inverse .navbar-nav li > a {
@@ -449,10 +449,10 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 TOOLTIPS
 \* - - - - - - - - - - - - - - - - - - - - */
 .tooltip.bottom .tooltip-arrow {
-  border-bottom-color: rgba(0, 0, 0, 0.85); }
+  border-bottom-color: rgba(0, 0, 0, 0.92); }
 
 .tooltip-inner {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.92);
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
   font-size: 1.25em;
   font-weight: 600;
