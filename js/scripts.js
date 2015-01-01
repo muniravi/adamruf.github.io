@@ -68,10 +68,6 @@ $('.tipped').tooltip();
 // Animate 404 page image
 $('.js--404').click(function() {
     $(this).addClass('animated hinge');
-
-    setTimeout(function () { 
-        $('.js--404').removeClass('animated hinge');
-    }, 3000);
 });
 
 // Typeform embed code
