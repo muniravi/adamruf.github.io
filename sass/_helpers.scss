@@ -69,11 +69,14 @@ HELPERS
 
 .error-page-message {
   @include base-font;
+  color: rgba(0,0,0,0.42);
+  font-size: 1.2em;
+  line-height: 1.4em;
   &.lead {
     @include slab-font;
     color: rgba(0,0,0,0.42);
-    font-size: 1.3em;
-    line-height: 1.4em;
+    font-size: 1.5em;
+    font-weight: 600;
   }
   & a {
     font-weight: 300;
