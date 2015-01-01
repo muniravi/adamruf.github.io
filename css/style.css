@@ -522,7 +522,9 @@ animated {
 
 .animated.hinge {
   -webkit-animation-duration: 3s;
-  animation-duration: 3s; }
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
 
 @-webkit-keyframes hinge {
   0% {
@@ -800,6 +802,10 @@ footer {
       box-shadow: none;
       -webkit-transform: translateY(-4px);
       transform: translateY(-4px); }
+  footer.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 FOCUS & SELECTION
