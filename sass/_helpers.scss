@@ -62,3 +62,17 @@ HELPERS
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
   transition-duration: 0.2s;
 }
+
+.fill-width {
+  width: 100%;
+}
+
+.error-page-message {
+  color: rgba(0,0,0,0.42);
+  font-family: "Museo Slab", "Source Sans Pro", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  & a {
+    font-weight: 300;
+  }
+}
