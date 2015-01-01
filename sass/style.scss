@@ -7,6 +7,7 @@
 @import "_modals.scss";
 @import "_tooltips.scss";
 @import "_utility-belt.scss";
+@import "_animations.scss";
 
 body {
   background: $white url('http://adamruf.com/images/barely-there-grid-by-adam-ruf.png') left top;
@@ -242,6 +243,9 @@ ul.progress-bar ul {
 404
 \* - - - - - - - - - - - - - - - - - - - - */
 
+.js--404 {
+  cursor: pointer;
+}
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 FOOTER
