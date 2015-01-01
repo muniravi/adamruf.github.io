@@ -323,12 +323,10 @@ HELPERS
 
 .error-page-message {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  color: rgba(0, 0, 0, 0.42);
   font-size: 1.2em;
   line-height: 1.4em; }
   .error-page-message.lead {
     font-family: "museo-slab";
-    color: rgba(0, 0, 0, 0.42);
     font-size: 1.5em;
     font-weight: 600; }
   .error-page-message a {
