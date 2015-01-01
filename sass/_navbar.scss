@@ -108,15 +108,13 @@ nav {
         background: transparent;
         outline: none;
       }
-      button {
-        .icon-bar {
-          border-color: lighten($gray, 8%);
-          box-shadow: 0 2px 0 rgba(0,0,0,0.15);
-        }
-        &:hover .icon-bar {
-          border-color: $white;
-          box-shadow: 0 2px 0 rgba(0,0,0,0.15);
-        }
+      .icon-bar {
+        background-color: $font-light-subtle;
+        box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+      }
+      &:hover .icon-bar {
+        background-color: $white;
+        box-shadow: 0 2px 0 rgba(0,0,0,0.15);
       }
     }
     .navbar-collapse, .navbar-form {
