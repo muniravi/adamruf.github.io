@@ -71,7 +71,7 @@ $('.js--404').click(function() {
 
     setTimeout(function () { 
         $('.js--404').removeClass('animated hinge');
-    }, 2000);
+    }, 3000);
 });
 
 // Typeform embed code

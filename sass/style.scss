@@ -245,6 +245,8 @@ ul.progress-bar ul {
 
 .js--404 {
   cursor: pointer;
+  position: relative;
+  z-index: 1;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
