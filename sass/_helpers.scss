@@ -68,10 +68,13 @@ HELPERS
 }
 
 .error-page-message {
-  color: rgba(0,0,0,0.42);
-  font-family: "Museo Slab", "Source Sans Pro", sans-serif;
-  font-size: 1.3em;
-  line-height: 1.4em;
+  @include base-font;
+  &.lead {
+    @include slab-font;
+    color: rgba(0,0,0,0.42);
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
   & a {
     font-weight: 300;
   }

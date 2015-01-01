@@ -322,10 +322,12 @@ HELPERS
   width: 100%; }
 
 .error-page-message {
-  color: rgba(0, 0, 0, 0.42);
-  font-family: "Museo Slab", "Source Sans Pro", sans-serif;
-  font-size: 1.3em;
-  line-height: 1.4em; }
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif; }
+  .error-page-message.lead {
+    font-family: "museo-slab";
+    color: rgba(0, 0, 0, 0.42);
+    font-size: 1.3em;
+    line-height: 1.4em; }
   .error-page-message a {
     font-weight: 300; }
 
