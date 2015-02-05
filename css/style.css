@@ -638,9 +638,11 @@ PORTFOLIO
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s; }
-  @media screen and (max-width: 991px) {
-    .recent-work h3 {
-      text-align: center; } }
+  .recent-work h3 {
+    margin-bottom: 0.3em; }
+    @media screen and (max-width: 991px) {
+      .recent-work h3 {
+        text-align: center; } }
 
 .portfolio-icons {
   display: block;
