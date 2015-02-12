@@ -284,6 +284,9 @@ HELPERS
 .legroom-xxl {
   margin-bottom: 35em; }
 
+.no-overflow {
+  overflow: hidden; }
+
 .faded-50p {
   opacity: 0.5; }
 
@@ -611,6 +614,10 @@ HOMEPAGE
   letter-spacing: -1px;
   margin-bottom: 1.15em;
   text-transform: none; }
+
+.hero-img {
+  width: 110%;
+  margin-left: -5%; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
