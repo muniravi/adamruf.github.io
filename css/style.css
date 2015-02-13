@@ -619,6 +619,16 @@ HOMEPAGE
   width: 110%;
   margin-left: -5%; }
 
+#who-how-what {
+  background-color: #F65842;
+  color: #fff;
+  margin-top: -1px; }
+  #who-how-what a {
+    color: rgba(0, 0, 0, 0.4); }
+    #who-how-what a:hover, #who-how-what a:active, #who-how-what a:focus {
+      border-color: rgba(0, 0, 0, 0.15);
+      color: rgba(0, 0, 0, 0.5); }
+
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */

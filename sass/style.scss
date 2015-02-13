@@ -63,6 +63,19 @@ HOMEPAGE
   margin-left: -5%;
 }
 
+#who-how-what {
+  background-color: #F65842;
+  color: $white;
+  margin-top: -1px; //To ensure blending with the full-bleed svg above
+  a {
+    color: rgba(0,0,0,0.4);
+    &:hover, &:active, &:focus {
+      border-color: rgba(0,0,0,0.15);
+      color: rgba(0,0,0,0.5);
+    }
+  }
+}
+
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
 \* - - - - - - - - - - - - - - - - - - - - */
