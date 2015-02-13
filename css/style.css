@@ -622,7 +622,8 @@ HOMEPAGE
 #who-how-what {
   background-color: #F65842;
   color: #fff;
-  margin-top: -1px; }
+  margin-top: -1px;
+  position: relative; }
   #who-how-what a {
     color: rgba(0, 0, 0, 0.4); }
     #who-how-what a:hover, #who-how-what a:active, #who-how-what a:focus {

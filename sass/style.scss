@@ -67,6 +67,7 @@ HOMEPAGE
   background-color: #F65842;
   color: $white;
   margin-top: -1px; //To ensure blending with the full-bleed svg above
+  position: relative; //Allows this section to cover up imperfect bottom of svg above
   a {
     color: rgba(0,0,0,0.4);
     &:hover, &:active, &:focus {
