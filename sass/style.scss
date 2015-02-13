@@ -138,10 +138,10 @@ a.img-link:before {
   top: 11px;
   right: 11px;
   z-index: 2;
-  -webkit-transition: all 0.25s ease-in;
-  -moz-transition: all 0.25s ease-in;
-  -ms-transition: all 0.25s ease-in;
-  transition: all 0.25s ease-in;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
 }
 
 .img-thumbnail {
