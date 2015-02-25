@@ -678,7 +678,6 @@ a.img-link:before {
   display: block;
   font-family: "FontAwesome", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
   font-size: 1.25em;
-  font-weight: 300;
   opacity: 0;
   padding: 0.5em 0.65em 0.5em 0.75em;
   position: absolute;
