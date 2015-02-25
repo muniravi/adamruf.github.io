@@ -17,7 +17,7 @@ button::-moz-focus-inner {
 button, .button {
   border-bottom: 5px solid $gray;
   @include rounded(7px);
-  box-shadow: 0 5px 1px 1px rgba(0,0,0,0.125);
+  box-shadow: 0 3px 1px 1px rgba(0,0,0,0.125);
   cursor: pointer;
   display:inline-block;
   @include condensed-font;
@@ -33,7 +33,7 @@ button, .button {
   }
   &:active {
     border-bottom: 2px solid $gray;
-    box-shadow: 0 3px 1px 1px rgba(0,0,0,0.125);
+    box-shadow: 0 2px 1px 1px rgba(0,0,0,0.15);
     margin-top: 3px;
   }
   &:focus {

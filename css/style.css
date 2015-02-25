@@ -92,7 +92,7 @@ button, .button {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   border-radius: 7px;
-  box-shadow: 0 5px 1px 1px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.125);
   cursor: pointer;
   display: inline-block;
   font-family: "jaf-bernino-sans-comp";
@@ -107,7 +107,7 @@ button, .button {
     outline: 0; }
   button:active, .button:active {
     border-bottom: 2px solid #555;
-    box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.15);
     margin-top: 3px; }
   button:focus, .button:focus {
     outline: 0;
