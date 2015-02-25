@@ -249,6 +249,9 @@ nav.navbar-inverse {
 /* - - - - - - - - - - - - - - - - - - - - *\
 HELPERS
 \* - - - - - - - - - - - - - - - - - - - - */
+.headroom-xxs {
+  margin-top: 0.5em; }
+
 .headroom-xs {
   margin-top: 1em; }
 
