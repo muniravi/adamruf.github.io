@@ -484,34 +484,34 @@ UTILITY BELT
       display: block; } }
 
 .utility-pouch {
-  background: url("http://adamruf.com/images/utility-belt-sprite@2x.png") -15px 0 no-repeat;
+  background: url("http://adamruf.com/images/utility-belt-sprite@2x.png") -13px 0 no-repeat;
   background-size: 1100px;
   display: inline-block;
   height: 300px;
   margin: 0;
-  width: 175px; }
+  width: 180px; }
 
 #utility-pouch-1:hover {
-  background-position: -197px 0;
+  background-position: -195px 0;
   background-size: 1100px; }
 
 #utility-pouch-2:hover {
-  background-position: -377px 0;
+  background-position: -375px 0;
   background-size: 1100px; }
 
 #utility-pouch-3:hover {
-  background-position: -557px 0;
+  background-position: -555px 0;
   background-size: 1100px; }
 
 #utility-pouch-4:hover {
-  background-position: -737px 0;
+  background-position: -735px 0;
   background-size: 1100px; }
 
 @media screen and (max-width: 950px) {
   #utility-pouch-5 {
     display: none; } }
 #utility-pouch-5:hover {
-  background-position: -917px 0;
+  background-position: -915px 0;
   background-size: 1100px; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
