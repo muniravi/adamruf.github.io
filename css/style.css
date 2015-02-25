@@ -672,14 +672,15 @@ a.img-link {
 a.img-link:before {
   background: #5fcf80;
   border-radius: 0 0 0 10px;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
   color: #fff;
   content: ' View Site';
   display: block;
   font-family: "FontAwesome", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  font-weight: 300;
   opacity: 0;
-  padding: 0.5em 0.3em 0.5em 0.4em;
+  padding: 0.5em 0.65em 0.5em 0.75em;
   position: absolute;
   top: 11px;
   right: 11px;
