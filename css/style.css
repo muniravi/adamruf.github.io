@@ -92,6 +92,7 @@ button, .button {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   border-radius: 7px;
+  box-shadow: 0 5px 1px 1px rgba(0, 0, 0, 0.125);
   cursor: pointer;
   display: inline-block;
   font-family: "jaf-bernino-sans-comp";
@@ -106,6 +107,7 @@ button, .button {
     outline: 0; }
   button:active, .button:active {
     border-bottom: 2px solid #555;
+    box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.125);
     margin-top: 3px; }
   button:focus, .button:focus {
     outline: 0;
@@ -118,9 +120,11 @@ button, .button {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
+  box-shadow: 0 5px 1px 1px rgba(0, 0, 0, 0.1);
   font-size: 2.618em;
   padding: 0.55em 0.8em 0.5em; }
   .button-lg:active {
+    box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.1);
     margin-top: 4px; }
   @media screen and (max-width: 450px) {
     .button-lg {
