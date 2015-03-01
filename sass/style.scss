@@ -69,7 +69,7 @@ HOMEPAGE
   margin-top: -1px; //To ensure blending with the full-bleed svg above
   position: relative; //Allows this section to cover up imperfect bottom of svg above
   a {
-    color: rgba(0,0,0,0.4);
+    color: rgba(0,0,0,0.5);
     &:hover, &:active, &:focus {
       border-color: rgba(0,0,0,0.15);
       color: rgba(0,0,0,0.5);
@@ -287,24 +287,26 @@ footer {
     font-size: 2rem;
     margin-left: 0.5em;
     position:relative;
-  }
-  a {
-    background-color: transparent;
-    border: none;
-    border-radius: 3px;
-    color: $font-light-subtle;
-    display: inline-block;
-    transition: all 0.3s ease-out;
-    width: 1.4em;
-    &:hover, &:active, &:focus {
-      background-color: #5FCF80;
-      color: $font-light-default;
-      outline: 0;
-      box-shadow: none;
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+
+    a {
+      background-color: transparent;
+      border: none;
+      border-radius: 3px;
+      color: $font-light-subtle;
+      display: inline-block;
+      transition: all 0.3s ease-out;
+      width: 1.4em;
+      &:hover, &:active, &:focus {
+        background-color: #5FCF80;
+        color: $font-light-default;
+        outline: 0;
+        box-shadow: none;
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+      }
     }
   }
+  
   &.footer-fixed {
     position: fixed;
     bottom: 0;
