@@ -30,6 +30,7 @@ nav {
         &:hover, &:active, &:focus {
           color: $font-light-default;
           background-color: $green;
+          border-bottom: none;
           @media screen and (min-width: 768px) {
             -webkit-transform: translateY(-4px);
             transform: translateY(-4px);
@@ -47,9 +48,10 @@ nav {
       li.active>a {
         background-color: fade-out($gray, 0.5);
         color: $font-light-subtle;
-        &:hover, &:focus {
+        &:hover, &:active, &:focus {
           background-color: fade-out($gray, 0.5);
-          color: $font-light-default;
+          box-shadow: none;
+          color: $font-light-subtle;
           -webkit-transform: translateY(0px);
           transform: translateY(0px);
         }
