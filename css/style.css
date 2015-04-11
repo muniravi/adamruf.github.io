@@ -674,7 +674,11 @@ PORTFOLIO
   display: block;
   margin-bottom: 0.25em; }
 
-a.img-link {
+a.img-link,
+a.img-link:hover,
+a.img-link:active,
+a.img-link:focus {
+  border: none;
   display: block;
   position: relative;
   text-decoration: none; }
