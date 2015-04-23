@@ -1,7 +1,5 @@
 User-agent: *
-Disallow: /css
 Disallow: /images
-Disallow: /js
 Disallow: /portfolio
 Disallow: /staging
 Disallow: /404.html
