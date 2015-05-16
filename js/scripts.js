@@ -67,7 +67,7 @@ $('.tipped').tooltip();
 
 // Rotate words in Hero
 var terms1 = ["teams", "startups", "creatives", "founders", "makers"];
-var terms2 = ["smiles", "insights", "design", "innovation", "solutions"];
+var terms2 = ["smiles", "insights", "outcomes", "innovation", "solutions"];
 
 function rotateTerm1() {
   var ct = $("#rotate-1").data("term") || 0;
@@ -77,7 +77,7 @@ function rotateTerm1() {
 function rotateTerm2() {
   var ct = $("#rotate-2").data("term") || 0;
   $("#rotate-2").data("term", ct === terms2.length -1 ? 0 : ct + 1).text(terms2[ct]).fadeIn()
-              .delay(2700).fadeOut(200, rotateTerm2);
+              .delay(2000).fadeOut(250, rotateTerm2);
 }
 $(rotateTerm1);
 $(rotateTerm2);

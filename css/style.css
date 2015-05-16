@@ -630,16 +630,33 @@ HOMEPAGE
   width: 110%;
   margin-left: -5%; }
 
+#hierarchy-of-user-needs {
+  position: relative;
+  top: -9em;
+  z-index: -1; }
+  @media screen and (max-width: 1024px) {
+    #hierarchy-of-user-needs {
+      top: -5em; } }
+  @media screen and (max-width: 450px) {
+    #hierarchy-of-user-needs {
+      top: -2em; } }
+
 #who-how-what {
   background-color: #F65842;
   color: #fff;
-  margin-top: -1px;
+  margin-top: -9.1em;
   position: relative; }
   #who-how-what a {
     color: rgba(0, 0, 0, 0.5); }
     #who-how-what a:hover, #who-how-what a:active, #who-how-what a:focus {
       border-color: rgba(0, 0, 0, 0.15);
       color: rgba(0, 0, 0, 0.5); }
+  @media screen and (max-width: 1024px) {
+    #who-how-what {
+      top: 4em; } }
+  @media screen and (max-width: 450px) {
+    #who-how-what {
+      top: 6.65em; } }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
