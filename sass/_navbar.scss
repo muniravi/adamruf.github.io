@@ -56,6 +56,11 @@ nav {
           transform: translateY(0px);
         }
       }
+      &.pull-right {
+        @media screen and (max-width: 767px) {
+          float: none !important;
+        }
+      }
     }
     .navbar-brand {
       border-bottom: none;
@@ -89,12 +94,6 @@ nav {
     }
     &.navbar-fixed-top {
       height: 65px;
-    }
-    .centered-nav {
-      width: 22.7em;
-      @media screen and (max-width: 767px) {
-        width: 100%;
-      }
     }
     .navbar-toggle {
       margin-top: 15px;
