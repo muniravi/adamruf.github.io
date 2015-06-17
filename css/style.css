@@ -657,7 +657,7 @@ HOMEPAGE
       top: 6.65em; } }
 
 [title="SumoMe"] {
-  background-color: transparent; }
+  background-color: transparent !important; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
