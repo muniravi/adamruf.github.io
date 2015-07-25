@@ -640,21 +640,13 @@ HOMEPAGE
       top: -2em; } }
 
 #who-how-what {
-  background-color: #F65842;
-  color: #fff;
-  margin-top: -9.1em;
-  position: relative; }
-  #who-how-what a {
-    color: rgba(0, 0, 0, 0.5); }
-    #who-how-what a:hover, #who-how-what a:active, #who-how-what a:focus {
-      border-color: rgba(0, 0, 0, 0.15);
-      color: rgba(0, 0, 0, 0.5); }
+  margin-top: -9em; }
   @media screen and (max-width: 1024px) {
     #who-how-what {
-      top: 4em; } }
+      margin-top: -5em; } }
   @media screen and (max-width: 450px) {
     #who-how-what {
-      top: 6.65em; } }
+      margin-top: -2em; } }
 
 [title="SumoMe"] {
   background-color: transparent !important; }
