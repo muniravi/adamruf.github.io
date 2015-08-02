@@ -583,6 +583,12 @@ ANIMATIONS
   -webkit-animation-name: hinge;
   animation-name: hinge; }
 
+.animated.hinge {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
 body {
   background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;
   color: rgba(0, 0, 0, 0.75);
