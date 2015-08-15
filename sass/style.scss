@@ -131,7 +131,11 @@ PORTFOLIO
 a.img-link,
 a.img-link:hover,
 a.img-link:active,
-a.img-link:focus {
+a.img-link:focus,
+a.whats-new-img-link,
+a.whats-new-img-link:hover,
+a.whats-new-img-link:active,
+a.whats-new-img-link:focus {
   border: none;
   display: block;
   position: relative;
@@ -159,12 +163,17 @@ a.img-link:before {
   transition: all 0.25s ease-out;
 }
 
+a.img-link:hover:before {opacity: 1;}
+
 .img-thumbnail {
   padding: 10px;
   position: relative;
 }
 
-a.img-link:hover:before {opacity: 1;}
+.whats-new-img {
+  margin: 0 auto;
+  max-width: 150px;
+}
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 RECOMMENDED RESOURCES

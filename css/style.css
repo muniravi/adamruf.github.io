@@ -50,7 +50,7 @@ p {
 a {
   color: #00A8FF;
   font-weight: 500; }
-  a:hover:not(.button), a:active:not(.button) {
+  a:hover:not(.button), a:active:not(.button), a:focus:not(.button) {
     border-bottom: 1px solid rgba(66, 182, 101, 0.5);
     color: #42B665;
     text-decoration: none; }
@@ -686,7 +686,11 @@ PORTFOLIO
 a.img-link,
 a.img-link:hover,
 a.img-link:active,
-a.img-link:focus {
+a.img-link:focus,
+a.whats-new-img-link,
+a.whats-new-img-link:hover,
+a.whats-new-img-link:active,
+a.whats-new-img-link:focus {
   border: none;
   display: block;
   position: relative;
@@ -712,12 +716,16 @@ a.img-link:before {
   -ms-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out; }
 
+a.img-link:hover:before {
+  opacity: 1; }
+
 .img-thumbnail {
   padding: 10px;
   position: relative; }
 
-a.img-link:hover:before {
-  opacity: 1; }
+.whats-new-img {
+  margin: 0 auto;
+  max-width: 150px; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 RECOMMENDED RESOURCES
