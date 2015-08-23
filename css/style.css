@@ -310,7 +310,8 @@ HELPERS
   color: #ccc; }
 
 .bordered-top {
-  border-top: 3px solid rgba(0, 0, 0, 0.1); }
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  padding-top: 0.5em; }
 
 .tipped {
   border-bottom: 6px dotted #eee;
