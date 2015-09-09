@@ -46,7 +46,7 @@ nav {
         }
       }
       li.active>a {
-        background-color: fade-out($gray, 0.5);
+        background-color: fade-out($gray, 0.35);
         color: $font-light-subtle;
         &:hover, &:active, &:focus {
           background-color: fade-out($gray, 0.5);

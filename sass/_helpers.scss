@@ -19,6 +19,8 @@ HELPERS
 
 .headroom-xl {margin-top: 7em ;}
 
+.no-legroom {margin-bottom: 0;}
+
 .legroom-xs {margin-bottom: 1em;}
 
 .legroom-sm {margin-bottom: 2em;}
@@ -38,7 +40,19 @@ HELPERS
 
 .faded-75p {opacity: 0.25;}
 
+.fixed {position: fixed;}
+
 .gray-text {color: #ccc;}
+
+.affix {top: 6em;}
+
+.affix-bottom {position: absolute;}
+
+.anchor {
+  display: block;
+  margin-top: -100px;
+  padding-bottom: 100px;
+}
 
 .bordered-top {
   border-top: 3px solid rgba(0,0,0,0.1);
