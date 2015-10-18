@@ -289,7 +289,7 @@ button.style-green:focus, button.style-green:active:focus {
   .avatar-app-default {
     background-position: -301px !important; }
 
-  nav {
+  nav, h1[contenteditable=true]:empty {
     display: none; }
 
   .container {
