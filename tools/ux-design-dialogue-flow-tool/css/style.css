@@ -275,16 +275,7 @@ button.style-green:focus, button.style-green:active:focus {
     -webkit-print-color-adjust: exact; }
 
   .avatar {
-    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
-    background-size: 400px;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #C0CCCD;
-    vertical-align: top;
-    width: 100px; }
+    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important; }
 
   nav {
     display: none; }
