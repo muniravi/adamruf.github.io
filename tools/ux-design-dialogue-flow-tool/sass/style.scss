@@ -1,0 +1,320 @@
+body {
+  background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;
+  color: #2A3E52;
+  font-size: 62.5%;
+  padding: 2em 0;
+  padding-bottom: 12.5rem;
+  @media (max-width: 767px) {
+    padding-bottom: 28rem;
+  }
+}
+
+h1 {
+  border-bottom: 3px solid transparent;
+  font-family: "Open Sans";
+  font-size: 4.0rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.0rem;
+  &:hover, &:focus {
+    outline: none;
+    border-bottom: 3px solid rgba(192, 204, 205, 0.33)/*rgba(0,0,0,0.1)*/;
+  }
+  &:hover:after {
+    color: rgba(192, 204, 205, 0.33)/*rgba(0,0,0,0.2)*/;
+    content: '\f040';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    @media (max-width: 991px) {
+      top: 0.25rem;
+    }
+  }
+}
+
+.avatar {
+  background-image: url("http://adamruf.com/images/avatar-sprite@2x.png");
+  background-size: 400px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #C0CCCD;
+  vertical-align: top;
+  width: 100px;
+}
+
+.avatar-user {
+  border-radius: 4px 0 0 4px;
+}
+.avatar-app {
+  border-radius: 0 4px 4px 0;
+}
+
+.avatar-user-negative {
+  background-position: -1px -1px;
+}
+.avatar-user-neutral {
+  background-position: -101px;
+}
+.avatar-user-positive {
+  background-position: -201px;
+}
+.avatar-app-default {
+  background-position: -301px;
+}
+
+.message {
+  background-color: #fff;
+  border: 1px solid lighten(#C0CCCD, 11%);
+  box-sizing: border-box;
+  display: inline-block;
+  min-height: 100px;
+  margin: 0;
+  overflow: show;
+  resize: resize-y;
+  padding: 1rem;
+  width: calc(100% - 100px);
+  &:focus {
+    background-color: #F5FEFE;
+    border-color: #E0EFF0;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+    outline: none;
+  }
+}
+
+.row-user, .row-app {
+  margin-bottom: 3em;
+}
+
+.row-user .message {
+  margin-left: -2px;
+}
+
+.row-app .avatar {
+  margin-left: -2px;
+}
+
+p.message-user, p.message-app {
+  color: #2A3E52;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+p.message-app {
+  font-family: 'Source Code Pro';
+}
+
+.message-user {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*.message-user:hover:after {
+  color: rgba(0,0,0,0.46);
+  content: '\f014';
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 0.5rem;
+  right: 2.5rem;
+}*/
+
+.message-app {
+  font-family: 'Source Code Pro';
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.row-user, .row-app {
+  position: relative;
+}
+
+.btn {
+  font-size: 3rem;
+}
+.btn-group {
+  width: 100%;
+}
+.btn-group .btn {
+  width: 33.333%;
+}
+
+// Enable placeholders for contenteditable divs
+h1[contenteditable=true]:empty:before {
+  color: rgba(192, 204, 205, 0.75) /*rgba(0,0,0,0.24)*/;
+  content: attr(placeholder);
+  display: block;
+  font-style: italic;
+  text-align: center;
+}
+
+.row:hover .delete, .row:hover .toggle { opacity: 1;}
+
+.delete {
+  background-color: #eee;
+    border-radius: 1.5rem;
+    color: rgba(0, 0, 0, 0.24);
+    font-size: 1.8rem;
+    height: 3rem;
+    margin-left: -1.5rem;
+    opacity: 0;
+    padding: 0.2rem 0.85rem;
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+    width: 3rem;
+  // Prevent highlighting from rapid clicking
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  &:hover {
+    color: rgba(0,0,0,0.34);
+  }
+}
+
+.toggle {
+  background-color: #eee;
+  border-radius: 2rem;
+  color: rgba(0, 0, 0, 0.24);
+  font-size: 2.2rem;
+  height: 4rem;
+  margin-left: -2rem;
+  opacity: 0;
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  top: 3rem;
+  width: 4rem;
+  // Prevent highlighting from rapid clicking
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  &:hover {
+    color: rgba(0,0,0,0.34);
+  }
+}
+
+a:hover, a:active {
+  cursor: pointer;
+}
+
+a.toggle {
+  box-sizing: border-box;
+  display: block;
+  vertical-align: top;
+}
+
+.row.over {
+  border: 2px dashed #000;
+}
+
+.legroom-sm {
+  margin-bottom: 1.0rem;
+}
+
+.navbar {
+  border-top: 1px solid #ddd;
+  min-height: 50px;
+  padding-top: 2rem;
+}
+.navbar ul {margin: 5px 0 10px;}
+.muted-text {color: rgba(42, 62, 82, 0.33);}
+.navbar-default {
+  background-color: #FFD300 /*#FF0072*/;
+  box-shadow: 0 -7px 0 rgba(70, 70, 80, 0.1);
+  li {
+    font-size: 1.2rem;
+    text-shadow: 0 1px 0 lighten(#FFD300, 15%);
+    a {
+      border-bottom: 1px solid rgba(42, 62, 82, 0.16);
+      color: rgba(42, 62, 82, 0.33)/*#5fcf80*/;
+      &:hover, &:active, &:focus {
+        color: #3ac162;
+        text-decoration: none;
+        border-bottom: 1px solid #3ac162;
+      }
+    }
+  }
+}
+
+// Button styles
+button.btn {
+  border-bottom: 5px solid rgba(0,0,0,0.05);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.125);
+    color: #2A3E52;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0.35em 0.7em 0.3em;
+    position: relative;
+}
+button.btn-default {
+  background-color: #fff;
+  border-color: #ccc;
+  border-bottom-color: rgba(0,0,0,0.05);
+}
+button.btn-default:hover {
+  background-color: #f8f8f8;
+  border-color: #ccc;
+  border-bottom-color: #ddd;
+}
+button.btn-default:focus {
+  border-color: #ccc;
+  border-bottom-color: #ccc;
+}
+button.btn-default:active, button.btn-default:active:hover, button.btn-default:active:focus {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+  border-bottom-color: #ccc;
+}
+button.btn:active {
+    border-bottom: 2px solid rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.15);
+    margin-top: 3px;
+}
+button.btn:focus, button.btn:active:focus {
+  border-bottom-color: #bbb;
+    outline: 0;
+    text-decoration: none;
+}
+.style-green {
+  background-color: #5fcf80;
+  color: #fff !important;
+  border-color: #34ad58;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.style-green:hover {
+    background-color: #3ac162;
+    border-bottom-color: #31a252;
+}
+.style-green:active {
+    border-color: #34ad58;
+}
+button.style-green:focus, button.style-green:active:focus {
+  background-color: #3ac162;
+  border-bottom-color: #31a252;
+}
+
+// Print styles
+@media print {
+  nav { display: none; }
+  .container {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+  }
+  * {
+    color: #111;
+    background-color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+  }
+}

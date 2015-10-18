@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Dialogue Flow Tool - Adam Ruf - San Francisco UX Designer, Mentor, &amp; Speaker</title>
+  <meta name="description" content="A simple and fun tool for creating user dialogue flows.">
+  <meta name="author" content="UX Designer, Adam Ruf">
+
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 7]>
+      <link rel="stylesheet" href="http://adamruf.com/css/font-awesome-ie7.css" type="text/css" />
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5552191-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!-- start Mixpanel -->
+  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+  mixpanel.init("4f7ae40239b4f6f5f01c767b6df74256");</script>
+  <!-- end Mixpanel -->
+</head>
+<body>
+  <div id="user-flow" class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 text-center">
+        <h1 contenteditable="true" placeholder="Dialogue Flow Title"></h1>
+      </div>
+    </div>
+    <div class="row row-user" draggable="false">
+      <div class="col-md-8 col-md-offset-2">
+        <a class="toggle toggle-positive">
+          <i class="fa fa-users"></i>
+        </a>
+        <span class="avatar avatar-user avatar-user-positive"></span>
+        <p class="message message-user" contenteditable="true"></p>
+        <a class="delete">
+          <i class="fa fa-close"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row row-app" draggable="false">
+      <div class="col-md-8 col-md-offset-2">
+        <p class="message message-app" contenteditable="true"></p>
+        <span class="avatar avatar-app avatar-app-default"></span>
+        <a class="delete">
+          <i class="fa fa-close"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row row-user" draggable="false">
+      <div class="col-md-8 col-md-offset-2">
+        <a class="toggle toggle-neutral">
+          <i class="fa fa-users"></i>
+        </a>
+        <span class="avatar avatar-user avatar-user-neutral"></span>
+        <p class="message message-user" contenteditable="true"></p>
+        <a class="delete">
+          <i class="fa fa-close"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row row-app" draggable="false">
+      <div class="col-md-8 col-md-offset-2">
+        <p class="message message-app" contenteditable="true"></p>
+        <span class="avatar avatar-app avatar-app-default"></span>
+        <a class="delete">
+          <i class="fa fa-close"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-3 col-md-offset-2 col-sm-5 legroom-sm">
+        <button id="new-user-row" class="btn style-green btn-block"><i class="fa fa-plus"></i> <i class="fa fa-user"></i></button>
+      </div>
+      <div class="col-md-3 col-sm-5 text-center legroom-sm">
+        <button id="new-app-row" class="btn style-green btn-block"><i class="fa fa-plus"></i> <i class="fa fa-desktop"></i></button>
+      </div>
+      <div class="col-md-2 col-sm-2 legroom-sm">
+        <button id="new-user-row" class="btn btn-default btn-block" onclick="window.print();"><i class="fa fa-print"></i></button>
+      </div>
+    </div>
+      <ul class="list-unstyled list-inline text-center muted-text">
+        <li>&copy;2015 <a href="http://adamruf.com" target="_blank">Adam Ruf</a></li>
+        <li>Made with <i class="fa fa-code"></i> + <i class="fa fa-heart"></i> in SF</li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="http://adamruf.com/js/scripts.js"></script>
+</body>
+</html>
