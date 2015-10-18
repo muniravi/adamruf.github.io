@@ -1,7 +1,6 @@
 $( document ).ready(function() {
   // Add a new user row when user clicks on #new-user-row button
   $("#new-user-row").click(function() {
-    console.log ('New user row clicked');
     $('<div class="row row-user" draggable="false"><div class="col-md-8 col-md-offset-2"><a class="toggle toggle-neutral"><i class="fa fa-users"></i></a><span class="avatar avatar-user avatar-user-neutral"></span><p class="message message-user" contenteditable="true"></p><a class="delete"><i class="fa fa-close"></i></a></div></div>').appendTo("#user-flow");
     $('html, body').animate({
       scrollTop: '+=1500px'
