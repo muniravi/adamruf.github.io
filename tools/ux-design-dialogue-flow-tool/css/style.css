@@ -96,14 +96,6 @@ p.message-app {
 .message-user {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-/*.message-user:hover:after {
-  color: rgba(0,0,0,0.46);
-  content: '\f014';
-  font-family: 'FontAwesome';
-  position: absolute;
-  top: 0.5rem;
-  right: 2.5rem;
-}*/
 .message-app {
   font-family: 'Source Code Pro'; }
 
@@ -123,6 +115,7 @@ img {
 .btn-group .btn {
   width: 33.333%; }
 
+/* Enable placeholders for contenteditable divs */
 h1[contenteditable=true]:empty:before {
   color: rgba(192, 204, 205, 0.75);
   content: attr(placeholder);
@@ -146,6 +139,7 @@ h1[contenteditable=true]:empty:before {
   right: 0;
   top: -1.5rem;
   width: 3rem;
+  /* Prevent highlighting from rapid clicking */
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none; }
@@ -209,6 +203,7 @@ a.toggle {
         text-decoration: none;
         border-bottom: 1px solid #3ac162; }
 
+/* Button styles */
 button.btn {
   border-bottom: 5px solid rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 7px;
@@ -270,6 +265,7 @@ button.style-green:focus, button.style-green:active:focus {
   background-color: #3ac162;
   border-bottom-color: #31a252; }
 
+/* Print Styles */
 @media print {
   nav {
     display: none; }
