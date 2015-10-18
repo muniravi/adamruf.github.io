@@ -296,6 +296,8 @@ button.style-green:focus, button.style-green:active:focus {
 
 /* Print Styles */
 @media print {
+  /* Force Chrome & Safari to print background images */
+  body { -webkit-print-color-adjust: exact; }
   nav { display: none; }
   .container {
     width: 90%;
@@ -308,6 +310,4 @@ button.style-green:focus, button.style-green:active:focus {
     box-shadow: none;
     text-shadow: none;
   }
-  /* Force Chrome & Safari to print background images */
-  .avatar { -webkit-print-color-adjust: exact; }
 }
