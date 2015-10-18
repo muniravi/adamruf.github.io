@@ -271,6 +271,9 @@ button.style-green:focus, button.style-green:active:focus {
   body {
     -webkit-print-color-adjust: exact; }
 
+  .avatar {
+    background-image: url("http://adamruf.com/images/avatar-sprite@2x.png") !important; }
+
   nav {
     display: none; }
 
