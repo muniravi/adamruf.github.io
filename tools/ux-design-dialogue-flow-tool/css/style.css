@@ -279,4 +279,8 @@ button.style-green:focus, button.style-green:active:focus {
     color: #111;
     background-color: #fff;
     box-shadow: none;
-    text-shadow: none; } }
+    text-shadow: none; }
+
+  /* Force Chrome & Safari to print background images */
+  .avatar {
+    -webkit-print-color-adjust: exact; } }
