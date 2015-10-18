@@ -306,6 +306,18 @@ button.style-green:focus, button.style-green:active:focus {
   .avatar {
     background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
   }
+  .avatar-user-negative {
+    background-position: -1px -1px !important;
+  }
+  .avatar-user-neutral {
+    background-position: -101px !important;
+  }
+  .avatar-user-positive {
+    background-position: -201px !important;
+  }
+  .avatar-app-default {
+    background-position: -301px !important;
+  }
   nav { display: none; }
   .container {
     width: 90%;
