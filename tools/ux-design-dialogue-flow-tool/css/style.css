@@ -30,7 +30,7 @@ h1 {
         top: 0.25rem; } }
 
 .avatar {
-  background-image: url("http://adamruf.com/images/avatar-sprite@2x.png");
+  background-image: url("http://adamruf.com/images/avatar-sprite.png");
   background-size: 400px;
   box-sizing: border-box;
   display: inline-block;
@@ -40,6 +40,9 @@ h1 {
   border: 1px solid #C0CCCD;
   vertical-align: top;
   width: 100px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .avatar {
+      background-image: url("http://adamruf.com/images/avatar-sprite@2x.png"); } }
 
 .avatar-user {
   border-radius: 4px 0 0 4px; }
@@ -272,7 +275,7 @@ button.style-green:focus, button.style-green:active:focus {
     -webkit-print-color-adjust: exact; }
 
   .avatar {
-    background-image: url("http://adamruf.com/images/avatar-sprite@2x.png") !important;
+    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
     background-size: 400px;
     box-sizing: border-box;
     display: inline-block;
