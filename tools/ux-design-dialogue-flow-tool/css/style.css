@@ -162,7 +162,7 @@ h1[contenteditable=true]:empty:before {
   opacity: 0;
   padding: 0.5rem 0.8rem;
   position: absolute;
-  top: 3rem;
+  bottom: -1rem;
   width: 4rem;
   -moz-user-select: none;
   -webkit-user-select: none;
