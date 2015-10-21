@@ -40,9 +40,6 @@ h1 {
   border: 1px solid #C0CCCD;
   vertical-align: top;
   width: 100px; }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .avatar {
-      background-image: url("http://adamruf.com/images/avatar-sprite@2x.png"); } }
 
 .avatar-user {
   border-radius: 4px 0 0 4px; }
