@@ -30,7 +30,7 @@ h1 {
         top: 0.25rem; } }
 
 .avatar {
-  background-image: url("http://adamruf.com/images/avatar-sprite.png");
+  background-image: url("http://adamruf.com/images/avatar-sprite@2x.png");
   background-size: 600px;
   box-sizing: border-box;
   display: inline-block;
