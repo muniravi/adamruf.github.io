@@ -29,16 +29,16 @@ $( document ).ready(function() {
   $('#user-flow').on('click', '.toggle.toggle-positive', function() {
     event.preventDefault();
     $(this).addClass('toggle-negative').removeClass('toggle-positive');
-    $(this).next('.avatar.positive').addClass('.negative').removeClass('.positive');
+    $(this).next('.avatar.positive').addClass('negative').removeClass('positive');
   });
   $('#user-flow').on('click', '.toggle.toggle-negative', function() {
     event.preventDefault();
     $(this).addClass('toggle-neutral').removeClass('toggle-negative');
-    $(this).next('.avatar.negative').addClass('.neutral').removeClass('.negative');
+    $(this).next('.avatar.negative').addClass('neutral').removeClass('negative');
   });
   $('#user-flow').on('click', '.toggle.toggle-neutral', function() {
     event.preventDefault();
     $(this).addClass('toggle-positive').removeClass('toggle-neutral');
-    $(this).next('.avatar.neutral').addClass('.positive').removeClass('.neutral');
+    $(this).next('.avatar.neutral').addClass('positive').removeClass('neutral');
   });
 });
