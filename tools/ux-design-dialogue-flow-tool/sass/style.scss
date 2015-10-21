@@ -58,17 +58,23 @@ h1 {
   border-radius: 0 4px 4px 0;
 }
 
-.avatar-user-negative {
+.avatar-user.negative {
   background-position: -1px -1px;
 }
-.avatar-user-neutral {
+.avatar-user.neutral {
   background-position: -101px;
 }
-.avatar-user-positive {
+.avatar-user.positive {
   background-position: -201px;
 }
-.avatar-app-default {
+.avatar-app.negative {
   background-position: -301px;
+}
+.avatar-app.neutral {
+  background-position: -401px;
+}
+.avatar-app.positive {
+  background-position: -501px;
 }
 
 .message {
@@ -191,6 +197,11 @@ h1[contenteditable=true]:empty:before {
   &:hover {
     color: rgba(0,0,0,0.34);
   }
+}
+
+.message-app + .toggle {
+  margin-left: none;
+  right: -0.5rem;
 }
 
 a:hover, a:active {
