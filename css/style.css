@@ -6,12 +6,12 @@ COLORS
 TYPOGRAPHY
 \* - - - - - - - - - - - - - - - - - - - - */
 body {
-  line-height: 1.75em; }
+  line-height: 1.4; }
 
 h1, h2, h3 {
   font-family: "jaf-bernino-sans-comp";
   letter-spacing: 1px;
-  line-height: 1.1em;
+  line-height: 1.1;
   word-spacing: 1px; }
 
 h1 {
@@ -73,7 +73,7 @@ ul {
   margin: 0 0 1.5em; }
 
 .container li {
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight: 300;
   margin: 0; }
 
@@ -128,6 +128,7 @@ button, .button {
   border-radius: 10px;
   box-shadow: 0 5px 1px 1px rgba(0, 0, 0, 0.1);
   font-size: 2.618em;
+  line-height: 0.55;
   padding: 0.55em 0.8em 0.5em; }
   .button-lg:active {
     box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.1);
@@ -652,23 +653,14 @@ HOMEPAGE
 
 #hierarchy-of-user-needs {
   position: relative;
-  top: -9em;
+  top: -7em;
   z-index: -1; }
   @media screen and (max-width: 1024px) {
     #hierarchy-of-user-needs {
-      top: -5em; } }
+      top: -7em; } }
   @media screen and (max-width: 450px) {
     #hierarchy-of-user-needs {
-      top: -2em; } }
-
-#who-how-what {
-  margin-top: -9em; }
-  @media screen and (max-width: 1024px) {
-    #who-how-what {
-      margin-top: -5em; } }
-  @media screen and (max-width: 450px) {
-    #who-how-what {
-      margin-top: -2em; } }
+      top: -3em; } }
 
 [title="SumoMe"] {
   background-color: transparent !important; }

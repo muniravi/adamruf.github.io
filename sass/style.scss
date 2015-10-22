@@ -64,25 +64,25 @@ HOMEPAGE
 
 #hierarchy-of-user-needs {
   position: relative;
-  top: -9em;
+  top: -7em;
   z-index: -1;
   @media screen and (max-width: 1024px) {
-    top: -5em;
+    top: -7em;
   }
   @media screen and (max-width: 450px) {
-    top: -2em;
+    top: -3em;
   }
 }
 
-#who-how-what {
-  margin-top: -9em;
-  @media screen and (max-width: 1024px) {
-    margin-top: -5em;
-  }
-  @media screen and (max-width: 450px) {
-    margin-top: -2em;
-  }
-}
+// #who-how-what {
+//   margin-top: -9em;
+//   @media screen and (max-width: 1024px) {
+//     margin-top: -5em;
+//   }
+//   @media screen and (max-width: 450px) {
+//     margin-top: -2em;
+//   }
+// }
 
 [title="SumoMe"] {
   background-color: transparent !important;
@@ -359,7 +359,7 @@ footer {
       }
     }
   }
-  
+
   &.footer-fixed {
     position: fixed;
     bottom: 0;

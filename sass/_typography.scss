@@ -19,13 +19,13 @@ TYPOGRAPHY
 }
 
 body {
-  line-height: 1.75em;
+  line-height: 1.4;
 }
 
 h1, h2, h3 {
   @include condensed-font;
   letter-spacing: 1px;
-  line-height: 1.1em;
+  line-height: 1.1;
   word-spacing: 1px;
 }
 
@@ -101,7 +101,7 @@ blockquote {
 ul {margin: 0 0 1.5em;}
 
 .container li {
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight: 300;
   margin: 0;
 }
