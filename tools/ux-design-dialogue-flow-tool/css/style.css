@@ -283,17 +283,23 @@ button.style-green:focus, button.style-green:active:focus {
   .avatar {
     background-image: url("http://adamruf.com/images/avatar-sprite.png") !important; }
 
-  .avatar-user-negative {
+  .avatar-user.negative {
     background-position: -1px -1px !important; }
 
-  .avatar-user-neutral {
+  .avatar-user.neutral {
     background-position: -101px !important; }
 
-  .avatar-user-positive {
+  .avatar-user.positive {
     background-position: -201px !important; }
 
-  .avatar-app-default {
+  .avatar-app.negative {
     background-position: -301px !important; }
+
+  .avatar-app.neutral {
+    background-position: -401px !important; }
+
+  .avatar-app.positive {
+    background-position: -501px !important; }
 
   nav, h1[contenteditable=true]:empty {
     display: none; }
