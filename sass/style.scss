@@ -244,33 +244,13 @@ li.resource {
 ABOUT
 \* - - - - - - - - - - - - - - - - - - - - */
 
-#adam-photo {
-  height: 275px;
-  position: relative;
-  @media screen and (max-width: 991px) {
-    display: none;
-  }
+.adam-photo-large img {
+  border-radius: 2rem;
+  width: 100%;
 }
 
-#profile-pic, #profile-pic-bw {
-  border: 10px solid #d6f3df;
-  border-radius: 50%;
-  max-height: 250px;
-  position: absolute;
-  top: 0;
-  left: 13%;
-}
-
-#profile-pic {
-  z-index: 1;
-}
-
-#profile-pic-bw {
-  z-index: 2;
-  transition: opacity 1.5s ease-in-out;
-  &:hover {
-    opacity: 0;
-  }
+.adam-photo-small img {
+  width: 100%;
 }
 
 ul.progress-bar ul {
