@@ -201,6 +201,7 @@ h1[contenteditable=true]:empty:before {
 
 .message-app + .toggle {
   margin-left: none;
+  right: 0;
 }
 
 a:hover, a:active {
@@ -334,7 +335,7 @@ button.style-green:focus, button.style-green:active:focus {
   .avatar-app.positive {
     background-position: -501px !important;
   }
-  
+
   nav, h1[contenteditable=true]:empty { display: none; }
   .container {
     width: 100%;
