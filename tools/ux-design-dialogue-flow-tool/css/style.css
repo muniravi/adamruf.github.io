@@ -282,7 +282,7 @@ button.style-green:focus, button.style-green:active:focus {
     -webkit-print-color-adjust: exact; }
 
   .avatar {
-    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important; }
+    background-image: url("http://adamruf.com/images/avatar-sprite@2x.png") !important; }
 
   .avatar-user.negative {
     background-position: -1px -1px !important; }
