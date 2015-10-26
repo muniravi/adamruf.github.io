@@ -171,8 +171,7 @@ h1[contenteditable=true]:empty:before {
     color: rgba(0, 0, 0, 0.34); }
 
 .message-app + .toggle {
-  margin-left: none;
-  right: -0.5rem; }
+  margin-left: none; }
 
 a:hover, a:active {
   cursor: pointer; }
