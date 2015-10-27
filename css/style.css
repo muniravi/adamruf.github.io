@@ -796,7 +796,7 @@ ABOUT
 \* - - - - - - - - - - - - - - - - - - - - */
 .adam-photo-large img {
   border-radius: 2rem;
-  width: 100%; }
+  max-width: 75%; }
 
 .adam-photo-small img {
   width: 100%; }

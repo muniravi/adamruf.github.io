@@ -41,7 +41,7 @@ h1 {
   height: 100px;
   padding: 0;
   margin: 0;
-  border: 1px solid #C0CCCD;
+  // border: 1px solid #C0CCCD;
   vertical-align: top;
   width: 100px;
   // @media
@@ -59,7 +59,7 @@ h1 {
 }
 
 .avatar-user.negative {
-  background-position: -1px -1px;
+  background-position: -1px;
 }
 .avatar-user.neutral {
   background-position: -101px;
@@ -68,19 +68,18 @@ h1 {
   background-position: -201px;
 }
 .avatar-app.negative {
-  background-position: -301px;
+  background-position: -300px;
 }
 .avatar-app.neutral {
-  background-position: -401px;
+  background-position: -400px;
 }
 .avatar-app.positive {
-  background-position: -501px;
+  background-position: -500px;
 }
 
 .message {
   background-color: #fff;
   border: 1px solid lighten(#C0CCCD, 11%);
-  box-sizing: border-box;
   display: inline-block;
   min-height: 100px;
   margin: 0;
@@ -108,23 +107,23 @@ h1 {
   margin-left: -2px;
 }
 
-p.message-user, p.message-app {
+.message-user, .message-app {
   color: #2A3E52;
   font-size: 1.8rem;
   line-height: 1.4;
 }
 
+p.message-user {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-left: none;
+}
+
 p.message-app {
   font-family: 'Source Code Pro';
+  border-right: none;
 }
 
-.message-user {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
-.message-app {
-  font-family: 'Source Code Pro';
-}
 
 img {
   margin: 0;
@@ -312,13 +311,14 @@ button.style-green:focus, button.style-green:active:focus {
 
 /* Print Styles */
 @media print {
+  html, body { height: auto; }
   /* Force Chrome & Safari to print background images */
   body { -webkit-print-color-adjust: exact; }
   .avatar {
-    background-image: url("http://adamruf.com/images/avatar-sprite@2x.png") !important;
+    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
   }
   .avatar-user.negative {
-    background-position: -1px -1px !important;
+    background-position: -1px;
   }
   .avatar-user.neutral {
     background-position: -101px !important;
@@ -327,20 +327,21 @@ button.style-green:focus, button.style-green:active:focus {
     background-position: -201px !important;
   }
   .avatar-app.negative {
-    background-position: -301px !important;
+    background-position: -300px !important;
   }
   .avatar-app.neutral {
-    background-position: -401px !important;
+    background-position: -400px !important;
   }
   .avatar-app.positive {
-    background-position: -501px !important;
+    background-position: -500px !important;
   }
 
   nav, h1[contenteditable=true]:empty { display: none; }
   .container {
-    width: 100%;
-    margin: 0px;
+    width: 80%;
+    margin: 0 auto;
     padding: 0px;
+    text-align: center;
   }
   * {
     color: #111;
@@ -348,4 +349,5 @@ button.style-green:focus, button.style-green:active:focus {
     box-shadow: none;
     text-shadow: none;
   }
+  .message { text-align: left; }
 }
