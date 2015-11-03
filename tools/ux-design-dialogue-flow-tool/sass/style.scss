@@ -39,11 +39,12 @@ h1 {
   box-sizing: border-box;
   display: inline-block;
   height: 100px;
-  padding: 0;
   margin: 0;
-  // border: 1px solid #C0CCCD;
+  padding: 0;
+  position: relative;
   vertical-align: top;
   width: 100px;
+  z-index: 1;
   // @media
   // (-webkit-min-device-pixel-ratio: 2),
   // (min-resolution: 192dpi) {
@@ -59,13 +60,13 @@ h1 {
 }
 
 .avatar-user.negative {
-  background-position: -1px;
+  background-position: 0;
 }
 .avatar-user.neutral {
-  background-position: -101px;
+  background-position: -100px;
 }
 .avatar-user.positive {
-  background-position: -201px;
+  background-position: -200px;
 }
 .avatar-app.negative {
   background-position: -300px;
@@ -83,10 +84,10 @@ h1 {
   display: inline-block;
   min-height: 100px;
   margin: 0;
-  overflow: show;
-  resize: resize-y;
   padding: 1rem;
+  position: relative;
   width: calc(100% - 100px);
+  z-index: 2;
   &:focus {
     background-color: #F5FEFE;
     border-color: #E0EFF0;
@@ -100,11 +101,10 @@ h1 {
 }
 
 .row-user .message {
-  margin-left: -2px;
 }
 
 .row-app .avatar {
-  margin-left: -2px;
+  z-index: 1;
 }
 
 .message-user, .message-app {
@@ -113,17 +113,9 @@ h1 {
   line-height: 1.4;
 }
 
-p.message-user {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  border-left: none;
-}
+p.message-user { font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-p.message-app {
-  font-family: 'Source Code Pro';
-  border-right: none;
-}
-
-
+p.message-app { font-family: 'Source Code Pro'; }
 
 img {
   margin: 0;
@@ -168,6 +160,7 @@ h1[contenteditable=true]:empty:before {
     right: 0;
     top: -1.5rem;
     width: 3rem;
+    z-index: 3;
   /* Prevent highlighting from rapid clicking */
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -188,8 +181,9 @@ h1[contenteditable=true]:empty:before {
   padding: 0.2rem 0.55rem;
   position: absolute;
   // bottom: -1.5rem;
-  bottom: 0;
+  top: 70px;
   width: 3rem;
+  z-index: 3;
   // Prevent highlighting from rapid clicking
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -200,7 +194,7 @@ h1[contenteditable=true]:empty:before {
 }
 
 .message-app + .toggle {
-  right: 87px;
+  right: 86px;
 }
 
 a:hover, a:active {
@@ -319,15 +313,16 @@ button.style-green:focus, button.style-green:active:focus {
   }
   .avatar {
     background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
+    z-index: 1;
   }
   .avatar-user.negative {
-    background-position: -1px;
+    background-position: 0;
   }
   .avatar-user.neutral {
-    background-position: -101px !important;
+    background-position: -100px !important;
   }
   .avatar-user.positive {
-    background-position: -201px !important;
+    background-position: -200px !important;
   }
   .avatar-app.negative {
     background-position: -300px !important;
@@ -338,6 +333,7 @@ button.style-green:focus, button.style-green:active:focus {
   .avatar-app.positive {
     background-position: -500px !important;
   }
+  .message { z-index: 2;}
 
   nav, h1[contenteditable=true]:empty { display: none; }
   .container {

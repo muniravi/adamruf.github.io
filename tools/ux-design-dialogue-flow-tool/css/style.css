@@ -35,10 +35,12 @@ h1 {
   box-sizing: border-box;
   display: inline-block;
   height: 100px;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  position: relative;
   vertical-align: top;
-  width: 100px; }
+  width: 100px;
+  z-index: 1; }
 
 .avatar-user {
   border-radius: 4px 0 0 4px; }
@@ -47,13 +49,13 @@ h1 {
   border-radius: 0 4px 4px 0; }
 
 .avatar-user.negative {
-  background-position: -1px; }
+  background-position: 0; }
 
 .avatar-user.neutral {
-  background-position: -101px; }
+  background-position: -100px; }
 
 .avatar-user.positive {
-  background-position: -201px; }
+  background-position: -200px; }
 
 .avatar-app.negative {
   background-position: -300px; }
@@ -70,10 +72,10 @@ h1 {
   display: inline-block;
   min-height: 100px;
   margin: 0;
-  overflow: show;
-  resize: resize-y;
   padding: 1rem;
-  width: calc(100% - 100px); }
+  position: relative;
+  width: calc(100% - 100px);
+  z-index: 2; }
   .message:focus {
     background-color: #F5FEFE;
     border-color: #E0EFF0;
@@ -83,11 +85,8 @@ h1 {
 .row-user, .row-app {
   margin-bottom: 3em; }
 
-.row-user .message {
-  margin-left: -2px; }
-
 .row-app .avatar {
-  margin-left: -2px; }
+  z-index: 1; }
 
 .message-user, .message-app {
   color: #2A3E52;
@@ -95,12 +94,10 @@ h1 {
   line-height: 1.4; }
 
 p.message-user {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  border-left: none; }
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 p.message-app {
-  font-family: 'Source Code Pro';
-  border-right: none; }
+  font-family: 'Source Code Pro'; }
 
 img {
   margin: 0;
@@ -142,6 +139,7 @@ h1[contenteditable=true]:empty:before {
   right: 0;
   top: -1.5rem;
   width: 3rem;
+  z-index: 3;
   /* Prevent highlighting from rapid clicking */
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -158,8 +156,9 @@ h1[contenteditable=true]:empty:before {
   opacity: 0;
   padding: 0.2rem 0.55rem;
   position: absolute;
-  bottom: 0;
+  top: 70px;
   width: 3rem;
+  z-index: 3;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none; }
@@ -167,7 +166,7 @@ h1[contenteditable=true]:empty:before {
     color: rgba(0, 0, 0, 0.34); }
 
 .message-app + .toggle {
-  right: 87px; }
+  right: 86px; }
 
 a:hover, a:active {
   cursor: pointer; }
@@ -281,16 +280,17 @@ button.style-green:focus, button.style-green:active:focus {
     padding-bottom: 0; }
 
   .avatar {
-    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important; }
+    background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
+    z-index: 1; }
 
   .avatar-user.negative {
-    background-position: -1px; }
+    background-position: 0; }
 
   .avatar-user.neutral {
-    background-position: -101px !important; }
+    background-position: -100px !important; }
 
   .avatar-user.positive {
-    background-position: -201px !important; }
+    background-position: -200px !important; }
 
   .avatar-app.negative {
     background-position: -300px !important; }
@@ -300,6 +300,9 @@ button.style-green:focus, button.style-green:active:focus {
 
   .avatar-app.positive {
     background-position: -500px !important; }
+
+  .message {
+    z-index: 2; }
 
   nav, h1[contenteditable=true]:empty {
     display: none; }
