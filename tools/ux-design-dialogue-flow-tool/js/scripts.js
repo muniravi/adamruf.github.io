@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   // Add a new user row when user clicks on #new-user-row button
   $("#new-user-row").click(function() {
-    $('<div class="row row-user"><div class="col-md-8 col-md-offset-2"><a class="toggle toggle-neutral"><i class="fa fa-users"></i></a><span class="avatar avatar-user neutral"></span><p class="message message-user" contenteditable="true"></p><a class="delete"><i class="fa fa-close"></i></a></div></div>').appendTo("#userFlow");
+    $('<div class="row row-user"><div class="col-md-8 col-md-offset-2"><a class="toggle toggle-neutral"></a><span class="avatar avatar-user neutral"></span><p class="message message-user" contenteditable="true"></p><a class="delete"><i class="fa fa-close"></i></a></div></div>').appendTo("#userFlow");
     $('html, body').animate({
       scrollTop: '+=1500px'
     }, 600);
@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
   // Add a new app row when user clicks on #new-app-row button
   $("#new-app-row").click(function() {
-    $('<div class="row row-app"><div class="col-md-8 col-md-offset-2"><p class="message message-app" contenteditable="true"></p><a class="toggle toggle-neutral"><i class="fa fa-users"></i></a><span class="avatar avatar-app neutral"></span><a class="delete"><i class="fa fa-close"></i></a></div></div>').appendTo("#userFlow");
+    $('<div class="row row-app"><div class="col-md-8 col-md-offset-2"><p class="message message-app" contenteditable="true"></p><a class="toggle toggle-neutral"></a><span class="avatar avatar-app neutral"></span><a class="delete"><i class="fa fa-close"></i></a></div></div>').appendTo("#userFlow");
     $('html, body').animate({
       scrollTop: '+=1500px'
     }, 600);

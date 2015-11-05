@@ -171,30 +171,26 @@ h1[contenteditable=true]:empty:before {
 }
 
 .toggle {
-  background-color: #eee;
   border-radius: 0.5rem 0.5rem 0.5rem 0;
   color: rgba(0, 0, 0, 0.24);
   font-size: 1.8rem;
-  height: 3rem;
+  height: 100px;
   // margin-left: -1.5rem;
   opacity: 0;
   padding: 0.2rem 0.55rem;
   position: absolute;
   // bottom: -1.5rem;
-  top: 70px;
-  width: 3rem;
+  top: 0;
+  width: 100px;
   z-index: 3;
   // Prevent highlighting from rapid clicking
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  &:hover {
-    color: rgba(0,0,0,0.34);
-  }
 }
 
 .message-app + .toggle {
-  right: 86px;
+  right: 14px;
 }
 
 a:hover, a:active {
