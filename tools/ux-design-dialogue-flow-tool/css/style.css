@@ -105,7 +105,7 @@ h1 {
     height: 0;
     width: 0;
     position: absolute;
-    left: -15px;
+    left: -16px;
     top: -1px; }
   .message-user:after {
     background: transparent;
