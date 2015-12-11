@@ -27,7 +27,7 @@ h2 {
 
 h2 .muted {
   font-size: 0.4em;
-  vertical-align: text-bottom; }
+  vertical-align: baseline; }
 
 h3 {
   font-size: 1.618em;
