@@ -2,6 +2,26 @@
 ANIMATIONS
 \* - - - - - - - - - - - - - - - - - - - - */
 
+.slow-bounce {
+  animation-direction: alternate;
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-duration: 4s;
+  -webkit-animation-name: slow-bounce;
+  animation-name: slow-bounce;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes slow-bounce {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 30px, 0);
+    transform: translate3d(0, 30px, 0);
+  }
+}
 
 /* From animate.css by Daniel Eden -- http://daneden.github.io/animate.css/ */
 .animated {
