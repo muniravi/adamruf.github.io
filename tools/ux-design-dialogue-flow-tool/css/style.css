@@ -40,7 +40,7 @@ h1 {
   position: relative;
   vertical-align: top;
   width: 100px;
-  z-index: 1; }
+  z-index: 2; }
 
 .avatar-user {
   border-radius: 4px 0 0 4px; }
@@ -69,9 +69,6 @@ h1 {
 .row-user, .row-app {
   margin-bottom: 3rem; }
 
-.row-app .avatar {
-  z-index: 1; }
-
 .message {
   background-color: #fff;
   border: 1px solid #dfe5e6;
@@ -81,7 +78,7 @@ h1 {
   padding: 1rem;
   position: relative;
   width: calc(100% - 100px);
-  z-index: 2; }
+  z-index: 1; }
   .message:focus {
     background-color: #F5FEFE;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
@@ -95,52 +92,15 @@ h1 {
 .message-user {
   border-radius: 0 1rem 1rem 0;
   float: right;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
-  .message-user:before {
-    background: transparent;
-    border-top: 0px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid #D0DDDE;
-    content: ' ';
-    height: 0;
-    width: 0;
-    position: absolute;
-    left: -16px;
-    top: -1px; }
-  .message-user:after {
-    background: transparent;
-    border-top: 0px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid white;
-    content: ' ';
-    height: 0;
-    width: 0;
-    position: absolute;
-    left: -15px;
-    top: 0px; }
-
-.message:focus.message-user:after {
-  border-right-color: #F5FEFE; }
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: -1px; }
 
 .message-app {
   border-radius: 1rem 0 0 1rem;
   color: #7f8c8d;
   float: left;
-  font-family: 'Source Code Pro'; }
-  .message-app:after {
-    background: transparent;
-    border-top: 15px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-left: 15px solid white;
-    content: ' ';
-    height: 0;
-    width: 0;
-    position: absolute;
-    right: -15px;
-    top: 83px; }
-
-.message:focus.message-app:after {
-  border-left-color: #F5FEFE; }
+  font-family: 'Source Code Pro';
+  right: -1px; }
 
 img {
   margin: 0;
