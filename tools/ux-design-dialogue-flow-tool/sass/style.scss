@@ -18,10 +18,10 @@ h1 {
   padding-bottom: 1.0rem;
   &:hover, &:focus {
     outline: none;
-    border-bottom: 3px solid rgba(192, 204, 205, 0.33)/*rgba(0,0,0,0.1)*/;
+    border-bottom: 3px solid rgba(192, 204, 205, 0.33);
   }
   &:hover:after {
-    color: rgba(192, 204, 205, 0.33)/*rgba(0,0,0,0.2)*/;
+    color: rgba(192, 204, 205, 0.33);
     content: '\f040';
     font-family: 'FontAwesome';
     position: absolute;
@@ -45,11 +45,6 @@ h1 {
   vertical-align: top;
   width: 100px;
   z-index: 2;
-  // @media
-  // (-webkit-min-device-pixel-ratio: 2),
-  // (min-resolution: 192dpi) {
-  //   background-image: url("http://adamruf.com/images/avatar-sprite@2x.png");
-  // }
 }
 
 .avatar-user {
@@ -110,32 +105,7 @@ h1 {
   float: right;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   left: -1px;
-  // &:before {
-  //   background: transparent;
-  //   border-top: 0px solid transparent;
-  //   border-bottom: 15px solid transparent;
-  //   border-right: 15px solid #D0DDDE;
-  //   content: ' ';
-  //   height: 0;
-  //   width: 0;
-  //   position: absolute;
-  //   left: -16px;
-  //   top: -1px;
-  // }
-  // &:after {
-  //   background: transparent;
-  //   border-top: 0px solid transparent;
-  //   border-bottom: 15px solid transparent;
-  //   border-right: 15px solid white;
-  //   content: ' ';
-  //   height: 0;
-  //   width: 0;
-  //   position: absolute;
-  //   left: -15px;
-  //   top: 0px;
-  // }
 }
-// .message:focus.message-user:after { border-right-color: #F5FEFE;}
 
 .message-app {
   border-radius: 1rem 0 0 1rem;
@@ -143,20 +113,7 @@ h1 {
   float: left;
   font-family: 'Source Code Pro';
   right: -1px;
-  // &:after {
-  //   background: transparent;
-  //   border-top: 15px solid transparent;
-  //   border-bottom: 0px solid transparent;
-  //   border-left: 15px solid white;
-  //   content: ' ';
-  //   height: 0;
-  //   width: 0;
-  //   position: absolute;
-  //   right: -15px;
-  //   top: 83px;
-  // }
 }
-// .message:focus.message-app:after { border-left-color: #F5FEFE;}
 
 img {
   margin: 0;
@@ -179,7 +136,7 @@ img {
 
 /* Enable placeholders for contenteditable divs */
 h1[contenteditable=true]:empty:before {
-  color: rgba(192, 204, 205, 0.75) /*rgba(0,0,0,0.24)*/;
+  color: rgba(192, 204, 205, 0.75);
   content: attr(placeholder);
   display: block;
   font-style: italic;
@@ -216,11 +173,9 @@ h1[contenteditable=true]:empty:before {
   color: rgba(0, 0, 0, 0.24);
   font-size: 1.8rem;
   height: 100px;
-  // margin-left: -1.5rem;
   opacity: 0;
   padding: 0.2rem 0.55rem;
   position: absolute;
-  // bottom: -1.5rem;
   top: 0;
   width: 100px;
   z-index: 3;
@@ -260,14 +215,14 @@ a.toggle {
 .navbar ul {margin: 5px 0 10px;}
 .muted-text {color: rgba(42, 62, 82, 0.33);}
 .navbar-default {
-  background-color: #FFD300 /*#FF0072*/;
+  background-color: #FFD300;
   box-shadow: 0 -7px 0 rgba(70, 70, 80, 0.1);
   li {
     font-size: 1.2rem;
     text-shadow: 0 1px 0 lighten(#FFD300, 15%);
     a {
       border-bottom: 1px solid rgba(42, 62, 82, 0.16);
-      color: rgba(42, 62, 82, 0.33)/*#5fcf80*/;
+      color: rgba(42, 62, 82, 0.33);
       &:hover, &:active, &:focus {
         color: #3ac162;
         text-decoration: none;
