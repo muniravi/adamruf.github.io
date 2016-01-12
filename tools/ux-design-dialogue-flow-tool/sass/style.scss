@@ -220,7 +220,6 @@ a.toggle {
 }
 
 .navbar {
-  border-top: 1px solid #ddd;
   min-height: 50px;
   padding-top: 2rem;
 }
@@ -228,7 +227,8 @@ a.toggle {
 .muted-text {color: rgba(42, 62, 82, 0.33);}
 .navbar-default {
   background-color: #FFD300;
-  box-shadow: 0 -7px 0 rgba(70, 70, 80, 0.1);
+  border-top: 1px solid rgba(0,0,0,0.1);
+  box-shadow: inset 0 0px 0px #FFDF45, 0 -3px 0px rgba(70, 70, 80, 0.1);
   li {
     font-size: 1.2rem;
     text-shadow: 0 1px 0 lighten(#FFD300, 15%);
