@@ -312,8 +312,8 @@ button.style-green:focus, button.style-green:active:focus {
   html, body { height: auto; }
   /* Force Chrome & Safari to print background images */
   body {
-    -webkit-print-color-adjust: exact;
     padding-bottom: 0;
+    -webkit-print-color-adjust: exact;
   }
   .avatar {
     background-image: url("http://adamruf.com/images/avatar-sprite.png") !important;
@@ -341,9 +341,9 @@ button.style-green:focus, button.style-green:active:focus {
 
   nav, h1[contenteditable=true]:empty { display: none; }
   .container {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     text-align: center;
   }
   * {
