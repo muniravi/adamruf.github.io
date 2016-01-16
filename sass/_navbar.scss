@@ -16,7 +16,7 @@ nav {
       }
     }
     .navbar-nav {
-      margin: 0.35em 0 0;
+      margin: 0;
       li>a {
         border-radius: 4px;
         color: $font-light-subtle;
@@ -24,16 +24,16 @@ nav {
         font-weight: 100;
         letter-spacing: 1px;
         line-height: 1em;
-        margin: 0.35em 0.2em 0 0.3em;
-        padding: 0.2em 0.2em 0.1em 0.25em;
+        margin: 0;
+        padding: 0.8rem 1rem 0.5rem;
         transition: all 0.3s ease-out;
         &:hover, &:active, &:focus {
           color: $font-light-default;
           background-color: $green;
           border-bottom: none;
           @media screen and (min-width: 768px) {
-            -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
           }
         }
         &:focus {
@@ -41,8 +41,8 @@ nav {
           box-shadow: 0 0 15px fade-out($green, 0.25);
         }
         @media screen and (max-width: 767px) {
-          font-size: 1.25em;
-          padding: 0.25em 0 0.15em 0.25em;
+          font-size: 3rem;
+          padding: 0.5rem 1rem;
         }
       }
       li.active>a {
@@ -66,8 +66,8 @@ nav {
       border-bottom: none;
       box-shadow: none;
       color: $font-light-subtle;
-      margin-right: 1em;
-      margin-top: -2px;
+      margin-right: 1rem;
+      margin-top: -0.6rem;
       max-height: 67px;
       outline: none;
       padding: 0 0 0 10px;
@@ -122,7 +122,7 @@ nav {
     .navbar-collapse, .navbar-form {
       @media screen and (max-width: 767px) {
         background: $black;
-        max-height: 555px;
+        max-height: 550px;
         overflow-y: hidden;
         padding: 0 25px 20px;
       }

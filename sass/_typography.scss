@@ -31,15 +31,15 @@ h1, h2, h3 {
 
 h1 {
   color: darken($green, 10%); //#73AF7D
-  font-size: 4.236em;
+  font-size: 7.5rem;
   font-weight: 300;
-  margin: 0 0 0.825em
+  margin: 0 0 3rem;
 }
 
 h2 {
-  font-size: 2.7em;
+  font-size: 5rem;
   font-weight: 300;
-  margin: 0 0 0.515em
+  margin: 0 0 2rem;
 }
 
 h2 .muted {
@@ -48,14 +48,14 @@ h2 .muted {
 }
 
 h3 {
-  font-size: 1.618em;
+  font-size: 3.5rem;
   font-weight: 600;
-  margin: 0 0 1.1em;
+  margin: 0 0 1rem;
 }
 
 h4, h5 {
   @include base-font;
-  font-size: 1.618em;
+  font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 1.5%;
 }
@@ -66,15 +66,10 @@ h5 {
 }
 
 p {
-  font-size: 1.15em;
+  font-size: 2.1rem;
   font-weight: 300;
-  line-height: 1.65em;
+  line-height: 3rem;
   margin-bottom: 1em;
-}
-
-p.lead {
-  font-size: 1.35em;
-  line-height: 1.65em;
 }
 
 a {
@@ -103,10 +98,8 @@ blockquote {
 ul {margin: 0 0 1.5em;}
 
 .container li {
-  font-size: 1.15em;
   font-weight: 300;
-  margin: 0;
-  margin-bottom: 0.75em;
+  margin: 1.2rem 0.3rem 0;
 }
 
 header {
