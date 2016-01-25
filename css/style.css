@@ -683,7 +683,8 @@ HOMEPAGE
       top: -3em; } }
 
 [title="SumoMe"] {
-  background-color: transparent !important; }
+  cursor: default;
+  opacity: 0 !important; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
@@ -834,7 +835,7 @@ ul.progress-bar ul {
     color: #fff;
     font-size: 2.1rem;
     margin-left: 1rem;
-    padding: 0.2rem;
+    padding: 0;
     text-align: left;
     text-shadow: none; }
 
