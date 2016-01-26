@@ -49,7 +49,7 @@ window.smoothScrollTo = (function () {
             if( factor >= 1 ) {
                 clearInterval(timer);
                 factor = 1;
-            } 
+            }
             y = factor * delta + offset;
             window.scrollBy(0, y - window.pageYOffset);
         }
@@ -87,9 +87,23 @@ $('.js--404').click(function() {
     $(this).addClass('animated hinge');
 });
 
-// Typeform embed code
-(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
+$( document ).ready(function() {
+    var offset = 500;
+    var duration = 500;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('.back-to-top').fadeIn(duration);
+        } else {
+            $('.back-to-top').fadeOut(duration);
+        }
+    });
 
+    $('.back-to-top').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
 
 // Mixpanel code
 
@@ -177,3 +191,20 @@ $('#hero-cta').click(function() {
         'referrer': document.referrer
     });
 });
+
+// Typeform embed code
+(function() {
+    var qs, js, q, s, d = document,
+        gi = d.getElementById,
+        ce = d.createElement,
+        gt = d.getElementsByTagName,
+        id = 'typef_orm',
+        b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+    if (!gi.call(d, id)) {
+        js = ce.call(d, 'script');
+        js.id = id;
+        js.src = b + 'share.js';
+        q = gt.call(d, 'script')[0];
+        q.parentNode.insertBefore(js, q);
+    }
+})();

@@ -154,6 +154,28 @@ button, .button {
     background-color: #3ac162; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
+BACK TO THE TOP BUTTON
+\* - - - - - - - - - - - - - - - - - - - - */
+a.back-to-top {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem 0 0 0.5rem;
+  color: #000;
+  display: none;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  padding: 1rem 2rem;
+  position: fixed;
+  bottom: 8.2em;
+  right: 0;
+  text-align: center;
+  text-decoration: none; }
+  a.back-to-top:hover, a.back-to-top:active, a.back-to-top:focus {
+    background-color: rgba(0, 0, 0, 0.075);
+    border-bottom: none;
+    color: #000;
+    text-decoration: none; }
+
+/* - - - - - - - - - - - - - - - - - - - - *\
 NAVIGATION
 \* - - - - - - - - - - - - - - - - - - - - */
 nav.navbar {

@@ -78,3 +78,30 @@ button, .button {
     background-color: darken($green, 10%);
   }
 }
+
+/* - - - - - - - - - - - - - - - - - - - - *\
+BACK TO THE TOP BUTTON
+\* - - - - - - - - - - - - - - - - - - - - */
+
+a.back-to-top {
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0.5rem 0 0 0.5rem;
+  color: $black;
+  display: none;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  padding: 1rem 2rem;
+  position: fixed;
+    bottom: 8.2em;
+    right: 0;
+  text-align: center;
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba(0,0,0,0.075);
+    border-bottom: none;
+    color: $black;
+    text-decoration: none;
+  }
+}
