@@ -88,8 +88,8 @@ $('.js--404').click(function() {
 });
 
 $( document ).ready(function() {
-    var offset = 500;
-    var duration = 500;
+    var offset = 1000;
+    var duration = 250;
     $(window).scroll(function() {
         if ($(this).scrollTop() > offset) {
             $('.back-to-top').fadeIn(duration);
