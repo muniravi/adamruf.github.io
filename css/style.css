@@ -71,6 +71,7 @@ ul {
   margin: 0 0 1.5em; }
 
 .container li {
+  font-size: 2.1rem;
   font-weight: 300;
   margin: 1.2rem 0.3rem 0; }
 
@@ -192,7 +193,7 @@ nav.navbar-inverse {
     nav.navbar-inverse .navbar-nav li > a {
       border-radius: 4px;
       color: rgba(255, 255, 255, 0.5);
-      font-size: 0.9em;
+      font-size: 2.425rem;
       font-weight: 100;
       letter-spacing: 1px;
       line-height: 1em;
@@ -872,8 +873,8 @@ ul.progress-bar ul {
   text-shadow: none; }
 
 .list-flush-left {
-  list-style-position: inside;
-  padding-left: 0; }
+  list-style-position: outside;
+  padding-left: 2rem; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 404
