@@ -82,14 +82,6 @@ a {
     color: #42B665;
     text-decoration: none;
   }
-  .external-link {
-    &:hover:after,
-    &:active:after,
-    &:focus:after {
-      content: "\f08e";
-      font-family: "FontAwesome";
-    }
-  }
 }
 
 blockquote {

@@ -57,9 +57,6 @@ a {
     border-bottom: 1px solid rgba(66, 182, 101, 0.5);
     color: #42B665;
     text-decoration: none; }
-  a .external-link:hover:after, a .external-link:active:after, a .external-link:focus:after {
-    content: "\f08e";
-    font-family: "FontAwesome"; }
 
 blockquote {
   margin-top: -2em; }
