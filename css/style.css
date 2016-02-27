@@ -696,18 +696,18 @@ HOMEPAGE
 
 #hierarchy-of-user-needs {
   position: relative;
-  top: -7em;
+  top: -8vw;
   z-index: -1; }
-  @media screen and (max-width: 1024px) {
-    #hierarchy-of-user-needs {
-      top: -7em; } }
-  @media screen and (max-width: 450px) {
-    #hierarchy-of-user-needs {
-      top: -3em; } }
 
 [title="SumoMe"] {
   cursor: default;
   opacity: 0 !important; }
+
+.selected-writing li h4 {
+  letter-spacing: -0.0075em;
+  margin-top: 0; }
+  .selected-writing li h4 a {
+    font-weight: 600; }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 PORTFOLIO
@@ -811,7 +811,6 @@ RECOMMENDED RESOURCES
 li.resource {
   border-radius: 0.25em; }
   li.resource h4 {
-    font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: -0.0075em;
     margin-bottom: 0; }
