@@ -72,7 +72,7 @@ var terms2 = ["smiles", "insights", "outcomes", "innovation", "solutions", "valu
 function rotateTerm1() {
   var ct = $("#rotate-1").data("term") || 0;
   $("#rotate-1").data("term", ct === terms1.length -1 ? 0 : ct + 1).text(terms1[ct]).fadeIn()
-              .delay(6000).fadeOut(200, rotateTerm1);
+              .delay(4000).fadeOut(250, rotateTerm1);
 }
 function rotateTerm2() {
   var ct = $("#rotate-2").data("term") || 0;
