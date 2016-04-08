@@ -208,3 +208,14 @@ $('#hero-cta').click(function() {
         q.parentNode.insertBefore(js, q);
     }
 })();
+
+// Experimenting with fix for undefined anchor links
+$(function() {
+  $('a').bind('click',function(event){
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+      }, 1000);
+
+  });
+});
