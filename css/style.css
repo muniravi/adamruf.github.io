@@ -181,6 +181,9 @@ a.back-to-top {
     border-bottom: none;
     color: #000;
     text-decoration: none; }
+  @media screen and (max-width: 498px) {
+    a.back-to-top {
+      bottom: 13rem; } }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 NAVIGATION
@@ -351,7 +354,7 @@ HELPERS
   color: #ccc; }
 
 .affix {
-  top: 6em; }
+  top: 4em; }
 
 .affix-bottom {
   position: absolute; }
