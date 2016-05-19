@@ -126,6 +126,27 @@ button, .button {
     outline: 0;
     text-decoration: none; }
 
+.button-xs {
+  border-bottom-width: 0.3rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  line-height: 0.55;
+  padding: 1.2rem 1.8rem; }
+  .button-xs:active {
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 1px; }
+  @media screen and (max-width: 703px) {
+    .button-xs {
+      font-size: 2.5rem; } }
+  @media screen and (max-width: 299px) {
+    .button-xs {
+      font-size: 2.6rem; } }
+
 .button-lg {
   border-bottom-width: 0.6rem;
   -webkit-border-radius: 1rem;
@@ -665,6 +686,31 @@ ANIMATIONS
   animation-duration: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
+
+/* - - - - - - - - - - - - - - - - - - - - *\
+BANNER
+\* - - - - - - - - - - - - - - - - - - - - */
+.banner {
+  background-color: #FFE800;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  top: 65px;
+  width: 100%;
+  z-index: 1; }
+  .banner p {
+    color: rgba(0, 0, 0, 0.84);
+    font-family: 'Courier New';
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: -0.15rem;
+    line-height: 1.1;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .banner p {
+        font-size: 1.6rem; } }
+  .banner a {
+    border-bottom: 1px solid #00A8FF; }
 
 body {
   background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;

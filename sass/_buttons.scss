@@ -43,6 +43,31 @@ button, .button {
   }
 }
 
+.button-xs {
+  border-bottom-width: 0.3rem;
+  @include rounded(0.5rem);
+  box-shadow: 0 2px 1px 1px rgba(0,0,0,0.1);
+  font-size: 1.8rem;
+  line-height: 0.55;
+  padding: 1.2rem 1.8rem;
+  &:active {
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+    margin-top: 1px;
+  }
+  @media screen and (max-width: 703px) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 299px) {
+    font-size: 2.6rem;
+  }
+}
+
+.button-sm {
+}
+
+.button-md {
+}
+
 .button-lg {
   border-bottom-width: 0.6rem;
   @include rounded(1rem);

@@ -1,12 +1,12 @@
 // Sticky shadowy header
 $( document ).ready(function() {
 	$(document).scroll(function() {
-	  $('.navbar-fixed-top').toggleClass('shadowy', $(document).scrollTop() >0);
+	  $('.banner').toggleClass('shadowy', $(document).scrollTop() >0);
 	});
 });
 
 //Fixing Sticky Header to work with keyboard controls
-var stickyItem = 'top-nav';   // the ID of the fixed-position element
+var stickyItem = 'newsletter-banner';   // the ID of the fixed-position element
 var readAssistOffset = 75;          // screen height - this offset value = scroll distance
 var duration = 250;                 // scroll speed in ms
 var doc = document.documentElement;

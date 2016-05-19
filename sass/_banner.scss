@@ -1,0 +1,27 @@
+/* - - - - - - - - - - - - - - - - - - - - *\
+BANNER
+\* - - - - - - - - - - - - - - - - - - - - */
+
+.banner {
+  background-color: $yellow-bright;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  top: 65px;
+  width: 100%;
+  z-index: 1;
+  p {
+    color: rgba(0,0,0,0.84);
+    font-family: 'Courier New';
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: -0.15rem;
+    line-height: 1.1;
+    margin: 0;
+    @media screen and (max-width: 767px) {
+      font-size: 1.6rem;
+    }
+  }
+  a {border-bottom: 1px solid #00A8FF;}
+
+}
