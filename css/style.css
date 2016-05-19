@@ -703,7 +703,7 @@ BANNER
     font-family: 'Courier New';
     font-size: 1.8rem;
     font-weight: 200;
-    letter-spacing: -0.15rem;
+    letter-spacing: -0.05rem;
     line-height: 1.1;
     margin: 0; }
     @media screen and (max-width: 767px) {
