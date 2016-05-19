@@ -710,7 +710,8 @@ BANNER
       .banner p {
         font-size: 1.6rem; } }
   .banner a {
-    border-bottom: 1px solid #00A8FF; }
+    border-bottom: 1px solid #00A8FF;
+    font-weight: 600; }
 
 body {
   background: #fff url("http://adamruf.com/images/barely-there-grid-by-adam-ruf.png") left top;

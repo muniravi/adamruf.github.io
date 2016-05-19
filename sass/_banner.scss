@@ -22,6 +22,9 @@ BANNER
       font-size: 1.6rem;
     }
   }
-  a {border-bottom: 1px solid #00A8FF;}
+  a {
+    border-bottom: 1px solid $blue-bright;
+    font-weight: 600;
+  }
 
 }
