@@ -241,12 +241,13 @@ ul.progress-bar ul {
 }
 
 .progress {
-  background-color: fade-out($green, 0.75);
+  background-color: transparent;
   box-shadow: none;
   height: 35px;
 }
 
 .progress-bar {
+  border-radius: 4px;
   box-shadow: none;
   p {
     color: $white;

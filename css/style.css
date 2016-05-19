@@ -942,11 +942,12 @@ ul.progress-bar ul {
     list-style: none; }
 
 .progress {
-  background-color: rgba(95, 207, 128, 0.25);
+  background-color: transparent;
   box-shadow: none;
   height: 35px; }
 
 .progress-bar {
+  border-radius: 4px;
   box-shadow: none; }
   .progress-bar p {
     color: #fff;
