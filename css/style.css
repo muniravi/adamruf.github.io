@@ -310,6 +310,9 @@ nav.navbar-inverse {
       overflow-y: hidden;
       padding: 0 25px 20px; } }
 
+.side-nav a {
+  color: rgba(0, 0, 0, 0.64); }
+
 /* - - - - - - - - - - - - - - - - - - - - *\
 HELPERS
 \* - - - - - - - - - - - - - - - - - - - - */
