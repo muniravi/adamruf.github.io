@@ -107,90 +107,90 @@ $( document ).ready(function() {
 
 // Mixpanel code
 
-// Tracking pageview?
-mixpanel.track(window.location.pathname);
+// // Tracking pageview?
+// mixpanel.track(window.location.pathname);
 
-// Tracking navigation clicks
-$('#home').click(function() {
-    mixpanel.track_links('#home', 'Nav: Home', {
-        'referrer': document.referrer
-    });
-});
-$('#services').click(function() {
-    mixpanel.track_links('#services', 'Nav: Services', {
-        'referrer': document.referrer
-    });
-});
-$('#portfolio').click(function() {
-    mixpanel.track_links('#portfolio', 'Nav: Portfolio', {
-        'referrer': document.referrer
-    });
-});
-$('#resources').click(function() {
-    mixpanel.track_links('#resources', 'Nav: Resources', {
-        'referrer': document.referrer
-    });
-});
-$('#blog').click(function() {
-    mixpanel.track_links('#blog', 'Nav: Blog', {
-        'referrer': document.referrer
-    });
-});
-$('#about').click(function() {
-    mixpanel.track_links('#about', 'Nav: About', {
-        'referrer': document.referrer
-    });
-});
-$('#contact').click(function() {
-    mixpanel.track_links('#contact', 'Nav: Contact', {
-        'referrer': document.referrer
-    });
-});
-
-// Tracking Portfolio item clicks
-$('#portfolio-gsd-toolbox').click(function() {
-    mixpanel.track_links('#portfolio-gsd-toolbox', 'Viewed GSD Toolbox', {
-        'referrer': document.referrer
-    });
-});
-
-$('#portfolio-bracelets-by-deb').click(function() {
-    mixpanel.track_links('#portfolio-bracelets-by-deb', 'Viewed Bracelets by Deb', {
-        'referrer': document.referrer
-    });
-});
-$('#portfolio-fontastic-questions').click(function() {
-    mixpanel.track_links('#portfolio-fontastic-questions', 'Viewed Fontastic Questions', {
-        'referrer': document.referrer
-    });
-});
-$('#portfolio-gsd-toolbox').click(function() {
-    mixpanel.track_links('#portfolio-gsd-toolbox', 'Viewed GSD Toolbox', {
-        'referrer': document.referrer
-    });
-});
-$('#portfolio-mainichi-japanese').click(function() {
-    mixpanel.track_links('#portfolio-mainichi-japanese', 'Viewed Mainichi Japanese', {
-        'referrer': document.referrer
-    });
-});
-$('#portfolio-random-nihongo').click(function() {
-    mixpanel.track_links('#portfolio-random-nihongo', 'Viewed Japanese Challenge', {
-        'referrer': document.referrer
-    });
-});
-$('#portfolio-sunday-friends').click(function() {
-    mixpanel.track_links('#portfolio-sunday-friends', 'Viewed Sunday Friends', {
-        'referrer': document.referrer
-    });
-});
-
-//Tracking CTAs
-$('#hero-cta').click(function() {
-    mixpanel.track_links('#hero-cta', 'Clicked Hero CTA', {
-        'referrer': document.referrer
-    });
-});
+// // Tracking navigation clicks
+// $('#home').click(function() {
+//     mixpanel.track_links('#home', 'Nav: Home', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#services').click(function() {
+//     mixpanel.track_links('#services', 'Nav: Services', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#portfolio').click(function() {
+//     mixpanel.track_links('#portfolio', 'Nav: Portfolio', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#resources').click(function() {
+//     mixpanel.track_links('#resources', 'Nav: Resources', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#blog').click(function() {
+//     mixpanel.track_links('#blog', 'Nav: Blog', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#about').click(function() {
+//     mixpanel.track_links('#about', 'Nav: About', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#contact').click(function() {
+//     mixpanel.track_links('#contact', 'Nav: Contact', {
+//         'referrer': document.referrer
+//     });
+// });
+//
+// // Tracking Portfolio item clicks
+// $('#portfolio-gsd-toolbox').click(function() {
+//     mixpanel.track_links('#portfolio-gsd-toolbox', 'Viewed GSD Toolbox', {
+//         'referrer': document.referrer
+//     });
+// });
+//
+// $('#portfolio-bracelets-by-deb').click(function() {
+//     mixpanel.track_links('#portfolio-bracelets-by-deb', 'Viewed Bracelets by Deb', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#portfolio-fontastic-questions').click(function() {
+//     mixpanel.track_links('#portfolio-fontastic-questions', 'Viewed Fontastic Questions', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#portfolio-gsd-toolbox').click(function() {
+//     mixpanel.track_links('#portfolio-gsd-toolbox', 'Viewed GSD Toolbox', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#portfolio-mainichi-japanese').click(function() {
+//     mixpanel.track_links('#portfolio-mainichi-japanese', 'Viewed Mainichi Japanese', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#portfolio-random-nihongo').click(function() {
+//     mixpanel.track_links('#portfolio-random-nihongo', 'Viewed Japanese Challenge', {
+//         'referrer': document.referrer
+//     });
+// });
+// $('#portfolio-sunday-friends').click(function() {
+//     mixpanel.track_links('#portfolio-sunday-friends', 'Viewed Sunday Friends', {
+//         'referrer': document.referrer
+//     });
+// });
+//
+// //Tracking CTAs
+// $('#hero-cta').click(function() {
+//     mixpanel.track_links('#hero-cta', 'Clicked Hero CTA', {
+//         'referrer': document.referrer
+//     });
+// });
 
 // Typeform embed code
 (function() {
