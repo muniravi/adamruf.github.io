@@ -1,6 +1,6 @@
 <!doctype html>
 <!--[if lt IE 9]>
-	<html id="ng-app" ng-app="InVision" ng-controller="AppController" inv-key-combos class="lt-ie9 ng-app:InVision" lang="en"> 
+	<html id="ng-app" ng-app="InVision" ng-controller="AppController" inv-key-combos class="lt-ie9 ng-app:InVision" lang="en">
 <![endif]-->
 <!--[if gt IE 8]><!-->
 <html ng-app="InVision" ng-controller="AppController" inv-key-combos lang="en">
@@ -11,7 +11,7 @@
 		InVision
 	</title>
 
-	<!-- Custom webfonts -->	
+	<!-- Custom webfonts -->
 	<style>
 	@font-face {
 		font-family: 'Open Sans';
@@ -56,7 +56,7 @@
     <!-- SumoMe -->
     <script src="//load.sumome.com/" data-sumo-site-id="9bc0461b709113882f27aa540bba2778f2e5104dff9f15d993240f3357cbf83e" async="async"></script>
   </head>
-<body 
+<body
 	class="branding-invision"
 	ng-class="bodyClass"
 	ng-style="bodyStyle">
@@ -72,7 +72,7 @@
 
 
 		<!-- BEGIN: Loading Indicator. -->
-		
+
 
 
 			<div class="loading-backdrop">
@@ -94,21 +94,21 @@
 					<div class="text">
 						Loading Experience
 					</div>
-						
+
 					<a ng-href="http://www.InVisionApp.com/" class="poweredby">
 						Powered by InVision
 					</a>
-					
+
 					<div class="tagline">
 						Prototyping, Collaboration &amp; Workflow<br>for Designers.
 					</div>
-					
+
 				</div>
 
 			</div>
 
 
-		
+
 		<!-- END: Loading Indicator. -->
 
 
@@ -128,7 +128,7 @@
 				<div class="status">
 					<br />
 				</div>
-				
+
 			</div>
 
 		</div>
@@ -137,13 +137,13 @@
 
 	</div>
 	<!-- END: Loading Sequence. -->
-	
+
 	<!-- preload images -->
 	<div ng-include=" '/assets/apps/share/views/partials/preload.htm' "></div>
 
 	<!-- Toolbar, if available. -->
 	<div ng-include=" '/assets/apps/share/views/toolbar/toolbar.htm' "></div>
-	
+
 	<!-- Powered By Tag, if available -->
 	<div ng-include=" '/assets/apps/share/views/powered-by/powered-by.htm' "></div>
 
@@ -166,11 +166,11 @@
 	<div ui-if=" !project.isMobile " ng-include=" '/assets/apps/share/views/screens/screens.htm' "></div>
 
 
-	
-	
+
+
 
 	<!-- Mobile Projects get a skinWrapper and more elements -->
-	
+
 	<!-- Mobile Preview Mode -->
 	<div ui-if=" project.isMobile && subview == 'preview' " class="skinWrapper" ng-class="{ mobile: project.isMobile && subview == 'preview' } ">
 
@@ -218,22 +218,22 @@
 				 <div class="transitionLayerInner">
 				 	<div class="currentScreenFixedHeader screen" ng-style="{ height: transitionData.currentScreen.fixedHeaderHeight * screen.displayScale }">
 			 			<img class="currentScreen"
-						ng-src="{{transitionData.currentScreen.imageUrl}}" 
+						ng-src="{{transitionData.currentScreen.imageUrl}}"
 						/>
 			 		</div>
 
 				 	<img class="currentScreen"
-					ng-src="{{transitionData.currentScreen.imageUrl}}" 
+					ng-src="{{transitionData.currentScreen.imageUrl}}"
 					/>
 
 					<div class="currentScreenFixedFooter screen" ng-style="{ height: transitionData.currentScreen.fixedFooterHeight * screen.displayScale }">
 			 			<img class="currentScreen"
-						ng-src="{{transitionData.currentScreen.imageUrl}}" 
+						ng-src="{{transitionData.currentScreen.imageUrl}}"
 						/>
 			 		</div>
 
 					<img class="targetScreen"
-					ng-src="{{transitionData.targetScreen.imageUrl}}" 
+					ng-src="{{transitionData.targetScreen.imageUrl}}"
 					/>
 
 				 </div>
@@ -246,7 +246,7 @@
 					ng-style="{height: screen.fixedHeaderHeight * screen.displayScale}">
 
 					<div ng-include=" '/assets/apps/share/views/preview/preview.htm' "></div>
-				
+
 					<!-- Screens is always being displayed. -->
 					<div ng-include=" '/assets/apps/share/views/screens/screens.htm' "></div>
 
@@ -267,7 +267,7 @@
 				></div>
 
 				<div ng-include=" '/assets/apps/share/views/preview/preview.htm' "></div>
-				
+
 				<!-- Screens is always being displayed. -->
 				<div ng-include=" '/assets/apps/share/views/screens/screens.htm' "></div>
 
@@ -289,7 +289,7 @@
 					<div class="sliceContainer" ng-style="{height: (screen.height * screen.displayScale )}">
 
 						<div ng-include=" '/assets/apps/share/views/preview/preview.htm' "></div>
-					
+
 						<!-- Screens is always being displayed. -->
 						<div ng-include=" '/assets/apps/share/views/screens/screens.htm' "></div>
 
@@ -313,23 +313,23 @@
 
 
 
-	
-	
 
 
 
-	
-	
+
+
+
+
 		<script type="text/javascript" src="assets/scripts.js"></script>
-	
-		
+
+
 		<script type="text/javascript">
 
 			(function( ng, app ){
 
 				"use strict";
 
-				app.value( 
+				app.value(
 					"config",
 					{
 						user: {
@@ -357,7 +357,7 @@
 				);
 
 			})( angular, InVision );
-			
+
 		</script>
 
 	<script type="text/ng-template" id="/assets/apps/share/views/browse/browse.htm">
@@ -497,13 +497,13 @@ ng-class="{ selected: ( displayItem == selectedScreen ) }">
 </script><script type="text/ng-template" id="/assets/apps/share/views/comments/catchup-toolbar.htm"><div ng-controller="comments.CatchupToolbarController" inv-comments-catchup-toolbar-helper class="comments-catchup-toolbar">
 <div class="markers-container" class="{ unread-comments: unreadConversations.length, no-unread-comments: !unreadConversations.length }">
 <p ng-show="unreadConversations.length">
-{{ unreadConversations.length }} unread 
+{{ unreadConversations.length }} unread
 <span ng-pluralize count="unreadConversations.length" when="{ one: 'conversation', other: 'conversations' }"></span>:
 </p>
 <p ng-hide="unreadConversations.length">You've read all the conversations on this page...</p>
 <!-- unread markers -->
 <div class="markers" ng-show="unreadConversations.length">
-<a 
+<a
 ng-repeat="conversation in visibleUnreadConversations"
 href="#/screens/{{ screenID }}/comments/{{ conversation.id }}"
 class="marker"
@@ -534,7 +534,7 @@ ng-class="{ development: conversation.isForDevelopment, read: ! conversation.isU
 </div>
 <div class="status-filter">
 <label for="filterShowCompleted">
-<input type="checkbox" id="filterShowCompleted" ng-model="filters.showCompleted.value" ng-click="changeShowCompletedFilter()" inv-uniform /> 
+<input type="checkbox" id="filterShowCompleted" ng-model="filters.showCompleted.value" ng-click="changeShowCompletedFilter()" inv-uniform />
 Show Completed ({{ filters.showCompleted.count }})
 </label>
 </div>
@@ -593,11 +593,11 @@ id="conversationIsComplete"
 type="checkbox"
 ng-model="conversation.isComplete"
 ng-click="updateConversationStatus( conversation )"
-ng-disabled="( conversation.id == 0 )"  
+ng-disabled="( conversation.id == 0 )"
 inv-uniform
 />
-</span>	
-<label for="conversationIsComplete" class="mark-complete" 
+</span>
+<label for="conversationIsComplete" class="mark-complete"
 ng-hide=" conversation.id == 0 "
 ng-class="{ disabled: ( conversation.id == 0 ) }" ng-switch="conversation.isComplete">
 <span ng-switch-when="true">Marked complete</span>
@@ -606,9 +606,9 @@ ng-class="{ disabled: ( conversation.id == 0 ) }" ng-switch="conversation.isComp
 <span ng-hide=" conversation.id != 0 " class="start-conversation">
 {{ conversationTitle }}
 </span>
-<button 
-class="close" 
-type="button" 
+<button
+class="close"
+type="button"
 ng-click="closeConversation()">
 &times;
 </button>
@@ -634,7 +634,7 @@ ng-click="closeConversation()">
 </div>
 </header>
 <!-- BEGIN: Comments. -->
-<div 
+<div
 ng-repeat="comment in comments"
 ng-init=" showDeleteCommentConfirmation = false ; "
 class="comment-item comment"
@@ -648,8 +648,8 @@ inv-fade-show="!comment.isCollapsed || ( comment.isCollapsed && comment.isFirstC
 <span class="rendering">{{ comment.userInitials }}</span>
 <img ng-src="/avatars/{{ comment.userAvatarID }}" class="rendering" />
 <!-- Status -->
-<span 
-class="online-status" 
+<span
+class="online-status"
 ng-class="{ online: ( comment.userOnlineStatus == 'Online' ), away: ( comment.userOnlineStatus == 'Away' ) }">
 {{ comment.userOnlineStatus }}
 </span>
@@ -661,24 +661,24 @@ ng-class="{ online: ( comment.userOnlineStatus == 'Online' ), away: ( comment.us
 </h2>
 <div class="post-options" ng-show=" !comment.isEditing ">
 <ul class="tools">
-<li 
+<li
 class="view-history hidden"
 ng-show="! comment.isEditing && comment.screenImageVersion != screen.imageVersion ">
 <a>View History</a>
 </li>
-<li 
+<li
 class="edit-comment hidden"
 ng-show=" comment.isOwnedByUser || project.isOwnedByUser ">
-<a 
+<a
 ng-click="editComment( comment )"
 inv-tooltip="Edit comment">
 Edit
 </a>
 </li>
-<li 
+<li
 class="delete-comment hidden"
 ng-show=" comment.isOwnedByUser || project.isOwnedByUser ">
-<a  
+<a
 ng-click="showDeleteConfirmation( comment, $first )"
 inv-tooltip="Delete comment">
 Delete
@@ -697,7 +697,7 @@ left: - ( ( conversation.x * screen.displayScale ) - 270 )+ 'px'
 <div class="hover-buffer"></div>
 </div> <!-- history-overlay -->
 </div> <!-- post-options -->
-<a class="thumbs-up" 
+<a class="thumbs-up"
 ng-show=" canLike "
 ng-class="{ 'liked': comment.numberOfLikes, 'by-user': comment.hasUserLiked  }"
 ng-click="toggleLike( comment )"
@@ -705,17 +705,17 @@ inv-tooltip="{{ comment.likedByList }}">
 <i class="icon thumbs up"></i>
 {{comment.numberOfLikes}}
 </a>
-<div 
+<div
 ng-show="! comment.isEditing"
 ng-bind-html-unsafe="comment.html"
 class="post-comment">
 </div>
-<textarea 
-inv-autofocus 
-inv-autosize 
-ng-model="comment.comment" 
-ng-show="comment.isEditing" 
-tabindex="101" 
+<textarea
+inv-autofocus
+inv-autosize
+ng-model="comment.comment"
+ng-show="comment.isEditing"
+tabindex="101"
 class="existing"></textarea>
 <div class="sketchList" ng-show="comment.sketches.length > 0">
 <div ng-repeat="sketch in comment.sketches" class="sketch">
@@ -743,12 +743,12 @@ class="existing"></textarea>
 <div class="comment-item post-new-comment">
 <div class="post">
 <div class="post-comment">
-<textarea 
-inv-autofocus 
-inv-autosize 
-name="post-comment" 
-ng-model="newComment" 
-tabindex="201" 
+<textarea
+inv-autofocus
+inv-autosize
+name="post-comment"
+ng-model="newComment"
+tabindex="201"
 placeholder="Leave a comment..."
 ng-class="{ 'has-sketch': tempSketches.length > 0 }"></textarea>
 <div class="sketchList" ng-show="tempSketches.length > 0">
@@ -763,18 +763,18 @@ ng-class="{ 'has-sketch': tempSketches.length > 0 }"></textarea>
 </div> <!-- sketchList -->
 <div class="add-sketch" ng-show="tempSketches.length == 0">
 <a ng-click=" startSketchBuilder() " inv-tooltip="Attach a sketch"></a>
-</div> 
+</div>
 </div> <!-- post-comment -->
 </div> <!-- post -->
 </div>
 <div class="comment-item notify">
 <div class="notify_top">
-<span 
+<span
 class="notify_count"
 inv-notify-text
 names="{{ getUsersToBeNotified() }}"
 others="{{ getNotifyCount() }}"></span>
-<div 
+<div
 class="notify_toggle"
 ng-class="{ closed: !isShowingUserList }">
 <a ng-click="toggleUserList()" class="toggle" ng-class="{ opened: isShowingUserList }">
@@ -783,24 +783,24 @@ ng-class="{ closed: !isShowingUserList }">
 </a>
 </div>
 </div> <!-- notify-top -->
-<div 
+<div
 class="notify_drop"
 ng-class="{ closed: ! isShowingUserList, open: isShowingUserList }">
-<div 
-ng-show="isShowingUserList" 
-class="user-lists" 
+<div
+ng-show="isShowingUserList"
+class="user-lists"
 ng-class="{ 'members-only': isInternalConversation }">
 <div class="notify_all" ng-show="members.length || affiliates.length">
 <div class="notify_all_team">
 <div class="checker">
-<span 
-ng-class="{ 
+<span
+ng-class="{
 'checked': hasAllChecked,
 'partial': ( getNotifyCount() > 0 ) && !hasAllChecked
 }">
-<input 
-ng-check="hasAllChecked" 
-type="checkbox" 
+<input
+ng-check="hasAllChecked"
+type="checkbox"
 ng-click="toggleAllChecked()" />
 </span>
 </div> <!-- checker -->
@@ -819,8 +819,8 @@ ng-click="toggleAllChecked()" />
 <ul class="notify_person_list">
 <li ng-repeat="user in members">
 <label ng-class="{ 'checked': user.isSelected }">
-<input type="checkbox" ng-model="user.isSelected" ng-click="toggleUserSelection( user )" inv-uniform> 
-<strong>{{ user.name }}</strong> 
+<input type="checkbox" ng-model="user.isSelected" ng-click="toggleUserSelection( user )" inv-uniform>
+<strong>{{ user.name }}</strong>
 <span ng-show="isTeamMember">(Collaborator)</span>
 </label>
 </li>
@@ -828,11 +828,11 @@ ng-click="toggleAllChecked()" />
 <ul class="notify_person_list" ng-show="isStakeholdersShowing()">
 <li ng-repeat="user in affiliates">
 <label ng-class="{ 'checked': user.isSelected }">
-<input type="checkbox" ng-model="user.isSelected" ng-click="toggleUserSelection( user )" inv-uniform> 
+<input type="checkbox" ng-model="user.isSelected" ng-click="toggleUserSelection( user )" inv-uniform>
 <strong inv-tooltip="{{user.email}}">{{ user.name }}</strong>
 <a class="remove-stakeholder" ng-show="isTeamMember" inv-confirm-popover="Remove forever?" on-confirm="removeStakeholder( user )"><img src="assets/apps/d/img/delete.png" /></a>
 </label>
-</li>			
+</li>
 </ul>
 </div>
 <div ng-show="( isShowingUserList && ! isInternalConversation )">
@@ -887,7 +887,7 @@ placeholder="Add others via email (separated by comma)">
 <div class="bottom-buffer">
 <br />
 </div>
-</div> <!-- comment-thread-container -->	
+</div> <!-- comment-thread-container -->
 </form>
 </script><script type="text/ng-template" id="/assets/apps/share/views/comments/markers.htm">
 <div ng-controller="comments.MarkersController" inv-comments-markers class="markers" >
@@ -898,7 +898,7 @@ ng-mouseenter=" setIsHoveringViewport(true) "
 ng-mouseleave=" setIsHoveringViewport(false) "
 >
 <!-- Output the conversation markers. -->
-<a 
+<a
 ng-repeat="conversation in conversations"
 href="#/screens/{{ screenID }}/comments/{{ conversation.id }}"
 class="marker"
@@ -977,7 +977,7 @@ ng-mouseleave=" setIsHoveringHotspot(false) ">
 </div>
 <div class="scroll-wrap">
 <div class="sketchImage_wrapper">
-<img  
+<img
 ng-src="{{ screen.imageUrl }}"
 ng-style="{ width: screen.width * screen.displayScale + 'px',
 height: screen.height * screen.displayScale + 'px'}"
@@ -1020,7 +1020,7 @@ height: screen.height * screen.displayScale + 'px'
 </div>
 </div>
 </div></script><script type="text/ng-template" id="/assets/apps/share/views/directives/toggle.htm">
-<div class="m-toggle off">	
+<div class="m-toggle off">
 <!-- BEGIN: Labels Track. -->
 <div class="toggle-labels-track">
 <div class="toggle-labels">
@@ -1043,9 +1043,9 @@ height: screen.height * screen.displayScale + 'px'
 </div>
 <!-- END: Thumb Track. -->
 </div></script><script type="text/ng-template" id="/assets/apps/share/views/partials/preload.htm">	<!--
-BEGIN: HACKY CSS PRELOAD. 
-Until we have better sprite technology, let's at least pre-load the images this way so that 
-the parallel loading of Screen images is less likely to conflict. 
+BEGIN: HACKY CSS PRELOAD.
+Until we have better sprite technology, let's at least pre-load the images this way so that
+the parallel loading of Screen images is less likely to conflict.
 -->
 <div style="height: 1px ; left: -100px ; overflow: hidden ; position: absolute ; top: -100px ; width: 1px ;">
 <img src="assets/apps/share/img/app-switch.png" />
@@ -1072,19 +1072,19 @@ the parallel loading of Screen images is less likely to conflict.
 <img src="assets/apps/share/img/share-loading-sprites@2x.png" />
 </div>
 <!-- END: Hacky CSS Preload. </script><script type="text/ng-template" id="/assets/apps/share/views/powered-by/powered-by.htm"><div
-ng-controller="poweredBy.poweredByController" 
+ng-controller="poweredBy.poweredByController"
 ng-mouseenter="announceActivityChange(true)"
 ng-mouseleave="announceActivityChange(false)">
 <!-- BEGIN: Powered By Tag -->
-<a 
-class="powered-by" 
+<a
+class="powered-by"
 ng-class="{ 'active': isActive }"
 href="http://www.invisionapp.com/?utm_medium=virality&utm_source=Share%20CTA"
 target="_blank">
 <img src="assets/apps/share/img/logo-icon.png" />
 </a>
 <!-- END: Powered By Tag -->
-</div>	
+</div>
 </script><script type="text/ng-template" id="/assets/apps/share/views/preview/preview.htm">
 <div ng-controller="preview.PreviewController"
 inv-preview-helper
@@ -1094,11 +1094,11 @@ ng-hide="!isLiveShare && project.isSnap">
 <!-- desktop projects -->
 <div ui-if=" !project.isMobile "
 class="viewport {{ viewport.alignment }}"
-ng-class="{ visible: isShowingHotspots}" 
+ng-class="{ visible: isShowingHotspots}"
 ng-style="{ width: ( viewport.width * screen.displayScale + 'px' ), height: ( viewport.height* screen.displayScale + 'px' ) }">
-<a 
+<a
 ng-repeat="hotspot in hotspots"
-ng-click="applyHotspotNavigation( hotspot )" 
+ng-click="applyHotspotNavigation( hotspot )"
 ng-mouseover="applyHotspotNavigation ( hotspot, 'hover' )"
 ng-mouseleave="hideOverlay($event)"
 class="hotspot"
@@ -1107,17 +1107,17 @@ ng-style="{ left: ( hotspot.x * screen.displayScale + 'px' ), top: ( hotspot.y *
 {{ hotspot.screenID }}
 </a>
 <!-- For mouseover navigation where we stay on the screen -->
-<img 
+<img
 ui-if="hasOverlay()"
-ng-src="{{ overlayImage }}" 
-class="overlayScreen" 
+ng-src="{{ overlayImage }}"
+class="overlayScreen"
 ng-show=" hasOverlay() "
 ng-style="{ width: ( overlayScreen.width * overlayScreen.displayScale + 'px' ),
 height: ( overlayScreen.height * overlayScreen.displayScale + 'px' ) }"
 />
-<div class="overlayHotspots" 
+<div class="overlayHotspots"
 ng-show=" !project.isMobile && hasOverlay() "
-ng-class="{ visible: isShowingHotspots}" 
+ng-class="{ visible: isShowingHotspots}"
 ng-style="{ width: ( viewport.width * overlayScreen.displayScale + 'px' ), height: ( viewport.height * overlayScreen.displayScale + 'px' ) }">
 <a
 ng-repeat="hotspot in overlayHotspots"
@@ -1133,11 +1133,11 @@ ng-class="{ template: hotspot.templateID }">
 <!-- mobile projects -->
 <div ui-if=" project.isMobile "
 class="viewport"
-ng-class="{ visible: isShowingHotspots, mobile: project.isMobile}" 
+ng-class="{ visible: isShowingHotspots, mobile: project.isMobile}"
 ng-style="{ width: ( viewport.width * deviceTemplate.viewportWidth/viewport.width + 'px' ), height: ( viewport.height * deviceTemplate.viewportWidth/viewport.width + 'px' ) }">
-<a 
+<a
 ng-repeat="hotspot in hotspots"
-ng-click="applyHotspotNavigation( hotspot )" 
+ng-click="applyHotspotNavigation( hotspot )"
 class="hotspot"
 ng-class="{ template: hotspot.templateID }"
 ng-style="{ left: ( hotspot.x * deviceTemplate.viewportWidth/viewport.width + 'px' ), top: ( hotspot.y * deviceTemplate.viewportWidth/viewport.width + 'px' ), width: ( hotspot.width * deviceTemplate.viewportWidth/viewport.width + 'px' ), height: ( hotspot.height * deviceTemplate.viewportWidth/viewport.width + 'px' ) }">
@@ -1163,14 +1163,14 @@ ng-style="{ left: ( hotspot.x * deviceTemplate.viewportWidth/viewport.width + 'p
 <div ng-include=" '/assets/apps/share/views/share-lite/share-bar.htm' "></div>
 </div>
 <!-- desktop projects -->
-<div 	
+<div
 ui-if=" !project.isMobile || subview == 'comments' "
 ng-controller="screens.ScreensController"
 inv-screens
 class="m-screens desktop"
 ng-class="{ isScaledCommentMode: project.isMobile }">
 <div class="refreshingData" inv-progress-bar control-value="! selectedScreen.isImageLoaded"></div>
-<div 
+<div
 ng-repeat="screen in screens"
 data-distance="{{ screen.distanceFromStartScreen }}"
 class="screen {{ screen.alignment }}"
@@ -1183,13 +1183,13 @@ ng-style="{ width: ( (screen.width * screen.displayScale) + 'px' ), height: ( (s
 </div>
 </div>
 <!-- mobile projects-->
-<div 	
+<div
 ui-if=" project.isMobile && subview == 'preview' "
 ng-controller="screens.ScreensController"
 inv-screens
 data-distance="{{ screen.distanceFromStartScreen }}"
 class="m-screens" >
-<div 
+<div
 ng-repeat="screen in screens"
 class="screen mobile {{ screen.alignment }}"
 ng-class="{ visible: (screen == selectedScreen) }">
@@ -1220,7 +1220,7 @@ ng-class="{ visible: (screen == selectedScreen) }">
 </div> <!-- share-modal -->
 </div> <!-- share_bar --></script><script type="text/ng-template" id="/assets/apps/share/views/toolbar/toolbar.htm">
 <div
-ng-controller="toolbar.ToolbarController" 
+ng-controller="toolbar.ToolbarController"
 ng-show="( includeBrowseTool || includeCommentsTool )"
 ng-mouseenter="updateIsUserOverToolbar( true )"
 ng-mouseleave="updateIsUserOverToolbar( false )"
@@ -1251,7 +1251,7 @@ Comments
 </div>
 <!-- END: Toolbar. -->
 </div>
-</script> 
+</script>
 
 
 </body>

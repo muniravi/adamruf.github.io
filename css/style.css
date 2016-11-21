@@ -48,7 +48,7 @@ p {
 
 a {
   color: #00A8FF;
-  font-weight: 500; }
+  font-weight: 400; }
   a:hover:not(.button), a:active:not(.button), a:focus:not(.button) {
     border-bottom: 1px solid rgba(66, 182, 101, 0.5);
     color: #42B665;
@@ -368,6 +368,9 @@ nav.navbar-inverse .navbar-nav li > a:hover, nav.navbar-inverse .navbar-nav li >
 
 nav.navbar-inverse .navbar-icons li a {
   font-size: 2rem; }
+
+.dropdown-toggle i {
+  vertical-align: middle; }
 
 .dropdown-menu {
   position: absolute;
