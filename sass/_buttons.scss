@@ -20,13 +20,14 @@ button, .button {
   box-shadow: 0 3px 1px 1px rgba(0,0,0,0.125);
   cursor: pointer;
   display:inline-block;
-  @include condensed-font;
+  @include base-font;
   font-size: 3rem;
   font-weight: bold;
   margin: 0;
   padding: 1.1rem 1.6rem;
   position: relative;
   text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  text-transform: uppercase;
   &:hover {
     text-decoration: none;
     outline: 0;
@@ -72,9 +73,9 @@ button, .button {
   border-bottom-width: 0.6rem;
   @include rounded(1rem);
   box-shadow: 0 5px 1px 1px rgba(0,0,0,0.1);
-  font-size: 4.7rem;
+  font-size: 3rem;
   line-height: 0.55;
-  padding: 2.5rem 3.8rem;
+  padding: 2.5rem 3rem;
   &:active {
     box-shadow: 0 3px 1px 1px rgba(0,0,0,0.1);
     margin-top: 4px;

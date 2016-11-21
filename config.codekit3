@@ -1,0 +1,5002 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
+		}
+	],
+"creatorBuild": "25444",
+"files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/404.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
+	"\/about-ux-ui-designer-adam-ruf.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about-ux-ui-designer-adam-ruf.html",
+		"oF": 0
+		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
+	"\/contact-ux-ui-designer-adam-ruf.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact-ux-ui-designer-adam-ruf.html",
+		"oF": 0
+		},
+	"\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/forty-three-million-dollar-painting.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/forty-three-million-dollar-painting.html",
+		"oF": 0
+		},
+	"\/images\/404-img.jpg": {
+		"ft": 16384,
+		"iS": 65110,
+		"oA": 0,
+		"oAP": "\/images\/404-img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/404-img@2x.jpg": {
+		"ft": 16384,
+		"iS": 141658,
+		"oA": 0,
+		"oAP": "\/images\/404-img@2x.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/404@2x.png": {
+		"ft": 32768,
+		"iS": 253770,
+		"oA": 0,
+		"oAP": "\/images\/404@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/43_845_000-painting-flat-small.png": {
+		"ft": 32768,
+		"iS": 16013,
+		"oA": 0,
+		"oAP": "\/images\/43_845_000-painting-flat-small.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/43_845_000-painting-flat.png": {
+		"ft": 32768,
+		"iS": 156469,
+		"oA": 0,
+		"oAP": "\/images\/43_845_000-painting-flat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/academy-of-art-university.jpg": {
+		"ft": 16384,
+		"iS": 49325,
+		"oA": 0,
+		"oAP": "\/images\/academy-of-art-university.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-email-signature.png": {
+		"ft": 32768,
+		"iS": 170785,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-email-signature.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-larger-profile-pic.jpg": {
+		"ft": 16384,
+		"iS": 119813,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-larger-profile-pic.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-larger-profile-pic.png": {
+		"ft": 32768,
+		"iS": 772527,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-larger-profile-pic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-logomark-no-bg.png": {
+		"ft": 32768,
+		"iS": 32004,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-logomark-no-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Adam-Ruf-logomark.png": {
+		"ft": 32768,
+		"iS": 17979,
+		"oA": 0,
+		"oAP": "\/images\/Adam-Ruf-logomark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-profile-pic-bw.png": {
+		"ft": 32768,
+		"iS": 57538,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-profile-pic-bw.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-profile-pic.png": {
+		"ft": 32768,
+		"iS": 174804,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-profile-pic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg": {
+		"ft": 16384,
+		"iS": 1087080,
+		"oA": 0,
+		"oAP": "\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/adam-ruf-website-tile-image.png": {
+		"ft": 32768,
+		"iS": 5587,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-website-tile-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/avatar-sprite.png": {
+		"ft": 32768,
+		"iS": 10797,
+		"oA": 0,
+		"oAP": "\/images\/avatar-sprite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/avatar-sprite@2x.png": {
+		"ft": 32768,
+		"iS": 19684,
+		"oA": 0,
+		"oAP": "\/images\/avatar-sprite@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/barely-there-grid-by-adam-ruf.png": {
+		"ft": 32768,
+		"iS": 129,
+		"oA": 0,
+		"oAP": "\/images\/barely-there-grid-by-adam-ruf.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/barely-there-grid-by-adam-ruf@2x.png": {
+		"ft": 32768,
+		"iS": 145,
+		"oA": 0,
+		"oAP": "\/images\/barely-there-grid-by-adam-ruf@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/br-hax-xv.jpg": {
+		"ft": 16384,
+		"iS": 296624,
+		"oA": 0,
+		"oAP": "\/images\/br-hax-xv.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/bracelets-by-deb.jpg": {
+		"ft": 16384,
+		"iS": 321563,
+		"oA": 0,
+		"oAP": "\/images\/bracelets-by-deb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/brighroll-hax-sticker.jpg": {
+		"ft": 16384,
+		"iS": 76747,
+		"oA": 0,
+		"oAP": "\/images\/brighroll-hax-sticker.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/BrightRoll-DSP-from-Yahoo-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/BrightRoll-DSP-from-Yahoo-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/brightroll-logo.jpg": {
+		"ft": 16384,
+		"iS": 63677,
+		"oA": 0,
+		"oAP": "\/images\/brightroll-logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/bw-single-page-site.jpg": {
+		"ft": 16384,
+		"iS": 112728,
+		"oA": 0,
+		"oAP": "\/images\/bw-single-page-site.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cannabis-infused-product-brands.png": {
+		"ft": 32768,
+		"iS": 31424,
+		"oA": 0,
+		"oAP": "\/images\/cannabis-infused-product-brands.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cannabis-infused-product-brands@2x.png": {
+		"ft": 32768,
+		"iS": 87535,
+		"oA": 0,
+		"oAP": "\/images\/cannabis-infused-product-brands@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cannaly-hero-lg.jpg": {
+		"ft": 16384,
+		"iS": 96548,
+		"oA": 0,
+		"oAP": "\/images\/cannaly-hero-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/cannaly-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/cannaly-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/cannaly.png": {
+		"ft": 32768,
+		"iS": 133315,
+		"oA": 0,
+		"oAP": "\/images\/cannaly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/CBD-Living-Water@2x.png": {
+		"ft": 32768,
+		"iS": 6558,
+		"oA": 0,
+		"oAP": "\/images\/CBD-Living-Water@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/designlab-design-mentoring.png": {
+		"ft": 32768,
+		"iS": 25014,
+		"oA": 0,
+		"oAP": "\/images\/designlab-design-mentoring.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/dialogue-flow-tool-OLD.png": {
+		"ft": 32768,
+		"iS": 29747,
+		"oA": 0,
+		"oAP": "\/images\/dialogue-flow-tool-OLD.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/dialogue-flow-tool.png": {
+		"ft": 32768,
+		"iS": 63081,
+		"oA": 0,
+		"oAP": "\/images\/dialogue-flow-tool.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/dining-with-designers-logo-for-email-signature.png": {
+		"ft": 32768,
+		"iS": 6631,
+		"oA": 0,
+		"oAP": "\/images\/dining-with-designers-logo-for-email-signature.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/dining-with-designers-logo-sm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/dining-with-designers-logo-sm.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/dining-with-designers.png": {
+		"ft": 32768,
+		"iS": 18320,
+		"oA": 0,
+		"oAP": "\/images\/dining-with-designers.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/dwd-adam-ruf-email-signature.png": {
+		"ft": 32768,
+		"iS": 12801,
+		"oA": 0,
+		"oAP": "\/images\/dwd-adam-ruf-email-signature.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/easyhire.jpg": {
+		"ft": 16384,
+		"iS": 88784,
+		"oA": 0,
+		"oAP": "\/images\/easyhire.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/estimate-request-welcome@2x.png": {
+		"ft": 32768,
+		"iS": 25032,
+		"oA": 0,
+		"oAP": "\/images\/estimate-request-welcome@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/favorite-fruit.jpg": {
+		"ft": 16384,
+		"iS": 103358,
+		"oA": 0,
+		"oAP": "\/images\/favorite-fruit.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/fontastic-questions.jpg": {
+		"ft": 16384,
+		"iS": 175806,
+		"oA": 0,
+		"oAP": "\/images\/fontastic-questions.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/gsd-toolbox.jpg": {
+		"ft": 16384,
+		"iS": 259540,
+		"oA": 0,
+		"oAP": "\/images\/gsd-toolbox.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/hero-image-OLD.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/hero-image-OLD.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/hero-image-OLD2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/hero-image-OLD2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/hero-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/hero-image.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/lending-club-loan-details-viewer.png": {
+		"ft": 32768,
+		"iS": 66404,
+		"oA": 0,
+		"oAP": "\/images\/lending-club-loan-details-viewer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/lendingclub-loan-details-viewer.png": {
+		"ft": 32768,
+		"iS": 5588,
+		"oA": 0,
+		"oAP": "\/images\/lendingclub-loan-details-viewer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/logomark@2x.png": {
+		"ft": 32768,
+		"iS": 2618,
+		"oA": 0,
+		"oAP": "\/images\/logomark@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/mainichi-japanese.jpg": {
+		"ft": 16384,
+		"iS": 209534,
+		"oA": 0,
+		"oAP": "\/images\/mainichi-japanese.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/manufacturers-benefits-image.png": {
+		"ft": 32768,
+		"iS": 87388,
+		"oA": 0,
+		"oAP": "\/images\/manufacturers-benefits-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/manufacturers-benefits-image@2x.png": {
+		"ft": 32768,
+		"iS": 275960,
+		"oA": 0,
+		"oAP": "\/images\/manufacturers-benefits-image@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Miss-Mary-Janes-Edibles@2x.png": {
+		"ft": 32768,
+		"iS": 42674,
+		"oA": 0,
+		"oAP": "\/images\/Miss-Mary-Janes-Edibles@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Moonmans-Mistress@2x.png": {
+		"ft": 32768,
+		"iS": 19726,
+		"oA": 0,
+		"oAP": "\/images\/Moonmans-Mistress@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/moringa-concepts.jpg": {
+		"ft": 16384,
+		"iS": 332208,
+		"oA": 0,
+		"oAP": "\/images\/moringa-concepts.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/mr-matcher-email-signature.png": {
+		"ft": 32768,
+		"iS": 2566,
+		"oA": 0,
+		"oAP": "\/images\/mr-matcher-email-signature.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Plus-Cannabis-Infused-Gum@2x.png": {
+		"ft": 32768,
+		"iS": 9832,
+		"oA": 0,
+		"oAP": "\/images\/Plus-Cannabis-Infused-Gum@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/polldaddy-ranking-sprite-gray.png": {
+		"ft": 32768,
+		"iS": 1141,
+		"oA": 0,
+		"oAP": "\/images\/polldaddy-ranking-sprite-gray.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/producteev-email-templates.jpg": {
+		"ft": 16384,
+		"iS": 158483,
+		"oA": 0,
+		"oAP": "\/images\/producteev-email-templates.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/random-nihongo.jpg": {
+		"ft": 16384,
+		"iS": 102439,
+		"oA": 0,
+		"oAP": "\/images\/random-nihongo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/retailer-benefits-image.png": {
+		"ft": 32768,
+		"iS": 40096,
+		"oA": 0,
+		"oAP": "\/images\/retailer-benefits-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/retailer-benefits-image@2x.png": {
+		"ft": 32768,
+		"iS": 115196,
+		"oA": 0,
+		"oAP": "\/images\/retailer-benefits-image@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sensilk-ios-app.jpg": {
+		"ft": 16384,
+		"iS": 192217,
+		"oA": 0,
+		"oAP": "\/images\/sensilk-ios-app.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sitecrit.png": {
+		"ft": 32768,
+		"iS": 130351,
+		"oA": 0,
+		"oAP": "\/images\/sitecrit.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/small-laptop-screen-manufacturer-products.png": {
+		"ft": 32768,
+		"iS": 42981,
+		"oA": 0,
+		"oAP": "\/images\/small-laptop-screen-manufacturer-products.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/small-laptop-screen-manufacturer-products@2x.png": {
+		"ft": 32768,
+		"iS": 135994,
+		"oA": 0,
+		"oAP": "\/images\/small-laptop-screen-manufacturer-products@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sunday-friends.jpg": {
+		"ft": 16384,
+		"iS": 225771,
+		"oA": 0,
+		"oAP": "\/images\/sunday-friends.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/sweater-pattern.jpg": {
+		"ft": 16384,
+		"iS": 153457,
+		"oA": 0,
+		"oAP": "\/images\/sweater-pattern.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ui-ux-designer-at-twitch.png": {
+		"ft": 32768,
+		"iS": 7666,
+		"oA": 0,
+		"oAP": "\/images\/ui-ux-designer-at-twitch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/user-dialogue-flow-tool.png": {
+		"ft": 32768,
+		"iS": 17585,
+		"oA": 0,
+		"oAP": "\/images\/user-dialogue-flow-tool.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/usertesting-logo-flat.jpg": {
+		"ft": 16384,
+		"iS": 87113,
+		"oA": 0,
+		"oAP": "\/images\/usertesting-logo-flat.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/utility-belt-bg-tile.png": {
+		"ft": 32768,
+		"iS": 110,
+		"oA": 0,
+		"oAP": "\/images\/utility-belt-bg-tile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/utility-belt-bg-tile@2x.png": {
+		"ft": 32768,
+		"iS": 118,
+		"oA": 0,
+		"oAP": "\/images\/utility-belt-bg-tile@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/utility-belt-sprite.png": {
+		"ft": 32768,
+		"iS": 78329,
+		"oA": 0,
+		"oAP": "\/images\/utility-belt-sprite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/utility-belt-sprite@2x.png": {
+		"ft": 32768,
+		"iS": 80380,
+		"oA": 0,
+		"oAP": "\/images\/utility-belt-sprite@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ux-dialogue-flow-tool.png": {
+		"ft": 32768,
+		"iS": 17585,
+		"oA": 0,
+		"oAP": "\/images\/ux-dialogue-flow-tool.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ux-mentor-application-service.png": {
+		"ft": 32768,
+		"iS": 320327,
+		"oA": 0,
+		"oAP": "\/images\/ux-mentor-application-service.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ux-team-goofy-v2.gif": {
+		"ft": 4194304,
+		"iS": 389332,
+		"oA": 0,
+		"oAP": "\/images\/ux-team-goofy-v2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ux-team-regular-v2.gif": {
+		"ft": 4194304,
+		"iS": 379656,
+		"oA": 0,
+		"oAP": "\/images\/ux-team-regular-v2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ux-team-smiley-v2.gif": {
+		"ft": 4194304,
+		"iS": 356561,
+		"oA": 0,
+		"oAP": "\/images\/ux-team-smiley-v2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/yahoo.jpg": {
+		"ft": 16384,
+		"iS": 61073,
+		"oA": 0,
+		"oAP": "\/images\/yahoo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/your-project-here.png": {
+		"ft": 32768,
+		"iS": 28138,
+		"oA": 0,
+		"oAP": "\/images\/your-project-here.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/js\/bootstrap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/bootstrap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/html5shiv.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/html5shiv-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/resources-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/min\/resources-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/min\/min\/scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/resources.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/resources-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/retina.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/retina-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/script.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/script-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/wufoo.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/wufoo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/favorite-fruit\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/china-flag-edited.jpg": {
+		"ft": 16384,
+		"iS": 65289,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/china-flag-edited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/china-flag.png": {
+		"ft": 32768,
+		"iS": 22326,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/china-flag.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/moonstars-watermelon-by-tclarkcreations-edited.jpg": {
+		"ft": 16384,
+		"iS": 658026,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/moonstars-watermelon-by-tclarkcreations-edited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/southern-africa-edited.jpg": {
+		"ft": 16384,
+		"iS": 142726,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/southern-africa-edited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/watermelon-by-Or-Hiltch-edited.jpg": {
+		"ft": 16384,
+		"iS": 146637,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelon-by-Or-Hiltch-edited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/watermelons-by-PL-Tandon-edited.jpg": {
+		"ft": 16384,
+		"iS": 374891,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelons-by-PL-Tandon-edited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/img\/watermelons-edited.jpg": {
+		"ft": 16384,
+		"iS": 82627,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelons-edited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/favorite-fruit\/watermelon.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/favorite-fruit\/watermelon.html",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/css\/fq-style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/css\/fq-style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/fontastic-questions\/css\/how-high-is-mount-everest.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/css\/how-high-is-mount-everest-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/fontastic-questions\/css\/how-many-stars.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/css\/how-many-stars-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/fontastic-questions\/css\/why-is-the-sky-blue.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/css\/why-is-the-sky-blue-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.eot",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.ttf",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.woff",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.eot",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.ttf",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.woff",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/how-high-is-mount-everest.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/how-high-is-mount-everest.html",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/how-many-stars-are-there-in-the-universe.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/how-many-stars-are-there-in-the-universe.html",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/img\/cloud-1.png": {
+		"ft": 32768,
+		"iS": 44957,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/img\/cloud-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/fontastic-questions\/img\/cloud-2.png": {
+		"ft": 32768,
+		"iS": 35842,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/img\/cloud-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/fontastic-questions\/img\/cloud-3.png": {
+		"ft": 32768,
+		"iS": 32970,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/img\/cloud-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/fontastic-questions\/img\/fq-bg-tile.png": {
+		"ft": 32768,
+		"iS": 11280,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/img\/fq-bg-tile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/fontastic-questions\/img\/how-many-stars-bg.jpg": {
+		"ft": 16384,
+		"iS": 55034,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/img\/how-many-stars-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/fontastic-questions\/img\/mount-everest-bg.jpg": {
+		"ft": 16384,
+		"iS": 212541,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/img\/mount-everest-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/fontastic-questions\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/index.html",
+		"oF": 0
+		},
+	"\/portfolio\/fontastic-questions\/why-is-the-sky-blue.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/fontastic-questions\/why-is-the-sky-blue.html",
+		"oF": 0
+		},
+	"\/portfolio\/gsd\/gsd-toolbox-background-tile.png": {
+		"ft": 32768,
+		"iS": 634,
+		"oA": 0,
+		"oAP": "\/portfolio\/gsd\/gsd-toolbox-background-tile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/gsd\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/gsd\/index.html",
+		"oF": 0
+		},
+	"\/portfolio\/gsd\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/gsd\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/lunch-inviterator\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/adam-ruf.jpg": {
+		"ft": 16384,
+		"iS": 47225,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/adam-ruf.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/alan-grant.jpg": {
+		"ft": 16384,
+		"iS": 68334,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/alan-grant.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/capybara-surprise.png": {
+		"ft": 32768,
+		"iS": 174125,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/capybara-surprise.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/daenerys-targaryen.jpg": {
+		"ft": 16384,
+		"iS": 66140,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/daenerys-targaryen.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/dagny-taggart.jpg": {
+		"ft": 16384,
+		"iS": 53858,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/dagny-taggart.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/ellen-ripley.jpg": {
+		"ft": 16384,
+		"iS": 54748,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/ellen-ripley.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/ender-wiggin.jpg": {
+		"ft": 16384,
+		"iS": 53210,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/ender-wiggin.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/jean-luc-picard.jpg": {
+		"ft": 16384,
+		"iS": 62251,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/jean-luc-picard.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/kit-cloudkicker.jpg": {
+		"ft": 16384,
+		"iS": 65336,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/kit-cloudkicker.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/luke-skywalker.jpg": {
+		"ft": 16384,
+		"iS": 47881,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/luke-skywalker.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/lunch-inviterator-tile-image.png": {
+		"ft": 32768,
+		"iS": 17495,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/lunch-inviterator-tile-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/mattie-ross.jpg": {
+		"ft": 16384,
+		"iS": 54334,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/mattie-ross.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/no-image.png": {
+		"ft": 32768,
+		"iS": 2120,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/no-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/sherlock-holmes.jpg": {
+		"ft": 16384,
+		"iS": 68881,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/sherlock-holmes.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/img\/sp_edited_bg.png": {
+		"ft": 32768,
+		"iS": 28593,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/img\/sp_edited_bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/lunch-inviterator\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/index.html",
+		"oF": 0
+		},
+	"\/portfolio\/lunch-inviterator\/js\/min\/random-lunch-invite-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/portfolio\/lunch-inviterator\/js\/min\/min\/random-lunch-invite-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/lunch-inviterator\/js\/random-lunch-invite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/portfolio\/lunch-inviterator\/js\/min\/random-lunch-invite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/css\/bootstrap.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/css\/intlTelInput.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/css\/intlTelInput-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/css\/share.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/css\/share-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/css\/uniform.default.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/css\/uniform.default-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/android-tablet-status.png": {
+		"ft": 32768,
+		"iS": 2154,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/android-tablet-status.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/app-switch.png": {
+		"ft": 32768,
+		"iS": 5161,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/app-switch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-dark.png": {
+		"ft": 32768,
+		"iS": 2478,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-dark.png": {
+		"ft": 32768,
+		"iS": 2546,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-light.png": {
+		"ft": 32768,
+		"iS": 2360,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-light.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-light.png": {
+		"ft": 32768,
+		"iS": 2303,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-light.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-dark.png": {
+		"ft": 32768,
+		"iS": 2641,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-dark.png": {
+		"ft": 32768,
+		"iS": 2872,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-light.png": {
+		"ft": 32768,
+		"iS": 2695,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-light.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-light.png": {
+		"ft": 32768,
+		"iS": 2532,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-light.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-dark.png": {
+		"ft": 32768,
+		"iS": 2800,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-light.png": {
+		"ft": 32768,
+		"iS": 2686,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-light.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-background.png": {
+		"ft": 32768,
+		"iS": 48134,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-background.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav-icons.png": {
+		"ft": 32768,
+		"iS": 1324,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav-icons.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav.png": {
+		"ft": 32768,
+		"iS": 24108,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-alert.png": {
+		"ft": 32768,
+		"iS": 646,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-alert.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-close.png": {
+		"ft": 32768,
+		"iS": 459,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-close.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/btn-green.png": {
+		"ft": 32768,
+		"iS": 15737,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/btn-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/close3.png": {
+		"ft": 32768,
+		"iS": 1215,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/close3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/close4.png": {
+		"ft": 32768,
+		"iS": 252,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/close4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-context-tab.png": {
+		"ft": 32768,
+		"iS": 1195,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-context-tab.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-vrule.png": {
+		"ft": 32768,
+		"iS": 628,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-vrule.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle.png": {
+		"ft": 32768,
+		"iS": 1881,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle@2x.png": {
+		"ft": 32768,
+		"iS": 2882,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line.png": {
+		"ft": 32768,
+		"iS": 1437,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line@2x.png": {
+		"ft": 32768,
+		"iS": 1844,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen.png": {
+		"ft": 32768,
+		"iS": 1658,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen@2x.png": {
+		"ft": 32768,
+		"iS": 2149,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square.png": {
+		"ft": 32768,
+		"iS": 1542,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square@2x.png": {
+		"ft": 32768,
+		"iS": 2201,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/draw.png": {
+		"ft": 32768,
+		"iS": 2041,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/draw.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/draw@2x.png": {
+		"ft": 32768,
+		"iS": 3382,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/draw@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/flags16.png": {
+		"ft": 32768,
+		"iS": 63284,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/flags16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/grey-screen-divider.png": {
+		"ft": 32768,
+		"iS": 122,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/grey-screen-divider.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape-white.png": {
+		"ft": 32768,
+		"iS": 18961,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape.png": {
+		"ft": 32768,
+		"iS": 10803,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait-white.png": {
+		"ft": 32768,
+		"iS": 14327,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait.png": {
+		"ft": 32768,
+		"iS": 8900,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/icon.png": {
+		"ft": 32768,
+		"iS": 4535,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in.png": {
+		"ft": 32768,
+		"iS": 6190,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in@2x.png": {
+		"ft": 32768,
+		"iS": 17771,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small.png": {
+		"ft": 32768,
+		"iS": 2567,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small@2x.png": {
+		"ft": 32768,
+		"iS": 7366,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape-white.png": {
+		"ft": 32768,
+		"iS": 7740,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape.png": {
+		"ft": 32768,
+		"iS": 8256,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait-white.png": {
+		"ft": 32768,
+		"iS": 8178,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait.png": {
+		"ft": 32768,
+		"iS": 8693,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad.png": {
+		"ft": 32768,
+		"iS": 20363,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape-white.png": {
+		"ft": 32768,
+		"iS": 7032,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape.png": {
+		"ft": 32768,
+		"iS": 7052,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait-white.png": {
+		"ft": 32768,
+		"iS": 7284,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait.png": {
+		"ft": 32768,
+		"iS": 7575,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone.png": {
+		"ft": 32768,
+		"iS": 4897,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape-white.png": {
+		"ft": 32768,
+		"iS": 6972,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape.png": {
+		"ft": 32768,
+		"iS": 6815,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait-white.png": {
+		"ft": 32768,
+		"iS": 6994,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait.png": {
+		"ft": 32768,
+		"iS": 7315,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/kitkat-statusbar-icons.png": {
+		"ft": 32768,
+		"iS": 1996,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/kitkat-statusbar-icons.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo.png": {
+		"ft": 32768,
+		"iS": 2647,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo@2x.png": {
+		"ft": 32768,
+		"iS": 5602,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-sprite.png": {
+		"ft": 32768,
+		"iS": 36095,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-sprite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/login-header-background.png": {
+		"ft": 32768,
+		"iS": 5290,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/login-header-background.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/logo-icon.png": {
+		"ft": 32768,
+		"iS": 2065,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/logo-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/marker.png": {
+		"ft": 32768,
+		"iS": 4286,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/marker.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/mobile.png": {
+		"ft": 32768,
+		"iS": 1013,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/mobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-landscape.png": {
+		"ft": 32768,
+		"iS": 21490,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-portrait.png": {
+		"ft": 32768,
+		"iS": 20803,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-landscape.png": {
+		"ft": 32768,
+		"iS": 11958,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-portrait.png": {
+		"ft": 32768,
+		"iS": 12556,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape-white.png": {
+		"ft": 32768,
+		"iS": 7813,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape.png": {
+		"ft": 32768,
+		"iS": 6971,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait-white.png": {
+		"ft": 32768,
+		"iS": 7708,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait.png": {
+		"ft": 32768,
+		"iS": 7219,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/screens-search.png": {
+		"ft": 32768,
+		"iS": 1096,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/screens-search.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/scrollbar-mid.png": {
+		"ft": 32768,
+		"iS": 935,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/scrollbar-mid.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites.png": {
+		"ft": 32768,
+		"iS": 2901,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites@2x.png": {
+		"ft": 32768,
+		"iS": 5167,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites.png": {
+		"ft": 32768,
+		"iS": 11279,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites@2x.png": {
+		"ft": 32768,
+		"iS": 23136,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites.png": {
+		"ft": 32768,
+		"iS": 1888,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites@2x.png": {
+		"ft": 32768,
+		"iS": 2792,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch-viewer-close.png": {
+		"ft": 32768,
+		"iS": 4053,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch-viewer-close.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch_tools.png": {
+		"ft": 32768,
+		"iS": 4616,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch_tools.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-left.png": {
+		"ft": 32768,
+		"iS": 1111,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-left.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-right.png": {
+		"ft": 32768,
+		"iS": 1133,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-right.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/sprite1.png": {
+		"ft": 32768,
+		"iS": 118820,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/sprite1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/apps\/share\/img\/transparent.png": {
+		"ft": 32768,
+		"iS": 219,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/transparent.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-bold.woff",
+		"oF": 0
+		},
+	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-light.woff",
+		"oF": 0
+		},
+	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-semibold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-semibold.woff",
+		"oF": 0
+		},
+	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans.woff",
+		"oF": 0
+		},
+	"\/portfolio\/moringa\/assets\/green-accent-concept@2x.png": {
+		"ft": 32768,
+		"iS": 2159020,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/green-accent-concept@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/html5shim\/html5.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/html5shim\/min\/html5-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/moringa\/assets\/jquery-ui-1.9.2.custom\/css\/no-theme\/jquery-ui-1.9.2.custom.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/jquery-ui-1.9.2.custom\/css\/no-theme\/jquery-ui-1.9.2.custom.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/portfolio\/moringa\/assets\/json2\/json2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/json2\/min\/json2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/moringa\/assets\/orange-accent-concept@2x.png": {
+		"ft": 32768,
+		"iS": 2156160,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/orange-accent-concept@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/min\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/moringa\/assets\/thumb_green-accent-concept@2x.png": {
+		"ft": 32768,
+		"iS": 172820,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/thumb_green-accent-concept@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/thumb_orange-accent-concept@2x.png": {
+		"ft": 32768,
+		"iS": 172868,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/thumb_orange-accent-concept@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/thumb_turquoise-accent-concept@2x.png": {
+		"ft": 32768,
+		"iS": 173157,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/thumb_turquoise-accent-concept@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/assets\/turquoise-accent-concept@2x.png": {
+		"ft": 32768,
+		"iS": 2161930,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/assets\/turquoise-accent-concept@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio\/moringa\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/portfolio\/moringa\/index.html",
+		"oF": 0
+		},
+	"\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_accordions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_accordions.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_animations.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_animations.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_banner.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_banner.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_colors.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_colors.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_helpers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_helpers.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_modals.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_modals.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_navbar.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_navbar.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_tooltips.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_tooltips.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_typography.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_typography.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_utility-belt.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_utility-belt.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/style.scssc",
+		"oF": 0
+		},
+	"\/sass\/_accordions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_accordions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_banner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_helpers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_helpers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_modals.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_modals.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_navbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_navbar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_tooltips.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_tooltips.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_utility-belt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_utility-belt.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/staging\/404.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/404.ai",
+		"oF": 0
+		},
+	"\/staging\/adam-ruf-ux-design-and-career-mentoring": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/adam-ruf-ux-design-and-career-mentoring",
+		"oF": 0
+		},
+	"\/staging\/adam-ruf-ux-design-speaking": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/adam-ruf-ux-design-speaking",
+		"oF": 0
+		},
+	"\/staging\/adamruf-dot-com.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/adamruf-dot-com.sketch",
+		"oF": 0
+		},
+	"\/staging\/ar-portfolio-template.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/ar-portfolio-template.psd",
+		"oF": 0
+		},
+	"\/staging\/avatar-sprite-eps.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/avatar-sprite-eps.eps",
+		"oF": 0
+		},
+	"\/staging\/avatar-sprite-svg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/avatar-sprite-svg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/avatar-sprite-v2@2x.png": {
+		"ft": 32768,
+		"iS": 19537,
+		"oA": 0,
+		"oAP": "\/staging\/avatar-sprite-v2@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/avatar-sprite@2x--OLD.png": {
+		"ft": 32768,
+		"iS": 14993,
+		"oA": 0,
+		"oAP": "\/staging\/avatar-sprite@2x--OLD.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/coder-character-icons.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/coder-character-icons.sketch",
+		"oF": 0
+		},
+	"\/staging\/easyhire-v2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/easyhire-v2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/easyhire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/easyhire.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/email-signature.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/email-signature.psd",
+		"oF": 0
+		},
+	"\/staging\/hero-image-v1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image-v1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/hero-image-v2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image-v2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/hero-image-v3.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image-v3.ai",
+		"oF": 0
+		},
+	"\/staging\/hero-image-v4.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image-v4.ai",
+		"oF": 0
+		},
+	"\/staging\/hero-image.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image.ai",
+		"oF": 0
+		},
+	"\/staging\/hero-image.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image.eps",
+		"oF": 0
+		},
+	"\/staging\/hero-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/hero-image.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/icons-for-ux-portfolio-mentorship.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/icons-for-ux-portfolio-mentorship.sketch",
+		"oF": 0
+		},
+	"\/staging\/index-rotate-test.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/staging\/index-rotate-test.html",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/Data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/Data",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/metadata": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/metadata",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/version": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/version",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/Data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/Data",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/metadata": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/metadata",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/version": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/version",
+		"oF": 0
+		},
+	"\/staging\/Invision-CD-Sketch\/INSTRUCTIONS.rtf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Invision-CD-Sketch\/INSTRUCTIONS.rtf",
+		"oF": 0
+		},
+	"\/staging\/kawaii 500px.png": {
+		"ft": 32768,
+		"iS": 16387,
+		"oA": 0,
+		"oAP": "\/staging\/kawaii 500px.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/kawaii-ux-hierarchy-pyramids.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/kawaii-ux-hierarchy-pyramids.ai",
+		"oF": 0
+		},
+	"\/staging\/kawaii-ux-pyramid-5000px.png": {
+		"ft": 32768,
+		"iS": 158075,
+		"oA": 0,
+		"oAP": "\/staging\/kawaii-ux-pyramid-5000px.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/kawaii-ux-pyramid-500px.png": {
+		"ft": 32768,
+		"iS": 8166,
+		"oA": 0,
+		"oAP": "\/staging\/kawaii-ux-pyramid-500px.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/kawaii-ux-pyramid-for-stickermule.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/kawaii-ux-pyramid-for-stickermule.ai",
+		"oF": 0
+		},
+	"\/staging\/kawaii-ux-pyramid-for-stickermule.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/kawaii-ux-pyramid-for-stickermule.eps",
+		"oF": 0
+		},
+	"\/staging\/kawaii-ux-pyramid-v2.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/kawaii-ux-pyramid-v2.ai",
+		"oF": 0
+		},
+	"\/staging\/kawaii-ux-pyramid-v4.png": {
+		"ft": 32768,
+		"iS": 9203,
+		"oA": 0,
+		"oAP": "\/staging\/kawaii-ux-pyramid-v4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/kawaii-ux-pyramid.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/kawaii-ux-pyramid.ai",
+		"oF": 0
+		},
+	"\/staging\/kawaii-ux-pyramid.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/kawaii-ux-pyramid.sketch",
+		"oF": 0
+		},
+	"\/staging\/master-kawaii-ux-pyramid-v4.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/master-kawaii-ux-pyramid-v4.sketch",
+		"oF": 0
+		},
+	"\/staging\/master-kawaii-ux-pyramid-v5.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/master-kawaii-ux-pyramid-v5.sketch",
+		"oF": 0
+		},
+	"\/staging\/master-kawaii-ux-pyramid-v6.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/master-kawaii-ux-pyramid-v6.sketch",
+		"oF": 0
+		},
+	"\/staging\/master-utility-belt-graphics-brighter.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/master-utility-belt-graphics-brighter.sketch",
+		"oF": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/10454123_1028448037187999_1583125155414519095_o.jpg": {
+		"ft": 16384,
+		"iS": 139795,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/10454123_1028448037187999_1583125155414519095_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11011737_1028448567187946_1146779393837794073_o.jpg": {
+		"ft": 16384,
+		"iS": 112886,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11011737_1028448567187946_1146779393837794073_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11046865_954957654537038_8347107780419300594_o.jpg": {
+		"ft": 16384,
+		"iS": 207188,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11046865_954957654537038_8347107780419300594_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11057811_1028448370521299_7865922654418666550_o.jpg": {
+		"ft": 16384,
+		"iS": 185336,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11057811_1028448370521299_7865922654418666550_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o (1).jpg": {
+		"ft": 16384,
+		"iS": 72773,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o (1).jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o.jpg": {
+		"ft": 16384,
+		"iS": 72773,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11145261_1028448470521289_9068001845555780368_o.jpg": {
+		"ft": 16384,
+		"iS": 153930,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11145261_1028448470521289_9068001845555780368_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11412064_1028448367187966_6880085825769346876_o.jpg": {
+		"ft": 16384,
+		"iS": 141222,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11412064_1028448367187966_6880085825769346876_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11415604_1012372975462172_7280804681301762774_o.jpg": {
+		"ft": 16384,
+		"iS": 165263,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11415604_1012372975462172_7280804681301762774_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11713718_1028448480521288_1110496715705704860_o.jpg": {
+		"ft": 16384,
+		"iS": 220710,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11713718_1028448480521288_1110496715705704860_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11722414_1028448113854658_7548809098820489417_o.jpg": {
+		"ft": 16384,
+		"iS": 120877,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11722414_1028448113854658_7548809098820489417_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11722565_1028448203854649_2668335237636349489_o.jpg": {
+		"ft": 16384,
+		"iS": 124079,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11722565_1028448203854649_2668335237636349489_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11728987_1028448573854612_5807988168801496220_o.jpg": {
+		"ft": 16384,
+		"iS": 109780,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11728987_1028448573854612_5807988168801496220_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11741121_1028448033854666_4655331621432612937_o.jpg": {
+		"ft": 16384,
+		"iS": 129032,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11741121_1028448033854666_4655331621432612937_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/11873478_1044159688950167_7258447279763061337_n.jpg": {
+		"ft": 16384,
+		"iS": 61553,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/11873478_1044159688950167_7258447279763061337_n.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/12000883_1060476710651798_6574953780111672823_o.jpg": {
+		"ft": 16384,
+		"iS": 83326,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/12000883_1060476710651798_6574953780111672823_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/Mentoring and Speaking photos\/12771993_1148072851892183_8044951554146230402_o.jpg": {
+		"ft": 16384,
+		"iS": 320658,
+		"oA": 0,
+		"oAP": "\/staging\/Mentoring and Speaking photos\/12771993_1148072851892183_8044951554146230402_o.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/peek tests\/peek-adamruf-feb-01.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/peek tests\/peek-adamruf-feb-01.mp4",
+		"oF": 0
+		},
+	"\/staging\/peek tests\/peek-adamruf-feb-02.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/peek tests\/peek-adamruf-feb-02.mp4",
+		"oF": 0
+		},
+	"\/staging\/peek tests\/peek-adamruf-feb-03.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/peek tests\/peek-adamruf-feb-03.mp4",
+		"oF": 0
+		},
+	"\/staging\/photo-template.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/photo-template.psd",
+		"oF": 0
+		},
+	"\/staging\/polldaddy-rating-alternate-graphics.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/polldaddy-rating-alternate-graphics.sketch",
+		"oF": 0
+		},
+	"\/staging\/Portfolio img template.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Portfolio img template.sketch",
+		"oF": 0
+		},
+	"\/staging\/portfolio-image-template.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/portfolio-image-template.sketch",
+		"oF": 0
+		},
+	"\/staging\/pyramid-xs.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/pyramid-xs.eps",
+		"oF": 0
+		},
+	"\/staging\/pyramid-xs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/staging\/pyramid-xs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/staging\/resources-list-2015.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/staging\/resources-list-2015.html",
+		"oF": 0
+		},
+	"\/staging\/Untitled.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Untitled.sketch",
+		"oF": 0
+		},
+	"\/staging\/userflow-index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/staging\/userflow-index.html",
+		"oF": 0
+		},
+	"\/staging\/UX Portfolio Mentorship Program typeform image-v2.png": {
+		"ft": 32768,
+		"iS": 49355,
+		"oA": 0,
+		"oAP": "\/staging\/UX Portfolio Mentorship Program typeform image-v2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/UX Portfolio Mentorship Program typeform image.png": {
+		"ft": 32768,
+		"iS": 32920,
+		"oA": 0,
+		"oAP": "\/staging\/UX Portfolio Mentorship Program typeform image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/UX Portfolio Mentorship Program typeform image@2x.png": {
+		"ft": 32768,
+		"iS": 72331,
+		"oA": 0,
+		"oAP": "\/staging\/UX Portfolio Mentorship Program typeform image@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch",
+		"oF": 0
+		},
+	"\/staging\/whos-that-tweeting-thought-leader.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/whos-that-tweeting-thought-leader.sketch",
+		"oF": 0
+		},
+	"\/thank-you.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/thank-you.html",
+		"oF": 0
+		},
+	"\/tools\/ux-design-dialogue-flow-tool\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/tools\/ux-design-dialogue-flow-tool\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/index.html",
+		"oF": 0
+		},
+	"\/tools\/ux-design-dialogue-flow-tool\/js\/min\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/js\/min\/min\/scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/tools\/ux-design-dialogue-flow-tool\/js\/scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/js\/min\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/tools\/ux-design-dialogue-flow-tool\/sass\/.sass-cache\/380bebc72f83d51e384d0aa2bafbf4b9aa727fa0\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/sass\/.sass-cache\/380bebc72f83d51e384d0aa2bafbf4b9aa727fa0\/style.scssc",
+		"oF": 0
+		},
+	"\/tools\/ux-design-dialogue-flow-tool\/sass\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/ux-design-portfolio-mentoring.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/ux-design-portfolio-mentoring.html",
+		"oF": 0
+		},
+	"\/ux-ui-designer-adam-ruf-portfolio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ux-ui-designer-adam-ruf-portfolio.html",
+		"oF": 0
+		},
+	"\/ux-ui-designer-adam-ruf-recommended-resources.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/ux-ui-designer-adam-ruf-recommended-resources.html",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 501357860,
+	"displayValue": "adamruf.com",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-yesBaby"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

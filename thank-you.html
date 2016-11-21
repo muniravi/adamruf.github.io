@@ -7,12 +7,9 @@
     <title>Thank You! - Adam Ruf - San Francisco UX Designer, Mentor, &amp; Speaker</title>
     <meta name="author" content="UX Designer, Adam Ruf">
 
-    <!-- TYPEKIT -->
-    <script type="text/javascript" src="//use.typekit.net/zyw5tap.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Slab:300" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <!--[if lt IE 7]>
@@ -44,43 +41,64 @@
   <body>
     <header>
       <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="nav-row navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="nav-row navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a id="home" class="navbar-brand" href="//adamruf.com/">
-                  <img src="images/logomark@2x.png" alt="Adam Ruf's logo mark, a colorful pyramid representing a user's hierarchy of needs" />
-            <span>Adam Ruf</span>
-          </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
-              <ul class="top-nav nav navbar-nav">
-                <li><a id="portfolio" href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Portfolio</a></li>
-                <li><a id="resources" href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">Resources</a></li>
-                <li><a id="about" href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
-                <li><a id="contact" href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
-              </ul>
-              <ul class="top-nav nav navbar-nav pull-right">
-                <li>
-                  <a href="https://www.linkedin.com/in/adamruf" title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/#!/ux_adam" title="Connect with me on Twitter"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="https://github.com/adamruf" title="Connect with me on GitHub"><i class="fa fa-github"></i></a>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!--/.container-->
-        </nav>
+              <a id="home" class="navbar-brand" href="//adamruf.com/"><span>ux_adam <span class="muted">ruf</span></span></a></div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="top-nav nav navbar-nav">
+              <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Portfolio</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">resources <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
+  resources</a></li>
+                  <!-- <li><a href="#">newsletter</a></li>
+                  <li><a href="#">workshops</a></li>
+                  <li><a href="#">templates</a></li> -->
+                </ul>
+              </li>
+              <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
+              <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
+              <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li>newsletter</li> -->
+              <!-- <li><a href="#">presentations</a></li>
+                  <li><a href="#">workshops</a></li>
+                  <li><a href="#">events</a></li>
+                </ul>
+              </li> -->
+            </ul>
+            <ul class="top-nav nav navbar-nav pull-right navbar-icons">
+              <li>
+                <a href="https://www.linkedin.com/in/adamruf" title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://www.twitch.tv/ux_adam" title="Join me on Twitch"><i class="fa fa-twitch"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/#!/ux_adam" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/adamruf" title="Follow me on GitHub"><i class="fa fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!--/.container-->
+      </nav>
+      <div id="newsletter-banner" class="banner">
+        <p>Want to be a better UX/UI designer? <a href="http://eepurl.com/b2f7Lr">Subscribe to Adam's Monthly
+  Newsletter</a></p>
+      </div>
     </header>
 
     <section id="thank-you" class="container legroom-lg headroom-lg">
@@ -153,8 +171,8 @@
       </div><!--/container-->
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="//adamruf.com/js/min/scripts-min.js"></script>
   </body>
 </html>

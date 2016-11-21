@@ -3,16 +3,13 @@ TYPOGRAPHY
 \* - - - - - - - - - - - - - - - - - - - - */
 
 @mixin base-font {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
-}
-@mixin condensed-font {
-  font-family: "jaf-bernino-sans-comp";
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
 }
 @mixin slab-font {
-  font-family: "museo-slab";
+  font-family: "Roboto Slab"
 }
 @mixin icon-font {
-  font-family: "FontAwesome", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+  font-family: "FontAwesome", "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
 }
 @mixin text-shadow {
   text-shadow: 0 1px 0 rgba(0,0,0,0.15);
@@ -22,11 +19,9 @@ body {
   line-height: 1.4;
 }
 
-h1, h2, h3 {
-  @include condensed-font;
-  letter-spacing: 1px;
+h1, h2 {
+  @include slab-font
   line-height: 1.1;
-  word-spacing: 1px;
 }
 
 h1 {
@@ -37,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 3.6rem;
   font-weight: 300;
   margin: 0 0 2rem;
 }
@@ -48,14 +43,15 @@ h2 .muted {
 }
 
 h3 {
-  font-size: 3.5rem;
+  @include base-font
+  font-size: 2.8rem;
   font-weight: 600;
   margin: 0 0 1rem;
 }
 
 h4, h5 {
   @include base-font;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 300;
   margin-bottom: 1.5%;
 }
