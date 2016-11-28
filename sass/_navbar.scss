@@ -16,8 +16,8 @@ nav {
         border-radius: 4px;
         color: $font-light-subtle;
         font-size: 2.425rem;
-        font-weight: 400;
-        letter-spacing: 1px;
+        font-weight: bold;
+        letter-spacing: 0;
         line-height: 1em;
         margin: 0;
         padding: 0.8rem 1rem 0.5rem;
@@ -65,26 +65,6 @@ nav {
       outline: none;
       padding: 0 0 0 10px;
       transition: all 0.15s;
-      img {
-        display: inline-block;
-        margin-right: 0.3em;
-        margin-top: -9px;
-        -webkit-transition: 0.25s ease-out;
-        transition: 0.25s ease-out;
-        width: 30px;
-      }
-      &:hover img {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-      }
-      span {
-        font-family: 'museo-slab';
-        font-size: 1.2em;
-        font-weight: 500;
-        letter-spacing: -1px;
-        line-height: 76px;
-        text-transform: capitalize;
-      }
     }
     &.navbar-fixed-top {
       height: 65px;
@@ -143,7 +123,7 @@ nav.navbar-inverse.navbar-fixed-top {
 nav.navbar-inverse .navbar-nav li > a {
     border-radius: 0px;
   border-bottom: 4px solid transparent;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     line-height: 46px;
     margin: 0 0.5rem;
     padding: 0 1rem 0 0;
@@ -176,6 +156,8 @@ nav.navbar-inverse .navbar-brand span {
   font-family: "Open Sans";
   font-size: 1.8rem;
   font-weight: bold;
+  letter-spacing: 0;
+  line-height: 7.7rem;
   text-transform: lowercase;
 }
 
