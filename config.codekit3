@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -2080,6 +2080,68 @@
 		"oAP": "\/portfolio\/moringa\/index.html",
 		"oF": 0
 		},
+	"\/pug\/includes\/analytics.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/includes\/analytics.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/includes\/doc.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/includes\/doc.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/includes\/fonts.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/includes\/fonts.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/includes\/footer.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/includes\/footer.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/includes\/styles.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/includes\/styles.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/includes\/top-nav.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/includes\/top-nav.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/pug\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pug\/index.html",
+		"oF": 0
+		},
+	"\/pug\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/pug\/index.html",
+		"oF": 3,
+		"oS": 0
+		},
 	"\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -2311,7 +2373,7 @@
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/staging\/404.ai": {
@@ -2319,6 +2381,15 @@
 		"oA": 2,
 		"oAP": "\/staging\/404.ai",
 		"oF": 0
+		},
+	"\/staging\/adam-chart.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/staging\/min\/adam-chart-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/staging\/adam-ruf-ux-design-and-career-mentoring": {
 		"ft": 8192,
@@ -3392,6 +3463,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -3555,6 +3630,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -3920,6 +3999,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -4151,6 +4234,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -4984,6 +5071,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
