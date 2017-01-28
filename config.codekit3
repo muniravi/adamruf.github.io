@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -431,6 +431,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/hero-image-opacity-issue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/hero-image-opacity-issue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/hero-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -824,12 +834,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/nav-menu-test.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/nav-menu-test.html",
-		"oF": 0
 		},
 	"\/portfolio\/favorite-fruit\/css\/style.css": {
 		"aP": 0,
@@ -3667,6 +3671,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -4206,6 +4214,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
