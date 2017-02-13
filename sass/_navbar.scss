@@ -66,12 +66,10 @@ nav.navbar-fixed-top navbar-header {
   padding: 0 3rem;
 }
 
-nav.navbar-inverse .navbar-nav li > a:hover, nav.navbar-inverse .navbar-nav li > a:active, nav.navbar-inverse .navbar-nav li > a:focus {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-nav.navbar-inverse .navbar-nav li > a:hover, nav.navbar-inverse .navbar-nav li > a:active, nav.navbar-inverse .navbar-nav li > a:focus {
+nav.navbar-inverse .navbar-nav li > a:hover,
+nav.navbar-inverse .navbar-nav li > a:active,
+nav.navbar-inverse .navbar-nav li > a:focus,
+nav.navbar-inverse .navbar-nav li.active > a {
   color: white;
   background-color: transparent;
   border-bottom: 4px solid #5fcf80;
