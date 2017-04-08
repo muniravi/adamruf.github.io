@@ -332,8 +332,14 @@ input:active, input:focus, textarea:active, textarea:focus, span.radio-labels:fo
   color: darken($green, 15%) !important;
 }
 ::selection {
-  background: rgba(124, 189, 135, 0.25); /* Safari */
-  }
+  background: $font-default; /* Safari */
+  box-shadow: none;
+  color: $white;
+  text-shadow: none;
+}
 ::-moz-selection {
-  background: rgba(124, 189, 135, 0.25); /* Firefox */
+  background: $font-default; /* Firefox */
+  box-shadow: none;
+  color: $white;
+  text-shadow: none;
 }
