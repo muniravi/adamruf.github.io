@@ -13,17 +13,25 @@ BANNER
   p {
     color: rgba(0,0,0,0.84);
     font-family: 'Courier New';
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 200;
     letter-spacing: -0.05rem;
     line-height: 1.1;
     margin: 0;
-    @media screen and (max-width: 767px) {
-      font-size: 1.6rem;
-    }
   }
   a {
-    border-bottom: 1px solid $blue-bright;
+    border-bottom: 1px solid $blue-gray;
+    box-shadow: none;
+    color: $blue-bright;
+    text-shadow: none;
+    transition: all 0.2s ease-in-out;
+    &:hover,
+    &:focus {
+      background: #edf9ff;
+      border-bottom-color: $blue-bright;
+      box-shadow: none;
+      color: $blue-bright;
+      transition: all 0.2s ease-in-out;
+    }
   }
-
 }

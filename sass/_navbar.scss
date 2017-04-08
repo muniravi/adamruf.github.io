@@ -16,12 +16,14 @@ nav.navbar-inverse.navbar-fixed-top {
 nav.navbar-inverse .navbar-nav li > a {
   border-radius: 0px;
   border-bottom: 4px solid transparent;
+  box-shadow: none;
   font-size: 2.425rem;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 46px;
   margin: 0 0.5rem;
   padding: 0 1rem 0 0;
+  text-shadow: none;
   transition: all 0.3s ease-out;
   -webkit-font-smoothing: antialiased;
 }
@@ -40,6 +42,7 @@ nav.navbar-inverse .navbar-brand {
   padding: 0 0 0 10px;
   display: inline-block;
   position: relative;
+  text-shadow: none;
   transition: all 0.15s;
   &:hover span,
   &:focus span {
@@ -79,7 +82,7 @@ nav.navbar-inverse .navbar-nav li.active > a {
 
 nav.navbar-inverse .navbar-nav:hover li > a {
   opacity: 0.5;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 nav.navbar-inverse .navbar-nav:hover li:hover > a {
