@@ -84,6 +84,29 @@ a {
   }
 }
 
+.fancy-link {
+  @include slab-font
+  font-size: 3rem;
+  position: relative;
+  &:after {
+    @include icon-font
+    content: '\f061';
+    opacity: 0;
+    position: absolute;
+    right: -1.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover:after {
+    @include icon-font
+    content: "\f061";
+    color: $blue-bright;
+    opacity: 1;
+    position: absolute;
+    right: -3.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 blockquote {
   margin-top: -2em;
   p {
