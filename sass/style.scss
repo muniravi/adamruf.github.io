@@ -195,8 +195,10 @@ li.resource {
   }
   p {margin-bottom: 0;}
   a, a:hover, a:active, a:focus {
+    box-shadow: none;
     display: block;
     padding: 0.05em 1em 0.5em;
+    text-shadow: none;
   }
   a:hover, a:active, a:focus {
     background-color: rgba(95, 207, 128, 0.1);
