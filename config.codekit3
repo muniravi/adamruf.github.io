@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -67,7 +67,9 @@
 		"oA": 0,
 		"oAP": "\/images\/404-img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/404-img@2x.jpg": {
 		"ft": 16384,
@@ -75,7 +77,9 @@
 		"oA": 0,
 		"oAP": "\/images\/404-img@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/404@2x.png": {
 		"ft": 32768,
@@ -83,7 +87,10 @@
 		"oA": 0,
 		"oAP": "\/images\/404@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/43_845_000-painting-flat-small.png": {
 		"ft": 32768,
@@ -91,7 +98,10 @@
 		"oA": 0,
 		"oAP": "\/images\/43_845_000-painting-flat-small.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/43_845_000-painting-flat.png": {
 		"ft": 32768,
@@ -99,7 +109,10 @@
 		"oA": 0,
 		"oAP": "\/images\/43_845_000-painting-flat.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/academy-of-art-university.jpg": {
 		"ft": 16384,
@@ -107,7 +120,9 @@
 		"oA": 0,
 		"oAP": "\/images\/academy-of-art-university.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/adam-ruf-email-signature.png": {
 		"ft": 32768,
@@ -115,7 +130,10 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-email-signature.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/adam-ruf-larger-profile-pic.jpg": {
 		"ft": 16384,
@@ -123,7 +141,9 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-larger-profile-pic.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/adam-ruf-larger-profile-pic.png": {
 		"ft": 32768,
@@ -131,7 +151,10 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-larger-profile-pic.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/adam-ruf-logomark-no-bg.png": {
 		"ft": 32768,
@@ -139,7 +162,10 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-logomark-no-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/Adam-Ruf-logomark.png": {
 		"ft": 32768,
@@ -147,7 +173,10 @@
 		"oA": 0,
 		"oAP": "\/images\/Adam-Ruf-logomark.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/adam-ruf-profile-pic-bw.png": {
 		"ft": 32768,
@@ -155,7 +184,10 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-profile-pic-bw.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/adam-ruf-profile-pic.png": {
 		"ft": 32768,
@@ -163,7 +195,10 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-profile-pic.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg": {
 		"ft": 16384,
@@ -171,7 +206,9 @@
 		"oA": 0,
 		"oAP": "\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/adam-ruf-website-tile-image.png": {
 		"ft": 32768,
@@ -179,7 +216,10 @@
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-website-tile-image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/avatar-sprite.png": {
 		"ft": 32768,
@@ -187,7 +227,10 @@
 		"oA": 0,
 		"oAP": "\/images\/avatar-sprite.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/avatar-sprite@2x.png": {
 		"ft": 32768,
@@ -195,7 +238,10 @@
 		"oA": 0,
 		"oAP": "\/images\/avatar-sprite@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/barely-there-grid-by-adam-ruf.png": {
 		"ft": 32768,
@@ -203,7 +249,10 @@
 		"oA": 0,
 		"oAP": "\/images\/barely-there-grid-by-adam-ruf.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/barely-there-grid-by-adam-ruf@2x.png": {
 		"ft": 32768,
@@ -211,7 +260,10 @@
 		"oA": 0,
 		"oAP": "\/images\/barely-there-grid-by-adam-ruf@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/br-hax-xv.jpg": {
 		"ft": 16384,
@@ -219,7 +271,9 @@
 		"oA": 0,
 		"oAP": "\/images\/br-hax-xv.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/bracelets-by-deb.jpg": {
 		"ft": 16384,
@@ -227,7 +281,9 @@
 		"oA": 0,
 		"oAP": "\/images\/bracelets-by-deb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/brighroll-hax-sticker.jpg": {
 		"ft": 16384,
@@ -235,7 +291,9 @@
 		"oA": 0,
 		"oAP": "\/images\/brighroll-hax-sticker.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/BrightRoll-DSP-from-Yahoo-logo.svg": {
 		"ft": 2097152,
@@ -253,7 +311,9 @@
 		"oA": 0,
 		"oAP": "\/images\/brightroll-logo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/bw-single-page-site.jpg": {
 		"ft": 16384,
@@ -261,7 +321,9 @@
 		"oA": 0,
 		"oAP": "\/images\/bw-single-page-site.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/cannabis-infused-product-brands.png": {
 		"ft": 32768,
@@ -269,7 +331,10 @@
 		"oA": 0,
 		"oAP": "\/images\/cannabis-infused-product-brands.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/cannabis-infused-product-brands@2x.png": {
 		"ft": 32768,
@@ -277,7 +342,10 @@
 		"oA": 0,
 		"oAP": "\/images\/cannabis-infused-product-brands@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/cannaly-hero-lg.jpg": {
 		"ft": 16384,
@@ -285,7 +353,9 @@
 		"oA": 0,
 		"oAP": "\/images\/cannaly-hero-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/cannaly-logo.svg": {
 		"ft": 2097152,
@@ -303,7 +373,10 @@
 		"oA": 0,
 		"oAP": "\/images\/cannaly.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/CBD-Living-Water@2x.png": {
 		"ft": 32768,
@@ -311,7 +384,10 @@
 		"oA": 0,
 		"oAP": "\/images\/CBD-Living-Water@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/designlab-design-mentoring.png": {
 		"ft": 32768,
@@ -319,7 +395,10 @@
 		"oA": 0,
 		"oAP": "\/images\/designlab-design-mentoring.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dialogue-flow-tool-OLD.png": {
 		"ft": 32768,
@@ -327,7 +406,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dialogue-flow-tool-OLD.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dialogue-flow-tool.png": {
 		"ft": 32768,
@@ -335,7 +417,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dialogue-flow-tool.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dining-with-designers-logo-for-email-signature.png": {
 		"ft": 32768,
@@ -343,7 +428,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dining-with-designers-logo-for-email-signature.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dining-with-designers-logo-sm.svg": {
 		"ft": 2097152,
@@ -361,7 +449,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dining-with-designers.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/dwd-adam-ruf-email-signature.png": {
 		"ft": 32768,
@@ -369,7 +460,10 @@
 		"oA": 0,
 		"oAP": "\/images\/dwd-adam-ruf-email-signature.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/easyhire.jpg": {
 		"ft": 16384,
@@ -377,7 +471,9 @@
 		"oA": 0,
 		"oAP": "\/images\/easyhire.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/estimate-request-welcome@2x.png": {
 		"ft": 32768,
@@ -385,7 +481,10 @@
 		"oA": 0,
 		"oAP": "\/images\/estimate-request-welcome@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/favorite-fruit.jpg": {
 		"ft": 16384,
@@ -393,7 +492,9 @@
 		"oA": 0,
 		"oAP": "\/images\/favorite-fruit.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/fontastic-questions.jpg": {
 		"ft": 16384,
@@ -401,7 +502,9 @@
 		"oA": 0,
 		"oAP": "\/images\/fontastic-questions.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/gsd-toolbox.jpg": {
 		"ft": 16384,
@@ -409,7 +512,9 @@
 		"oA": 0,
 		"oAP": "\/images\/gsd-toolbox.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/hero-image-OLD.svg": {
 		"ft": 2097152,
@@ -457,7 +562,10 @@
 		"oA": 0,
 		"oAP": "\/images\/lending-club-loan-details-viewer.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/lendingclub-loan-details-viewer.png": {
 		"ft": 32768,
@@ -465,7 +573,10 @@
 		"oA": 0,
 		"oAP": "\/images\/lendingclub-loan-details-viewer.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logomark@2x.png": {
 		"ft": 32768,
@@ -473,7 +584,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logomark@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/mainichi-japanese.jpg": {
 		"ft": 16384,
@@ -481,7 +595,9 @@
 		"oA": 0,
 		"oAP": "\/images\/mainichi-japanese.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/manufacturers-benefits-image.png": {
 		"ft": 32768,
@@ -489,7 +605,10 @@
 		"oA": 0,
 		"oAP": "\/images\/manufacturers-benefits-image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/manufacturers-benefits-image@2x.png": {
 		"ft": 32768,
@@ -497,7 +616,10 @@
 		"oA": 0,
 		"oAP": "\/images\/manufacturers-benefits-image@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/Miss-Mary-Janes-Edibles@2x.png": {
 		"ft": 32768,
@@ -505,7 +627,10 @@
 		"oA": 0,
 		"oAP": "\/images\/Miss-Mary-Janes-Edibles@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/Moonmans-Mistress@2x.png": {
 		"ft": 32768,
@@ -513,7 +638,10 @@
 		"oA": 0,
 		"oAP": "\/images\/Moonmans-Mistress@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/moringa-concepts.jpg": {
 		"ft": 16384,
@@ -521,7 +649,9 @@
 		"oA": 0,
 		"oAP": "\/images\/moringa-concepts.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/mr-matcher-email-signature.png": {
 		"ft": 32768,
@@ -529,7 +659,10 @@
 		"oA": 0,
 		"oAP": "\/images\/mr-matcher-email-signature.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/Plus-Cannabis-Infused-Gum@2x.png": {
 		"ft": 32768,
@@ -537,7 +670,10 @@
 		"oA": 0,
 		"oAP": "\/images\/Plus-Cannabis-Infused-Gum@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/polldaddy-ranking-sprite-gray.png": {
 		"ft": 32768,
@@ -545,7 +681,10 @@
 		"oA": 0,
 		"oAP": "\/images\/polldaddy-ranking-sprite-gray.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/producteev-email-templates.jpg": {
 		"ft": 16384,
@@ -553,7 +692,9 @@
 		"oA": 0,
 		"oAP": "\/images\/producteev-email-templates.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/random-nihongo.jpg": {
 		"ft": 16384,
@@ -561,7 +702,9 @@
 		"oA": 0,
 		"oAP": "\/images\/random-nihongo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/retailer-benefits-image.png": {
 		"ft": 32768,
@@ -569,7 +712,10 @@
 		"oA": 0,
 		"oAP": "\/images\/retailer-benefits-image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/retailer-benefits-image@2x.png": {
 		"ft": 32768,
@@ -577,7 +723,10 @@
 		"oA": 0,
 		"oAP": "\/images\/retailer-benefits-image@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/sensilk-ios-app.jpg": {
 		"ft": 16384,
@@ -585,7 +734,9 @@
 		"oA": 0,
 		"oAP": "\/images\/sensilk-ios-app.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/sitecrit.png": {
 		"ft": 32768,
@@ -593,7 +744,10 @@
 		"oA": 0,
 		"oAP": "\/images\/sitecrit.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/small-laptop-screen-manufacturer-products.png": {
 		"ft": 32768,
@@ -601,7 +755,10 @@
 		"oA": 0,
 		"oAP": "\/images\/small-laptop-screen-manufacturer-products.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/small-laptop-screen-manufacturer-products@2x.png": {
 		"ft": 32768,
@@ -609,7 +766,10 @@
 		"oA": 0,
 		"oAP": "\/images\/small-laptop-screen-manufacturer-products@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/sunday-friends.jpg": {
 		"ft": 16384,
@@ -617,7 +777,9 @@
 		"oA": 0,
 		"oAP": "\/images\/sunday-friends.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/sweater-pattern.jpg": {
 		"ft": 16384,
@@ -625,7 +787,9 @@
 		"oA": 0,
 		"oAP": "\/images\/sweater-pattern.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/ui-ux-designer-at-twitch.png": {
 		"ft": 32768,
@@ -633,7 +797,10 @@
 		"oA": 0,
 		"oAP": "\/images\/ui-ux-designer-at-twitch.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/user-dialogue-flow-tool.png": {
 		"ft": 32768,
@@ -641,7 +808,10 @@
 		"oA": 0,
 		"oAP": "\/images\/user-dialogue-flow-tool.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/usertesting-logo-flat.jpg": {
 		"ft": 16384,
@@ -649,7 +819,9 @@
 		"oA": 0,
 		"oAP": "\/images\/usertesting-logo-flat.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/utility-belt-bg-tile.png": {
 		"ft": 32768,
@@ -657,7 +829,10 @@
 		"oA": 0,
 		"oAP": "\/images\/utility-belt-bg-tile.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/utility-belt-bg-tile@2x.png": {
 		"ft": 32768,
@@ -665,7 +840,10 @@
 		"oA": 0,
 		"oAP": "\/images\/utility-belt-bg-tile@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/utility-belt-sprite.png": {
 		"ft": 32768,
@@ -673,7 +851,10 @@
 		"oA": 0,
 		"oAP": "\/images\/utility-belt-sprite.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/utility-belt-sprite@2x.png": {
 		"ft": 32768,
@@ -681,7 +862,10 @@
 		"oA": 0,
 		"oAP": "\/images\/utility-belt-sprite@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ux-dialogue-flow-tool.png": {
 		"ft": 32768,
@@ -689,7 +873,10 @@
 		"oA": 0,
 		"oAP": "\/images\/ux-dialogue-flow-tool.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ux-mentor-application-service.png": {
 		"ft": 32768,
@@ -697,7 +884,10 @@
 		"oA": 0,
 		"oAP": "\/images\/ux-mentor-application-service.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ux-team-goofy-v2.gif": {
 		"ft": 4194304,
@@ -729,7 +919,9 @@
 		"oA": 0,
 		"oAP": "\/images\/yahoo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/your-project-here.png": {
 		"ft": 32768,
@@ -737,7 +929,10 @@
 		"oA": 0,
 		"oAP": "\/images\/your-project-here.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -851,7 +1046,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/china-flag-edited.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/img\/china-flag.png": {
 		"ft": 32768,
@@ -859,7 +1056,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/china-flag.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/img\/moonstars-watermelon-by-tclarkcreations-edited.jpg": {
 		"ft": 16384,
@@ -867,7 +1067,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/moonstars-watermelon-by-tclarkcreations-edited.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/img\/southern-africa-edited.jpg": {
 		"ft": 16384,
@@ -875,7 +1077,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/southern-africa-edited.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/img\/watermelon-by-Or-Hiltch-edited.jpg": {
 		"ft": 16384,
@@ -883,7 +1087,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelon-by-Or-Hiltch-edited.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/img\/watermelons-by-PL-Tandon-edited.jpg": {
 		"ft": 16384,
@@ -891,7 +1097,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelons-by-PL-Tandon-edited.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/img\/watermelons-edited.jpg": {
 		"ft": 16384,
@@ -899,7 +1107,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelons-edited.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/watermelon.html": {
 		"ft": 8192,
@@ -1001,7 +1211,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/cloud-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/img\/cloud-2.png": {
 		"ft": 32768,
@@ -1009,7 +1222,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/cloud-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/img\/cloud-3.png": {
 		"ft": 32768,
@@ -1017,7 +1233,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/cloud-3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/img\/fq-bg-tile.png": {
 		"ft": 32768,
@@ -1025,7 +1244,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/fq-bg-tile.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/img\/how-many-stars-bg.jpg": {
 		"ft": 16384,
@@ -1033,7 +1255,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/how-many-stars-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/img\/mount-everest-bg.jpg": {
 		"ft": 16384,
@@ -1041,7 +1265,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/mount-everest-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/index.html": {
 		"ft": 8192,
@@ -1061,7 +1287,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/gsd\/gsd-toolbox-background-tile.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/gsd\/index.html": {
 		"ft": 8192,
@@ -1095,7 +1324,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/adam-ruf.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/alan-grant.jpg": {
 		"ft": 16384,
@@ -1103,7 +1334,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/alan-grant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/capybara-surprise.png": {
 		"ft": 32768,
@@ -1111,7 +1344,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/capybara-surprise.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/daenerys-targaryen.jpg": {
 		"ft": 16384,
@@ -1119,7 +1355,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/daenerys-targaryen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/dagny-taggart.jpg": {
 		"ft": 16384,
@@ -1127,7 +1365,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/dagny-taggart.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/ellen-ripley.jpg": {
 		"ft": 16384,
@@ -1135,7 +1375,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/ellen-ripley.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/ender-wiggin.jpg": {
 		"ft": 16384,
@@ -1143,7 +1385,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/ender-wiggin.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/jean-luc-picard.jpg": {
 		"ft": 16384,
@@ -1151,7 +1395,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/jean-luc-picard.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/kit-cloudkicker.jpg": {
 		"ft": 16384,
@@ -1159,7 +1405,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/kit-cloudkicker.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/luke-skywalker.jpg": {
 		"ft": 16384,
@@ -1167,7 +1415,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/luke-skywalker.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/lunch-inviterator-tile-image.png": {
 		"ft": 32768,
@@ -1175,7 +1425,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/lunch-inviterator-tile-image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/mattie-ross.jpg": {
 		"ft": 16384,
@@ -1183,7 +1436,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/mattie-ross.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/no-image.png": {
 		"ft": 32768,
@@ -1191,7 +1446,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/no-image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/sherlock-holmes.jpg": {
 		"ft": 16384,
@@ -1199,7 +1457,9 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/sherlock-holmes.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/img\/sp_edited_bg.png": {
 		"ft": 32768,
@@ -1207,7 +1467,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/sp_edited_bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/index.html": {
 		"ft": 8192,
@@ -1279,7 +1542,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/android-tablet-status.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/app-switch.png": {
 		"ft": 32768,
@@ -1287,7 +1553,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/app-switch.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-dark.png": {
 		"ft": 32768,
@@ -1295,7 +1564,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-dark.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-dark.png": {
 		"ft": 32768,
@@ -1303,7 +1575,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-dark.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-light.png": {
 		"ft": 32768,
@@ -1311,7 +1586,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-land-light.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-light.png": {
 		"ft": 32768,
@@ -1319,7 +1597,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPad-light.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-dark.png": {
 		"ft": 32768,
@@ -1327,7 +1608,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-dark.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-dark.png": {
 		"ft": 32768,
@@ -1335,7 +1619,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-dark.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-light.png": {
 		"ft": 32768,
@@ -1343,7 +1630,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-land-light.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-light.png": {
 		"ft": 32768,
@@ -1351,7 +1641,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone-light.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-dark.png": {
 		"ft": 32768,
@@ -1359,7 +1652,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-dark.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-light.png": {
 		"ft": 32768,
@@ -1367,7 +1663,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/bar-iPhone4-land-light.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-background.png": {
 		"ft": 32768,
@@ -1375,7 +1674,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-background.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav-icons.png": {
 		"ft": 32768,
@@ -1383,7 +1685,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav-icons.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav.png": {
 		"ft": 32768,
@@ -1391,7 +1696,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browse-pillnav.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-alert.png": {
 		"ft": 32768,
@@ -1399,7 +1707,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-alert.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-close.png": {
 		"ft": 32768,
@@ -1407,7 +1718,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/browser-compatibility-close.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/btn-green.png": {
 		"ft": 32768,
@@ -1415,7 +1729,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/btn-green.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/close3.png": {
 		"ft": 32768,
@@ -1423,7 +1740,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/close3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/close4.png": {
 		"ft": 32768,
@@ -1431,7 +1751,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/close4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-context-tab.png": {
 		"ft": 32768,
@@ -1439,7 +1762,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-context-tab.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-vrule.png": {
 		"ft": 32768,
@@ -1447,7 +1773,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/comments-vrule.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle.png": {
 		"ft": 32768,
@@ -1455,7 +1784,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle@2x.png": {
 		"ft": 32768,
@@ -1463,7 +1795,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-circle@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line.png": {
 		"ft": 32768,
@@ -1471,7 +1806,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line@2x.png": {
 		"ft": 32768,
@@ -1479,7 +1817,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-line@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen.png": {
 		"ft": 32768,
@@ -1487,7 +1828,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen@2x.png": {
 		"ft": 32768,
@@ -1495,7 +1839,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-pen@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square.png": {
 		"ft": 32768,
@@ -1503,7 +1850,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square@2x.png": {
 		"ft": 32768,
@@ -1511,7 +1861,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/cursor-square@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/draw.png": {
 		"ft": 32768,
@@ -1519,7 +1872,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/draw.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/draw@2x.png": {
 		"ft": 32768,
@@ -1527,7 +1883,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/draw@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/flags16.png": {
 		"ft": 32768,
@@ -1535,7 +1894,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/flags16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/grey-screen-divider.png": {
 		"ft": 32768,
@@ -1543,7 +1905,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/grey-screen-divider.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape-white.png": {
 		"ft": 32768,
@@ -1551,7 +1916,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape.png": {
 		"ft": 32768,
@@ -1559,7 +1927,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait-white.png": {
 		"ft": 32768,
@@ -1567,7 +1938,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait.png": {
 		"ft": 32768,
@@ -1575,7 +1949,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/htc-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/icon.png": {
 		"ft": 32768,
@@ -1583,7 +1960,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in.png": {
 		"ft": 32768,
@@ -1591,7 +1971,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in@2x.png": {
 		"ft": 32768,
@@ -1599,7 +1982,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small.png": {
 		"ft": 32768,
@@ -1607,7 +1993,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small@2x.png": {
 		"ft": 32768,
@@ -1615,7 +2004,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/in_small@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape-white.png": {
 		"ft": 32768,
@@ -1623,7 +2015,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape.png": {
 		"ft": 32768,
@@ -1631,7 +2026,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait-white.png": {
 		"ft": 32768,
@@ -1639,7 +2037,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait.png": {
 		"ft": 32768,
@@ -1647,7 +2048,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad.png": {
 		"ft": 32768,
@@ -1655,7 +2059,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/ipad.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape-white.png": {
 		"ft": 32768,
@@ -1663,7 +2070,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape.png": {
 		"ft": 32768,
@@ -1671,7 +2081,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait-white.png": {
 		"ft": 32768,
@@ -1679,7 +2092,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait.png": {
 		"ft": 32768,
@@ -1687,7 +2103,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone.png": {
 		"ft": 32768,
@@ -1695,7 +2114,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape-white.png": {
 		"ft": 32768,
@@ -1703,7 +2125,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape.png": {
 		"ft": 32768,
@@ -1711,7 +2136,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait-white.png": {
 		"ft": 32768,
@@ -1719,7 +2147,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait.png": {
 		"ft": 32768,
@@ -1727,7 +2158,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/iphone4-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/kitkat-statusbar-icons.png": {
 		"ft": 32768,
@@ -1735,7 +2169,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/kitkat-statusbar-icons.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo.png": {
 		"ft": 32768,
@@ -1743,7 +2180,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo@2x.png": {
 		"ft": 32768,
@@ -1751,7 +2191,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-logo@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-sprite.png": {
 		"ft": 32768,
@@ -1759,7 +2202,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/loader-sprite.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/login-header-background.png": {
 		"ft": 32768,
@@ -1767,7 +2213,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/login-header-background.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/logo-icon.png": {
 		"ft": 32768,
@@ -1775,7 +2224,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/logo-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/marker.png": {
 		"ft": 32768,
@@ -1783,7 +2235,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/marker.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/mobile.png": {
 		"ft": 32768,
@@ -1791,7 +2246,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/mobile.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-landscape.png": {
 		"ft": 32768,
@@ -1799,7 +2257,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-portrait.png": {
 		"ft": 32768,
@@ -1807,7 +2268,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus10-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-landscape.png": {
 		"ft": 32768,
@@ -1815,7 +2279,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-portrait.png": {
 		"ft": 32768,
@@ -1823,7 +2290,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/nexus7-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape-white.png": {
 		"ft": 32768,
@@ -1831,7 +2301,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape.png": {
 		"ft": 32768,
@@ -1839,7 +2312,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-landscape.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait-white.png": {
 		"ft": 32768,
@@ -1847,7 +2323,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait.png": {
 		"ft": 32768,
@@ -1855,7 +2334,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/s4-portrait.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/screens-search.png": {
 		"ft": 32768,
@@ -1863,7 +2345,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/screens-search.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/scrollbar-mid.png": {
 		"ft": 32768,
@@ -1871,7 +2356,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/scrollbar-mid.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites.png": {
 		"ft": 32768,
@@ -1879,7 +2367,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites@2x.png": {
 		"ft": 32768,
@@ -1887,7 +2378,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-lite-sprites@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites.png": {
 		"ft": 32768,
@@ -1895,7 +2389,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites@2x.png": {
 		"ft": 32768,
@@ -1903,7 +2400,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-loading-sprites@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites.png": {
 		"ft": 32768,
@@ -1911,7 +2411,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites@2x.png": {
 		"ft": 32768,
@@ -1919,7 +2422,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/share-toolbar-sprites@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch-viewer-close.png": {
 		"ft": 32768,
@@ -1927,7 +2433,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch-viewer-close.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch_tools.png": {
 		"ft": 32768,
@@ -1935,7 +2444,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/sketch_tools.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-left.png": {
 		"ft": 32768,
@@ -1943,7 +2455,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-left.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-right.png": {
 		"ft": 32768,
@@ -1951,7 +2466,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/slideshow-arrow-right.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/sprite1.png": {
 		"ft": 32768,
@@ -1959,7 +2477,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/sprite1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/apps\/share\/img\/transparent.png": {
 		"ft": 32768,
@@ -1967,7 +2488,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/apps\/share\/img\/transparent.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-bold.woff": {
 		"ft": 8192,
@@ -1999,7 +2523,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/green-accent-concept@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/html5shim\/html5.js": {
 		"ft": 64,
@@ -2035,7 +2562,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/orange-accent-concept@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/scripts.js": {
 		"ft": 64,
@@ -2052,7 +2582,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/thumb_green-accent-concept@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/thumb_orange-accent-concept@2x.png": {
 		"ft": 32768,
@@ -2060,7 +2593,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/thumb_orange-accent-concept@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/thumb_turquoise-accent-concept@2x.png": {
 		"ft": 32768,
@@ -2068,7 +2604,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/thumb_turquoise-accent-concept@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/turquoise-accent-concept@2x.png": {
 		"ft": 32768,
@@ -2076,7 +2615,10 @@
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/turquoise-accent-concept@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/portfolio\/moringa\/index.html": {
 		"ft": 8192,
@@ -2441,7 +2983,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/avatar-sprite-v2@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/avatar-sprite@2x--OLD.png": {
 		"ft": 32768,
@@ -2449,7 +2994,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/avatar-sprite@2x--OLD.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/coder-character-icons.sketch": {
 		"ft": 8192,
@@ -2603,7 +3151,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/kawaii 500px.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/kawaii-ux-hierarchy-pyramids.ai": {
 		"ft": 8192,
@@ -2617,7 +3168,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/kawaii-ux-pyramid-5000px.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/kawaii-ux-pyramid-500px.png": {
 		"ft": 32768,
@@ -2625,7 +3179,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/kawaii-ux-pyramid-500px.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/kawaii-ux-pyramid-for-stickermule.ai": {
 		"ft": 8192,
@@ -2651,7 +3208,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/kawaii-ux-pyramid-v4.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/kawaii-ux-pyramid.ai": {
 		"ft": 8192,
@@ -2695,7 +3255,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/10454123_1028448037187999_1583125155414519095_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11011737_1028448567187946_1146779393837794073_o.jpg": {
 		"ft": 16384,
@@ -2703,7 +3265,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11011737_1028448567187946_1146779393837794073_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11046865_954957654537038_8347107780419300594_o.jpg": {
 		"ft": 16384,
@@ -2711,7 +3275,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11046865_954957654537038_8347107780419300594_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11057811_1028448370521299_7865922654418666550_o.jpg": {
 		"ft": 16384,
@@ -2719,7 +3285,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11057811_1028448370521299_7865922654418666550_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o (1).jpg": {
 		"ft": 16384,
@@ -2727,7 +3295,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o (1).jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o.jpg": {
 		"ft": 16384,
@@ -2735,7 +3305,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11145261_1028448470521289_9068001845555780368_o.jpg": {
 		"ft": 16384,
@@ -2743,7 +3315,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11145261_1028448470521289_9068001845555780368_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11412064_1028448367187966_6880085825769346876_o.jpg": {
 		"ft": 16384,
@@ -2751,7 +3325,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11412064_1028448367187966_6880085825769346876_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11415604_1012372975462172_7280804681301762774_o.jpg": {
 		"ft": 16384,
@@ -2759,7 +3335,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11415604_1012372975462172_7280804681301762774_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11713718_1028448480521288_1110496715705704860_o.jpg": {
 		"ft": 16384,
@@ -2767,7 +3345,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11713718_1028448480521288_1110496715705704860_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11722414_1028448113854658_7548809098820489417_o.jpg": {
 		"ft": 16384,
@@ -2775,7 +3355,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11722414_1028448113854658_7548809098820489417_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11722565_1028448203854649_2668335237636349489_o.jpg": {
 		"ft": 16384,
@@ -2783,7 +3365,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11722565_1028448203854649_2668335237636349489_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11728987_1028448573854612_5807988168801496220_o.jpg": {
 		"ft": 16384,
@@ -2791,7 +3375,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11728987_1028448573854612_5807988168801496220_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11741121_1028448033854666_4655331621432612937_o.jpg": {
 		"ft": 16384,
@@ -2799,7 +3385,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11741121_1028448033854666_4655331621432612937_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/11873478_1044159688950167_7258447279763061337_n.jpg": {
 		"ft": 16384,
@@ -2807,7 +3395,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11873478_1044159688950167_7258447279763061337_n.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/12000883_1060476710651798_6574953780111672823_o.jpg": {
 		"ft": 16384,
@@ -2815,7 +3405,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/12000883_1060476710651798_6574953780111672823_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/Mentoring and Speaking photos\/12771993_1148072851892183_8044951554146230402_o.jpg": {
 		"ft": 16384,
@@ -2823,7 +3415,9 @@
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/12771993_1148072851892183_8044951554146230402_o.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/peek tests\/peek-adamruf-feb-01.mp4": {
 		"ft": 8192,
@@ -2907,7 +3501,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/UX Portfolio Mentorship Program typeform image-v2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/UX Portfolio Mentorship Program typeform image.png": {
 		"ft": 32768,
@@ -2915,7 +3512,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/UX Portfolio Mentorship Program typeform image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/UX Portfolio Mentorship Program typeform image@2x.png": {
 		"ft": 32768,
@@ -2923,7 +3523,10 @@
 		"oA": 0,
 		"oAP": "\/staging\/UX Portfolio Mentorship Program typeform image@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch": {
 		"ft": 8192,
@@ -3695,6 +4298,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -3979,6 +4586,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4174,6 +4785,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -4774,7 +5389,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -4797,14 +5413,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -4867,7 +5475,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
