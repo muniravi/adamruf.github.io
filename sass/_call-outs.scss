@@ -1,0 +1,14 @@
+/* - - - - - - - - - - - - - - - - - - - - *\
+CALL-OUTS
+\* - - - - - - - - - - - - - - - - - - - - */
+
+.call-out--twitch {
+  top: 10rem;
+  right: 3rem;
+  @media screen and (max-width: 1250px) {
+    display: none;
+  }
+  img {
+    width: 487px;
+  }
+}
