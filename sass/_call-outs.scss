@@ -1,16 +1,3 @@
 /* - - - - - - - - - - - - - - - - - - - - *\
 CALL-OUTS
 \* - - - - - - - - - - - - - - - - - - - - */
-
-.call-out--twitch {
-  top: 10rem;
-  right: 3rem;
-  transition: 0.3s ease-in-out;
-  @media screen and (max-width: 1250px) {
-    display: none;
-    transition: 0.3s ease-in-out;
-  }
-  img {
-    width: 487px;
-  }
-}
