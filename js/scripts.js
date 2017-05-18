@@ -66,8 +66,8 @@ window.onkeydown = keydown;
 $('.tipped').tooltip();
 
 // Rotate words in Hero
-var terms1 = ["codes", "cares", "listens", "leads", "mentors"];
-var terms2 = ["smiles", "insights", "outcomes", "innovation", "solutions", "results"];
+var terms1 = ["codes", "cares", "leads", "mentors", "streams"];
+var terms2 = ["smiles", "impact", "innovation", "solutions", "results"];
 
 function rotateTerm1() {
   var ct = $("#rotate-1").data("term") || 0;

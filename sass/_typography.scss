@@ -15,6 +15,10 @@ TYPOGRAPHY
   text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
 
+@mixin text-shadow--md {
+  text-shadow: 0 3px 0 rgba(0,0,0,0.33);
+}
+
 body {
   line-height: 1.4;
 }
@@ -149,4 +153,8 @@ strong {font-weight: bold;}
 
 .text-white {
   color: $white;
+}
+
+.text-shadow--md {
+  @include text-shadow--md;
 }
