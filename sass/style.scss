@@ -68,6 +68,10 @@ HOMEPAGE
   opacity: 0 !important;
 }
 
+.bg--purple {
+  background-color: $purple-dark;
+}
+
 .selected-writing {
   li h4 {
     letter-spacing: -0.0075em;

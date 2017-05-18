@@ -99,6 +99,24 @@ button, .button {
   }
 }
 
+.style-purple {
+  background-color: $purple;
+  color: $white !important;
+  border-color: darken($purple, 15%);
+  @include text-shadow;
+  &:hover {
+    background-color: darken($purple, 10%);
+    border-bottom-color: darken($purple, 18%);
+  }
+  &:active {
+    border-color: darken($purple, 15%);
+  }
+  &:focus {
+    background-color: darken($purple, 10%);
+    box-shadow: 0 0 33px $purple;
+  }
+}
+
 /* - - - - - - - - - - - - - - - - - - - - *\
 BACK TO THE TOP BUTTON
 \* - - - - - - - - - - - - - - - - - - - - */
