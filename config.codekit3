@@ -202,7 +202,7 @@
 		},
 	"\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg": {
 		"ft": 16384,
-		"iS": 1087080,
+		"iS": 1087082,
 		"oA": 0,
 		"oAP": "\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg",
 		"oF": 0,
@@ -541,6 +541,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/hero-image-opacity-issue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/hero-image-outdated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/hero-image-outdated.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3831,7 +3841,7 @@
 		},
 	"\/ux-design-mentoring.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/ux-design-mentoring.html",
 		"oF": 0
 		},
