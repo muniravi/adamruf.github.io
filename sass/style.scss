@@ -139,6 +139,11 @@ a.whats-new-img-link:focus {
   position: relative;
   text-decoration: none;
   text-shadow: none;
+  transition: 0.2s ease-in-out;
+}
+
+a.img-link:hover {
+  transform: scale(1.015);
 }
 
 a.img-link:before {
