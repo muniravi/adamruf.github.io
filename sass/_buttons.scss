@@ -97,7 +97,7 @@ button, .button {
   }
   &:focus {
     background-color: darken($green, 15%);
-    box-shadow: 0 0.6rem 0 0 darken($green, 15%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $green;
+    box-shadow: 0 0.6rem 0 0 darken($green, 18%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $green;
   }
 }
 
@@ -119,7 +119,7 @@ button, .button {
   }
   &:focus {
     background-color: darken($purple, 15%);
-    box-shadow: 0 0.6rem 0 0 darken($purple, 15%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $purple;
+    box-shadow: 0 0.6rem 0 0 darken($purple, 18%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $purple;
   }
 }
 
