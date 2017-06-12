@@ -63,6 +63,31 @@ ANIMATIONS
   }
 }
 
+.bounce {
+  animation-direction: alternate;
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-duration: 1s;
+  -webkit-animation-name: focus-bounce;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes focus-bounce {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0.5rem, 0);
+    transform: translate3d(0, 0.5rem, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .slow-bounce {
   animation-direction: alternate;
   -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */

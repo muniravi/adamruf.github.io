@@ -91,12 +91,19 @@ button, .button {
   &:active {
     box-shadow: 0 0.2rem 0 0 darken($green, 18%), 0 5px 1px 1px rgba(0,0,0,0.1);
     &:focus {
-      box-shadow: 0 0.2rem 0 0 darken($green, 18%), 0 5px 1px 1px rgba(0,0,0,0.1), 0 0 33px $green;
+      // box-shadow: 0 0.2rem 0 0 darken($green, 18%), 0 5px 1px 1px rgba(0,0,0,0.1), 0 0 33px $green;
     }
   }
   &:focus {
+    animation-direction: alternate;
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-duration: 1s;
+    -webkit-animation-name: focus-bounce;
+    animation-name: focus-bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     background-color: darken($green, 10%);
-    box-shadow: 0 0.6rem 0 0 darken($green, 18%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $green;
+    // box-shadow: 0 0.6rem 0 0 darken($green, 18%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $green;
   }
 }
 
@@ -112,12 +119,19 @@ button, .button {
   &:active {
     box-shadow: 0 0.2rem 0 0 darken($purple, 18%), 0 5px 1px 1px rgba(0,0,0,0.1);
     &:focus {
-      box-shadow: 0 0.2rem 0 0 darken($purple, 18%), 0 5px 1px 1px rgba(0,0,0,0.1), 0 0 33px $purple;
+      // box-shadow: 0 0.2rem 0 0 darken($purple, 18%), 0 5px 1px 1px rgba(0,0,0,0.1), 0 0 33px $purple;
     }
   }
   &:focus {
+    animation-direction: alternate;
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-duration: 1s;
+    -webkit-animation-name: focus-bounce;
+    animation-name: focus-bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     background-color: darken($purple, 10%);
-    box-shadow: 0 0.6rem 0 0 darken($purple, 18%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $purple;
+    // box-shadow: 0 0.6rem 0 0 darken($purple, 18%), 0 11px 1px 1px rgba(0,0,0,0.1), 0 0 33px $purple;
   }
 }
 
