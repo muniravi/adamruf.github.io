@@ -109,6 +109,7 @@ button, .button {
   }
   &:active {
     box-shadow: 0 0.2rem 0 0 darken($purple, 18%), 0 5px 1px 1px rgba(0,0,0,0.1);
+    outline: none;
   }
   &:focus {
     background-color: darken($purple, 10%);
