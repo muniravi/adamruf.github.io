@@ -85,9 +85,11 @@ a {
   &:focus:not(.button) {
     box-shadow: inset 0 -1px 0 0 #fff, inset 0 -2px 0 0 $blue-bright;
     color: $blue-bright;
+    text-decoration: none;
+  }
+  &:focus:not(.button) {
     outline: 10px solid rgba(57, 164, 235, 0.25);
     outline-offset: 0;
-    text-decoration: none;
   }
 }
 
