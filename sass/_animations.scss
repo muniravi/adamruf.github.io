@@ -2,6 +2,57 @@
 ANIMATIONS
 \* - - - - - - - - - - - - - - - - - - - - */
 
+//Rotating Words effect adapted from https://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/
+.rotating-words {
+  display: inline;
+}
+
+.rotating-words span{
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.rotating-words-1 span{
+	animation: rotateWordsFirst 24s linear infinite 0s;
+}
+.rotating-words-2 span{
+	animation: rotateWordsSecond 24s linear infinite 0s;
+  text-indent: 1rem;
+}
+.rotating-words span:nth-child(2) {
+	animation-delay: 4s;
+}
+.rotating-words span:nth-child(3) {
+	animation-delay: 8s;
+}
+.rotating-words span:nth-child(4) {
+	animation-delay: 12s;
+}
+.rotating-words span:nth-child(5) {
+	animation-delay: 16s;
+}
+.rotating-words span:nth-child(6) {
+	animation-delay: 20s;
+}
+
+@keyframes rotateWordsFirst {
+  0% { opacity: 1; animation-timing-function: ease; width: 0; }
+  3% { opacity: 0.3; width: 0; }
+12% { opacity: 1; width: 100%; }
+  21% { opacity: 0; width: 100%; }
+  100% { opacity: 0; }
+}
+
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease; width: 0; }
+    5% { opacity: 0.3; width: 0; }
+	14% { opacity: 1; width: 100%; }
+    23% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+
 .swing {
   -webkit-transform-origin: top center;
   transform-origin: top center;
