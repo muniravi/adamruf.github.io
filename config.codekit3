@@ -1117,6 +1117,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ux-design-contest\/blue-circle@2x.png": {
+		"ft": 32768,
+		"iS": 7052,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/blue-circle@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/ux-design-contest\/color-wave@2x.png": {
 		"ft": 32768,
 		"iS": 33173,
@@ -1172,6 +1183,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ux-design-contest\/footer-twitch-plug@2x.png": {
+		"ft": 32768,
+		"iS": 16276,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/footer-twitch-plug@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/green-triangle@2x.png": {
+		"ft": 32768,
+		"iS": 4294,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/green-triangle@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/ux-design-contest\/intro-animation@2x.gif": {
 		"ft": 4194304,
 		"iS": 152109,
@@ -1199,6 +1232,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/shapes-group-2@2x.png": {
+		"ft": 32768,
+		"iS": 9762,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/shapes-group-2@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/ux-trophy@2x.png": {
+		"ft": 32768,
+		"iS": 9478,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/ux-trophy@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
