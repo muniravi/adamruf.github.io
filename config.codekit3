@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -48,6 +48,16 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/ux-design-contest.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/ux-design-contest-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -1093,6 +1103,102 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/banner-ux-design-contest@2x.png": {
+		"ft": 32768,
+		"iS": 164369,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/banner-ux-design-contest@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/color-wave@2x.png": {
+		"ft": 32768,
+		"iS": 33173,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/color-wave@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/confetti-bg-tile.png": {
+		"ft": 32768,
+		"iS": 17451,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/confetti-bg-tile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/confetti-bg-tile@2x.png": {
+		"ft": 32768,
+		"iS": 42467,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/confetti-bg-tile@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/custom-border.png": {
+		"ft": 32768,
+		"iS": 867,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/custom-border.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/custom-border@2x.png": {
+		"ft": 32768,
+		"iS": 2577,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/custom-border@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/intro-animation@2x.gif": {
+		"ft": 4194304,
+		"iS": 152109,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/intro-animation@2x.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/ux-design-contest\/red-square@2x.png": {
+		"ft": 32768,
+		"iS": 3934,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/red-square@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ux-design-contest\/shapes-group-1@2x.png": {
+		"ft": 32768,
+		"iS": 25021,
+		"oA": 0,
+		"oAP": "\/images\/ux-design-contest\/shapes-group-1@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3117,6 +3223,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/projects\/ux-design-contest.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ux-design-contest.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3839,6 +3958,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/ux-design-contest.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ux-design-contest.html",
+		"oF": 0
+		},
 	"\/ux-design-mentoring.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -3855,6 +3980,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/ux-ui-designer-adam-ruf-recommended-resources.html",
+		"oF": 0
+		},
+	"\/ux_adam-ruf-streaming-design-on-twitch.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ux_adam-ruf-streaming-design-on-twitch.html",
 		"oF": 0
 		}
 	},
@@ -5735,7 +5866,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
@@ -5802,6 +5933,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

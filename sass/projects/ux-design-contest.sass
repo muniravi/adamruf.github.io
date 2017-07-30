@@ -1,0 +1,11 @@
+@mixin base-font
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Tahoma", sans-serif
+@mixin slab-font
+  font-family: "Roboto Slab"
+
+body
+  background: #fafafa url('http://adamruf.com/images/ux-design-contest/confetti-bg-tile.png') left top
+  color: #312F37
+  @include base-font
+  font-size: 30px
+  line-height: 1.55em
