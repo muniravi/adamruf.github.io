@@ -50,8 +50,17 @@ a {
     border-bottom: 2px dashed #7F7F7F;
     color: #7F7F7F; }
 
+@keyframes color-wave {
+  0% {
+    background-color: #FF7F9E; }
+  50% {
+    background-color: #7FFFB9; }
+  100% {
+    background-color: #7FF6FF; } }
+
 .button {
-  background-color: #312F37;
+  animation: color-wave 8s ease infinite;
+  animation-direction: alternate;
   border: none;
   border-radius: 6rem;
   box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05);
@@ -59,9 +68,11 @@ a {
   display: block;
   font-size: 3rem;
   font-weight: bold;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  text-shadow: 0 0.2rem 0 rgba(49, 47, 55, 0.1); }
   .button:hover, .button:active, .button:focus {
-    background-color: #252329;
+    animation: none;
+    background-color: #312F37;
     border: none;
     color: white; }
   .button:active {
@@ -137,6 +148,17 @@ a {
 
 .wrapper--full {
   margin: 0 5rem; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px); } }
+
+.float {
+  animation: float 5s ease-in-out infinite; }
 
 .shapes-group-1 {
   top: 0;
