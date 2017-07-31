@@ -37,14 +37,43 @@ body {
   line-height: 1.55em; }
 
 a {
-  color: #00A8FF; }
+  color: #00A8FF;
+  font-weight: bold; }
   a:hover, a:active, a:focus {
-    border-bottom: 2px solid #00A8FF;
+    border-bottom: 2px dashed #00A8FF;
     color: #00A8FF;
     text-decoration: none; }
 
+.subtle {
+  color: #7F7F7F; }
+  .subtle:hover, .subtle:active, .subtle:focus {
+    border-bottom: 2px dashed #7F7F7F;
+    color: #7F7F7F; }
+
+.button {
+  background-color: #312F37;
+  border: none;
+  border-radius: 6rem;
+  box-shadow: 0 1rem 0 rgba(49, 47, 55, 0.05);
+  color: white;
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1.5rem; }
+  .button:hover, .button:active, .button:focus {
+    background-color: #252329;
+    border: none;
+    color: white; }
+  .button:active {
+    box-shadow: 0 0.6rem 0 rgba(49, 47, 55, 0.15);
+    transform: translateY(0.4rem);
+    transition: all 0.3s ease; }
+
 .mg-b-50 {
   margin-bottom: 5rem; }
+
+.mg-b-75 {
+  margin-bottom: 7.5rem; }
 
 .mg-b-100 {
   margin-bottom: 10rem; }
@@ -54,6 +83,12 @@ a {
 
 .mg-b-200 {
   margin-bottom: 20rem; }
+
+.mg-b-250 {
+  margin-bottom: 25rem; }
+
+.mg-b-300 {
+  margin-bottom: 30rem; }
 
 .mg-b-400 {
   margin-bottom: 40rem; }
@@ -65,7 +100,11 @@ a {
   position: relative; }
 
 .small {
-  font-size: 2rem; }
+  font-size: 2rem;
+  line-height: 1.5; }
+
+.smaller {
+  font-size: 1.4rem; }
 
 .title {
   font-family: "Roboto Slab";
@@ -125,6 +164,10 @@ a {
 h2 {
   font-family: "Roboto Slab";
   font-size: 5rem; }
+
+h3 {
+  font-size: 4rem;
+  font-weight: bold; }
 
 .testimonial {
   line-height: 1;
