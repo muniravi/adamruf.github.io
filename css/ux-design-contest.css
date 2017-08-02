@@ -52,6 +52,9 @@ a {
     color: #00A8FF;
     text-decoration: none; }
 
+.row {
+  margin: 0; }
+
 .subtle {
   color: #7F7F7F; }
   .subtle:hover, .subtle:active, .subtle:focus {
@@ -233,7 +236,7 @@ a {
   .max-w-200 {
     max-width: 100px; }
   .max-w-640 {
-    min-width: 365px; }
+    min-width: 330px; }
   .mg-b-75 {
     margin-bottom: 2rem; }
   .wrapper-right-circle-small {
