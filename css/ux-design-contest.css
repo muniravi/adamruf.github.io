@@ -204,8 +204,8 @@ a {
   margin: 0; }
 
 .footer-twitch-sell {
-  left: 1rem;
-  bottom: 0; }
+  border-bottom: 2px dashed #7F7F7F;
+  margin-bottom: 2rem; }
 
 @media (max-width: 666px) {
   .ux-trophy-banner {
