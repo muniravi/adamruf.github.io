@@ -88,9 +88,6 @@ a {
     transform: translateY(0.4rem);
     transition: all 0.3s ease; }
 
-.mg-b-20 {
-  margin-bottom: 2rem; }
-
 .mg-b-50 {
   margin-bottom: 5rem; }
 
@@ -237,6 +234,8 @@ a {
     max-width: 100px; }
   .max-w-640 {
     min-width: 365px; }
+  .mg-b-75 {
+    margin-bottom: 2rem; }
   .wrapper-right-circle-small {
     left: -7rem; }
   .wrapper-right-circle {
