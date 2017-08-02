@@ -179,16 +179,16 @@ a {
   left: 4rem; }
 
 .shapes-group-2 {
-  top: 0;
-  right: 6rem; }
+  bottom: -15rem;
+  right: 0; }
 
 .wrapper-left-square {
   top: 7.5rem;
-  right: -7.5rem; }
+  right: -12.5rem; }
 
 .wrapper-right-circle {
   top: 8rem;
-  left: -12rem; }
+  left: -15rem; }
 
 .wrapper-right-circle-small {
   top: 3rem;
@@ -200,7 +200,7 @@ a {
 
 .wrapper-left-triangle {
   top: 10rem;
-  right: -10rem; }
+  right: -15rem; }
 
 .testimonial {
   line-height: 1.3;
@@ -227,9 +227,13 @@ a {
     font-size: 1.8rem;
     padding: 2rem; }
   .wrapper--right {
-    margin-left: 7rem; }
+    margin-left: 7rem;
+    margin-right: 1rem; }
   .wrapper--left {
+    margin-left: 1rem;
     margin-right: 7rem; }
+  .wrapper--full {
+    margin: 0 1rem; }
   .max-w-210 {
     max-width: 100px; }
   .max-w-100 {
@@ -253,7 +257,7 @@ a {
   .shapes-group-1 {
     left: 0; }
   .shapes-group-2 {
-    right: 0; }
+    bottom: -10rem; }
   .wrapper-right-circle-small {
     left: -7rem; }
   .wrapper-right-circle {
@@ -264,11 +268,11 @@ a {
     right: -6.5rem; }
   .wrapper-right-trophy {
     top: 7rem;
-    left: 4rem; }
+    left: 0; }
   .footer-twitch-sell {
     border-bottom: 1px dashed #7F7F7F;
     bottom: 5rem; }
   ol {
     margin-left: -1rem; }
   h3 {
-    font-size: 3rem; } }
+    font-size: 2.5rem; } }
