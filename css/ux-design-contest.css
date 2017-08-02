@@ -52,6 +52,9 @@ a {
     color: #00A8FF;
     text-decoration: none; }
 
+.img-link:hover, .img-link:active, .img-link:focus {
+  border: none; }
+
 .row {
   margin: 0; }
 
@@ -205,7 +208,7 @@ a {
 
 .footer-twitch-sell {
   border-bottom: 2px dashed #7F7F7F;
-  margin-bottom: 2rem; }
+  margin-bottom: 4rem; }
 
 @media (max-width: 666px) {
   .ux-trophy-banner {

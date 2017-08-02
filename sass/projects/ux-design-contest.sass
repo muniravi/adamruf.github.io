@@ -50,6 +50,12 @@ a
     color: #00A8FF
     text-decoration: none
 
+.img-link
+  &:hover,
+  &:active,
+  &:focus
+    border: none
+
 // Bootstrap's negative margins on .row creates horizontal scrollbar, yuck!!
 .row
   margin: 0
@@ -207,7 +213,7 @@ a
 
 .footer-twitch-sell
   border-bottom: 2px dashed #7F7F7F
-  margin-bottom: 2rem
+  margin-bottom: 4rem
 
 // Media Queries for Improving Mobile UX
 @media #{$mobile}
