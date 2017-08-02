@@ -221,13 +221,15 @@ a {
   .button {
     font-size: 2rem;
     padding: 1rem; }
+  .small {
+    font-size: 1.6rem; }
   .wrapper {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 2rem; }
   .wrapper--right {
-    margin-left: 11rem; }
+    margin-left: 7rem; }
   .wrapper--left {
-    margin-right: 11rem; }
+    margin-right: 7rem; }
   .max-w-210 {
     max-width: 100px; }
   .max-w-100 {
@@ -241,7 +243,17 @@ a {
   .max-w-640 {
     min-width: 330px; }
   .mg-b-75 {
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
+  .mg-b-150 {
+    margin-bottom: 7rem; }
+  .mg-b-250 {
+    margin-bottom: 10rem; }
+  .mg-b-400 {
+    margin-bottom: 15rem; }
+  .shapes-group-1 {
+    left: 0; }
+  .shapes-group-2 {
+    right: 0; }
   .wrapper-right-circle-small {
     left: -7rem; }
   .wrapper-right-circle {
