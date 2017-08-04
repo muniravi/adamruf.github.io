@@ -198,7 +198,8 @@ nav.navbar-inverse .navbar-toggle {
 
 nav.navbar-inverse .navbar-toggle {
   border-color: transparent;
-  margin-top: 7px;
+  box-shadow: none;
+  margin-top: 8px;
   &:hover, &:active, &:focus {
     border-color: transparent;
   }
