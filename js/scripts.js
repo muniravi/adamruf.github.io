@@ -65,6 +65,23 @@ window.onkeydown = keydown;
 // Activate tooltips
 $('.tipped').tooltip();
 
+// Rotate words in Hero
+var terms1 = ["codes", "cares", "leads", "mentors", "streams"];
+var terms2 = ["smiles", "impact", "innovation", "solutions", "results"];
+
+function rotateTerm1() {
+  var ct = $("#rotate-1").data("term") || 0;
+  $("#rotate-1").data("term", ct === terms1.length -1 ? 0 : ct + 1).text(terms1[ct]).fadeIn()
+              .delay(2000).fadeOut(250, rotateTerm1);
+}
+function rotateTerm2() {
+  var ct = $("#rotate-2").data("term") || 0;
+  $("#rotate-2").data("term", ct === terms2.length -1 ? 0 : ct + 1).text(terms2[ct]).fadeIn()
+              .delay(4000).fadeOut(250, rotateTerm2);
+}
+$(rotateTerm1);
+$(rotateTerm2);
+
 // Animate 404 page image
 $('.js--404').click(function() {
     $(this).addClass('animated hinge');
