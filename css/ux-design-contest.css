@@ -270,14 +270,14 @@ a {
   h3 {
     font-size: 2.5rem; } }
 
-#mce-EMAIL {
+#mce-EMAIL input.email {
   border: 0.2rem dashed #7F7F7F;
   font-size: 2rem;
   height: auto;
   margin-right: 1rem;
   padding: 1.5rem; }
 
-#mc-embedded-subscribe {
+#mc-embedded-subscribe .button {
   border-radius: 4rem;
   font-size: 2rem;
   height: auto;
