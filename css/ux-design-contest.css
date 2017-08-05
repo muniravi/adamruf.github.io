@@ -269,3 +269,16 @@ a {
     margin-left: -1rem; }
   h3 {
     font-size: 2.5rem; } }
+
+#mce-EMAIL {
+  border: 0.2rem dashed #7F7F7F;
+  font-size: 2rem;
+  height: auto;
+  margin-right: 1rem;
+  padding: 1.5rem; }
+
+#mc-embedded-subscribe {
+  border-radius: 4rem;
+  font-size: 2rem;
+  height: auto;
+  padding: 1.5rem 5rem; }
