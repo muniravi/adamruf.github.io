@@ -141,14 +141,17 @@ a.whats-new-img-link:focus {
   transition: 0.2s ease-in-out;
 }
 
-a.img-link:hover {
-  box-shadow: 0 15px 30px 0 rgba(23,55,87,.1), 0 5px 10px 0 rgba(0,0,0,.07);
-  transform: scale(1.025);
+a.img-link {
+  border-radius: 0.4rem;
+  &:hover {
+    box-shadow: 0 15px 30px 0 rgba(23,55,87,.1), 0 5px 10px 0 rgba(0,0,0,.07);
+    transform: scale(1.025);
+  }
 }
 
 a.img-link:before {
   background: $green;
-  border-radius: 0 0 0 10px;
+  border-radius: 0 0 0 1rem;
   box-shadow: 0 2px 1px rgba(0,0,0,0.2);
   color: $white;
   content: 'View Site';
