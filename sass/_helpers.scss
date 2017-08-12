@@ -2,39 +2,25 @@
 HELPERS
 \* - - - - - - - - - - - - - - - - - - - - */
 
-.headroom-xxs {margin-top: 0.5em;}
+.mg-b-0 {margin-bottom: 0;}
 
-.headroom-xs {margin-top: 1em;}
+.mg-b-xxs {margin-bottom: 1rem;}
 
-.headroom-sm {margin-top: 2em;}
+.mg-b-xs {margin-bottom: 2rem;}
 
-.headroom-md {margin-top: 3em;}
+.mg-b-sm {margin-bottom: 4rem;}
 
-.headroom-lg {
-  margin-top: 5em;
-  @media screen and (max-width: 640px) {
-    margin-top: 6em;
-  }
-}
+.mg-b-md {margin-bottom: 6rem;}
 
-.headroom-xl {margin-top: 8em ;}
+.mg-b-lg {margin-bottom: 10rem;}
 
-.no-legroom {margin-bottom: 0;}
+.mg-b-xl {margin-bottom: 16rem;}
 
-.legroom-xxs {margin-bottom: 1rem;}
+.mg-b-xxl {margin-bottom: 60rem;}
 
-.legroom-xs {margin-bottom: 1em;}
+.pd-t-sm {padding-top: 4rem;}
 
-.legroom-sm {margin-bottom: 2em;}
-
-.legroom-md {margin-bottom: 3em;}
-
-.legroom-lg {margin-bottom: 5em;}
-
-.legroom-xl {margin-bottom: 7em;}
-
-.legroom-xxl {margin-bottom: 35em;}
-
+.pd-t-lg {padding-top: 10rem;}
 
 .no-overflow {overflow: hidden;}
 
@@ -107,4 +93,12 @@ HELPERS
   & a {
     font-weight: 300;
   }
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-n-1 {
+  z-index: -1;
 }

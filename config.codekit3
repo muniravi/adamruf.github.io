@@ -200,16 +200,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg": {
-		"ft": 16384,
-		"iS": 1087082,
-		"oA": 0,
-		"oAP": "\/images\/Adam-Ruf-UXNight-Design-Mentor.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/adam-ruf-website-tile-image.png": {
 		"ft": 32768,
 		"iS": 5587,
@@ -2888,12 +2878,6 @@
 		"oAP": "\/portfolio\/moringa\/index.html",
 		"oF": 0
 		},
-	"\/pug\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pug\/index.html",
-		"oF": 0
-		},
 	"\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -3167,6 +3151,16 @@
 		"oA": 2,
 		"oAP": "\/staging\/adam-ruf-ux-design-speaking",
 		"oF": 0
+		},
+	"\/staging\/Adam-Ruf-UXNight-Design-Mentor.jpg": {
+		"ft": 16384,
+		"iS": 1087082,
+		"oA": 0,
+		"oAP": "\/staging\/Adam-Ruf-UXNight-Design-Mentor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/staging\/adamruf-dot-com.sketch": {
 		"ft": 8192,
@@ -3680,6 +3674,12 @@
 		"oAP": "\/staging\/portfolio-image-template.sketch",
 		"oF": 0
 		},
+	"\/staging\/pug\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/pug\/index.html",
+		"oF": 0
+		},
 	"\/staging\/pyramid-xs.eps": {
 		"ft": 8192,
 		"oA": 2,
@@ -3850,18 +3850,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/ux-design-contest.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ux-design-contest.html",
-		"oF": 0
-		},
-	"\/ux-design-mentoring.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ux-design-mentoring.html",
-		"oF": 0
-		},
 	"\/ux-ui-designer-adam-ruf-portfolio.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -3872,12 +3860,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/ux-ui-designer-adam-ruf-recommended-resources.html",
-		"oF": 0
-		},
-	"\/ux_adam-ruf-streaming-design-on-twitch.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ux_adam-ruf-streaming-design-on-twitch.html",
 		"oF": 0
 		}
 	},

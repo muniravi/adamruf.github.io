@@ -142,8 +142,8 @@ a.whats-new-img-link:focus {
 }
 
 a.img-link:hover {
-  box-shadow: 0 6px 12px rgba(0,0,0,0.075);
-  transform: scale(1.015);
+  box-shadow: 0 15px 30px 0 rgba(23,55,87,.1), 0 5px 10px 0 rgba(0,0,0,.07);
+  transform: scale(1.025);
 }
 
 a.img-link:before {
@@ -297,7 +297,6 @@ ul.progress-bar ul {
 .js--404 {
   cursor: pointer;
   position: relative;
-  z-index: 1;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
