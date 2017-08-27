@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -1194,6 +1194,7 @@
 		},
 	"\/js\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/bootstrap-min.js",
@@ -1203,6 +1204,7 @@
 		},
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/bootstrap.min-min.js",
@@ -1212,6 +1214,7 @@
 		},
 	"\/js\/html5shiv.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/html5shiv-min.js",
@@ -1221,6 +1224,7 @@
 		},
 	"\/js\/min\/resources-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/resources-min-min.js",
@@ -1230,6 +1234,7 @@
 		},
 	"\/js\/min\/scripts-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/scripts-min-min.js",
@@ -1239,6 +1244,7 @@
 		},
 	"\/js\/resources.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/resources-min.js",
@@ -1248,6 +1254,7 @@
 		},
 	"\/js\/retina.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/retina-min.js",
@@ -1257,6 +1264,7 @@
 		},
 	"\/js\/script.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/script-min.js",
@@ -1266,6 +1274,7 @@
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/scripts-min.js",
@@ -1275,6 +1284,7 @@
 		},
 	"\/js\/wufoo.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/wufoo-min.js",
@@ -1732,6 +1742,7 @@
 		},
 	"\/portfolio\/lunch-inviterator\/js\/min\/random-lunch-invite-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/portfolio\/lunch-inviterator\/js\/min\/min\/random-lunch-invite-min-min.js",
@@ -1741,6 +1752,7 @@
 		},
 	"\/portfolio\/lunch-inviterator\/js\/random-lunch-invite.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/js\/min\/random-lunch-invite-min.js",
@@ -2782,6 +2794,7 @@
 		},
 	"\/portfolio\/moringa\/assets\/html5shim\/html5.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/html5shim\/min\/html5-min.js",
@@ -2801,6 +2814,7 @@
 		},
 	"\/portfolio\/moringa\/assets\/json2\/json2.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/json2\/min\/json2-min.js",
@@ -2821,6 +2835,7 @@
 		},
 	"\/portfolio\/moringa\/assets\/scripts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/assets\/min\/scripts-min.js",
@@ -3133,6 +3148,7 @@
 		},
 	"\/staging\/adam-chart.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/staging\/min\/adam-chart-min.js",
@@ -3815,6 +3831,7 @@
 		},
 	"\/tools\/ux-design-dialogue-flow-tool\/js\/min\/scripts-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/js\/min\/min\/scripts-min-min.js",
@@ -3824,6 +3841,7 @@
 		},
 	"\/tools\/ux-design-dialogue-flow-tool\/js\/scripts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/js\/min\/scripts-min.js",
@@ -4275,6 +4293,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -4282,6 +4304,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -4379,6 +4405,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -4398,6 +4428,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -4526,6 +4560,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -5071,6 +5109,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -5139,6 +5181,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -5178,6 +5224,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -5811,6 +5861,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
