@@ -686,6 +686,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/portfolio\/ask-adam-anything.png": {
+		"ft": 32768,
+		"iS": 561597,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/ask-adam-anything.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/portfolio\/aspect-ratio-dimensions-calculator.png": {
 		"ft": 32768,
 		"iS": 201172,
@@ -3678,12 +3689,6 @@
 		"oAP": "\/staging\/polldaddy-rating-alternate-graphics.sketch",
 		"oF": 0
 		},
-	"\/staging\/Portfolio img template.sketch": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/staging\/Portfolio img template.sketch",
-		"oF": 0
-		},
 	"\/staging\/portfolio-image-template.sketch": {
 		"ft": 8192,
 		"oA": 2,
@@ -3722,6 +3727,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Untitled.sketch",
+		"oF": 0
+		},
+	"\/staging\/Use-this Portfolio img template.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/Use-this Portfolio img template.sketch",
 		"oF": 0
 		},
 	"\/staging\/userflow-index.html": {
