@@ -139,9 +139,15 @@ resources</a></li>
   <section id="design-streaming-on-twitch" class="mg-b-lg">
     <div class="container-fluid padded bg--purple bg--twitch-content">
       <div class="row pd-t-lg">
-        <div class="col-md-12 mg-b-lg text-center">
+        <div class="col-md-12 text-center">
           <h2><i class="fa fa-twitch text-white text-shadow--md"></i></h2>
           <h2 class="text-white text-shadow--md mg-b-sm">🤓 I'm streaming &amp; chatting design on Twitch.<br>Join us for design mentoring and fun <br>Tuesday, Wednesday, and Thursday nights!</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mg-b-lg text-center">
+          <!-- Add a placeholder for the Twitch embed -->
+          <div id="twitch-embed" class="mg-b-md"></div>
           <a href="https://twitch.tv/ux_adam" target="_blank" class="button button-lg style-purple">Join me on Twitch</a>
         </div>
       </div>
@@ -298,5 +304,16 @@ resources</a></li>
   <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="//adamruf.com/js/min/scripts-min.js"></script>
+  <!-- Load the Twitch embed script -->
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+  <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+  <script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+      width: 850,
+      height: 478,
+      channel: 'ux_adam'
+    });
+  </script>
 </body>
 </html>
