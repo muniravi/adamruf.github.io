@@ -83,8 +83,13 @@ HOMEPAGE
 }
 
 #twitch-embed {
+  box-shadow: 0 0.5rem 5rem darken($purple-dark,20%);
   margin: 0 auto;
   width: 800px;
+
+  .pl-pinned-item {
+    display: none;
+  }
 }
 
 .selected-writing {
