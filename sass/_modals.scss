@@ -69,6 +69,7 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
   }
 }
 
-iframe {
+//Override for Typeform modal
+.typeform-popup-wrapper.typeform-popup-mode-popup iframe {
   border-radius: 5rem;
 }
