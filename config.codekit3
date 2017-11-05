@@ -7,33 +7,38 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/404.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/404.html",
 		"oF": 0
 		},
 	"\/about-ux-ui-designer-adam-ruf.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/about-ux-ui-designer-adam-ruf.html",
 		"oF": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/contact-ux-ui-designer-adam-ruf.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/contact-ux-ui-designer-adam-ruf.html",
@@ -50,12 +55,14 @@
 		"oS": 0
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/forty-three-million-dollar-painting.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/forty-three-million-dollar-painting.html",
@@ -123,6 +130,27 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/adam-caricature-by-charlene.png": {
+		"ft": 32768,
+		"iS": 39683,
+		"oA": 0,
+		"oAP": "\/images\/adam-caricature-by-charlene.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/adam-caricature-by-charlene.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/adam-caricature-by-charlene.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/adam-ruf-email-signature.png": {
 		"ft": 32768,
@@ -1198,6 +1226,7 @@
 		"q": 100
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -1385,6 +1414,7 @@
 		"q": 100
 		},
 	"\/portfolio\/favorite-fruit\/watermelon.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/watermelon.html",
@@ -1431,48 +1461,56 @@
 		"oS": 0
 		},
 	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.eot",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.ttf",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplay-webfont.woff",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.eot",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.ttf",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/fontastic-questions\/fonts\/BPreplay\/BPreplayBold-webfont.woff",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/how-high-is-mount-everest.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/how-high-is-mount-everest.html",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/how-many-stars-are-there-in-the-universe.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/how-many-stars-are-there-in-the-universe.html",
@@ -1543,12 +1581,14 @@
 		"q": 100
 		},
 	"\/portfolio\/fontastic-questions\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/index.html",
 		"oF": 0
 		},
 	"\/portfolio\/fontastic-questions\/why-is-the-sky-blue.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/why-is-the-sky-blue.html",
@@ -1566,6 +1606,7 @@
 		"q": 100
 		},
 	"\/portfolio\/gsd\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/gsd\/index.html",
@@ -1746,6 +1787,7 @@
 		"q": 100
 		},
 	"\/portfolio\/lunch-inviterator\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/index.html",
@@ -2769,24 +2811,28 @@
 		"q": 100
 		},
 	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-bold.woff",
 		"oF": 0
 		},
 	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-light.woff",
 		"oF": 0
 		},
 	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-semibold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans-semibold.woff",
 		"oF": 0
 		},
 	"\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/moringa\/assets\/fonts\/open_sans\/OpenSans.woff",
@@ -2899,84 +2945,98 @@
 		"q": 100
 		},
 	"\/portfolio\/moringa\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/portfolio\/moringa\/index.html",
 		"oF": 0
 		},
 	"\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_accordions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_accordions.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_animations.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_animations.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_banner.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_banner.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_colors.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_colors.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_helpers.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_helpers.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_modals.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_modals.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_navbar.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_navbar.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_tooltips.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_tooltips.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_typography.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_utility-belt.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/_utility-belt.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/dffeeaa09c1ea936afe605743f881b01d0fb3930\/style.scssc",
@@ -3152,6 +3212,7 @@
 		"uL": 1
 		},
 	"\/staging\/404.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/404.ai",
@@ -3168,12 +3229,14 @@
 		"tS": 0
 		},
 	"\/staging\/adam-ruf-ux-design-and-career-mentoring": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/adam-ruf-ux-design-and-career-mentoring",
 		"oF": 0
 		},
 	"\/staging\/adam-ruf-ux-design-speaking": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/adam-ruf-ux-design-speaking",
@@ -3190,18 +3253,21 @@
 		"q": 100
 		},
 	"\/staging\/adamruf-dot-com.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/adamruf-dot-com.sketch",
 		"oF": 0
 		},
 	"\/staging\/ar-portfolio-template.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/ar-portfolio-template.psd",
 		"oF": 0
 		},
 	"\/staging\/avatar-sprite-eps.eps": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/avatar-sprite-eps.eps",
@@ -3240,12 +3306,14 @@
 		"q": 100
 		},
 	"\/staging\/coder-character-icons.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/coder-character-icons.sketch",
 		"oF": 0
 		},
 	"\/staging\/DEC-2016-project-thumb-template.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/DEC-2016-project-thumb-template.sketch",
@@ -3272,6 +3340,7 @@
 		"prP": 0
 		},
 	"\/staging\/email-signature.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/email-signature.psd",
@@ -3298,24 +3367,28 @@
 		"prP": 0
 		},
 	"\/staging\/hero-image-v3.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/hero-image-v3.ai",
 		"oF": 0
 		},
 	"\/staging\/hero-image-v4.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/hero-image-v4.ai",
 		"oF": 0
 		},
 	"\/staging\/hero-image.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/hero-image.ai",
 		"oF": 0
 		},
 	"\/staging\/hero-image.eps": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/hero-image.eps",
@@ -3332,54 +3405,63 @@
 		"prP": 0
 		},
 	"\/staging\/icons-for-ux-portfolio-mentorship.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/icons-for-ux-portfolio-mentorship.sketch",
 		"oF": 0
 		},
 	"\/staging\/index-rotate-test.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/staging\/index-rotate-test.html",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/Data": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/Data",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/metadata": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/metadata",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/version": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit (template version).sketch\/version",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/Data": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/Data",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/metadata": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/metadata",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/version": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/121_ios7_uikit.sketch\/version",
 		"oF": 0
 		},
 	"\/staging\/Invision-CD-Sketch\/INSTRUCTIONS.rtf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Invision-CD-Sketch\/INSTRUCTIONS.rtf",
@@ -3397,6 +3479,7 @@
 		"q": 100
 		},
 	"\/staging\/kawaii-ux-hierarchy-pyramids.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/kawaii-ux-hierarchy-pyramids.ai",
@@ -3425,18 +3508,21 @@
 		"q": 100
 		},
 	"\/staging\/kawaii-ux-pyramid-for-stickermule.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/kawaii-ux-pyramid-for-stickermule.ai",
 		"oF": 0
 		},
 	"\/staging\/kawaii-ux-pyramid-for-stickermule.eps": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/kawaii-ux-pyramid-for-stickermule.eps",
 		"oF": 0
 		},
 	"\/staging\/kawaii-ux-pyramid-v2.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/kawaii-ux-pyramid-v2.ai",
@@ -3454,36 +3540,42 @@
 		"q": 100
 		},
 	"\/staging\/kawaii-ux-pyramid.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/kawaii-ux-pyramid.ai",
 		"oF": 0
 		},
 	"\/staging\/kawaii-ux-pyramid.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/kawaii-ux-pyramid.sketch",
 		"oF": 0
 		},
 	"\/staging\/master-kawaii-ux-pyramid-v4.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/master-kawaii-ux-pyramid-v4.sketch",
 		"oF": 0
 		},
 	"\/staging\/master-kawaii-ux-pyramid-v5.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/master-kawaii-ux-pyramid-v5.sketch",
 		"oF": 0
 		},
 	"\/staging\/master-kawaii-ux-pyramid-v6.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/master-kawaii-ux-pyramid-v6.sketch",
 		"oF": 0
 		},
 	"\/staging\/master-utility-belt-graphics-brighter.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/master-utility-belt-graphics-brighter.sketch",
@@ -3660,48 +3752,56 @@
 		"q": 100
 		},
 	"\/staging\/peek tests\/peek-adamruf-feb-01.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/peek tests\/peek-adamruf-feb-01.mp4",
 		"oF": 0
 		},
 	"\/staging\/peek tests\/peek-adamruf-feb-02.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/peek tests\/peek-adamruf-feb-02.mp4",
 		"oF": 0
 		},
 	"\/staging\/peek tests\/peek-adamruf-feb-03.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/peek tests\/peek-adamruf-feb-03.mp4",
 		"oF": 0
 		},
 	"\/staging\/photo-template.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/photo-template.psd",
 		"oF": 0
 		},
 	"\/staging\/polldaddy-rating-alternate-graphics.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/polldaddy-rating-alternate-graphics.sketch",
 		"oF": 0
 		},
 	"\/staging\/portfolio-image-template.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/portfolio-image-template.sketch",
 		"oF": 0
 		},
 	"\/staging\/pug\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/pug\/index.html",
 		"oF": 0
 		},
 	"\/staging\/pyramid-xs.eps": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/pyramid-xs.eps",
@@ -3718,24 +3818,28 @@
 		"prP": 0
 		},
 	"\/staging\/resources-list-2015.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/staging\/resources-list-2015.html",
 		"oF": 0
 		},
 	"\/staging\/Untitled.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Untitled.sketch",
 		"oF": 0
 		},
 	"\/staging\/Use-this Portfolio img template.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/Use-this Portfolio img template.sketch",
 		"oF": 0
 		},
 	"\/staging\/userflow-index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/staging\/userflow-index.html",
@@ -3797,18 +3901,21 @@
 		"q": 100
 		},
 	"\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch",
 		"oF": 0
 		},
 	"\/staging\/ux_adam-podcast-page.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/ux_adam-podcast-page.sketch",
 		"oF": 0
 		},
 	"\/staging\/whos-that-tweeting-thought-leader.sketch": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/whos-that-tweeting-thought-leader.sketch",
@@ -3825,6 +3932,7 @@
 		"prP": 0
 		},
 	"\/thank-you.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/thank-you.html",
@@ -3841,6 +3949,7 @@
 		"oS": 0
 		},
 	"\/tools\/ux-design-dialogue-flow-tool\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/index.html",
@@ -3867,6 +3976,7 @@
 		"tS": 0
 		},
 	"\/tools\/ux-design-dialogue-flow-tool\/sass\/.sass-cache\/380bebc72f83d51e384d0aa2bafbf4b9aa727fa0\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tools\/ux-design-dialogue-flow-tool\/sass\/.sass-cache\/380bebc72f83d51e384d0aa2bafbf4b9aa727fa0\/style.scssc",
@@ -3886,12 +3996,14 @@
 		"uL": 1
 		},
 	"\/ux-ui-designer-adam-ruf-portfolio.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/ux-ui-designer-adam-ruf-portfolio.html",
 		"oF": 0
 		},
 	"\/ux-ui-designer-adam-ruf-recommended-resources.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/ux-ui-designer-adam-ruf-recommended-resources.html",
@@ -4442,6 +4554,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -4506,9 +4622,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -4538,6 +4654,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -4547,14 +4667,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -5658,7 +5770,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -5691,6 +5804,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -5732,7 +5846,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -5764,13 +5879,13 @@
 		"enableFootnotes": 0,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -5779,7 +5894,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -5799,7 +5915,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -5827,7 +5944,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
