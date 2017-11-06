@@ -16,6 +16,7 @@ body {
   color: $font-default;
   @include base-font;
   font-size: 18px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .row {
