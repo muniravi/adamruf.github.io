@@ -53,14 +53,18 @@ HOMEPAGE
 }
 
 .hero-img {
-  width: 95%;
+  margin-top: -2rem;
 }
 
-#hierarchy-of-user-needs {
-  position: relative;
-  top: -5vw;
-  z-index: -1;
+.max-img-w {
+  max-width: calc(20rem + 25vw);
 }
+
+// #hierarchy-of-user-needs {
+//   position: relative;
+//   top: -5vw;
+//   z-index: -1;
+// }
 
 [title="SumoMe"] {
   cursor: default;
