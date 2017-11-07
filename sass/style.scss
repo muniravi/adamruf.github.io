@@ -98,6 +98,24 @@ HOMEPAGE
   display: none !important;
 }
 
+.ux-trophy-banner {
+  margin-bottom: -2rem;
+  margin-top: 4rem;
+  max-width: 800px;
+  min-width: 330px;
+  width: 100%;
+}
+
+@keyframes float {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(-20px)}
+  100% {transform: translateY(0px)}
+}
+
+.float {
+  animation: float 5s ease-in-out infinite;
+}
+
 .selected-writing {
   li h4 {
     letter-spacing: -0.0075em;
