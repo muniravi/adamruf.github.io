@@ -183,30 +183,6 @@ a.img-link {
   }
 }
 
-a.img-link:before {
-  background: $green;
-  border-radius: 0 0 0 1rem;
-  box-shadow: 0 2px 1px rgba(0,0,0,0.2);
-  color: $white;
-  content: 'View Site';
-  display: block;
-  @include icon-font;
-  font-size: 1.25em;
-  height: 5.5rem;
-  opacity: 0;
-  padding: 0.5em 0.65em 0.5em 0.75em;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  -webkit-transition: all 0.25s ease-out;
-  -moz-transition: all 0.25s ease-out;
-  -ms-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
-}
-
-a.img-link:hover:before {opacity: 1;}
-
 .img-thumbnail {
   padding: 0;
   position: relative;

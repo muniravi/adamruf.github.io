@@ -15,10 +15,11 @@ button::-moz-focus-inner {
 }
 
 button, .button {
-  background: #eee;
+  background: $gray-dark;
   border: none;
   @include rounded(0.7rem);
-  box-shadow: 0 5px 0 0 $gray, 0 8px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0.5rem 0 0 darken($gray-dark, 15%), 0 8px 1px 1px rgba(0,0,0,0.1);
+  color: #FFF;
   cursor: pointer;
   display:inline-block;
   @include base-font;
@@ -31,15 +32,19 @@ button, .button {
   text-transform: uppercase;
   transition: all 0.3s ease;
   &:hover {
+    background-color: darken($gray-dark, 10%);
+    box-shadow: 0 6px 0 0 darken($gray-dark, 18%), 0 11px 1px 1px rgba(0,0,0,0.1);
+    color: #FFF;
     text-decoration: none;
     outline: 0;
   }
   &:active {
-    box-shadow: 0 2px 0 0 $gray, 0 3px 1px 1px rgba(0,0,0,0.1);
-    // margin-top: 3px;
+    box-shadow: 0 6px 0 0 darken($gray-dark, 18%), 0 11px 1px 1px rgba(0,0,0,0.1);
+    color: #FFF;
     transform: translateY(3px);
   }
   &:focus {
+    color: #FFF;
     outline: 10px solid rgba(57, 164, 235, 0.25);
     outline-offset: -0.3rem;
     text-decoration: none;
@@ -48,12 +53,19 @@ button, .button {
 
 .button-xs {
   @include rounded(0.5rem);
-  box-shadow: 0 3px 0 0 $gray, 0 5px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 0 0 darken($gray-dark, 15%), 0 5px 1px 1px rgba(0,0,0,0.1);
   font-size: 1.8rem;
-  line-height: 0.55;
+  line-height: 1;
   padding: 1.2rem 1.8rem;
+  &:hover {
+    background-color: darken($gray-dark, 10%);
+    box-shadow: 0 3px 0 0 darken($gray-dark, 18%), 0 5px 1px 1px rgba(0,0,0,0.1);
+    text-decoration: none;
+    outline: 0;
+  }
   &:active {
-    box-shadow: 0 1px 0 0 $gray, 0 3px 1px 1px rgba(0,0,0,0.1);
+    background-color: darken($gray-dark, 10%);
+    box-shadow: 0 1px 0 0 darken($gray-dark, 18%), 0 3px 1px 1px rgba(0,0,0,0.1);
     transform: translateY(1px);
   }
   @media screen and (max-width: 703px) {
@@ -79,6 +91,8 @@ button, .button {
     padding: 2rem 2.5rem;
   }
 }
+
+
 
 .style-green {
   background-color: $green;
