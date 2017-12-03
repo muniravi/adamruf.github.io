@@ -335,7 +335,15 @@ footer {
   height: 34px;
   margin: 0 auto;
   margin-bottom: 1rem;
+  opacity: 0.5;
+  transition: all 0.3s ease;
   width: 40px;
+  &:hover,
+  &:active,
+  &:focus {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
 }
 
 .heart {
