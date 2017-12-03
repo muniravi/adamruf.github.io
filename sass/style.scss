@@ -323,34 +323,28 @@ footer {
     color: $font-light-subtle;
     font-size: 0.8em;
   }
-  #footer-connect {
-    font-size: 2rem;
-    margin-left: 0.5em;
-    position:relative;
-
-    a {
-      background-color: transparent;
-      border: none;
-      border-radius: 0.3rem;
-      color: $font-light-subtle;
-      display: inline-block;
-      transition: all 0.3s ease-out;
-      width: 3rem;
-      &:hover, &:active, &:focus {
-        background-color: $green;
-        color: $font-light-default;
-        outline: 0;
-        box-shadow: none;
-        -webkit-transform: translateY(-2px);
-        transform: translateY(-2px);
-      }
-    }
-  }
 
   &.footer-fixed {
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+}
+
+.bombs-away {
+  box-shadow: none;
+  color: $font-light-subtle;
+  font-size: 3rem;
+  text-decoration: none;
+  text-shadow: none;
+  &:hover,
+  &:active,
+  &:focus {
+    border: none !important;
+    box-shadow: none !important;
+    color: $white !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
   }
 }
 

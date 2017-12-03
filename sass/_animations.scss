@@ -168,6 +168,10 @@ ANIMATIONS
           animation-fill-mode: both;
 }
 
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
 @-webkit-keyframes hinge {
   0% {
     -webkit-transform-origin: top left;
@@ -246,4 +250,25 @@ ANIMATIONS
           animation-duration: 3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+
+/* From animate.css by Daniel Eden -- http://daneden.github.io/animate.css/ */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
 }

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="68" viewBox="0 0 80 68">
+  <defs>
+    <linearGradient id="footer-heart-b" x1="50%" x2="50%" y1="0%" y2="50%">
+      <stop offset="0%" stop-color="#F46969"/>
+      <stop offset="100%" stop-color="#E25252"/>
+    </linearGradient>
+    <path id="footer-heart-a" d="M40,68 C40.7142857,68 41.4285714,67.734375 41.9642857,67.203125 L69.7767857,40.640625 C70.1785714,40.2421875 80,31.34375 80,20.71875 C80,7.74739583 72.0089286,0 58.6607143,0 C50.8482143,0 43.5267857,6.109375 40,9.5625 C36.4732143,6.109375 29.1517857,0 21.3392857,0 C7.99107143,0 0,7.74739583 0,20.71875 C0,31.34375 9.82142857,40.2421875 10.1785714,40.5520833 L38.0357143,67.203125 C38.5714286,67.734375 39.2857143,68 40,68 Z"/>
+    <filter id="footer-heart-c" width="112.5%" height="114.7%" x="-6.2%" y="-7.4%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2.5"/>
+      <feOffset dy="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.615686275   0 0 0 0 0.274509804   0 0 0 0 0.274509804  0 0 0 0.33 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#E25252" xlink:href="#footer-heart-a"/>
+    <use fill="url(#footer-heart-b)" xlink:href="#footer-heart-a"/>
+    <use fill="#000" filter="url(#footer-heart-c)" xlink:href="#footer-heart-a"/>
+    <rect width="4" height="12" x="48" y="22" fill="#9D4646" rx="2"/>
+    <rect width="4" height="12" x="28" y="22" fill="#9D4646" rx="2"/>
+    <path stroke="#9D4646" stroke-linecap="round" stroke-width="4" d="M30,39 C32.2838056,41.6468351 35.6171389,42.9800968 40,42.9997851 C44.3828611,43.0194734 47.7161944,41.6862117 50,39"/>
+  </g>
+</svg>
