@@ -163,12 +163,3 @@ strong {font-weight: bold;}
 .text-shadow--md {
   @include text-shadow--md;
 }
-
-.call-out {
-  border-radius: 1rem;
-  padding: 1rem 2rem;
-}
-
-.call-out--blue {
-  background: transparentize($blue-bright, 0.9);
-}
