@@ -1103,6 +1103,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/twitter-card-img-512x512.png": {
+		"ft": 32768,
+		"iS": 21230,
+		"oA": 0,
+		"oAP": "\/images\/twitter-card-img-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/twitter-card-img.png": {
 		"ft": 32768,
 		"iS": 54217,
