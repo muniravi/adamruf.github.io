@@ -133,7 +133,7 @@
 		},
 	"\/images\/adam-caricature-by-charlene.png": {
 		"ft": 32768,
-		"iS": 39683,
+		"iS": 26925,
 		"oA": 0,
 		"oAP": "\/images\/adam-caricature-by-charlene.png",
 		"oF": 0,
@@ -941,6 +941,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/portfolio\/ux-design-book-club.png": {
+		"ft": 32768,
+		"iS": 188595,
+		"oA": 0,
+		"oAP": "\/images\/portfolio\/ux-design-book-club.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
