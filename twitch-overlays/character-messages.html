@@ -7,23 +7,50 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
   <style>
     body {
-      border: 3px solid pink;
+      font-family: 'Open Sans Condensed';
+      font-size: 30px;
       height: 211px;
+      line-height: 1.1;
+      position: relative;
       width: 757px;
+    }
+
+    .character-message {
+      background-color: #F2FFF8;
+      border: inset 1px  rgba(127,163,255,0.25);
+      border-radius: 30px 30px 0 30px;
+      box-shadow: 0 4px 5px rgba(127,127,127,0.2);
+      color: #7FA3FF;
+      max-width: 536px;
+      padding: 20px 25px;
+    }
+
+    .cartoon-adam {
+      right: 19px;
+      bottom: 0;
+      width: 172px;
     }
   </style>
 </head>
 <body>
-<div class="character-message">
-  <p>Like design on Twitch? Support our community: follow and subscribe to this channel.</p>
-</div>
-<img src="http://adamruf.com/images/adam-character@2x.png" alt="Cartoon Adam by Charlene Sirianni">
+  <div class="js-loop-content">
+    <div class="character-message">
+      <p>Like design on Twitch? Support our community: follow and subscribe to this channel.</p>
+    </div>
+    <img class="position-absolute cartoon-adam" src="http://adamruf.com/images/adam-character@2x.png" alt="Cartoon Adam by Charlene Sirianni">
+  </div>
 
-Abs-positioned image
-Styled content divs
-Swap content divs in a timed loop
-
+  <script>
+    // 1. Pop up cartoon Adam from the bottom
+    // 2. Fade in the message
+    // 3. Wait 5 minutes
+    // 4. Fade out the message
+    // 5. Slide cartoon Adam down off-canvas
+    // 6. Wait 1 minute
+    // 7. Load the next message and back to step 1
+  </script>
 </body>
 </html>
