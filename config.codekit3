@@ -133,7 +133,7 @@
 		},
 	"\/images\/adam-caricature-by-charlene.png": {
 		"ft": 32768,
-		"iS": 26925,
+		"iS": 39683,
 		"oA": 0,
 		"oAP": "\/images\/adam-caricature-by-charlene.png",
 		"oF": 0,
@@ -151,6 +151,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/adam-character@2x.png": {
+		"ft": 32768,
+		"iS": 34996,
+		"oA": 0,
+		"oAP": "\/images\/adam-character@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/adam-ruf-email-signature.png": {
 		"ft": 32768,
@@ -4073,6 +4084,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/twitch-overlays\/character-messages.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/twitch-overlays\/character-messages.html",
+		"oF": 0
 		},
 	"\/ux-ui-designer-adam-ruf-portfolio.html": {
 		"cB": 0,
