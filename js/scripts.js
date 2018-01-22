@@ -87,14 +87,16 @@ $('.js--404').click(function() {
     $(this).addClass('animated hinge');
 });
 
+// Back to Top link
 $( document ).ready(function() {
     var offset = 1000;
     var duration = 250;
     $(window).scroll(function() {
         if ($(this).scrollTop() > offset) {
-            $('.back-to-top').fadeIn(duration);
+          // TODO replace this with an opacity transition for smoother visual appearance
+            $('.back-to-top').fadeIn();
         } else {
-            $('.back-to-top').fadeOut(duration);
+            $('.back-to-top').fadeOut();
         }
     });
 
