@@ -1,0 +1,73 @@
+.focus-panel {
+  padding: 8rem 5rem 4rem;
+}
+
+.focus-panel__title {
+  font-size: 5rem;
+  max-height: 12rem;
+  line-height: 1.1;
+  span {
+    font-family: 'Teko', sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.focus-panel__content {
+  font-size: 2.8rem;
+  max-height: 40rem;
+  min-height: 30rem;
+  line-height: 1.3;
+  @media screen and (max-width: 991px) {
+    min-height: 10rem;
+  }
+}
+
+.focus-panel--twitch-channel {
+  background-color: $purple-dark;
+  background:
+    linear-gradient(
+      transparentize($purple-dark, 0.5),
+      transparentize($purple-dark, 0.5)
+    ),
+    url('http://adamruf.com/images/streaming-design-on-twitch-bg.jpg');
+}
+
+.focus-panel--uxd-contest {
+  background: url('http://uxdesigncontest.com/img/confetti-bg-tile@2x.png') left top;
+  background-size: 1280px;
+}
+
+.focus-panel--uxd-book-club {
+  background-image: url('http://uxdesignbookclub.com/img/background-tile-01.png'); background-size: 720px;
+}
+
+.twitch-embed-wrapper-sm {
+  box-shadow: 0 0.5rem 5rem darken($purple-dark,20%);
+  margin: 0 auto;
+  height: 47.8rem;
+  width: 85rem;
+}
+
+#js-player-offline-recommendations-overlay {
+  display: none !important;
+}
+
+.ux-trophy-banner {
+  margin-bottom: -2rem;
+  margin-top: 4rem;
+  max-width: 700px;
+  min-width: 330px;
+  width: 100%;
+}
+
+@keyframes float {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(-20px)}
+  100% {transform: translateY(0px)}
+}
+
+.float {
+  animation: float 5s ease-in-out infinite;
+}
