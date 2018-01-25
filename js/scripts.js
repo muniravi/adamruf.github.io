@@ -126,5 +126,6 @@ $( document ).ready(function() {
 
 // Initialize AOS scrolling animation library
 AOS.init({
+	disable: 'phone',
   duration: 1200,
 });
