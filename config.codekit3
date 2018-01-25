@@ -133,7 +133,7 @@
 		},
 	"\/images\/adam-caricature-by-charlene.png": {
 		"ft": 32768,
-		"iS": 26925,
+		"iS": 39683,
 		"oA": 0,
 		"oAP": "\/images\/adam-caricature-by-charlene.png",
 		"oF": 0,
@@ -3846,6 +3846,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/staging\/peek tests\/JAN-23-peek-test-of-adam-ruf-dot-com.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/peek tests\/JAN-23-peek-test-of-adam-ruf-dot-com.mp4",
+		"oF": 0
 		},
 	"\/staging\/peek tests\/peek-adamruf-feb-01.mp4": {
 		"cB": 0,

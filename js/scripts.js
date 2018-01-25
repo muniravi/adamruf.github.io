@@ -123,3 +123,8 @@ $( document ).ready(function() {
         q.parentNode.insertBefore(js, q);
     }
 })();
+
+// Initialize AOS scrolling animation library
+AOS.init({
+  duration: 1200,
+});
