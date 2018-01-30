@@ -66,7 +66,7 @@ button, .button {
   &:active {
     background-color: darken($gray-dark, 10%);
     box-shadow: 0 1px 0 0 darken($gray-dark, 18%), 0 3px 1px 1px rgba(0,0,0,0.1);
-    transform: translateY(1px);
+    transform: translateY(0.3rem);
   }
 }
 
@@ -121,6 +121,24 @@ button, .button {
   }
   &:focus {
     background-color: darken($purple, 10%);
+  }
+}
+
+.style--twitter-blue {
+  background-color: $twitter-blue;
+  color: $white !important;
+  box-shadow: 0 0.6rem 0 0 darken($twitter-blue, 15%), 0 11px 1px 1px rgba(0,0,0,0.1);
+  @include text-shadow;
+  &:hover {
+    background-color: darken($twitter-blue, 10%);
+    box-shadow: 0 0.6rem 0 0 darken($twitter-blue, 18%), 0 11px 1px 1px rgba(0,0,0,0.1);
+  }
+  &:active {
+    box-shadow: 0 0.2rem 0 0 darken($twitter-blue, 18%), 0 5px 1px 1px rgba(0,0,0,0.1);
+    outline: none;
+  }
+  &:focus {
+    background-color: darken($twitter-blue, 10%);
   }
 }
 

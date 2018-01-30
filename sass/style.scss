@@ -279,10 +279,9 @@ FOOTER
 
 footer {
   background: $black;
-  padding: 2em 0 1em;
+  padding: 5rem 0 3rem;
   p {
-    color: $font-light-subtle;
-    font-size: 0.8em;
+    color: $white;
   }
 
   &.footer-fixed {
@@ -293,21 +292,24 @@ footer {
 }
 
 .heart-container {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  // filter: grayscale(100%);
   height: 34px;
   margin: 0 auto;
   margin-bottom: 1rem;
   // opacity: 0.5;
   transition: all 0.3s ease;
   width: 40px;
-  &:hover,
-  &:active,
-  &:focus {
-    -webkit-filter: none;
-    filter: none;
-    // opacity: 1;
-    transition: all 0.3s ease;
+  .heart-link {
+    &:hover,
+    &:active,
+    &:focus {
+      .heart {
+        transition: all 0.5s ease-in-out;
+        -webkit-filter: drop-shadow(0 0 10px #f8604c);
+        filter: drop-shadow(0 0 10px #f8604c);
+      }
+    }
   }
 }
 
