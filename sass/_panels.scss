@@ -34,13 +34,8 @@
 }
 
 .focus-panel--twitch-channel {
-  background-color: $purple-dark;
   background:
-    linear-gradient(
-      transparentize($purple-dark, 0.5),
-      transparentize($purple-dark, 0.5)
-    ),
-    url('http://adamruf.com/images/streaming-design-on-twitch-bg.jpg');
+    $purple-dark url('http://adamruf.com/images/streaming-design-on-twitch-bg.jpg');
 }
 
 .focus-panel--uxd-contest {
