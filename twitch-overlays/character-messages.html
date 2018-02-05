@@ -21,7 +21,7 @@
     .word-balloon {
       animation-name: word-balloon;
       /* animation-delay: 1s; */
-      animation-duration: 300s;
+      animation-duration: 180s;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
       /* background: #F2FFF8 linear-gradient(#F2FFF8, #CCF1FF); */
@@ -41,7 +41,7 @@
 
     .cartoon-adam {
       animation-name: gopher-adam;
-      animation-duration: 300s;
+      animation-duration: 180s;
       animation-iteration-count: infinite;
       /* animation-timing-function: ease-out; */
       right: 19px;
@@ -77,19 +77,19 @@
   <script>
     $( document ).ready(function() {
       var messages = [
-        "Like design on Twitch? Support our community: follow and subscribe to this channel. 👍",
-        "Have you voted for the next UX Design Book Club book? Go to uxdesignbookclub.com to vote. 📚🗳️",
-        "What's brown and sticky?<br> A stick.",
-        "Did you know? I review design portfolios on Thursdays. Sign up at bit.ly/ux-portfolio-review. 💪💼",
-        "Volunteers wanted for Video Management and Marketing in exchange for 1:1 mentoring. 🙏",
+        "Like design on Twitch? Support our community: follow and subscribe to my channel. 👍",
+        "Tickets are on sale for February's online book club meetup. Grab yours at uxdesignbookclub.com. 📚🗳️",
+        "I review design portfolios on Thursdays. Type <strong>!pr</strong> in chat for details. 💪💼",
+        "Did you know? By day, I'm a UX/UI Designer at Twitch. 💜 How can we improve it for you?",
+        "How can I improve my channel for you? Type <strong>!psst</strong> in chat to give feedback. 🙏",
         "What did one hat say to the other? 👒🎩<br> 'You stay here, I'll go on a head.' 🤠",
-        "Did you know? I'm a UX/UI Designer at Twitch. 💜 How can we improve it for you?"
+        // "Volunteers wanted for Video Management and Marketing in exchange for 1:1 mentoring. 🙏",
       ];
 
       function cycleMessages() {
         var ct = $("#cycle-messages").data("term") || 0;
         $("#cycle-messages").data("term", ct === messages.length -1 ? 0 : ct + 1).html(messages[ct]).fadeIn()
-        .delay(299000).fadeOut(250, cycleMessages);
+        .delay(179000).fadeOut(250, cycleMessages);
       }
       $(cycleMessages);
     });
