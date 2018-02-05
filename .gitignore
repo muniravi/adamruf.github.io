@@ -12,3 +12,4 @@ sass/.sass-cache/*
 *.pug
 
 *.codekit3
+config.codekit3
