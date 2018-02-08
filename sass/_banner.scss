@@ -20,9 +20,9 @@ BANNER
     margin: 0;
   }
   a {
-    border-bottom: 1px solid $blue-gray;
+    border-bottom: 1px solid transparentize($black, 0.75);
     box-shadow: none;
-    color: $blue-bright;
+    color: $black;
     text-shadow: none;
     transition: all 0.2s ease-in-out;
     &:hover,
