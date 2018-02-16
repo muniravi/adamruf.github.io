@@ -133,7 +133,7 @@
 		},
 	"\/images\/adam-caricature-by-charlene.png": {
 		"ft": 32768,
-		"iS": 39683,
+		"iS": 26925,
 		"oA": 0,
 		"oAP": "\/images\/adam-caricature-by-charlene.png",
 		"oF": 0,
@@ -1408,11 +1408,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/live-design-streaming-channel-page.html": {
+	"\/live\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/live-design-streaming-channel-page.html",
+		"oAP": "\/live\/index.html",
 		"oF": 0
 		},
 	"\/portfolio\/favorite-fruit\/css\/style.css": {

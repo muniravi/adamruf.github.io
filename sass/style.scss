@@ -19,8 +19,11 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   &.dark-mode {
-    background: $black;
+    background: $twitch-dark;
     color: $white;
+  }
+  &.overflow--none {
+    overflow-y: hidden;
   }
 }
 
