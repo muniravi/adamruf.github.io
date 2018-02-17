@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -133,7 +133,7 @@
 		},
 	"\/images\/adam-caricature-by-charlene.png": {
 		"ft": 32768,
-		"iS": 26925,
+		"iS": 39683,
 		"oA": 0,
 		"oAP": "\/images\/adam-caricature-by-charlene.png",
 		"oF": 0,
@@ -4143,6 +4143,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

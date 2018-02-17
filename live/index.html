@@ -37,7 +37,7 @@
 
   <body class="dark-mode" style="overflow-y:auto;">
     <header>
-      <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse" role="navigation" style="background-color:#0e0c13;">
+      <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse shadowy" role="navigation" style="background-color:#0e0c13;">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="nav-row navbar-header">
@@ -51,8 +51,16 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
             <ul class="top-nav nav navbar-nav">
-              <li class="active"><a href="//adamruf.com/live.html">Live</a></li>
-              <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Work</a></li>
+              <li><a href="//adamruf.com/live">live</a></li>
+              <!-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">live <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="//adamruf.com/live">watch</a></li>
+                  <li><a href="#">content</a></li>
+                  <li><a href="#">faq</a></li>
+                  <li><a href="#">feedback</a></li>
+                </ul>
+              </li> -->
+              <!-- <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">work</a></li>
               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">resources <i class="fa fa-caret-down"></i></a>
                 <ul class="dropdown-menu">
                   <li><a href="https://www.twitch.tv/ux_adam" target="_blank">live design on twitch</a></li>
@@ -60,12 +68,10 @@
                   <li><a href="http://uxdesignbookclub.com" target="_blank">ux design book club</a></li>
                   <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
   resources</a></li>
-                  <!--<li><a href="#">workshops</a></li>
-                  <li><a href="#">templates</a></li> -->
                 </ul>
               </li>
               <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
-              <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
+              <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li> -->
               <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more <i class="fa fa-caret-down"></i></a>
                 <ul class="dropdown-menu">
@@ -76,7 +82,7 @@
                 </ul>
               </li> -->
             </ul>
-            <ul class="top-nav nav navbar-nav pull-right navbar-icons">
+            <!-- <ul class="top-nav nav navbar-nav pull-right navbar-icons">
               <li>
                 <a href="https://www.linkedin.com/in/adamruf" target="_blank" title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a>
               </li>
@@ -92,7 +98,7 @@
               <li>
                 <a href="https://github.com/adamruf" target="_blank" title="Follow me on GitHub"><i class="fa fa-github"></i></a>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <!-- /.navbar-collapse -->
         </div>
@@ -100,53 +106,161 @@
       </nav>
     </header>
 
-    <section id="channel-intro" class="container mg-b-lg">
+    <!-- <section id="channel-intro" class="container mg-b-md">
       <div class="row">
         <div class="col-md-12">
-          <!-- <h1>Enter Page Title Here</h1> -->
         </div>
       </div>
 
-    </section>
+    </section> -->
 
-    <section id="video-player">
-      <div class="container-fluid">
+    <section id="video-player" class="pd-t-sm">
+      <div class="container-fluid" style="padding:0;">
         <div class="row">
-          <div class="col-md-12" style="z-index:2">
+          <!--LG Viewport Video Player-->
+          <div class="col-lg-12 hidden-md hidden-sm hidden-xs" style="z-index:2;padding:0;">
             <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed" class="text-center"></div>
-
+            <div id="twitch-embed-lg" class="text-center"></div>
             <!-- Load the Twitch embed script -->
             <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
             <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
             <script type="text/javascript">
-              new Twitch.Embed("twitch-embed", {
-                width: 854,
+              new Twitch.Embed("twitch-embed-lg", {
+                width: "1280",
                 // width: "100%",
-                height: 480,
+                height: 720,
                 channel: "ux_adam",
                 layout: "video"
                 // theme: "dark"
               });
             </script>
           </div>
-          <div class="col-md-12 text-center" style="margin-top:-32px;z-index:1;">
+
+
+          <!--MD Viewport Video Player-->
+          <div class="col-md-12 hidden-lg hidden-sm hidden-xs" style="z-index:2;padding:0;">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-md" class="text-center"></div>
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-md", {
+                width: "1024",
+                // width: "100%",
+                height: 576,
+                channel: "ux_adam",
+                layout: "video"
+                // theme: "dark"
+              });
+            </script>
+          </div>
+
+          <!--SM Viewport Video Player-->
+          <div class="col-sm-12 hidden-lg hidden-md hidden-xs" style="z-index:2;padding:0;">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-sm" class="text-center"></div>
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-sm", {
+                width: "800",
+                // width: "100%",
+                height: 450,
+                channel: "ux_adam",
+                layout: "video"
+                // theme: "dark"
+              });
+            </script>
+          </div>
+
+          <!--XS Viewport Video Player-->
+          <div class="col-xs-12 hidden-lg hidden-md hidden-sm" style="z-index:2;padding:0;">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-xs" class="text-center"></div>
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-xs", {
+                width: "600",
+                // width: "100%",
+                height: 338,
+                channel: "ux_adam",
+                layout: "video"
+                // theme: "dark"
+              });
+            </script>
+          </div>
+
+
+        </div>
+        <div class="row">
+          <!--LG Viewport Chat-->
+          <div class="col-lg-12 hidden-md hidden-sm hidden-xs text-center" style="margin-top:-43px;z-index:1;">
             <iframe frameborder="0"
               scrolling="no"
-              id="chat_embed"
+              id="chat_embed-lg"
               src="http://www.twitch.tv/ux_adam/chat?darkpopout"
-              height="345"
-              width="710"
+              height="275"
+              width="850"
               style="transform: scale(1.2);">
             </iframe>
           </div>
-          <div class="col-md-12 text-center" style="background-color:#0e0c13;height:50px;margin-top:-44px;z-index:2;">
+          <div class="col-lg-12 hidden-md hidden-sm hidden-xs text-center" style="background-color:#0e0c13;height:40px;margin-top:-44px;z-index:2;padding:0;">
+            &nbsp;
+          </div>
+
+          <!--MD Viewport Chat-->
+          <div class="col-md-12 hidden-lg hidden-sm hidden-xs text-center" style="margin-top:-32px;z-index:1;">
+            <iframe frameborder="0"
+              scrolling="no"
+              id="chat_embed-md"
+              src="http://www.twitch.tv/ux_adam/chat?darkpopout"
+              height="360"
+              width="850"
+              style="transform: scale(1.2);">
+            </iframe>
+          </div>
+          <div class="col-md-12 hidden-lg hidden-sm hidden-xs text-center" style="background-color:#0e0c13;height:100px;margin-top:-40px;z-index:2;padding:0;">
+            &nbsp;
+          </div>
+
+          <!--SM Viewport Chat-->
+          <div class="col-md-12 hidden-lg hidden-md hidden-xs text-center" style="margin-top:-28px;z-index:1;">
+            <iframe frameborder="0"
+              scrolling="no"
+              id="chat_embed-sm"
+              src="http://www.twitch.tv/ux_adam/chat?darkpopout"
+              height="419"
+              width="600"
+              style="transform: scale(1.2);">
+            </iframe>
+          </div>
+          <div class="col-md-12 hidden-lg hidden-md hidden-xs text-center" style="background-color:#0e0c13;height:100px;margin-top:-35px;z-index:2;padding:0;">
+            &nbsp;
+          </div>
+
+          <!--XS Viewport Chat-->
+          <div class="col-md-12 hidden-lg hidden-md hidden-sm text-center" style="margin-top:-17px;z-index:1;">
+            <iframe frameborder="0"
+              scrolling="no"
+              id="chat_embed-xs"
+              src="http://www.twitch.tv/ux_adam/chat?darkpopout"
+              height="503"
+              width="500"
+              style="transform: scale(1.2);">
+            </iframe>
+          </div>
+          <div class="col-md-12 hidden-lg hidden-md hidden-sm text-center" style="background-color:#0e0c13;height:100px;margin-top:-25px;z-index:2;padding:0;">
             &nbsp;
           </div>
         </div>
       </div>
     </section>
+
+    <!-- 915px is min width before chat becomes unusable -->
 
     <!-- <section id="schedule-chat-rules">
       <div class="row">
