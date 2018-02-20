@@ -116,6 +116,34 @@ a {
   }
 }
 
+.alert-info {
+  background-color: transparentize($blue-bright,0.9);
+  border-color: transparentize($blue-bright,0.9);
+  color: $font-default;
+  .alert-link {
+    border: none;
+    box-shadow: none;
+    color: $blue-bright;
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 0.1s ease-in-out;
+    &:hover:not(.button),
+    &:active:not(.button),
+    &:focus:not(.button) {
+      border-bottom: 1px solid $blue-bright;
+      box-shadow: none;
+      color: $blue-bright;
+      text-decoration: none;
+    }
+    &:focus:not(.button) {
+      outline: 10px solid rgba(57, 164, 235, 0.25);
+      outline-offset: 0;
+    }
+  }
+}
+
+
+
 blockquote {
   margin-top: -2em;
   p {
