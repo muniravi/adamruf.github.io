@@ -14,7 +14,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-button:not(.alert.close), .button {
+button, .button {
   background: $gray-dark;
   border: none;
   @include rounded(0.7rem);

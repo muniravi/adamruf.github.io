@@ -140,6 +140,16 @@ a {
       outline-offset: 0;
     }
   }
+  button {
+    background: none;
+    box-shadow: none;
+    &:hover,
+    &:active,
+    &:focus {
+      background: none;
+      box-shadow: none;
+    }
+  }
 }
 
 
