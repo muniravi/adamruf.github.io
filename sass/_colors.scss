@@ -1,29 +1,45 @@
 /* - - - - - - - - - - - - - - - - - - - - *\
-COLORS
+CONVERT HSB COLORS TO HSLA
+\* - - - - - - - - - - - - - - - - - - - - */
+// by Alexander Fuketev
+// https://www.sitepoint.com/hsb-colors-with-sass/
+@function hsb($h-hsb, $s-hsb, $b-hsb, $a: 1) {
+  @if $b-hsb == 0 {
+    @return hsla(0, 0, 0, $a)
+  } @else {
+    $l-hsl: ($b-hsb/2) * (2 - ($s-hsb/100));
+    $s-hsl: ($b-hsb * $s-hsb) / if($l-hsl < 50, $l-hsl * 2, 200 - $l-hsl * 2);
+    @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
+  }
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - *\
+HSB COLORS
 \* - - - - - - - - - - - - - - - - - - - - */
 
-$black:             #101311;
-$blue:              #4daada;
-$blue-bright:       #00A8FF;
-$blue-gray:         #ccdbde;
-$gray:              #555;
-$gray-dark:         #404040;
-$green:             #5fcf80;
-$navbar-black:      #101311;
-$pink:              #ff0056;
-$purple:            #7A00F1;
-$purple-dark:       #4F3380;
-$red:               #e74c3c;
-$transparent:       rgba(255,255,255,0);
-$twitch-dark:       #0e0c13;
-$twitter-blue:      #1da1f2;
-$white:             #fff;
-$yellow:            #FFD20D;
-$yellow-bright:     #FFE800;
+$black:             hsb(150,21,7);
+$blue:              hsb(200,65,85);
+$blue-bright:       hsb(200,100,100);
+$blue-gray:         hsb(190,8,87);
+$gray:              hsb(0,0,33);
+$gray-dark:         hsb(0,0,25);
+$green:             hsb(138,54,80);
+$navbar-black:      hsb(140,16,7);
+$pink:              hsb(340,100,100);
+$purple:            hsb(270,100,95);
+$purple-dark:       hsb(260,60,50);
+$red:               hsb(6,74,91);
+$transparent:       hsb(0,0,0,0);
+$twitch-dark:       hsb(257,37,7);
+$twitter-blue:      hsb(203,88,95);
+$white:             hsb(0,0,100);
+$yellow:            hsb(49,95,100);
+$yellow-bright:     hsb(55,100,100);
 
 // Font Colors
-$font-default:        rgba(0,0,0,0.75);
-$font-medium:         rgba(0,0,0,0.64);
-$font-subtle:         rgba(0,0,0,0.42);
-$font-light-default: 	rgba(255,255,255,1);
-$font-light-subtle:   rgba(255,255,255,0.5);
+$font-default:        hsb(0,0,0,0.75);
+$font-medium:         hsb(0,0,0,0.64);
+$font-subtle:         hsb(0,0,0,0.42);
+$font-light-default: 	hsb(0,0,100);
+$font-light-subtle:   hsb(0,0,100,0.5);
