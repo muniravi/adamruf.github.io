@@ -35,17 +35,15 @@
 
 .focus-panel--twitch-channel {
   background-color: $purple-dark;
-  background-image:
-    linear-gradient($purple-dark, $black),
-    url('http://adamruf.com/images/streaming-design-on-twitch-bg.jpg');
-  &:before {
+  background-image: url('http://adamruf.com/images/streaming-design-on-twitch-bg.jpg');
+  &:after {
     content: '';
   	position: absolute;
   	top: 0;
   	right: 0;
   	bottom: 0;
   	left: 0;
-  	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+  	background-image: linear-gradient($purple-dark,$black);
   	opacity: .6;
   }
 }
