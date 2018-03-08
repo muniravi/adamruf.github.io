@@ -9,7 +9,7 @@
     <meta name="description" content="Tuesday-Thursday at 6pm PST Adam Ruf streams live design projects, portfolio reviews, and more.">
     <meta name="author" content="UX Designer, Adam Ruf">
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Slab:300" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Condensed:300,700" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
@@ -47,59 +47,6 @@
             </button> -->
             <a id="home" class="navbar-brand" href="//adamruf.com/"><span>ux_adam <span class="muted">ruf</span></span></a> <i class="fa fa-circle live" style="vertical-align: middle;line-height: 2.6;margin-left: 1rem;color: red;"></i>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <!-- <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="top-nav nav navbar-nav">
-              <li><a href="//adamruf.com/live">live</a></li>
-              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">live <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="//adamruf.com/live">watch</a></li>
-                  <li><a href="#">content</a></li>
-                  <li><a href="#">faq</a></li>
-                  <li><a href="#">feedback</a></li>
-                </ul>
-              </li> -->
-              <!-- <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">work</a></li>
-              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">resources <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://www.twitch.tv/ux_adam" target="_blank">live design on twitch</a></li>
-                  <li><a href="http://uxdesigncontest.com" target="_blank">ux design contest</a></li>
-                  <li><a href="http://uxdesignbookclub.com" target="_blank">ux design book club</a></li>
-                  <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
-  resources</a></li>
-                </ul>
-              </li>
-              <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
-              <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li> -->
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li>newsletter</li> -->
-              <!-- <li><a href="#">presentations</a></li>
-                  <li><a href="#">workshops</a></li>
-                  <li><a href="#">events</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="top-nav nav navbar-nav pull-right navbar-icons">
-              <li>
-                <a href="https://www.linkedin.com/in/adamruf" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin
-"></i></a>
-              </li>
-              <li>
-                <a href="https://www.twitch.tv/ux_adam" target="_blank" title="Join me on Twitch"><i class="fab fa-twitch
-"></i></a>
-              </li>
-              <li>
-                <a href="https://dribbble.com/ux_adam" target="_blank" title="Check out my design shots on Dribbble"><i class="fab fa-dribbble"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/#!/ux_adam" target="_blank" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="https://github.com/adamruf" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a>
-              </li>
-            </ul>-->
         </div>
         <!--/.container-->
       </nav>
@@ -113,7 +60,7 @@
 
     </section> -->
 
-    <section id="video-player" class="pd-t-sm">
+    <section id="video-player" class="pd-t-sm m-b-4">
       <div class="container-fluid" style="padding:0;">
         <div class="row">
           <!--LG Viewport Video Player-->
@@ -130,7 +77,10 @@
                 height: 720,
                 channel: "ux_adam",
                 // layout: "video"
-                theme: "dark"
+                theme: "dark",
+                autoplay: false,
+                mute: true,
+                // font-size: "large"
               });
             </script>
           </div>
@@ -150,7 +100,10 @@
                 height: 600,
                 channel: "ux_adam",
                 // layout: "video"
-                theme: "dark"
+                theme: "dark",
+                autoplay: false,
+                mute: true,
+                // font-size: "large"
               });
             </script>
           </div>
@@ -169,7 +122,10 @@
                 height: 600,
                 channel: "ux_adam",
                 // layout: "video"
-                theme: "dark"
+                theme: "dark",
+                autoplay: false,
+                mute: true,
+                // font-size: "large"
               });
             </script>
           </div>
@@ -188,13 +144,43 @@
                 height: 600,
                 channel: "ux_adam",
                 // layout: "video"
-                theme: "dark"
+                theme: "dark",
+                autoplay: false,
+                mute: true,
+                // font-size: "large"
               });
             </script>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="panels">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="design-contest" class="live-panel p-3 m-b-4">
+              <h2 class="panel-heading">Design Contest</h2>
+            </div>
+
+            <div id="portfolio-reviews" class="live-panel p-3 m-b-4">
+              <h2 class="panel-heading">Portfolio Reviews</h2>
+            </div>
+
+            <div id="twitter" class="live-panel p-3 m-b-4">
+              <h2 class="panel-heading">Follow Me on Twitter</h2>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="amazon-associates" class="live-panel p-3 m-b-4">
+              <h2 class="panel-heading">Amazon Associates (Or Tall Banner)</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- 915px is min width before chat becomes unusable -->
 
