@@ -93,6 +93,10 @@ a {
   }
 }
 
+.link--strong {
+  font-weight: bold;
+}
+
 .fancy-link {
   @include slab-font
   font-size: 3rem;
