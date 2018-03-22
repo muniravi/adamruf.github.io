@@ -205,3 +205,9 @@ strong {font-weight: bold;}
 .text-shadow--md {
   @include text-shadow--md;
 }
+
+.value-prop {
+  @media screen and (max-width: 380px) {
+    font-size: 2rem !important;
+  }
+}
