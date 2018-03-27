@@ -61,6 +61,10 @@ HELPERS
 
 .tipped {
   cursor: help;
+  &:focus {
+    outline: 10px solid rgba(57, 164, 235, 0.25);
+    outline-offset: 0;
+  }
 }
 
 .padded {
