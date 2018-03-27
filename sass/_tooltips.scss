@@ -9,11 +9,9 @@ TOOLTIPS
 .tooltip-inner {
   background-color: $navbar-black;
   @include base-font;
-  font-size: 1.25em;
+  font-size: 1.6rem;
   font-weight: 600;
-  letter-spacing: 0;
   max-width: 450px;
-  padding: 0.4em 1em 0.6em;
-  text-align: left;
+  padding: 4px 8px !important;
   text-transform: none;
 }
