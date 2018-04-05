@@ -1,0 +1,30 @@
+.table {
+    margin-bottom: 0 !important;
+}
+
+.table>thead>tr>th {
+    vertical-align: middle;
+    border-bottom: 1px solid $gray-light;
+}
+
+.table--bordered {
+    background-color: $white;
+    border-radius: 10px;
+    border: 1px solid $gray-light;
+}
+
+.table--shadowed {
+    box-shadow: 0 5px 25px transparentize($black, 0.925)
+}
+
+.pd-2 {
+    padding: 2rem !important;
+}
+
+.v-align-middle {
+    vertical-align: middle !important;
+}
+
+.background--light-gray {
+    background: $off-white;
+}
