@@ -344,6 +344,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/brightroll-logo@2x.png": {
+		"ft": 32768,
+		"iS": 17907,
+		"oA": 0,
+		"oAP": "\/images\/brightroll-logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bw-single-page-site.jpg": {
 		"ft": 16384,
 		"iS": 112728,
@@ -1125,6 +1136,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/twitch-logo@2x.png": {
+		"ft": 32768,
+		"iS": 5515,
+		"oA": 0,
+		"oAP": "\/images\/Group 2 Copy@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/twitter-card-img-512x512.png": {
 		"ft": 32768,
 		"iS": 21230,
@@ -1177,6 +1199,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/usertesting-logo@2x.png": {
+		"ft": 32768,
+		"iS": 14029,
+		"oA": 0,
+		"oAP": "\/images\/usertesting-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/utility-belt-bg-tile.png": {
@@ -1277,6 +1310,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/yahoo-logo@2x.png": {
+		"ft": 32768,
+		"iS": 8827,
+		"oA": 0,
+		"oAP": "\/images\/yahoo-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
