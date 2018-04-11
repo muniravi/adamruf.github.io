@@ -233,6 +233,16 @@ ABOUT
   width: 100%;
 }
 
+.typeform-widget--bordered {
+  border: 1px solid rgba(0,0,0,0.025);
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.07);
+}
+
+.typeform-widget iframe {
+  border-radius: 1rem;
+}
+
 ul.progress-bar ul {
   margin-left: 0;
   li {
