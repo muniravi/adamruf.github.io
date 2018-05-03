@@ -304,6 +304,11 @@ ul.progress-bar ul {
   background: rgba(246, 246, 246, 0.5);
   border-radius: 1rem;
   padding: 2rem;
+  &:hover {
+    li.trivia-answer {
+      filter: none;
+    }
+  }
 }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
