@@ -7,7 +7,7 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -71,6 +71,7 @@
 	"\/images\/404-img.jpg": {
 		"ft": 16384,
 		"iS": 65110,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/404-img.jpg",
 		"oF": 0,
@@ -81,6 +82,7 @@
 	"\/images\/404-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 141658,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/404-img@2x.jpg",
 		"oF": 0,
@@ -124,6 +126,7 @@
 	"\/images\/academy-of-art-university.jpg": {
 		"ft": 16384,
 		"iS": 49325,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/academy-of-art-university.jpg",
 		"oF": 0,
@@ -177,6 +180,7 @@
 	"\/images\/adam-ruf-larger-profile-pic.jpg": {
 		"ft": 16384,
 		"iS": 119813,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-larger-profile-pic.jpg",
 		"oF": 0,
@@ -319,6 +323,7 @@
 	"\/images\/br-hax-xv.jpg": {
 		"ft": 16384,
 		"iS": 296624,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/br-hax-xv.jpg",
 		"oF": 0,
@@ -329,6 +334,7 @@
 	"\/images\/bracelets-by-deb.jpg": {
 		"ft": 16384,
 		"iS": 321563,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bracelets-by-deb.jpg",
 		"oF": 0,
@@ -339,6 +345,7 @@
 	"\/images\/brighroll-hax-sticker.jpg": {
 		"ft": 16384,
 		"iS": 76747,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/brighroll-hax-sticker.jpg",
 		"oF": 0,
@@ -359,6 +366,7 @@
 	"\/images\/brightroll-logo.jpg": {
 		"ft": 16384,
 		"iS": 63677,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/brightroll-logo.jpg",
 		"oF": 0,
@@ -380,6 +388,7 @@
 	"\/images\/bw-single-page-site.jpg": {
 		"ft": 16384,
 		"iS": 112728,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bw-single-page-site.jpg",
 		"oF": 0,
@@ -412,6 +421,7 @@
 	"\/images\/cannaly-hero-lg.jpg": {
 		"ft": 16384,
 		"iS": 96548,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/cannaly-hero-lg.jpg",
 		"oF": 0,
@@ -530,6 +540,7 @@
 	"\/images\/easyhire.jpg": {
 		"ft": 16384,
 		"iS": 88784,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/easyhire.jpg",
 		"oF": 0,
@@ -551,6 +562,7 @@
 	"\/images\/favorite-fruit.jpg": {
 		"ft": 16384,
 		"iS": 103358,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/favorite-fruit.jpg",
 		"oF": 0,
@@ -561,6 +573,7 @@
 	"\/images\/fontastic-questions.jpg": {
 		"ft": 16384,
 		"iS": 175806,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/fontastic-questions.jpg",
 		"oF": 0,
@@ -603,6 +616,7 @@
 	"\/images\/gsd-toolbox.jpg": {
 		"ft": 16384,
 		"iS": 259540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/gsd-toolbox.jpg",
 		"oF": 0,
@@ -696,6 +710,7 @@
 	"\/images\/mainichi-japanese.jpg": {
 		"ft": 16384,
 		"iS": 209534,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/mainichi-japanese.jpg",
 		"oF": 0,
@@ -750,6 +765,7 @@
 	"\/images\/moringa-concepts.jpg": {
 		"ft": 16384,
 		"iS": 332208,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/moringa-concepts.jpg",
 		"oF": 0,
@@ -1068,6 +1084,7 @@
 	"\/images\/producteev-email-templates.jpg": {
 		"ft": 16384,
 		"iS": 158483,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/producteev-email-templates.jpg",
 		"oF": 0,
@@ -1078,6 +1095,7 @@
 	"\/images\/random-nihongo.jpg": {
 		"ft": 16384,
 		"iS": 102439,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/random-nihongo.jpg",
 		"oF": 0,
@@ -1110,6 +1128,7 @@
 	"\/images\/sensilk-ios-app.jpg": {
 		"ft": 16384,
 		"iS": 192217,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sensilk-ios-app.jpg",
 		"oF": 0,
@@ -1153,6 +1172,7 @@
 	"\/images\/streaming-design-on-twitch-bg.jpg": {
 		"ft": 16384,
 		"iS": 81874,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/streaming-design-on-twitch-bg.jpg",
 		"oF": 0,
@@ -1163,6 +1183,7 @@
 	"\/images\/sunday-friends.jpg": {
 		"ft": 16384,
 		"iS": 225771,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sunday-friends.jpg",
 		"oF": 0,
@@ -1173,6 +1194,7 @@
 	"\/images\/sweater-pattern.jpg": {
 		"ft": 16384,
 		"iS": 153457,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sweater-pattern.jpg",
 		"oF": 0,
@@ -1238,6 +1260,7 @@
 	"\/images\/usertesting-logo-flat.jpg": {
 		"ft": 16384,
 		"iS": 87113,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/usertesting-logo-flat.jpg",
 		"oF": 0,
@@ -1371,6 +1394,7 @@
 	"\/images\/yahoo.jpg": {
 		"ft": 16384,
 		"iS": 61073,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/yahoo.jpg",
 		"oF": 0,
@@ -1523,6 +1547,7 @@
 	"\/portfolio\/favorite-fruit\/img\/china-flag-edited.jpg": {
 		"ft": 16384,
 		"iS": 65289,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/china-flag-edited.jpg",
 		"oF": 0,
@@ -1544,6 +1569,7 @@
 	"\/portfolio\/favorite-fruit\/img\/moonstars-watermelon-by-tclarkcreations-edited.jpg": {
 		"ft": 16384,
 		"iS": 658026,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/moonstars-watermelon-by-tclarkcreations-edited.jpg",
 		"oF": 0,
@@ -1554,6 +1580,7 @@
 	"\/portfolio\/favorite-fruit\/img\/southern-africa-edited.jpg": {
 		"ft": 16384,
 		"iS": 142726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/southern-africa-edited.jpg",
 		"oF": 0,
@@ -1564,6 +1591,7 @@
 	"\/portfolio\/favorite-fruit\/img\/watermelon-by-Or-Hiltch-edited.jpg": {
 		"ft": 16384,
 		"iS": 146637,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelon-by-Or-Hiltch-edited.jpg",
 		"oF": 0,
@@ -1574,6 +1602,7 @@
 	"\/portfolio\/favorite-fruit\/img\/watermelons-by-PL-Tandon-edited.jpg": {
 		"ft": 16384,
 		"iS": 374891,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelons-by-PL-Tandon-edited.jpg",
 		"oF": 0,
@@ -1584,6 +1613,7 @@
 	"\/portfolio\/favorite-fruit\/img\/watermelons-edited.jpg": {
 		"ft": 16384,
 		"iS": 82627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/favorite-fruit\/img\/watermelons-edited.jpg",
 		"oF": 0,
@@ -1741,6 +1771,7 @@
 	"\/portfolio\/fontastic-questions\/img\/how-many-stars-bg.jpg": {
 		"ft": 16384,
 		"iS": 55034,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/how-many-stars-bg.jpg",
 		"oF": 0,
@@ -1751,6 +1782,7 @@
 	"\/portfolio\/fontastic-questions\/img\/mount-everest-bg.jpg": {
 		"ft": 16384,
 		"iS": 212541,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/fontastic-questions\/img\/mount-everest-bg.jpg",
 		"oF": 0,
@@ -1813,6 +1845,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/adam-ruf.jpg": {
 		"ft": 16384,
 		"iS": 47225,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/adam-ruf.jpg",
 		"oF": 0,
@@ -1823,6 +1856,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/alan-grant.jpg": {
 		"ft": 16384,
 		"iS": 68334,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/alan-grant.jpg",
 		"oF": 0,
@@ -1844,6 +1878,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/daenerys-targaryen.jpg": {
 		"ft": 16384,
 		"iS": 66140,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/daenerys-targaryen.jpg",
 		"oF": 0,
@@ -1854,6 +1889,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/dagny-taggart.jpg": {
 		"ft": 16384,
 		"iS": 53858,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/dagny-taggart.jpg",
 		"oF": 0,
@@ -1864,6 +1900,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/ellen-ripley.jpg": {
 		"ft": 16384,
 		"iS": 54748,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/ellen-ripley.jpg",
 		"oF": 0,
@@ -1874,6 +1911,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/ender-wiggin.jpg": {
 		"ft": 16384,
 		"iS": 53210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/ender-wiggin.jpg",
 		"oF": 0,
@@ -1884,6 +1922,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/jean-luc-picard.jpg": {
 		"ft": 16384,
 		"iS": 62251,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/jean-luc-picard.jpg",
 		"oF": 0,
@@ -1894,6 +1933,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/kit-cloudkicker.jpg": {
 		"ft": 16384,
 		"iS": 65336,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/kit-cloudkicker.jpg",
 		"oF": 0,
@@ -1904,6 +1944,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/luke-skywalker.jpg": {
 		"ft": 16384,
 		"iS": 47881,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/luke-skywalker.jpg",
 		"oF": 0,
@@ -1925,6 +1966,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/mattie-ross.jpg": {
 		"ft": 16384,
 		"iS": 54334,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/mattie-ross.jpg",
 		"oF": 0,
@@ -1946,6 +1988,7 @@
 	"\/portfolio\/lunch-inviterator\/img\/sherlock-holmes.jpg": {
 		"ft": 16384,
 		"iS": 68881,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/portfolio\/lunch-inviterator\/img\/sherlock-holmes.jpg",
 		"oF": 0,
@@ -3462,6 +3505,7 @@
 	"\/staging\/Adam-Ruf-UXNight-Design-Mentor.jpg": {
 		"ft": 16384,
 		"iS": 1087082,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Adam-Ruf-UXNight-Design-Mentor.jpg",
 		"oF": 0,
@@ -3801,6 +3845,7 @@
 	"\/staging\/Mentoring and Speaking photos\/10454123_1028448037187999_1583125155414519095_o.jpg": {
 		"ft": 16384,
 		"iS": 139795,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/10454123_1028448037187999_1583125155414519095_o.jpg",
 		"oF": 0,
@@ -3811,6 +3856,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11011737_1028448567187946_1146779393837794073_o.jpg": {
 		"ft": 16384,
 		"iS": 112886,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11011737_1028448567187946_1146779393837794073_o.jpg",
 		"oF": 0,
@@ -3821,6 +3867,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11046865_954957654537038_8347107780419300594_o.jpg": {
 		"ft": 16384,
 		"iS": 207188,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11046865_954957654537038_8347107780419300594_o.jpg",
 		"oF": 0,
@@ -3831,6 +3878,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11057811_1028448370521299_7865922654418666550_o.jpg": {
 		"ft": 16384,
 		"iS": 185336,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11057811_1028448370521299_7865922654418666550_o.jpg",
 		"oF": 0,
@@ -3841,6 +3889,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o (1).jpg": {
 		"ft": 16384,
 		"iS": 72773,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o (1).jpg",
 		"oF": 0,
@@ -3851,6 +3900,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o.jpg": {
 		"ft": 16384,
 		"iS": 72773,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11121947_1028448640521272_899177215405845733_o.jpg",
 		"oF": 0,
@@ -3861,6 +3911,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11145261_1028448470521289_9068001845555780368_o.jpg": {
 		"ft": 16384,
 		"iS": 153930,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11145261_1028448470521289_9068001845555780368_o.jpg",
 		"oF": 0,
@@ -3871,6 +3922,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11412064_1028448367187966_6880085825769346876_o.jpg": {
 		"ft": 16384,
 		"iS": 141222,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11412064_1028448367187966_6880085825769346876_o.jpg",
 		"oF": 0,
@@ -3881,6 +3933,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11415604_1012372975462172_7280804681301762774_o.jpg": {
 		"ft": 16384,
 		"iS": 165263,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11415604_1012372975462172_7280804681301762774_o.jpg",
 		"oF": 0,
@@ -3891,6 +3944,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11713718_1028448480521288_1110496715705704860_o.jpg": {
 		"ft": 16384,
 		"iS": 220710,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11713718_1028448480521288_1110496715705704860_o.jpg",
 		"oF": 0,
@@ -3901,6 +3955,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11722414_1028448113854658_7548809098820489417_o.jpg": {
 		"ft": 16384,
 		"iS": 120877,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11722414_1028448113854658_7548809098820489417_o.jpg",
 		"oF": 0,
@@ -3911,6 +3966,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11722565_1028448203854649_2668335237636349489_o.jpg": {
 		"ft": 16384,
 		"iS": 124079,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11722565_1028448203854649_2668335237636349489_o.jpg",
 		"oF": 0,
@@ -3921,6 +3977,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11728987_1028448573854612_5807988168801496220_o.jpg": {
 		"ft": 16384,
 		"iS": 109780,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11728987_1028448573854612_5807988168801496220_o.jpg",
 		"oF": 0,
@@ -3931,6 +3988,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11741121_1028448033854666_4655331621432612937_o.jpg": {
 		"ft": 16384,
 		"iS": 129032,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11741121_1028448033854666_4655331621432612937_o.jpg",
 		"oF": 0,
@@ -3941,6 +3999,7 @@
 	"\/staging\/Mentoring and Speaking photos\/11873478_1044159688950167_7258447279763061337_n.jpg": {
 		"ft": 16384,
 		"iS": 61553,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/11873478_1044159688950167_7258447279763061337_n.jpg",
 		"oF": 0,
@@ -3951,6 +4010,7 @@
 	"\/staging\/Mentoring and Speaking photos\/12000883_1060476710651798_6574953780111672823_o.jpg": {
 		"ft": 16384,
 		"iS": 83326,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/12000883_1060476710651798_6574953780111672823_o.jpg",
 		"oF": 0,
@@ -3961,6 +4021,7 @@
 	"\/staging\/Mentoring and Speaking photos\/12771993_1148072851892183_8044951554146230402_o.jpg": {
 		"ft": 16384,
 		"iS": 320658,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/staging\/Mentoring and Speaking photos\/12771993_1148072851892183_8044951554146230402_o.jpg",
 		"oF": 0,
@@ -4270,7 +4331,8 @@
 	"creationDate": 501357860,
 	"displayValue": "adamruf.com",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-yesBaby"
+	"iconImageName": "meme-yesBaby",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -6073,6 +6135,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
