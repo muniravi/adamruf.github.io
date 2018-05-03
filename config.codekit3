@@ -239,6 +239,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/adam-ruf-trivia-game.png": {
+		"ft": 32768,
+		"iS": 1045,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-trivia-game.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/adam-ruf-trivia-game@2x.png": {
+		"ft": 32768,
+		"iS": 1488,
+		"oA": 0,
+		"oAP": "\/images\/adam-ruf-trivia-game@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/adam-ruf-website-tile-image.png": {
 		"ft": 32768,
 		"iS": 5587,
@@ -1160,7 +1182,7 @@
 		},
 	"\/images\/twitch-logo@2x.png": {
 		"ft": 32768,
-		"iS": 5515,
+		"iS": 2770,
 		"oA": 0,
 		"oAP": "\/images\/Group 2 Copy@2x.png",
 		"oF": 0,
