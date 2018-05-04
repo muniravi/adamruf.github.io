@@ -245,7 +245,7 @@
 		},
 	"\/images\/adam-ruf-trivia-game.png": {
 		"ft": 32768,
-		"iS": 1045,
+		"iS": 1825,
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-trivia-game.png",
 		"oF": 0,
@@ -256,12 +256,12 @@
 		},
 	"\/images\/adam-ruf-trivia-game@2x.png": {
 		"ft": 32768,
-		"iS": 1488,
+		"iS": 2064,
 		"oA": 0,
 		"oAP": "\/images\/adam-ruf-trivia-game@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
