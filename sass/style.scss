@@ -301,13 +301,18 @@ ul.progress-bar ul {
 }
 
 .trivia-answers-wrapper {
-  background: rgba(246, 246, 246, 0.5);
+  background: url('https://images.typeform.com/images/vGRYtuSWzjcQ/background/default');
   border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.07);
+  color: $font-default;
   padding: 2rem;
   &:hover {
     li.trivia-answer {
       filter: none;
     }
+  }
+  p {
+    color: $font-default;
   }
 }
 
