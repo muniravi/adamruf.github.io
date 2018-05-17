@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ux_adam's Twitch Chat Commands</title>
+  <meta name="description" content="A full list of commands available in ux_adam's Twitch chat">
+  <meta name="author" content="UX Designer, Adam Ruf">
+  <!--for Twitter cards-->
+  <!-- <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ux_adam" />
+  <meta property="og:url" content="http://adamruf.com" />
+  <meta property="twitter:title" content="👋 Hello, Designers!" />
+  <meta property="twitter:description" content="UX Product Designer + Mentor, Adam Ruf 🤓" />
+  <meta property="twitter:image" content="https://lh3.googleusercontent.com/SueHLvBLNfGyDs32vjHNSlbS6-zxpVQvNdzfQmV2Cf35rJSemg55Sr7wwZavIcvORnpoJUhFTzIWZaO7yzqlc5L3_5MCMbz9kt4UF3rLU0WTgK5BslkjcS8gpdE3oqtzNODTL6Airg=s512-no" /> -->
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Slab:300,700|Teko:700" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css"/>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5552191-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!-- Preload Typeform -->
+  <link rel="preload" href="http://adamruf.typeform.com/to/UlV8eu?page=homepage">
+
+  <!-- Full Story Experiment -->
+  <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '9XG8F';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+  </script>
+</head>
+
+<body>
+  <header class="mg-b-xl">
+    <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="nav-row navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a id="home" class="navbar-brand" href="//adamruf.com/"><span>ux_adam <span class="muted">ruf</span></span></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="top-nav nav navbar-nav">
+            <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Portfolio</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">resources <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.twitch.tv/ux_adam" target="_blank">live design on twitch</a></li>
+                <li><a href="http://uxdesigncontest.com" target="_blank">ux design contest</a></li>
+                <li><a href="http://uxdesignbookclub.com" target="_blank">ux design book club</a></li>
+                <li>
+                  <a href="//adamruf.com/sf-bay-area-design-events.html">sf design events</a>
+                </li>
+                <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
+resources</a></li>
+                <!--<li><a href="#">workshops</a></li>
+                <li><a href="#">templates</a></li> -->
+              </ul>
+            </li>
+            <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
+            <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li>newsletter</li> -->
+            <!-- <li><a href="#">presentations</a></li>
+                <li><a href="#">workshops</a></li>
+                <li><a href="#">events</a></li>
+              </ul>
+            </li> -->
+          </ul>
+          <ul class="top-nav nav navbar-nav pull-right navbar-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/adamruf" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.twitch.tv/ux_adam" target="_blank" title="Join me on Twitch"><i class="fab fa-twitch"></i></a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/ux_adam" target="_blank" title="Check out my design shots on Dribbble"><i class="fab fa-dribbble"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/#!/ux_adam" target="_blank" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/adamruf" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!--/.container-->
+    </nav>
+    <div id="newsletter-banner" class="banner">
+      <p>
+        👋Join our 💯design community: <a href="https://twitch.tv/ux_adam" target="_blank">Live on Twitch Tue-Thu</a>
+      </p>
+      <!-- <p>Got urgent questions? <a href="https://twitch.tv/ux_adam" target="_blank">Join me on Twitch 3 nights a week</a></p> -->
+    </div>
+  </header>
+
+  <section id="hero" class="container mg-b-xl">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 mg-b-xs">
+        <h1>Live Design on Twitch</h1>
+        
+        <h2>What's Twitch?</h2>
+        <p>Twitch (<a href="https://twitch.tv/">twitch.tv</a>) is an online platform for interactive live streaming. Made popular by gaming streamers, you can also find a variety of creative streamers doing everything from coding and painting, to writing and cooking. Whether you prefer to just watch or listen (known as lurking), or chat directly with creators and entertainers, there's a community waiting for you on Twitch.</p>
+        <p class="mg-b-md">Adam streams design at <a href="https://twitch.tv/ux_adam">twitch.tv/ux_adam</a>
+        </p>
+        
+        <h2>Schedule</h2>
+        <p class="mg-b-md">Adam's regular schedule is Tuesday-Thursday 6pm-8pm Pacific Time. For schedule changes or updates, <a href="https://twitter.com/ux_adam" target="_blank">follow @ux_adam on Twitter</a>.
+        </p>
+
+        <h2>Rewards</h2>
+        <p>You earn raffle tickets when you join a live stream, which you can spend on rewards like</p>
+        <ul class="mg-b-md">
+          <li>Applause</li>
+          <li>Changing Adam's webcam filter</li>
+          <li>1-minute Japanese or Chinese language lesson</li>
+          <li>Making Adam do push-ups</li>
+          <li>Getting a set of stickers</li>
+        </ul>
+
+        <h2>Chat commands</h2>
+        <div class="table-responsive table--bordered table--shadowed">
+          <table class="table">
+            <thead>
+              <tr class="background--light-gray">
+                <th class="pd-2">Command</th>
+                <th class="pd-2">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <th class="pd-2" scope="row">!adam</th>
+                <td class="pd-2">Get a short bio of ux_adam ruf</td>
+              </tr> -->
+              <tr>
+                <th class="pd-2" scope="row">!calendar</th>
+                <td class="pd-2">Get current stream schedule</td>
+              </tr>
+              <tr>
+                <th class="pd-2" scope="row">/color color_name</th>
+                <td class="pd-2">Change the color of your username</td>
+              </tr>
+              <tr>
+                <th class="pd-2" scope="row">!contest</th>
+                <td class="pd-2">Get info on UX Design Contest</td>
+              </tr>
+              <tr>
+                <th class="pd-2" scope="row">!feedback</th>
+                <td class="pd-2">Give feedback on ux_adam's channel</td>
+              </tr>
+              <!-- <tr>
+                <th class="pd-2" scope="row">!help</th>
+                <td class="pd-2">Get a list of popular chat commands</td>
+              </tr> -->
+              <tr>
+                <th class="pd-2" scope="row">!review</th>
+                <td class="pd-2">Get your portfolio site reviewed</td>
+              </tr>
+              <tr>
+                <th class="pd-2" scope="row">!uptime</th>
+                <td class="pd-2">See how long Adam has been streaming</td>
+              </tr>
+              <!-- <tr>
+                <th class="pd-2" scope="row">!volunteer</th>
+                <td class="pd-2">See current volunteer opportunities</td>
+              </tr> -->
+              <tr>
+                <th class="pd-2" scope="row">!writing</th>
+                <td class="pd-2">Links to recommended writing tools</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="utility-belt" class="mg-b-xs">
+    <div id="utility-pouch-1" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="0"></div>
+    <div id="utility-pouch-2" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="100"></div>
+    <div id="utility-pouch-3" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="200"></div>
+    <div id="utility-pouch-4" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="300"></div>
+    <div id="utility-pouch-5" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="400"></div>
+  </section>
+
+  <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i><br>Top</a>
+
+  <footer class="text-center">
+    <div class="container padded">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="mg-b-sm">For 💪 design tips, 💯 articles, live design schedule, and more</p>
+          <p class="mg-b-sm">
+            <a class="button button-xs style--twitter-blue" href="https://twitter.com/intent/user?screen_name=ux_adam" target="_blank"><i class="fab fa-twitter"></i> Follow @ux_adam on Twitter</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="heart-container">
+            <a class="img-link heart-link" href="https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work" target="blank">
+              <img class="heart animated pulse infinite" src="//adamruf.com/images/footer-heart.svg" alt="Smiling heart">
+            </a>
+          </p>
+          <p class="text--tiny">
+           &copy;2008<script>new Date().getFullYear()>2010&&document.write("-" + new Date().getFullYear());</script> UX Product Designer + Mentor, Adam Ruf. All rights and lefts reserved.
+          </p>
+        </div>
+      </div>
+    </div><!--/container-->
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="//adamruf.com/js/min/scripts-min.js"></script>
+</body>
+</html>
