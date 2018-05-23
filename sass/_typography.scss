@@ -74,7 +74,8 @@ p {
   margin-bottom: 1em;
 }
 
-a {
+a,
+a:not(.amzn-native-product-buy-now-link) {
   color: $blue-bright;
   font-weight: normal;
   text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
