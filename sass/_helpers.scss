@@ -120,3 +120,16 @@ HELPERS
 .max-w-100p {
   max-width: 100%;
 }
+
+
+/* EMBEDDED AMAZON ADS */
+div.amzn-native-product {
+  border-radius: 0.4rem;
+  transition: 0.2s ease-in-out;
+  &:hover,
+  &:focus {
+    box-shadow: 0 15px 30px 0 rgba(23,55,87,.1), 0 5px 10px 0 rgba(0,0,0,.07);
+    transform: scale(1.025);
+    z-index: 2;
+  }
+}
