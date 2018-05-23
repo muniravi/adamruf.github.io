@@ -54,17 +54,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/events-calendar-ad--portfolio-reviews@2x.png": {
-		"ft": 32768,
-		"iS": 37708,
-		"oA": 0,
-		"oAP": "\/events-calendar-ad--portfolio-reviews@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -578,6 +567,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/events-calendar-ad--portfolio-reviews@2x.png": {
+		"ft": 32768,
+		"iS": 37708,
+		"oA": 0,
+		"oAP": "\/images\/events-calendar-ad--portfolio-reviews@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
