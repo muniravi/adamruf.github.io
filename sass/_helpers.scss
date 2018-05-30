@@ -123,13 +123,30 @@ HELPERS
 
 
 /* EMBEDDED AMAZON ADS */
+div.amzn-native-additional-info.amzn-native-da-adchoices-container {
+  opacity: 0;
+}
+
+a.amzn-native-product-buy-now-link {
+  opacity: 0;
+}
+
 div.amzn-native-product {
+  background: transparent !important;
+  border: 1px solid transparent !important;
   border-radius: 0.4rem;
   transition: 0.2s ease-in-out;
   &:hover,
   &:focus {
+    background: $white !important;
+    border: 1px solid $gray-light !important;
     box-shadow: 0 15px 30px 0 rgba(23,55,87,.1), 0 5px 10px 0 rgba(0,0,0,.07);
-    transform: scale(1.025);
     z-index: 2;
+    div.amzn-native-additional-info.amzn-native-da-adchoices-container {
+      opacity: 1;
+    }
+    a.amzn-native-product-buy-now-link {
+      opacity: 1;
+    }
   }
 }
