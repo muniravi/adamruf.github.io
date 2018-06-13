@@ -16,6 +16,14 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.vscode\/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/404.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1434,6 +1442,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/index--refresh.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index--refresh.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -3498,6 +3513,27 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sf-bay-area-design-events.html",
+		"oF": 0
+		},
+	"\/staging\/2018 Redesign\/adamruf-dot-com-redesign.studio": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/2018 Redesign\/adamruf-dot-com-redesign.studio",
+		"oF": 0
+		},
+	"\/staging\/2018 Redesign\/portfolio-site-redesign-2018.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/2018 Redesign\/portfolio-site-redesign-2018.sketch",
+		"oF": 0
+		},
+	"\/staging\/2018 Redesign\/sandbox-experiments.studio": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/2018 Redesign\/sandbox-experiments.studio",
 		"oF": 0
 		},
 	"\/staging\/404.ai": {
