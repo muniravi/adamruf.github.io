@@ -76,6 +76,16 @@
 		"oAP": "\/forty-three-million-dollar-painting.html",
 		"oF": 0
 		},
+	"\/images\/2018-refresh\/blue-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/2018-refresh\/blue-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/2018-refresh\/bullet--gem.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -106,11 +116,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/2018-refresh\/red-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/2018-refresh\/red-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/2018-refresh\/sketch-gem.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/2018-refresh\/sketch-gem.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/2018-refresh\/yellow-triangle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/2018-refresh\/yellow-triangle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
