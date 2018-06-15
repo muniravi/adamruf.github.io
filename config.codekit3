@@ -82,8 +82,8 @@
 		"oA": 0,
 		"oAP": "\/images\/2018-refresh\/bg-transition--shapes-1-v2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
