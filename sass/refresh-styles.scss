@@ -1,10 +1,17 @@
+/* MIX-INS */
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+
 html {
   font-size: 62.5%;
 }
 body {
   color: #48554A;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+  @include font-size(16);
   font-weight: 400;
 }
 
@@ -39,7 +46,7 @@ a:hover {
 }
 
 .img-bullets--gem {
-  background: url('images/2018-refresh/bullet--gem.svg') no-repeat left top / 19px 16px;
+  background: url('http://adamruf.com/images/2018-refresh/bullet--gem.svg') no-repeat left top / 19px 16px;
   height: 22px;
   line-height: 16px;
   padding-left: 25px;
