@@ -229,28 +229,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/2018-refresh\/purple-rocks-left@2x.png": {
-		"ft": 32768,
-		"iS": 485720,
-		"oA": 0,
-		"oAP": "\/images\/2018-refresh\/purple-rocks-left@2x.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/2018-refresh\/purple-rocks-right@2x.png": {
-		"ft": 32768,
-		"iS": 284420,
-		"oA": 0,
-		"oAP": "\/images\/2018-refresh\/purple-rocks-right@2x.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/2018-refresh\/red-square.svg": {
 		"ft": 2097152,
 		"miP": 0,

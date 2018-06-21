@@ -32,7 +32,8 @@ h1, h2 {
   font-weight: normal; }
 
 a {
-  color: #4D5AE4; }
+  color: #4D5AE4;
+  padding: 0.5rem 1rem; }
   a.nav-link {
     color: #48554A !important; }
     a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
@@ -40,20 +41,27 @@ a {
       border-radius: 0.5rem;
       color: #4D5AE4 !important; }
   a.link--arrow:after {
-    content: "->";
+    background-image: url("http://adamruf.com/images/2018-refresh/link-arrow.svg");
+    content: "";
     color: rgba(77, 90, 228, 0.5);
     display: inline-block;
+    height: 1.2rem;
     margin-left: -1rem;
     opacity: 0;
     right: 0;
-    transition: all .3s ease-in; }
-  a:hover {
+    transition: all .3s ease-in;
+    width: 2rem; }
+  a:hover, a:active, a:focus {
+    background: rgba(77, 90, 228, 0.05);
+    border-radius: 0.5rem;
     color: #4D5AE4;
     text-decoration: none; }
-    a:hover.link--arrow:after {
+    a:hover.link--arrow:after, a:active.link--arrow:after, a:focus.link--arrow:after {
       opacity: 1;
+      height: 1.2rem;
       margin-left: 1rem;
-      transition: all .3s ease-out; }
+      transition: all .3s ease-out;
+      width: 2rem; }
 
 .text--blurple {
   color: #5866FF; }
@@ -79,7 +87,7 @@ a {
   background: url("http://adamruf.com/images/2018-refresh/bullet--gem.svg") no-repeat left top/19px 16px;
   height: 22px;
   line-height: 16px;
-  padding-left: 25px; }
+  padding-left: 20px; }
 
 header {
   font-size: 16px;
@@ -120,7 +128,7 @@ header a {
   color: #A2A9A3 !important; }
 
 .button {
-  background-color: #F9FAFA;
+  background-color: #F4F5F6;
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
@@ -135,20 +143,25 @@ header a {
   transition: all 0.15s ease;
   white-space: nowrap; }
   .button:hover, .button:focus {
+    background-color: #f7f8f8;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 7px 14px rgba(50, 78, 93, 0.1);
     text-decoration: none;
     transform: translateY(-1px); }
-  .button.active {
+  .button:active {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
     transform: translateY(1px); }
+  .button:focus {
+    transform: translateY(0px); }
 
 .button--primary {
   background-color: #4D5AE4;
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(77, 90, 228, 0.44); }
+  .button--primary:hover, .button--primary:focus, .button--primary:active {
+    background-color: #4956e3; }
 
 .button-toggle {
-  background: #F9FAFA;
+  background: #F4F5F6;
   border: none;
   color: #707571;
   padding: 1rem 1.5rem;
@@ -173,7 +186,7 @@ header a {
   color: #707571; }
 
 .ar-alert {
-  background: #F9FAFA;
+  background: #F4F5F6;
   border-radius: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
   color: rgba(72, 85, 74, 0.85);
@@ -286,7 +299,7 @@ header a {
   height: 400px;
   margin-left: -15%;
   margin-right: -15%;
-  top: 14rem;
+  top: 10rem;
   width: 130%; }
 
 .background-gradient--4 {
@@ -351,6 +364,22 @@ header a {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain; }
+
+.background-pattern--purple-rocks-left {
+  background-image: url("http://adamruf.com/images/2018-refresh/purple-rocks-left@2x.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 571px;
+  bottom: -20rem;
+  left: -15rem; }
+
+.background-pattern--purple-rocks-right {
+  background-image: url("http://adamruf.com/images/2018-refresh/purple-rocks-right@2x.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 614px;
+  bottom: -20rem;
+  right: -15rem; }
 
 .clip-path--2 {
   background: linear-gradient(45deg, #8295ff 0%, #83d3ff 100%);

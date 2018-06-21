@@ -6,7 +6,7 @@ $text:                    #48554A;
 $text--subtle:            #707571;
 $text--placeholder:       #A2A9A3;
 $border--gray:            #D1D4D1;
-$button--secondary:       #F9FAFA;
+$button--secondary:       #F4F5F6;
 $button--primary:         #4D5AE4;
 $link:                    #4D5AE4;
 
@@ -90,6 +90,7 @@ h1, h2 {
 
 a {
   color: $link;
+  padding: 0.5rem 1rem;
 
   &.nav-link {
     color: $text !important;
@@ -104,23 +105,32 @@ a {
   }
 
   &.link--arrow:after {
-    content: "->";
+    background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
+    content: "";
     color: transparentize($link, 0.5);
     display: inline-block;
+    height: 1.2rem;
     margin-left: -1rem;
     opacity: 0;
     right: 0;
     transition: all .3s ease-in;
+    width: 2rem;
   }
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
+    background: transparentize($link, 0.95);
+    border-radius: 0.5rem;
     color: $link;
     text-decoration: none;
 
     &.link--arrow:after {
       opacity: 1;
+      height: 1.2rem;
       margin-left: 1rem;
       transition: all .3s ease-out;
+      width: 2rem;
     }
   }
 }
@@ -147,7 +157,7 @@ a {
   background: url('http://adamruf.com/images/2018-refresh/bullet--gem.svg') no-repeat left top / 19px 16px;
   height: 22px;
   line-height: 16px;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 header {
@@ -212,21 +222,32 @@ header a {
   
   &:hover,
   &:focus {
+    background-color: lighten($button--secondary, 1%);
     box-shadow: $elevation-2;
     text-decoration: none;
     transform: translateY(-1px);
   }
 
-  &.active {
+  &:active {
     box-shadow: $elevation-1;
     transform: translateY(1px);
+  }
+
+  &:focus {
+    transform: translateY(0px);
   }
 }
 
 .button--primary {
-  background-color: #4D5AE4;
+  background-color: $button--primary;
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(77, 90, 228, 0.44);
+  
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($button--primary,1%);
+  }
 }
 
 .button-toggle {
@@ -434,7 +455,7 @@ header a {
   height: 400px;
   margin-left: -15%;
   margin-right: -15%;
-  top: 14rem;
+  top: 10rem;
   width: 130%;
 }
 
@@ -505,6 +526,24 @@ header a {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.background-pattern--purple-rocks-left {
+  background-image: url('http://adamruf.com/images/2018-refresh/purple-rocks-left@2x.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 571px;
+  bottom: -20rem;
+  left: -15rem;
+
+}
+.background-pattern--purple-rocks-right {
+  background-image: url('http://adamruf.com/images/2018-refresh/purple-rocks-right@2x.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 614px;
+  bottom: -20rem;
+  right: -15rem;
 }
 
 .clip-path--2 {
