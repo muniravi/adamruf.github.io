@@ -294,7 +294,7 @@ header a {
   background-image: linear-gradient(#BFA8FF, #909AFF);
   border-radius: 50% 50% 0 0;
   bottom: 0;
-  box-shadow: 0 -3rem 6rem #BFA8FF;
+  box-shadow: 0 -1rem 20rem #BFA8FF;
   height: 200px;
   margin-left: -15%;
   margin-right: -15%;
@@ -342,6 +342,12 @@ header a {
 
 .background-pattern--shapes {
   background-image: url("http://adamruf.com/images/2018-refresh/shape-pattern.svg"); }
+
+.background-pattern--curved-path-1 {
+  background-image: url("http://adamruf.com/images/2018-refresh/curved-path-01.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 .clip-path--2 {
   background: linear-gradient(45deg, #8295ff 0%, #83d3ff 100%);
@@ -961,6 +967,98 @@ header a {
 .p-y-10 {
   padding-top: 10rem !important;
   padding-bottom: 10rem !important; }
+
+.m-t-20 {
+  margin-top: 20rem !important; }
+
+.p-t-20 {
+  padding-top: 20rem !important; }
+
+.m-b-20 {
+  margin-bottom: 20rem !important; }
+
+.p-b-20 {
+  padding-bottom: 20rem !important; }
+
+.m-l-20 {
+  margin-left: 20rem !important; }
+
+.p-l-20 {
+  padding-left: 20rem !important; }
+
+.m-r-20 {
+  margin-right: 20rem !important; }
+
+.p-r-20 {
+  padding-right: 20rem !important; }
+
+.m-20 {
+  margin: 20rem !important; }
+
+.p-20 {
+  padding: 20rem !important; }
+
+.m-x-20 {
+  margin-left: 20rem !important;
+  margin-right: 20rem !important; }
+
+.p-x-20 {
+  padding-left: 20rem !important;
+  padding-right: 20rem !important; }
+
+.m-y-20 {
+  margin-top: 20rem !important;
+  margin-bottom: 20rem !important; }
+
+.p-y-20 {
+  padding-top: 20rem !important;
+  padding-bottom: 20rem !important; }
+
+.m-t-30 {
+  margin-top: 30rem !important; }
+
+.p-t-30 {
+  padding-top: 30rem !important; }
+
+.m-b-30 {
+  margin-bottom: 30rem !important; }
+
+.p-b-30 {
+  padding-bottom: 30rem !important; }
+
+.m-l-30 {
+  margin-left: 30rem !important; }
+
+.p-l-30 {
+  padding-left: 30rem !important; }
+
+.m-r-30 {
+  margin-right: 30rem !important; }
+
+.p-r-30 {
+  padding-right: 30rem !important; }
+
+.m-30 {
+  margin: 30rem !important; }
+
+.p-30 {
+  padding: 30rem !important; }
+
+.m-x-30 {
+  margin-left: 30rem !important;
+  margin-right: 30rem !important; }
+
+.p-x-30 {
+  padding-left: 30rem !important;
+  padding-right: 30rem !important; }
+
+.m-y-30 {
+  margin-top: 30rem !important;
+  margin-bottom: 30rem !important; }
+
+.p-y-30 {
+  padding-top: 30rem !important;
+  padding-bottom: 30rem !important; }
 
 .m-t-05 {
   margin-top: 0.5rem !important; }

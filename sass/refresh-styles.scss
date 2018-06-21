@@ -443,7 +443,7 @@ header a {
   background-image: linear-gradient(#BFA8FF, #909AFF);
   border-radius: 50% 50% 0 0;
   bottom: 0;
-  box-shadow: 0 -3rem 6rem #BFA8FF;
+  box-shadow: 0 -1rem 20rem #BFA8FF;
   height: 200px;
   margin-left: -15%;
   margin-right: -15%;
@@ -494,6 +494,13 @@ header a {
 
 .background-pattern--shapes {
   background-image: url('http://adamruf.com/images/2018-refresh/shape-pattern.svg');
+}
+
+.background-pattern--curved-path-1 {
+  background-image: url('http://adamruf.com/images/2018-refresh/curved-path-01.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .clip-path--2 {
@@ -638,7 +645,7 @@ header a {
 /////* HELPERS */////
 
 //* SPACING *//
-$spaceWhole: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10); // Adjust this to include the pixel amounts you need.
+$spaceWhole: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30); // Adjust this to include the pixel amounts you need.
 $spaceFraction: (0.5);
 $sides: (top, bottom, left, right); // Leave this variable alone
 
