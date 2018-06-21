@@ -178,6 +178,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/2018-refresh\/emoji-hands.png": {
+		"ft": 32768,
+		"iS": 49314,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/emoji-hands.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/2018-refresh\/fade-to-white.png": {
 		"ft": 32768,
 		"iS": 242,
@@ -228,6 +239,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/2018-refresh\/purple-rocks-left@2x.png": {
+		"ft": 32768,
+		"iS": 60557,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/purple-rocks-left@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/purple-rocks-right@2x.png": {
+		"ft": 32768,
+		"iS": 59914,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/purple-rocks-right@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/2018-refresh\/red-square.svg": {
 		"ft": 2097152,
