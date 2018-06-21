@@ -33,13 +33,6 @@ h1, h2 {
 
 a {
   color: #4D5AE4; }
-  a:hover {
-    color: #4D5AE4;
-    text-decoration: none; }
-    a:hover.link--arrow:after {
-      opacity: 1;
-      left: 25rem;
-      transition: all .3s ease-out; }
   a.nav-link {
     color: #48554A !important; }
     a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
@@ -47,13 +40,20 @@ a {
       border-radius: 0.5rem;
       color: #4D5AE4 !important; }
   a.link--arrow:after {
-    content: "\f30b";
+    content: "->";
     color: rgba(77, 90, 228, 0.5);
-    font-family: "Font Awesome 5 Solid";
+    display: inline-block;
+    margin-left: -1rem;
     opacity: 0;
-    position: absolute;
-    left: 22rem;
+    right: 0;
     transition: all .3s ease-in; }
+  a:hover {
+    color: #4D5AE4;
+    text-decoration: none; }
+    a:hover.link--arrow:after {
+      opacity: 1;
+      margin-left: 1rem;
+      transition: all .3s ease-out; }
 
 .text--blurple {
   color: #5866FF; }
@@ -302,6 +302,9 @@ header a {
 
 .fade-top {
   -webkit-mask-image: -webkit-gradient(linear, left 50%, left top, from(black), to(transparent)); }
+
+.fade-bottom {
+  -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(black), to(transparent)); }
 
 .opacity-100 {
   opacity: 1 !important; }

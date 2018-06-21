@@ -91,17 +91,6 @@ h1, h2 {
 a {
   color: $link;
 
-  &:hover {
-    color: $link;
-    text-decoration: none;
-
-    &.link--arrow:after {
-      opacity: 1;
-      left: 25rem;
-      transition: all .3s ease-out;
-    }
-  }
-
   &.nav-link {
     color: $text !important;
 
@@ -115,13 +104,24 @@ a {
   }
 
   &.link--arrow:after {
-    content: "\f30b";
+    content: "->";
     color: transparentize($link, 0.5);
-    font-family: $font--icons;
+    display: inline-block;
+    margin-left: -1rem;
     opacity: 0;
-    position: absolute;
-    left: 22rem;
+    right: 0;
     transition: all .3s ease-in;
+  }
+
+  &:hover {
+    color: $link;
+    text-decoration: none;
+
+    &.link--arrow:after {
+      opacity: 1;
+      margin-left: 1rem;
+      transition: all .3s ease-out;
+    }
   }
 }
 
@@ -452,6 +452,10 @@ header a {
 
 .fade-top {
   -webkit-mask-image: -webkit-gradient(linear, left 50%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.fade-bottom {
+  -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
 .opacity-100 {
