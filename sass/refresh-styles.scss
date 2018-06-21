@@ -472,7 +472,8 @@ header a {
 }
 
 .background-gradient--5 {
-  background: linear-gradient(45deg, $green 0%, $purple 100%);
+  // background: linear-gradient(45deg, $green 0%, $purple 100%);
+  background: $button--secondary;
   
   -webkit-clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
   clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
@@ -510,6 +511,12 @@ header a {
 
 .background-pattern--dots {
   background-image: url('http://adamruf.com/images/2018-refresh/dot-pattern.svg');
+}
+
+.background-pattern--emoji-hands {
+  background-image: url('http://adamruf.com/images/2018-refresh/emoji-hands@2x.png');
+  background-size: 270px;
+  opacity: 0.2;
 }
 
 .background-pattern--shapes {

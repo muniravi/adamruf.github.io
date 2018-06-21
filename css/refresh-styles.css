@@ -313,7 +313,7 @@ header a {
   width: 130%; }
 
 .background-gradient--5 {
-  background: linear-gradient(45deg, #7FFFB9 0%, #C496FF 100%);
+  background: #F4F5F6;
   -webkit-clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
   clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%); }
 
@@ -347,6 +347,11 @@ header a {
 
 .background-pattern--dots {
   background-image: url("http://adamruf.com/images/2018-refresh/dot-pattern.svg"); }
+
+.background-pattern--emoji-hands {
+  background-image: url("http://adamruf.com/images/2018-refresh/emoji-hands@2x.png");
+  background-size: 270px;
+  opacity: 0.2; }
 
 .background-pattern--shapes {
   background-image: url("http://adamruf.com/images/2018-refresh/shape-pattern.svg"); }
