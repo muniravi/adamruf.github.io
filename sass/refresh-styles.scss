@@ -4,8 +4,10 @@
 $white:                   #FFFFFF;
 $black:                   #162018;
 $text:                    #48554A;
-$text--subtle:            #707571;
-$text--placeholder:       #A2A9A3;
+$text--subtle:            transparentize(#48554A, 0.4);
+$text--placeholder:       transparentize(#48554A, 0.6);
+// $text--subtle:            #707571;
+// $text--placeholder:       #A2A9A3;
 $border--gray:            #D1D4D1;
 $button--secondary:       #F4F5F6;
 // $button--primary:         #4D5AE4;

@@ -51,7 +51,7 @@ h1, h2 {
 .small-heading {
   font-size: 20px;
   font-size: 2rem;
-  color: #A2A9A3;
+  color: rgba(72, 85, 74, 0.4);
   font-family: "Open Sans", sans-serif;
   font-weight: normal; }
 
@@ -99,7 +99,7 @@ a {
   color: #727dff; }
 
 .text--placeholder {
-  color: #A2A9A3; }
+  color: rgba(72, 85, 74, 0.4); }
 
 .text--purple {
   color: #C496FF; }
@@ -138,7 +138,7 @@ header a {
 .testimonial-message {
   font-size: 30px;
   font-size: 3rem;
-  color: #707571;
+  color: rgba(72, 85, 74, 0.6);
   font-family: Times, 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
@@ -166,14 +166,14 @@ header a {
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder {
-  color: #A2A9A3 !important; }
+  color: rgba(72, 85, 74, 0.4) !important; }
 
 .button {
   background-color: #F4F5F6;
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
-  color: #707571 !important;
+  color: rgba(72, 85, 74, 0.6) !important;
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 600;
@@ -206,7 +206,7 @@ header a {
 .button-toggle {
   background: #F4F5F6;
   border: none;
-  color: #707571;
+  color: rgba(72, 85, 74, 0.6);
   padding: 1rem 1.5rem;
   transition: 0.15s ease; }
   .button-toggle:hover, .button-toggle:focus {
@@ -233,7 +233,7 @@ header a {
 .cta-text {
   font-size: 18px;
   font-size: 1.8rem;
-  color: #707571; }
+  color: rgba(72, 85, 74, 0.6); }
 
 .ar-alert {
   background: #F4F5F6;
