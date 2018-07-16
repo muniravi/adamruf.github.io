@@ -2,13 +2,15 @@
 
 //* COLORS *//
 $white:                   #FFFFFF;
+$black:                   #162018;
 $text:                    #48554A;
 $text--subtle:            #707571;
 $text--placeholder:       #A2A9A3;
 $border--gray:            #D1D4D1;
 $button--secondary:       #F4F5F6;
-$button--primary:         #4D5AE4;
-$link:                    #4D5AE4;
+// $button--primary:         #4D5AE4;
+$button--primary:         #727dff;
+$link:                    #5866FF;
 
 $red:                     #FF7F9E;
 $orange:                  #FFCE7F;
@@ -16,16 +18,40 @@ $gold:                    #FFEB4B;
 $yellow:                  #FFFD7F;
 $green:                   #7FFFB9;
 $blue:                    #7FF6FF;
-$blurple:                 #5866FF;
+// $blurple:                 #5866FF;
+$blurple:                 #727dff;
 $purple:                  #C496FF;
 
-$red--light:              #FFF3F6;
-$orange--light:           #FFF8EC;
-$yellow--light:           #FFFEEB;
-$green--light:            #F3FFF8;
-$blue--light:             #F3FFFF;
-$purple--light:           #F9F4FF;
+$red--md:                 #FFBFCF;
+$orange--md:              #FFE7BF;
+$yellow--md:              #FFFEBF;
+$green--md:               #BFFFDD;
+$blue--md:                #BFFBFF;
+$purple--md:              #E2CBFF;
 
+$red--light:             #FFDFE7;
+$orange--light:          #FFF3DF;
+$yellow--light:          #FFFFDF;
+$green--light:           #DFFFEE;
+$blue--light:            #DFFDFF;
+$purple--light:          #F1E5FF;
+
+$red--pale:              #FFF3F6;
+$orange--pale:           #FFF8EC;
+$yellow--pale:           #FFFEEB;
+$green--pale:            #F3FFF8;
+$blue--pale:             #F3FFFF;
+$purple--pale:           #F9F4FF;
+
+
+//* FILLS *//
+.fill--red      { fill: $red; }
+.fill--orange   { fill: $orange; }
+.fill--yellow   { fill: $yellow; }
+.fill--green    { fill: $green; }
+.fill--blue     { fill: $blue; }
+.fill--purple   { fill: $purple; }
+.fill--black    { fill: $text; }
 
 
 //* FONTS *//
@@ -40,8 +66,11 @@ $font--icons: 'Font Awesome 5 Solid';
 
 //* ELEVATION *//
 $elevation-1: 0 1px 3px rgba(0,0,0,0.08), 0 4px 6px rgba(50,78,93,0.11);
-$elevation-2: 0 3px 6px rgba(0,0,0,0.08), 0 7px 14px rgba(50,78,93,0.1);
-$elevation-3: 0 5px 15px rgba(0,0,0,0.07), 0 15px 35px rgba(50,78,93,0.1);
+// $elevation-2: 0 3px 6px rgba(0,0,0,0.04), 0 7px 14px rgba(50,78,93,0.0925);
+// $elevation-3: 0 5px 15px rgba(0,0,0,0.02), 0 15px 35px rgba(50,78,93,0.0275);
+$elevation-2: 0 3px 6px rgba(0,0,0,0.07), 0 7px 14px rgba(50,78,93,0.1);
+$elevation-3: 0 5px 15px rgba(0,0,0,0.06), 0 15px 35px rgba(50,78,93,0.09);
+$elevation-4: 0 10px 30px rgba(0,0,0,0.05), 0 30px 70px rgba(50,78,93,0.08);
 
 /////* MIX-INS */////
 @mixin font-size($sizeValue: 1.6) {
@@ -68,6 +97,11 @@ body {
 
 .serif {
   font-family: Times, 'Times New Roman', serif;
+}
+
+*:focus {
+  outline: none !important;
+  // box-shadow: 0 2px 3rem transparentize($link, 0.75) !important;
 }
 
 h1,h2,h3,h4,h5 {
@@ -106,13 +140,14 @@ a {
 
   &.link--arrow:after {
     background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
+    background-repeat: no-repeat;
     content: "";
     color: transparentize($link, 0.5);
     display: inline-block;
     height: 1.2rem;
-    margin-left: -1rem;
     opacity: 0;
-    right: 0;
+    padding-right: 3.3rem;
+    transform: translateX(-1rem);
     transition: all .3s ease-in;
     width: 2rem;
   }
@@ -127,10 +162,21 @@ a {
 
     &.link--arrow:after {
       opacity: 1;
-      height: 1.2rem;
-      margin-left: 1rem;
+      transform: translateX(1rem);
       transition: all .3s ease-out;
-      width: 2rem;
+    }
+  }
+
+  &.link--image {
+    background: none;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      transform: scale(1.1);
+      transition: all 1s ease-in-out;
+      &:after {
+        border: none;
+      }
     }
   }
 }
@@ -141,6 +187,7 @@ a {
 .text--red { color: $red; }
 
 /* TOP NAV */
+.nav-icon {font-size: 2rem;}
 
 
 /* READING PROGRESS BAR */
@@ -189,13 +236,20 @@ header a {
 /////* FORMS */////
 
 .ar-input--text {
-  border: 1px solid $border--gray;
+  border: 1px solid $white;
   box-shadow: $elevation-1;
   color: $link !important;
   font-size: 1.8rem;
+  height: 57px;
   min-width: 35rem;
-  border-radius: 0.4rem;
+  border-radius: 0.4rem 0 0 0.4rem;
   padding: 1.5rem;
+  transition: all 0.2s ease-in-out;
+  &:focus {
+    border: 1px solid $white !important;
+    border-bottom: 4px solid transparentize($blurple, 0.5) !important;
+    box-shadow: $elevation-1;
+  }
 }
 
 ::-webkit-input-placeholder,
@@ -217,7 +271,7 @@ header a {
   text-align: center;
   text-transform: uppercase;
   padding: 1.5rem 3rem;
-  transition: all 0.15s ease;
+  transition: all 0.15s ease-in-out;
   white-space: nowrap;
   
   &:hover,
@@ -227,14 +281,17 @@ header a {
     text-decoration: none;
     transform: translateY(-1px);
   }
+  &:focus {
+    box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($link, 0.9);
+  }
 
   &:active {
     box-shadow: $elevation-1;
     transform: translateY(1px);
-  }
 
-  &:focus {
-    transform: translateY(0px);
+    &:focus {
+      transform: translateY(0px);
+    }
   }
 }
 
@@ -244,9 +301,8 @@ header a {
   text-shadow: 0 1px 3px rgba(77, 90, 228, 0.44);
   
   &:hover,
-  &:focus,
-  &:active {
-    background-color: darken($button--primary,1%);
+  &:focus {
+    background-color: lighten($button--primary,2%);
   }
 }
 
@@ -279,6 +335,16 @@ header a {
   border-radius: 0 6px 6px 0;
 }
 
+.ar-submit {
+  border-radius: 0 0.5rem 0.5rem 0;
+  &:hover {
+    background: lighten($blurple,2%);
+    // color: $link !important;
+    transform: translateY(0);
+  }
+  &:focus {transform: translateY(0);}
+}
+
 .cta-text {
   @include font-size(1.8);
   color: $text--subtle;
@@ -286,6 +352,7 @@ header a {
 
 .ar-alert {
   background: $button--secondary;
+  border: 5px solid transparent;
   border-radius: 1rem;
   box-shadow: $elevation-1;
   color: transparentize($text,0.15);
@@ -293,13 +360,36 @@ header a {
   font-family: 'Montserrat';
   font-weight: 500;
   padding: 2rem;
-  transition: all 0.2s ease;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  will-change: transform;
+  // transition: all 0.3s ease-in-out;
+
+  // &::after {
+  //   content: "";
+  //   border-radius: 1rem;
+  //   position: absolute;
+  //   z-index: -1;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   box-shadow: $elevation-2;
+  //   opacity: 0;
+  //   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  // }
 
   &:hover,
   &:focus {
     box-shadow: $elevation-2;
-    cursor: pointer;
-    transform: scale(1.025) translateY(-1px);
+    transform: translateY(-1px);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: transform;
+    // transform: scale(1.1) translateY(-1px);
+
+    &:after {
+      opacity: 1;
+    }
   }
 }
 
@@ -318,12 +408,54 @@ header a {
   width: 80%;
 }
 
-.ar-bg--red {background: $red--light !important;}
-.ar-bg--orange {background: $orange--light !important;}
-.ar-bg--yellow {background: $yellow--light !important;}
-.ar-bg--green {background: $green--light !important;}
-.ar-bg--blue {background: $blue--light !important;}
-.ar-bg--purple {background: $purple--light !important;}
+.ar-bg--red {
+  background: $red--pale !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: transparentize($red, 0.9);
+  }
+}
+.ar-bg--orange {
+  background: $orange--pale !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: transparentize($orange, 0.9);
+  }
+}
+.ar-bg--yellow {
+  background: $yellow--pale !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: transparentize($gold, 0.75);
+  }
+}
+.ar-bg--green {
+  background: $green--pale !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: transparentize($green, 0.75);
+  }
+}
+.ar-bg--blue {
+  background: $blue--pale !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: transparentize($blue, 0.75);
+  }
+}
+.ar-bg--purple {
+  background: $purple--pale !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: transparentize($purple, 0.9);
+  }
+}
 
 .ar-alert--sm {
   max-width: 50rem;
@@ -346,12 +478,12 @@ header a {
 }
 
 .svg-elevation-1 {
-  -webkit-filter:drop-shadow(0 1px 3px rgba(0,0,0,0.08)) drop-shadow(0 4px 6px rgba(50,78,93,0.11));
+  // -webkit-filter:drop-shadow(0 1px 3px rgba(0,0,0,0.08)) drop-shadow(0 4px 6px rgba(50,78,93,0.11));
   filter:drop-shadow(0 1px 3px rgba(0,0,0,0.08)) drop-shadow(0 4px 6px rgba(50,78,93,0.11));
 }
 
 .svg-elevation-2 {
-  -webkit-filter:drop-shadow(0 5px 15px rgba(0,0,0,0.07)) drop-shadow(0 15px 35px rgba(50,78,93,0.1));
+  // -webkit-filter:drop-shadow(0 5px 15px rgba(0,0,0,0.07)) drop-shadow(0 15px 35px rgba(50,78,93,0.1));
   filter:drop-shadow(0 5px 15px rgba(0,0,0,0.07)) drop-shadow(0 15px 35px rgba(50,78,93,0.1));
 }
 
@@ -472,11 +604,14 @@ header a {
 }
 
 .background-gradient--5 {
-  // background: linear-gradient(45deg, $green 0%, $purple 100%);
-  background: $button--secondary;
-  
-  -webkit-clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
-  clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  background: linear-gradient(90deg, transparentize($yellow,0.5) 0%, transparentize($green,0.5) 100%);
+  // background: $button--secondary;
+  // background: $yellow;
+  // -webkit-clip-path: polygon(0 0, 100% calc(50% - 1vw), 100% 100%, 0 50%);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
+  height: 52rem;
+  // -webkit-clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  // clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
   // -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   // -webkit-clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
@@ -504,6 +639,29 @@ header a {
 .opacity-wave--2 { animation: opacity-wave 5s infinite 1s }
 .opacity-wave--3 { animation: opacity-wave 5s infinite 2s }
 
+/* BACKGROUNDS */
+
+.background--red       { background: $red; }
+.background--orange    { background: $orange; }
+.background--yellow    { background: $yellow; }
+.background--green     { background: $green; }
+.background--blue      { background: $blue; }
+.background--purple    { background: $purple; }
+
+.background--red-md       { background: $red--md; }
+.background--orange-md    { background: $orange--md; }
+.background--yellow-md    { background: $yellow--md; }
+.background--green-md     { background: $green--md; }
+.background--blue-md      { background: $blue--md; }
+.background--purple-md    { background: $purple--md; }
+
+.background--red-light       { background: $red--light; }
+.background--orange-light    { background: $orange--light; }
+.background--yellow-light    { background: $yellow--light; }
+.background--green-light     { background: $green--light; }
+.background--blue-light      { background: $blue--light; }
+.background--purple-light    { background: $purple--light; }
+
 .background-pattern {
   height: 100%;
   width: 100%;
@@ -515,8 +673,8 @@ header a {
 
 .background-pattern--emoji-hands {
   background-image: url('http://adamruf.com/images/2018-refresh/emoji-hands@2x.png');
-  background-size: 270px;
-  opacity: 0.2;
+  background-size: 540px;
+  opacity: 0.25;
 }
 
 .background-pattern--shapes {
@@ -590,24 +748,22 @@ header a {
 }
 
 .img--intro-video {
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 .img--intro-video:hover {
   transform: scale(1.1) rotate(-5deg);
 }
 
+//* CARDS *//
+
 .ar-card {
   background: $white;
+  border: none;
   border-radius: 1rem;
   padding: 2rem;
   position: relative;
-}
-
-.ar-card--md {
-  min-height: 400px;
-  max-width: 500px;
-  width: 500px;
+  transition: all 0.3s ease-in-out;
 }
 
 .ar-card--sm {
@@ -616,30 +772,121 @@ header a {
   width: 350px;
 }
 
+.ar-card--md {
+  min-height: 390px;
+  max-width: 500px;
+  width: 500px;
+}
+
+// .ar-card--full {
+//   border-radius: 3rem;
+//   min-height: 100%;
+//   max-width: 100%;
+//   width: 100%;
+// }
+
+.ar-card--project {
+  .ar-card__body {
+    min-height: 158px;
+  }
+  &:hover,
+  &:focus {
+    box-shadow: $elevation-3;
+    transform: translateY(-5px);
+    &.ar-card--red { background: $red--light; }
+    &.ar-card--yellow { background: $yellow--light; }
+    &.ar-card--green { background: $green--light; }
+    &.ar-card--blue { background: $blue--light; }
+  }
+}
+
 .ar-card--service {
-  // padding: 2.5rem;
+  
 }
 
 .ar-card--testimonial {
 
 }
 
+.right-arrow:after {
+  background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
+  background-repeat: no-repeat;
+  content: "";
+  color: transparentize($text, 0.5);
+  display: inline-block;
+  height: 1.2rem;
+  opacity: 0;
+  transform: translateX(-1rem);
+  transition: all .3s ease-in;
+  width: 2rem;
+}
+
+.ar-card--link {
+  &:hover,
+  &:focus {
+    background: $white;
+    box-shadow: $elevation-3;
+    color: transparentize($text, 0.5);
+    transform: translateY(-5px);
+    .right-arrow:after {
+      opacity: 1;
+      transform: translateX(0.5rem);
+    }
+  }
+  &:focus {
+    &.ar-card--link-red { background: $red--light; }
+    &.ar-card--link-yellow { background: $yellow--light; }
+    &.ar-card--link-green { background: $green--light; }
+    &.ar-card--link-blue { background: $blue--light; }
+  }
+}
+
+.right-arrow:after {
+    background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
+    background-repeat: no-repeat;
+    content: "";
+    color: transparentize($text, 0.5);
+    display: inline-block;
+    height: 1.2rem;
+    opacity: 0;
+    transform: translateX(-1rem);
+    transition: all .3s ease-in;
+    // width: 2rem;
+}
 
 
 .ar-card__body {
-  // padding: 4rem;
+  color: $text;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
 }
 
 .ar-transparent-gray-text {
   color: transparentize($text,0.15);
 }
 
-.ar-card__heading {
+.ar-card__heading,
+.modal-title {
   font-family: 'Montserrat';
   font-size: 3rem;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.15;
 }
+
+
+/* MODALS */
+.modal-backdrop { background: $text; }
+
+.modal-header {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.modal-content { 
+  border: none;
+  border-radius: 1rem;
+  box-shadow: $elevation-4; 
+}
+
 
 /* ICONS */
 .ar-icon {display: inline-block;}
@@ -677,6 +924,24 @@ header a {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+  .fade-out--left:before {
+    content:'';
+    width: 2rem;
+    height:100%;    
+    position:absolute;
+    left: 6rem;
+    bottom:0;
+    background: linear-gradient(to right, white, transparent 20px);
+  }
+  .fade-out--right:before {
+    content:'';
+    width: 2rem;
+    height:100%;    
+    position:absolute;
+    right: 6rem;
+    bottom:0;
+    background: linear-gradient(to left, white, transparent 20px);
+  }
   .background-gradient--2 {
     clip-path: polygon(
       0 0,
@@ -708,7 +973,7 @@ header a {
 /////* HELPERS */////
 
 //* SPACING *//
-$spaceWhole: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30); // Adjust this to include the pixel amounts you need.
+$spaceWhole: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100); // Adjust this to include the pixel amounts you need.
 $spaceFraction: (0.5);
 $sides: (top, bottom, left, right); // Leave this variable alone
 
