@@ -809,7 +809,7 @@ header a {
 }
 
 .right-arrow:after {
-  background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
+  background-image: url('http://adamruf.com/images/2018-refresh/right-arrow.svg');
   background-repeat: no-repeat;
   content: "";
   color: transparentize($text, 0.5);
@@ -845,13 +845,11 @@ header a {
     background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
     background-repeat: no-repeat;
     content: "";
-    color: transparentize($text, 0.5);
     display: inline-block;
     height: 1.2rem;
     opacity: 0;
     transform: translateX(-1rem);
     transition: all .3s ease-in;
-    // width: 2rem;
 }
 
 

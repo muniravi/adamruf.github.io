@@ -574,7 +574,7 @@ header a {
     background: #DFFDFF; }
 
 .right-arrow:after {
-  background-image: url("http://adamruf.com/images/2018-refresh/link-arrow.svg");
+  background-image: url("http://adamruf.com/images/2018-refresh/right-arrow.svg");
   background-repeat: no-repeat;
   content: "";
   color: rgba(72, 85, 74, 0.5);
@@ -610,7 +610,6 @@ header a {
   background-image: url("http://adamruf.com/images/2018-refresh/link-arrow.svg");
   background-repeat: no-repeat;
   content: "";
-  color: rgba(72, 85, 74, 0.5);
   display: inline-block;
   height: 1.2rem;
   opacity: 0;
