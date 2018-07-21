@@ -141,7 +141,7 @@ a {
   }
 
   &.link--arrow:after {
-    background-image: url('http://adamruf.com/images/2018-refresh/link-arrow.svg');
+    background-image: url('https://adamruf.com/images/2018-refresh/link-arrow.svg');
     background-repeat: no-repeat;
     content: "";
     color: transparentize($link, 0.5);
@@ -161,6 +161,7 @@ a {
     border-radius: 0.5rem;
     color: $link;
     text-decoration: none;
+    transition: all .3s ease-in;
 
     &.link--arrow:after {
       opacity: 1;
@@ -168,18 +169,32 @@ a {
       transition: all .3s ease-out;
     }
   }
+}
 
-  &.link--image {
-    background: none;
-    &:focus {
-      box-shadow: none;
-      outline: none;
-      transform: scale(1.1);
-      transition: all 1s ease-in-out;
-      &:after {
-        border: none;
-      }
+.link--image {
+  background: none;
+  &:focus {
+    box-shadow: none;
+    outline: none;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+    &:after {
+      border: none;
     }
+  }
+}
+
+.link--button {
+  &:after {
+    background-image: url('https://adamruf.com/images/2018-refresh/right-arrow.svg');
+    background-repeat: no-repeat;
+    content: "";
+    color: transparentize($text, 0.5);
+    display: inline-block;
+    height: 1.2rem;
+    opacity: 1;
+    transform: translateX(1rem);
+    width: 2rem;
   }
 }
 
@@ -203,7 +218,7 @@ a {
 }
 
 .img-bullets--gem {
-  background: url('http://adamruf.com/images/2018-refresh/bullet--gem.svg') no-repeat left top / 19px 16px;
+  background: url('https://adamruf.com/images/2018-refresh/bullet--gem.svg') no-repeat left top / 19px 16px;
   height: 22px;
   line-height: 16px;
   padding-left: 20px;
@@ -499,7 +514,7 @@ header a {
 }
 
 .background-image--curved-path-1 {
-  background-image: url('http://adamruf.com/images/2018-refresh/curved-path-01.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/curved-path-01.svg');
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -670,44 +685,44 @@ header a {
 }
 
 .background-pattern--dots {
-  background-image: url('http://adamruf.com/images/2018-refresh/dot-pattern.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/dot-pattern.svg');
 }
 
 .background-pattern--emoji-hands {
-  background-image: url('http://adamruf.com/images/2018-refresh/emoji-hands@2x.png');
+  background-image: url('https://adamruf.com/images/2018-refresh/emoji-hands@2x.png');
   background-size: 540px;
   opacity: 0.25;
 }
 
 .background-pattern--shapes {
-  background-image: url('http://adamruf.com/images/2018-refresh/shape-pattern.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/shape-pattern.svg');
 }
 
 .background-pattern--shapes-dots {
-  background-image: url('http://adamruf.com/images/2018-refresh/shape-pattern.svg'), url('http://adamruf.com/images/2018-refresh/dot-pattern.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/shape-pattern.svg'), url('https://adamruf.com/images/2018-refresh/dot-pattern.svg');
 }
 
 .background-pattern--shapes-fade {
-  background-image: url('http://adamruf.com/images/2018-refresh/fade-to-white.png'), url('http://adamruf.com/images/2018-refresh/shape-pattern-2.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/fade-to-white.png'), url('https://adamruf.com/images/2018-refresh/shape-pattern-2.svg');
 }
 
 .background-pattern--dots {
-  background-image: url('http://adamruf.com/images/2018-refresh/dot-pattern.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/dot-pattern.svg');
 }
 
 .background-pattern--shapes {
-  background-image: url('http://adamruf.com/images/2018-refresh/shape-pattern.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/shape-pattern.svg');
 }
 
 .background-pattern--curved-path-1 {
-  background-image: url('http://adamruf.com/images/2018-refresh/curved-path-01.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/curved-path-01.svg');
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .background-pattern--purple-rocks-left {
-  background-image: url('http://adamruf.com/images/2018-refresh/purple-rocks-left@2x.png');
+  background-image: url('https://adamruf.com/images/2018-refresh/purple-rocks-left@2x.png');
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 371px;
@@ -717,7 +732,7 @@ header a {
 
 }
 .background-pattern--purple-rocks-right {
-  background-image: url('http://adamruf.com/images/2018-refresh/purple-rocks-right@2x.png');
+  background-image: url('https://adamruf.com/images/2018-refresh/purple-rocks-right@2x.png');
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 385px;
@@ -743,7 +758,7 @@ header a {
 }
 
 .background-image--shapes-1 {
-  background-image: url('http://adamruf.com/images/2018-refresh/shape-pattern.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/shape-pattern.svg');
   background-position: left top;
   background-repeat: repeat;
   background-size: cover;
@@ -811,7 +826,7 @@ header a {
 }
 
 .right-arrow:after {
-  background-image: url('http://adamruf.com/images/2018-refresh/right-arrow.svg');
+  background-image: url('https://adamruf.com/images/2018-refresh/right-arrow.svg');
   background-repeat: no-repeat;
   content: "";
   color: transparentize($text, 0.5);
@@ -841,17 +856,6 @@ header a {
     &.ar-card--link-green { background: $green--light; }
     &.ar-card--link-blue { background: $blue--light; }
   }
-}
-
-.right-arrow:after {
-    background-image: url('http://adamruf.com/images/2018-refresh/right-arrow.svg');
-    background-repeat: no-repeat;
-    content: "";
-    display: inline-block;
-    height: 1.2rem;
-    opacity: 0;
-    transform: translateX(-1rem);
-    transition: all .3s ease-in;
 }
 
 

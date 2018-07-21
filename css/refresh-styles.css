@@ -80,20 +80,33 @@ a {
     background: rgba(88, 102, 255, 0.05);
     border-radius: 0.5rem;
     color: #5866FF;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: all .3s ease-in; }
     a:hover.link--arrow:after, a:active.link--arrow:after, a:focus.link--arrow:after {
       opacity: 1;
       transform: translateX(1rem);
       transition: all .3s ease-out; }
-  a.link--image {
-    background: none; }
-    a.link--image:focus {
-      box-shadow: none;
-      outline: none;
-      transform: scale(1.1);
-      transition: all 1s ease-in-out; }
-      a.link--image:focus:after {
-        border: none; }
+
+.link--image {
+  background: none; }
+  .link--image:focus {
+    box-shadow: none;
+    outline: none;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out; }
+    .link--image:focus:after {
+      border: none; }
+
+.link--button:after {
+  background-image: url("http://adamruf.com/images/2018-refresh/right-arrow.svg");
+  background-repeat: no-repeat;
+  content: "";
+  color: rgba(72, 85, 74, 0.5);
+  display: inline-block;
+  height: 1.2rem;
+  opacity: 1;
+  transform: translateX(1rem);
+  width: 2rem; }
 
 .text--blurple {
   color: #727dff; }
@@ -605,16 +618,6 @@ header a {
 
 .ar-card--link:focus.ar-card--link-blue {
   background: #DFFDFF; }
-
-.right-arrow:after {
-  background-image: url("http://adamruf.com/images/2018-refresh/right-arrow.svg");
-  background-repeat: no-repeat;
-  content: "";
-  display: inline-block;
-  height: 1.2rem;
-  opacity: 0;
-  transform: translateX(-1rem);
-  transition: all .3s ease-in; }
 
 .ar-card__body {
   color: #48554A;
