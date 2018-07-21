@@ -779,6 +779,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/confetti-bg-tile@2x.png": {
+		"ft": 32768,
+		"iS": 42467,
+		"oA": 0,
+		"oAP": "\/images\/confetti-bg-tile@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/designlab-design-mentoring.png": {
 		"ft": 32768,
 		"iS": 25014,
