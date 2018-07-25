@@ -17,7 +17,7 @@
   fill: #C496FF; }
 
 .fill--black {
-  fill: #48554A; }
+  fill: rgba(22, 32, 24, 0.8); }
 
 .font-montserrat {
   font-family: Montserrat; }
@@ -28,7 +28,7 @@ html {
 body {
   font-size: 16px;
   font-size: 1.6rem;
-  color: #48554A;
+  color: rgba(22, 32, 24, 0.8);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
@@ -51,15 +51,18 @@ h1, h2 {
 .small-heading {
   font-size: 20px;
   font-size: 2rem;
-  color: rgba(72, 85, 74, 0.4);
+  color: rgba(22, 32, 24, 0.4);
   font-family: "Open Sans", sans-serif;
   font-weight: normal; }
 
 a {
   color: #5866FF;
-  padding: 0.5rem 1rem; }
+  transition: all .2s ease-in; }
+  a.link--padded {
+    padding: 0.5rem 1rem; }
   a.nav-link {
-    color: #48554A !important; }
+    color: rgba(22, 32, 24, 0.8) !important;
+    padding: 0.5rem 1rem; }
     a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
       background: rgba(88, 102, 255, 0.05);
       border-radius: 0.5rem;
@@ -101,7 +104,7 @@ a {
   background-image: url("https://adamruf.com/images/2018-refresh/right-arrow.svg");
   background-repeat: no-repeat;
   content: "";
-  color: rgba(72, 85, 74, 0.5);
+  color: rgba(22, 32, 24, 0.3);
   display: inline-block;
   height: 1.2rem;
   opacity: 1;
@@ -112,13 +115,16 @@ a {
   color: #727dff; }
 
 .text--placeholder {
-  color: rgba(72, 85, 74, 0.4); }
+  color: rgba(22, 32, 24, 0.2); }
 
 .text--purple {
   color: #C496FF; }
 
 .text--red {
   color: #FF7F9E; }
+
+.text--subtle {
+  color: rgba(22, 32, 24, 0.4); }
 
 /* TOP NAV */
 .nav-icon {
@@ -144,14 +150,14 @@ header {
   font-weight: 700; }
 
 header a {
-  color: #48554A; }
+  color: rgba(22, 32, 24, 0.8); }
   header a:hover, header a:focus, header a:active {
     color: #5866FF; }
 
 .testimonial-message {
   font-size: 30px;
   font-size: 3rem;
-  color: rgba(72, 85, 74, 0.6);
+  color: rgba(22, 32, 24, 0.7);
   font-family: Times, 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
@@ -175,18 +181,15 @@ header a {
     border: 1px solid #FFFFFF !important;
     border-bottom: 4px solid rgba(114, 125, 255, 0.5) !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11); }
-
-::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder {
-  color: rgba(72, 85, 74, 0.4) !important; }
+  .ar-input--text::-webkit-input-placeholder, .ar-input--text::-moz-placeholder, .ar-input--text:-ms-input-placeholder {
+    color: rgba(22, 32, 24, 0.2); }
 
 .button {
   background-color: #F4F5F6;
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
-  color: rgba(72, 85, 74, 0.6) !important;
+  color: rgba(22, 32, 24, 0.7) !important;
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 600;
@@ -219,7 +222,7 @@ header a {
 .button-toggle {
   background: #F4F5F6;
   border: none;
-  color: rgba(72, 85, 74, 0.6);
+  color: rgba(22, 32, 24, 0.7);
   padding: 1rem 1.5rem;
   transition: 0.15s ease; }
   .button-toggle:hover, .button-toggle:focus {
@@ -246,14 +249,14 @@ header a {
 .cta-text {
   font-size: 18px;
   font-size: 1.8rem;
-  color: rgba(72, 85, 74, 0.6); }
+  color: rgba(22, 32, 24, 0.7); }
 
 .ar-alert {
   background: #F4F5F6;
   border: 5px solid transparent;
   border-radius: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
-  color: rgba(72, 85, 74, 0.85);
+  color: rgba(22, 32, 24, 0.65);
   display: block;
   font-family: 'Montserrat';
   font-weight: 500;
@@ -593,7 +596,7 @@ header a {
   background-image: url("https://adamruf.com/images/2018-refresh/right-arrow.svg");
   background-repeat: no-repeat;
   content: "";
-  color: rgba(72, 85, 74, 0.5);
+  color: rgba(22, 32, 24, 0.3);
   display: inline-block;
   height: 1.2rem;
   opacity: 0;
@@ -604,7 +607,7 @@ header a {
 .ar-card--link:hover, .ar-card--link:focus {
   background: #FFFFFF;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
-  color: rgba(72, 85, 74, 0.5);
+  color: rgba(22, 32, 24, 0.3);
   transform: translateY(-5px); }
   .ar-card--link:hover .right-arrow:after, .ar-card--link:focus .right-arrow:after {
     opacity: 1;
@@ -623,12 +626,12 @@ header a {
   background: #DFFDFF; }
 
 .ar-card__body {
-  color: #48554A;
+  color: rgba(22, 32, 24, 0.8);
   text-align: left;
   transition: all 0.3s ease-in-out; }
 
 .ar-transparent-gray-text {
-  color: rgba(72, 85, 74, 0.85); }
+  color: rgba(22, 32, 24, 0.65); }
 
 .ar-card__heading,
 .modal-title {
@@ -639,16 +642,27 @@ header a {
 
 /* MODALS */
 .modal-backdrop {
-  background: #48554A; }
+  background: rgba(22, 32, 24, 0.6); }
+
+.modal-content {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 30px 70px rgba(50, 78, 93, 0.08); }
 
 .modal-header {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem; }
 
-.modal-content {
-  border: none;
-  border-radius: 1rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 30px 70px rgba(50, 78, 93, 0.08); }
+.modal-body__text {
+  color: rgba(22, 32, 24, 0.7);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 2rem; }
+
+.modal-close {
+  font-size: 4rem; }
 
 /* ICONS */
 .ar-icon {
