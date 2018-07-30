@@ -181,7 +181,7 @@ a {
 }
 
 .link--image {
-  background: none;
+  background: none !important;
   &:focus {
     box-shadow: none;
     outline: none;
@@ -334,34 +334,43 @@ header a {
   }
 }
 
-.button-toggle {
-  background: $button--secondary;
+.nav-pills .nav-link {
+  background: transparent;
   border: none;
+  border-radius: 0.5rem !important;
   color: $text--light;
   padding: 1rem 1.5rem;
   transition: 0.15s ease;
 
   &:hover,
   &:focus {
-    background: darken($button--secondary, 5%);
+    background: transparentize($button--primary, 0.9);
+    // border-bottom: 3px solid lighten($link, 25%);
+    color: $link !important;
   }
 
+  // &:focus {
+  //   box-shadow: 0 0 3rem 1rem 1rem transparentize($link, 0.9);
+  //   color: $text--light !important;
+  // }
+
   &.active {
-    background: darken($button--secondary, 5%);
-    // color: white;
-    &:hover {
-      cursor: not-allowed;
+    background: $button--primary;
+    // border-bottom: 3px solid $link;
+    color: white !important;
+    &:focus {
+      box-shadow: 0 0 3rem 1rem transparentize($link, 0.85);
     }
   }
 }
 
-.button-toggle--left {
-  border-radius: 6px 0 0 6px;
-}
+// .toggle--left {
+//   border-radius: 6px 0 0 6px !important;
+// }
 
-.button-toggle--right {
-  border-radius: 0 6px 6px 0;
-}
+// .toggle--right {
+//   border-radius: 0 6px 6px 0 !important;
+// }
 
 .ar-submit {
   border-radius: 0 0.5rem 0.5rem 0;
@@ -920,6 +929,24 @@ header a {
   font-size: 4rem;
 }
 
+/* FIGURES */
+.figure-image {
+  border-radius: 4rem;
+  box-shadow: $elevation-2;
+  max-width: 400px;
+  width: 100%;
+}
+
+.figure-caption {
+  background: transparentize($black, 0.95);
+  border-radius: 1rem;
+  color: $text--light;
+  margin: 0 auto;
+  margin-top: 1rem;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+}
+
 
 
 
@@ -942,6 +969,7 @@ header a {
 .border-b-yellow {border-bottom: 10px solid $yellow;}
 .border-b-green {border-bottom: 10px solid $green;}
 .border-b-blue {border-bottom: 10px solid $blue;}
+.border-b-purple {border-bottom: 10px solid $purple;}
 
 
 /* Styles that allow top nav to scroll */

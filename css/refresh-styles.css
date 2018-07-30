@@ -91,7 +91,7 @@ a {
       transition: all .3s ease-out; }
 
 .link--image {
-  background: none; }
+  background: none !important; }
   .link--image:focus {
     box-shadow: none;
     outline: none;
@@ -219,24 +219,21 @@ header a {
   .button--primary:hover, .button--primary:focus {
     background-color: #7c86ff; }
 
-.button-toggle {
-  background: #F4F5F6;
+.nav-pills .nav-link {
+  background: transparent;
   border: none;
+  border-radius: 0.5rem !important;
   color: rgba(22, 32, 24, 0.7);
   padding: 1rem 1.5rem;
   transition: 0.15s ease; }
-  .button-toggle:hover, .button-toggle:focus {
-    background: #e6e8eb; }
-  .button-toggle.active {
-    background: #e6e8eb; }
-    .button-toggle.active:hover {
-      cursor: not-allowed; }
-
-.button-toggle--left {
-  border-radius: 6px 0 0 6px; }
-
-.button-toggle--right {
-  border-radius: 0 6px 6px 0; }
+  .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    background: rgba(114, 125, 255, 0.1);
+    color: #5866FF !important; }
+  .nav-pills .nav-link.active {
+    background: #727dff;
+    color: white !important; }
+    .nav-pills .nav-link.active:focus {
+      box-shadow: 0 0 3rem 1rem rgba(88, 102, 255, 0.15); }
 
 .ar-submit {
   border-radius: 0 0.5rem 0.5rem 0; }
@@ -664,6 +661,22 @@ header a {
 .modal-close {
   font-size: 4rem; }
 
+/* FIGURES */
+.figure-image {
+  border-radius: 4rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
+  max-width: 400px;
+  width: 100%; }
+
+.figure-caption {
+  background: rgba(22, 32, 24, 0.05);
+  border-radius: 1rem;
+  color: rgba(22, 32, 24, 0.7);
+  margin: 0 auto;
+  margin-top: 1rem;
+  max-width: 400px;
+  padding: 0.5rem 1rem; }
+
 /* ICONS */
 .ar-icon {
   display: inline-block; }
@@ -709,6 +722,9 @@ header a {
 
 .border-b-blue {
   border-bottom: 10px solid #7FF6FF; }
+
+.border-b-purple {
+  border-bottom: 10px solid #C496FF; }
 
 /* Styles that allow top nav to scroll */
 @media (max-width: 500px) {
