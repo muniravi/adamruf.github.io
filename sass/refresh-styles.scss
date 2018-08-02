@@ -28,26 +28,60 @@ $blue:                    #7FF6FF;
 $blurple:                 #727dff;
 $purple:                  #C496FF;
 
-$red--md:                 #FFBFCF;
-$orange--md:              #FFE7BF;
-$yellow--md:              #FFFEBF;
-$green--md:               #BFFFDD;
-$blue--md:                #BFFBFF;
-$purple--md:              #E2CBFF;
+// $red--md:                 #FFBFCF;
+// $orange--md:              #FFE7BF;
+// $yellow--md:              #FFFEBF;
+// $green--md:               #BFFFDD;
+// $blue--md:                #BFFBFF;
+// $purple--md:              #E2CBFF;
 
-$red--light:             #FFDFE7;
-$orange--light:          #FFF3DF;
-$yellow--light:          #FFFFDF;
-$green--light:           #DFFFEE;
-$blue--light:            #DFFDFF;
-$purple--light:          #F1E5FF;
+// $red--light:             #FFDFE7;
+// $orange--light:          #FFF3DF;
+// $yellow--light:          #FFFFDF;
+// $green--light:           #DFFFEE;
+// $blue--light:            #DFFDFF;
+// $purple--light:          #F1E5FF;
 
-$red--pale:              #FFF3F6;
+$red--light:             #FFBFCE;
+$orange--light:          #FFE6BF;
+$yellow--light:          #FFFEBF;
+$green--light:           #BFFFDC;
+$blue--light:            #BFFAFF;
+$blurple--light:         #B8BEFF;
+$purple--light:          #E1CAFF;
+
+$red--pale:              #FFECF1;
 $orange--pale:           #FFF8EC;
-$yellow--pale:           #FFFEEB;
-$green--pale:            #F3FFF8;
-$blue--pale:             #F3FFFF;
-$purple--pale:           #F9F4FF;
+$yellow--pale:           #FFFFEC;
+$green--pale:            #ECFFF5;
+$blue--pale:             #ECFEFF;
+$blurple--pale:          #EAECFF;
+$purple--pale:           #F6F0FF;
+
+$red--dark:              #D02045;
+$orange--dark:           #D07D20;
+$yellow--dark:           #FFEB4B;
+$green--dark:            #16C766;
+$blue--dark:             #16BCC5;
+$blurple--dark:          #141FC5;
+$purple--dark:           #743EC5;
+
+// $red--dark:              darken($red,10%);
+// $orange--dark:           darken($orange,10%);
+// $yellow--dark:           darken($yellow,10%);
+// $green--dark:            darken($green,10%);
+// $blue--dark:             darken($blue,10%);
+// $blurple--dark:          darken($blurple,10%);
+// $purple--dark:           darken($purple,10%);
+
+// $red--pale:              #FFF3F6;
+// $orange--pale:           #FFF8EC;
+// $yellow--pale:           #FFFEEB;
+// $green--pale:            #F3FFF8;
+// $blue--pale:             #F3FFFF;
+// $purple--pale:           #F9F4FF;
+
+
 
 
 //* FILLS *//
@@ -130,7 +164,7 @@ h1, h2 {
 
 a {
   color: $link;
-  transition: all .2s ease-in;
+  transition: all .2s ease-in-out;
 
   &.link--padded {
     padding: 0.5rem 1rem;
@@ -163,11 +197,16 @@ a {
     width: 2rem;
   }
 
+  &.link--arrow-green:after {
+      background-image: url('https://adamruf.com/images/2018-refresh/green-arrow.svg');
+    }
+
   &:hover,
   &:active,
   &:focus {
     background: transparentize($link, 0.95);
     border-radius: 0.5rem;
+    border-bottom: 2px solid inherit;
     color: $link;
     text-decoration: none;
     transition: all .3s ease-in;
@@ -207,11 +246,102 @@ a {
   }
 }
 
+.link--red {
+  color: darken($red,10%);
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparentize($red, 0.85);
+    border-radius: 0;
+    color: darken($red,10%) !important;
+  }
+}
+
+.link--orange {
+  color: darken($orange,10%);
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparentize($orange, 0.85);
+    border-radius: 0;
+    color: darken($orange,10%) !important;
+  }
+}
+
+.link--yellow {
+  color: darken($yellow,10%);
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparentize($yellow, 0.85);
+    border-radius: 0;
+    color: darken($yellow,10%) !important;
+  }
+}
+
+.link--green {
+  color: darken($green,30%);
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparentize($green, 0.85);
+    border-radius: 0;
+    color: darken($green,30%) !important;
+  }
+}
+
+.link--blue {
+  color: darken($blue,10%);
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparentize($blue, 0.85);
+    border-radius: 0;
+    color: darken($blue,10%) !important;
+  }
+}
+
+.link--purple {
+  color: darken($purple,10%);
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparentize($purple, 0.85);
+    border-radius: 0;
+    color: darken($purple,10%) !important;
+    // &:before {
+    //   content: '';
+    //   position: absolute;
+    //   background: transparentize($purple, 0.85);
+    //   height: 2rem;
+    //   min-width: 20rem;
+    //   bottom: -0.2rem;
+    //   left: 4rem;
+    // }
+  }
+  
+}
+
 .text--blurple { color: $blurple; }
 .text--placeholder { color: $text--placeholder; }
-.text--purple { color: $purple; }
+
 .text--red { color: $red; }
+.text--orange { color: $orange; }
+.text--yellow { color: $yellow; }
+.text--green { color: $green; }
+.text--blue { color: $blue; }
+.text--blurple { color: $blurple; }
+.text--purple { color: $purple; }
+
 .text--subtle { color: $text--subtle; }
+
+.text-shadow--red { text-shadow: 0 2px 6px $red--dark; }
+.text-shadow--orange { text-shadow: 0 2px 6px $orange--dark; }
+.text-shadow--yellow { text-shadow: 0 2px 6px $yellow--dark; }
+.text-shadow--green { text-shadow: 0 2px 6px $green--dark; }
+.text-shadow--blue { text-shadow: 0 2px 6px $blue--dark; }
+.text-shadow--blurple { text-shadow: 0 2px 6px $blurple; }
+.text-shadow--purple { text-shadow: 0 2px 6px $purple--dark; }
 
 /* TOP NAV */
 .nav-icon {font-size: 2rem;}
@@ -284,6 +414,94 @@ header a {
   }
 }
 
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  opacity: 0;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 4rem;
+  cursor: pointer;
+  padding-top: 0.25rem;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 30px; height: 30px;
+  border: 3px solid transparentize($purple,0.5);
+  background: $white;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 5px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: -11px;
+  left: 5px;
+  font-size: 4rem;
+  color: darken($purple,10%);
+  line-height: 1;
+  transition: all .2s ease-in-out;
+  text-shadow: 1px 2px 2px transparentize($text,0.555);
+}
+
+.check--water + label:after {
+  content: '🚰' !important;
+  position: absolute;
+  left: -10px !important;
+  top: -5px !important;
+}
+
+.check--speak + label:after {
+  content: '🗣️' !important;
+  color: darken($purple,10%);
+  position: absolute;
+  left: -5px !important;
+  top: -8px !important;
+}
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  box-shadow: 0 0 10px transparentize($purple,0.5);
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 3px solid $purple !important;
+}
+
 
 
 .button {
@@ -331,6 +549,36 @@ header a {
   &:hover,
   &:focus {
     background-color: lighten($button--primary,2%);
+  }
+}
+
+.button--red {
+  background-color: $red--light;
+  color: $white !important;
+  text-shadow: 0 1px 3px $red--dark;
+  
+  &:hover,
+  &:focus {
+    background-color: lighten($red--light,1%);
+  }
+
+  &:focus {
+    box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($red, 0.9);
+  }
+}
+
+.button--green {
+  background-color: $green--light;
+  color: $white !important;
+  text-shadow: 0 1px 3px $green--dark;
+  
+  &:hover,
+  &:focus {
+    background-color: darken($green,2%);
+  }
+
+  &:focus {
+    box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($green, 0.9);
   }
 }
 
@@ -533,6 +781,11 @@ header a {
   overflow-x: hidden;
 }
 
+.background-image {
+  background-position: left top;
+  background-size: cover;
+}
+
 .background-image--curved-path-1 {
   background-image: url('https://adamruf.com/images/2018-refresh/curved-path-01.svg');
   background-position: left center;
@@ -540,10 +793,20 @@ header a {
   background-size: contain;
 }
 
-.background-image {
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); */
+.background-image--portfolio-reviews {
+  background-image: url('../images/2018-refresh/portfolio-reviews@2x.png');
 }
+.background-image--ux-design-contest {
+  background-image: url('../images/2018-refresh/ux-design-contest@2x.png');
+}
+.background-image--zero-to-portfolio {
+  background-image: url('../images/2018-refresh/zero-to-portfolio@2x.png');
+}
+.background-image--digital-cartoons {
+  background-image: url('../images/2018-refresh/digital-cartoons@2x.png');
+}
+
+
 
 .background-gradient {
   margin-bottom:20rem;
@@ -617,14 +880,14 @@ header a {
 }
 
 .background-gradient--3 {
-  background: #F5FFF9;
-  background-image: linear-gradient(#F5FFF9, #CFFFE4);
+  background: $green--pale;
+  background-image: linear-gradient($green--pale, #CFFFE4);
   border-radius: 50% 50% 0 0;
-  box-shadow: 0 -3rem 6rem #F5FFF9;
-  height: 400px;
+  box-shadow: 0 -4rem 8rem $green--pale;
+  height: 500px;
   margin-left: -15%;
   margin-right: -15%;
-  top: 10rem;
+  top: 0;
   width: 130%;
 }
 
@@ -653,6 +916,10 @@ header a {
   // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   // -webkit-clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
   // clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.fade {
+  transition: opacity .3s ease-in-out;
 }
 
 .fade-top {
@@ -685,12 +952,12 @@ header a {
 .background--blue      { background: $blue; }
 .background--purple    { background: $purple; }
 
-.background--red-md       { background: $red--md; }
-.background--orange-md    { background: $orange--md; }
-.background--yellow-md    { background: $yellow--md; }
-.background--green-md     { background: $green--md; }
-.background--blue-md      { background: $blue--md; }
-.background--purple-md    { background: $purple--md; }
+// .background--red-md       { background: $red--md; }
+// .background--orange-md    { background: $orange--md; }
+// .background--yellow-md    { background: $yellow--md; }
+// .background--green-md     { background: $green--md; }
+// .background--blue-md      { background: $blue--md; }
+// .background--purple-md    { background: $purple--md; }
 
 .background--red-light       { background: $red--light; }
 .background--orange-light    { background: $orange--light; }
@@ -802,10 +1069,17 @@ header a {
   background: $white;
   border: none;
   border-radius: 1rem;
+  overflow: hidden;
   padding: 2rem;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
+
+// .ar-card:hover .background-image,
+// .ar-card:focus .background-image {
+//   transform: scale(1.2);
+//   height: 234px;
+// }
 
 .ar-card--sm {
   min-height: 300px;
@@ -834,10 +1108,44 @@ header a {
   &:focus {
     box-shadow: $elevation-3;
     transform: translateY(-5px);
-    &.ar-card--red { background: $red--light; }
-    &.ar-card--yellow { background: $yellow--light; }
-    &.ar-card--green { background: $green--light; }
-    &.ar-card--blue { background: $blue--light; }
+  }
+  &:focus {
+    &.ar-card--red {
+      background: $white;
+      background-image: -webkit-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -moz-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -ms-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -o-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
+    }
+    &.ar-card--yellow {
+      background: $white;
+      background-image: -webkit-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -moz-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -ms-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -o-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
+    }
+    &.ar-card--green {
+      background: $white;
+      background-image: -webkit-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -moz-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -ms-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -o-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
+    }
+     
+    &.ar-card--blue {
+      background: $white;
+      background-image: -webkit-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -moz-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -ms-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -o-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
+    }
+    &.ar-card--purple {
+      background: $white;
+      background-image: -webkit-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -moz-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -ms-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
+      background-image: -o-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
+    }
   }
 }
 
@@ -868,6 +1176,7 @@ header a {
     background: $white;
     box-shadow: $elevation-3;
     color: transparentize($text, 0.5);
+    text-decoration: none;
     transform: translateY(-5px);
     .right-arrow:after {
       opacity: 1;
@@ -905,6 +1214,10 @@ header a {
 /* MODALS */
 .modal-backdrop { background: transparentize($black, 0.4); }
 
+.modal-title {
+  max-width: 90%;
+}
+
 .modal-content { 
   background: $white;
   border: none;
@@ -917,6 +1230,11 @@ header a {
   border-top-right-radius: 1rem;
 }
 
+.modal-body {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
 .modal-body__text {
   color: $text--light;
   font-size: 17px;
@@ -925,8 +1243,40 @@ header a {
   margin-bottom: 2rem;
 }
 
-.modal-close {
-  font-size: 4rem;
+.modal-image--xs {
+  width: 88px;
+}
+
+.modal-close { font-size: 4rem; }
+
+.close { opacity: 0.4; }
+
+.modal-close--red {
+  color: $red;
+  &:hover,
+  &:focus {
+    color: $red;
+  }
+}
+
+.modal-close--green {
+  color: darken($green,10%);
+  &:hover,
+  &:focus {
+    color: darken($green,10%);
+  }
+}
+
+.modal-close--purple {
+  color: $purple;
+  &:hover,
+  &:focus {
+    color: $purple;
+  }
+}
+
+.modal-header .close {
+    margin: -1.5rem -1rem -1.5rem auto;
 }
 
 /* FIGURES */
@@ -956,6 +1306,7 @@ header a {
 .ar-icon--red {color: $red;}
 .ar-icon--orange {color: $orange;}
 .ar-icon--gold {color: $gold;}
+.ar-icon--yellow {color: $yellow--dark;}
 .ar-icon--green {color: $green;}
 .ar-icon--blue {color: $blue;}
 .ar-icon--purple {color: $purple;}
@@ -964,12 +1315,79 @@ header a {
 .ar-icon--xl {font-size: 5rem; min-width: 6rem;}
 
 /* TODO Create a SASS Helpers loop for generating borders */
-.border-b-red {border-bottom: 10px solid $red;}
-.border-b-orange {border-bottom: 10px solid $orange;}
-.border-b-yellow {border-bottom: 10px solid $yellow;}
-.border-b-green {border-bottom: 10px solid $green;}
-.border-b-blue {border-bottom: 10px solid $blue;}
-.border-b-purple {border-bottom: 10px solid $purple;}
+// .border-b-red {border-bottom: 10px solid $red;}
+// .border-b-orange {border-bottom: 10px solid $orange;}
+// .border-b-yellow {border-bottom: 10px solid $yellow;}
+// .border-b-green {border-bottom: 10px solid $green;}
+// .border-b-blue {border-bottom: 10px solid $blue;}
+// .border-b-purple {border-bottom: 10px solid $purple;}
+
+
+.border-b-red:after {
+  content:"";
+  background: -webkit-linear-gradient(left,$red--light 0%,$red 33%,$red 66%,$red--light 100%);
+  display: block;
+  height:10px;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.border-b-orange:after {
+  content:"";
+  background: -webkit-linear-gradient(left,$orange--light 0%,$orange 33%,$orange 66%,$orange--light 100%);
+  display: block;
+  height:10px;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.border-b-yellow:after {
+  content:"";
+  background: -webkit-linear-gradient(left,$yellow--light 0%,$yellow 33%,$yellow 66%,$yellow--light 100%);
+  display: block;
+  height:10px;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.border-b-green:after {
+  content:"";
+  background: -webkit-linear-gradient(left,$green--light 0%,$green 33%,$green 66%,$green--light 100%);
+  display: block;
+  height:10px;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.border-b-blue:after {
+  content:"";
+  background: -webkit-linear-gradient(left,$blue--light 0%,$blue 33%,$blue 66%,$blue--light 100%);
+  display: block;
+  height:10px;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.border-b-purple:after {
+  content:"";
+  background: -webkit-linear-gradient(left,$purple--light 0%,$purple 33%,$purple 66%,$purple--light 100%);
+  display: block;
+  height:10px;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
 
 
 /* Styles that allow top nav to scroll */
@@ -1030,6 +1448,21 @@ header a {
       10% 95%,
       0 100%
     );
+  }
+}
+
+.donger {
+  font-size: 10rem;
+  left: calc(50% - 300px);
+  top: 28rem;
+  @media screen and (max-width: 991px) {
+    top: 33rem;
+  }
+  @media screen and (max-width: 453px) {
+    top: 37rem;
+  }
+  @media screen and (max-width: 447px) {
+    top: 39rem;
   }
 }
 
