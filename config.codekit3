@@ -31,6 +31,13 @@
 		"oAP": "\/404.html",
 		"oF": 0
 		},
+	"\/about--refresh.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about--refresh.html",
+		"oF": 0
+		},
 	"\/about-ux-ui-designer-adam-ruf.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -43,6 +50,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
+		"oF": 0
+		},
+	"\/contact--refresh.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact--refresh.html",
 		"oF": 0
 		},
 	"\/contact-ux-ui-designer-adam-ruf.html": {
@@ -88,7 +102,7 @@
 		},
 	"\/images\/2018-refresh\/bg-transition--shapes-1-v2.png": {
 		"ft": 32768,
-		"iS": 602417,
+		"iS": 879746,
 		"oA": 0,
 		"oAP": "\/images\/2018-refresh\/bg-transition--shapes-1-v2.png",
 		"oF": 0,
@@ -4017,6 +4031,13 @@
 		"oAP": "\/staging\/adam-ruf-ux-design-and-career-mentoring",
 		"oF": 0
 		},
+	"\/staging\/adam-ruf-ux-design-and-career-mentoring.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/adam-ruf-ux-design-and-career-mentoring.html",
+		"oF": 0
+		},
 	"\/staging\/adam-ruf-ux-design-speaking": {
 		"cB": 0,
 		"ft": 8192,
@@ -4835,6 +4856,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/twitch-overlays\/character-messages.html",
+		"oF": 0
+		},
+	"\/ux-design-mentorship.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ux-design-mentorship.html",
 		"oF": 0
 		},
 	"\/ux-ui-designer-adam-ruf-portfolio.html": {

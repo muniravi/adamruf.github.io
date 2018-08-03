@@ -219,6 +219,22 @@ a {
   }
 }
 
+.nav--active .nav-link {
+  background: $button--primary;
+  border-radius: 0.5rem;
+  color: $white !important;
+  &:hover,
+  &:active {
+    background: $button--primary;
+    color: $white !important;
+  }
+  &:focus {
+    background: $button--primary;
+    box-shadow: 0 0 3rem 1rem transparentize($link, 0.85);
+    color: $white !important;
+  }
+}
+
 .link--image {
   background: none !important;
   &:focus {
@@ -690,7 +706,10 @@ label:hover:before {
   display: inline-block;
   margin: 0;
   max-width: 400px;
-  width: 80%;
+  width: 85%;
+  @media screen and (max-width: 426px){
+    width: 75%;
+  }
 }
 
 .ar-bg--red {
@@ -1244,7 +1263,7 @@ label:hover:before {
 }
 
 .modal-image--xs {
-  width: 88px;
+  width: 100px;
 }
 
 .modal-close { font-size: 4rem; }
