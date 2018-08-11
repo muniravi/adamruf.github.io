@@ -1094,6 +1094,10 @@ label:hover:before {
 
 .background-image--job-hunt {
   background-image: url('../images/2018-refresh/job-hunt@2x.png');
+  height: 234px;
+  @media screen and (max-width: 580px){
+    height: 155px;
+  }
 }
 .background-image--portfolio-reviews {
   background-image: url('../images/2018-refresh/portfolio-reviews@2x.png');
@@ -1103,6 +1107,10 @@ label:hover:before {
 }
 .background-image--zero-to-portfolio {
   background-image: url('../images/2018-refresh/zero-to-portfolio@2x.png');
+  height: 234px;
+  @media screen and (max-width: 580px){
+    height: 155px;
+  }
 }
 .background-image--digital-cartoons {
   background-image: url('../images/2018-refresh/digital-cartoons@2x.png');
