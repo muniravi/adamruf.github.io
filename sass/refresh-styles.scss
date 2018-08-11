@@ -12,6 +12,7 @@ $text--placeholder:       transparentize(#162018, 0.8);
 // $text--placeholder:       transparentize(#48554A, 0.6);
 // $text--subtle:            #707571;
 // $text--placeholder:       #A2A9A3;
+$border:                  transparentize($black,0.93);
 $border--gray:            #D1D4D1;
 $button--secondary:       #F4F5F6;
 // $button--primary:         #4D5AE4;
@@ -127,12 +128,18 @@ $elevation-4: 0 10px 30px rgba(0,0,0,0.05), 0 30px 70px rgba(50,78,93,0.08);
 
 html {
   font-size: 62.5%;
+  @media screen and (max-width: 400px){
+    font-size: 58%;
+  }
 }
 body {
   @include font-size(1.6);
   color: $text;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  letter-spacing: -0.005em;
+  line-height: 1.618;
+  
 }
 
 .serif {
@@ -144,14 +151,29 @@ body {
   // box-shadow: 0 2px 3rem transparentize($link, 0.75) !important;
 }
 
+::selection {
+  background: $black; /* Webkit */
+  color: $white;
+}
+::-moz-selection {
+  background: $black; /* Firefox */
+  color: $white;
+}
+
 h1,h2,h3,h4,h5 {
   font-family: Montserrat;
   font-weight: 700;
   /* letter-spacing: -0.05rem; */
 }
 
-h1, h2 {
+h1,
+.text--lg {
   @include font-size(4);
+  line-height: 1.1;
+}
+
+h2 {
+  @include font-size(3);
   line-height: 1.1;
 }
 
@@ -162,9 +184,96 @@ h1, h2 {
   font-weight: normal;
 }
 
+.heading--xs {
+  @include font-size(1.6);
+  color: $text--subtle;
+  font-family: $font--sans-serif;
+  font-weight: normal;
+}
+
+p {
+  color: $text--light;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 2.618rem;
+}
+
+ul {
+  margin-bottom: 2.618rem;
+}
+
+li {
+  color: $text--light;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 1.618rem;
+}
+
+abbr {
+  text-decoration: underline dotted $text--subtle !important;
+  text-decoration-skip-ink: none;
+}
+
+.label {
+  // background-color: transparentize($blue,0.85);
+  background: $button--secondary;
+  border-radius: 2rem;
+  // box-shadow: $elevation-1;
+  color: $text;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0.8rem 0.4rem;
+  padding: 1rem 2rem;
+}
+
+.label--red { background: transparentize($red,0.85); }
+.label--yellow { background: transparentize($yellow,0.85); }
+.label--green { background: transparentize($green,0.85); }
+.label--blue { background: transparentize($blue,0.85); }
+.label--blurple { background: transparentize($blurple,0.85); }
+.label--purple { background: transparentize($red,0.85); }
+
+.label--red { background: linear-gradient($purple--pale, $red--pale); }
+.label--yellow { background: transparentize($yellow,0.85); }
+.label--green { background: transparentize($green,0.85); }
+.label--blue { background: transparentize($blue,0.85); }
+.label--blurple { background: transparentize($blurple,0.85); }
+.label--purple { background: transparentize($red,0.85); }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text--xs {
+  font-size: 1.2rem;
+}
+
+.text--sm {
+  font-size: 1.4rem;
+}
+
+//* BLURRED TEXT *//
+.text--blur {
+  filter: blur(3px);
+  transition: all 1s ease-in-out;
+}
+
+.remove-blur:hover,
+.remove-blur:focus {
+  .text--blur {
+    filter: none;
+    transition: all 1s ease-in-out;
+  }
+}
+
 a {
   color: $link;
   transition: all .2s ease-in-out;
+
+  &.link--subtle {
+    color: $text--subtle;
+  }
 
   &.link--padded {
     padding: 0.5rem 1rem;
@@ -172,6 +281,8 @@ a {
 
   &.nav-link {
     color: $text !important;
+    font-size: 1.6rem;
+    font-weight: 700;
     padding: 0.5rem 1rem;
 
     &:hover,
@@ -211,6 +322,11 @@ a {
     text-decoration: none;
     transition: all .3s ease-in;
 
+    &.link--subtle {
+      background: transparentize($text--light, 0.95);
+      color: $text--light;
+    }
+
     &.link--arrow:after {
       opacity: 1;
       transform: translateX(1rem);
@@ -219,19 +335,37 @@ a {
   }
 }
 
+.nav-item {
+  margin: 0;
+}
+
+// .nav--active .nav-link {
+//   background: $button--primary;
+//   border-radius: 0.5rem;
+//   color: $white !important;
+//   &:hover,
+//   &:active {
+//     background: $button--primary;
+//     color: $white !important;
+//   }
+//   &:focus {
+//     background: $button--primary;
+//     box-shadow: 0 0 3rem 1rem transparentize($link, 0.85);
+//     color: $white !important;
+//   }
+// }
+
 .nav--active .nav-link {
-  background: $button--primary;
+  background: transparentize($link, 0.95);
   border-radius: 0.5rem;
-  color: $white !important;
   &:hover,
   &:active {
-    background: $button--primary;
-    color: $white !important;
+    background: transparentize($link, 0.9);
   }
   &:focus {
-    background: $button--primary;
-    box-shadow: 0 0 3rem 1rem transparentize($link, 0.85);
-    color: $white !important;
+    background: transparentize($link, 0.95);
+    box-shadow: 0 0 1rem 1rem transparentize($link, 0.85);
+    // color: $white !important;
   }
 }
 
@@ -343,7 +477,7 @@ a {
 
 .text--red { color: $red; }
 .text--orange { color: $orange; }
-.text--yellow { color: $yellow; }
+.text--yellow { color: $yellow--dark; }
 .text--green { color: $green; }
 .text--blue { color: $blue; }
 .text--blurple { color: $blurple; }
@@ -362,6 +496,10 @@ a {
 /* TOP NAV */
 .nav-icon {font-size: 2rem;}
 
+.navbar-light {
+  background: $white;
+}
+
 
 /* READING PROGRESS BAR */
 
@@ -374,10 +512,10 @@ a {
 }
 
 .img-bullets--gem {
-  background: url('https://adamruf.com/images/2018-refresh/bullet--gem.svg') no-repeat left top / 19px 16px;
-  height: 22px;
-  line-height: 16px;
-  padding-left: 20px;
+  background: url('https://adamruf.com/images/2018-refresh/bullet--gem.svg') no-repeat left top / 20px 28px;
+  // height: 22px;
+  // line-height: 16px;
+  padding-left: 2.5rem;
 }
 
 header {
@@ -414,7 +552,7 @@ header a {
   color: $link !important;
   font-size: 1.8rem;
   height: 57px;
-  min-width: 35rem;
+  min-width: 33rem;
   border-radius: 0.4rem 0 0 0.4rem;
   padding: 1.5rem;
   transition: all 0.2s ease-in-out;
@@ -427,6 +565,10 @@ header a {
   &::-moz-placeholder,
   &:-ms-input-placeholder {
     color: $text--placeholder;
+  }
+  @media screen and (max-width: 585px){
+    border-radius: 0.4rem;
+    width: 100% !important;
   }
 }
 
@@ -644,6 +786,11 @@ label:hover:before {
     transform: translateY(0);
   }
   &:focus {transform: translateY(0);}
+  @media screen and (max-width: 585px){
+    border-radius: 0.5rem;
+    margin-top: -1rem;
+    width: 100%;
+  }
 }
 
 .cta-text {
@@ -783,12 +930,12 @@ label:hover:before {
 
 .svg-elevation-1 {
   // -webkit-filter:drop-shadow(0 1px 3px rgba(0,0,0,0.08)) drop-shadow(0 4px 6px rgba(50,78,93,0.11));
-  filter:drop-shadow(0 1px 3px rgba(0,0,0,0.08)) drop-shadow(0 4px 6px rgba(50,78,93,0.11));
+  filter:drop-shadow(0 0.1rem 0.3rem rgba(0,0,0,0.08)) drop-shadow(0 0.4rem 0.6rem rgba(50,78,93,0.11));
 }
 
 .svg-elevation-2 {
   // -webkit-filter:drop-shadow(0 5px 15px rgba(0,0,0,0.07)) drop-shadow(0 15px 35px rgba(50,78,93,0.1));
-  filter:drop-shadow(0 5px 15px rgba(0,0,0,0.07)) drop-shadow(0 15px 35px rgba(50,78,93,0.1));
+  filter:drop-shadow(0 0.5rem 1.5rem rgba(0,0,0,0.07)) drop-shadow(0 1.5rem 3.5rem rgba(50,78,93,0.1));
 }
 
 .svg-shadow--gem {
@@ -798,143 +945,6 @@ label:hover:before {
 
 .no-overflow-x {
   overflow-x: hidden;
-}
-
-.background-image {
-  background-position: left top;
-  background-size: cover;
-}
-
-.background-image--curved-path-1 {
-  background-image: url('https://adamruf.com/images/2018-refresh/curved-path-01.svg');
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.background-image--portfolio-reviews {
-  background-image: url('../images/2018-refresh/portfolio-reviews@2x.png');
-}
-.background-image--ux-design-contest {
-  background-image: url('../images/2018-refresh/ux-design-contest@2x.png');
-}
-.background-image--zero-to-portfolio {
-  background-image: url('../images/2018-refresh/zero-to-portfolio@2x.png');
-}
-.background-image--digital-cartoons {
-  background-image: url('../images/2018-refresh/digital-cartoons@2x.png');
-}
-
-
-
-.background-gradient {
-  margin-bottom:20rem;
-  margin-top: -20rem;
-  height:100%;
-  width:100%;
-  position: absolute;
-  z-index:-2;
-}
-
-.background-gradient--1 {
-  background: linear-gradient(45deg, rgba(255,206,255,1) 0%, rgba(178,190,255,1) 100%);
-  clip-path: polygon(
-    0 calc(10% - 1vw),
-    100% 0,
-    100% calc(90% - 1vw),
-    0 100%
-  );
-}
-
-.background-gradient--2 {
-  background: linear-gradient(45deg, rgba(130,149,255,1) 0%, rgba(131,211,255,1) 100%);
-  /* clip-path: url('/images/2018-refresh/wavy-clip-path.svg'); */
-  clip-path: polygon(
-    0 0,
-    5% 5%,
-    10% 0,
-    15% 5%,
-    20% 0,
-    25% 5%,
-    30% 0,
-    35% 5%,
-    40% 0,
-    45% 5%,
-    50% 0,
-    55% 5%,
-    60% 0,
-    65% 5%,
-    70% 0,
-    75% 5%,
-    80% 0,
-    85% 5%,
-    90% 0,
-    95% 5%,
-    100% 0,
-    100% 100%,
-    95% 95%,
-    90% 100%,
-    85% 95%,
-    80% 100%,
-    75% 95%,
-    70% 100%,
-    65% 95%,
-    60% 100%,
-    55% 95%,
-    50% 100%,
-    45% 95%,
-    40% 100%,
-    35% 95%,
-    30% 100%,
-    25% 95%,
-    20% 100%,
-    15% 95%,
-    10% 100%,
-    5% 95%,
-    0 100%
-  );
-  height: 700px;
-  margin-top: 20rem;
-  opacity: 0.1;
-}
-
-.background-gradient--3 {
-  background: $green--pale;
-  background-image: linear-gradient($green--pale, #CFFFE4);
-  border-radius: 50% 50% 0 0;
-  box-shadow: 0 -4rem 8rem $green--pale;
-  height: 500px;
-  margin-left: -15%;
-  margin-right: -15%;
-  top: 0;
-  width: 130%;
-}
-
-.background-gradient--4 {
-  background: #BFA8FF;
-  background-image: linear-gradient(#BFA8FF, #909AFF);
-  border-radius: 50% 50% 0 0;
-  bottom: 0;
-  box-shadow: 0 -1rem 20rem #BFA8FF;
-  height: 200px;
-  margin-left: -15%;
-  margin-right: -15%;
-  width: 130%;
-}
-
-.background-gradient--5 {
-  background: linear-gradient(90deg, transparentize($yellow,0.5) 0%, transparentize($green,0.5) 100%);
-  // background: $button--secondary;
-  // background: $yellow;
-  // -webkit-clip-path: polygon(0 0, 100% calc(50% - 1vw), 100% 100%, 0 50%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
-  height: 52rem;
-  // -webkit-clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
-  // clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
-  // -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  // -webkit-clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-  // clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 
 .fade {
@@ -953,14 +963,8 @@ label:hover:before {
   opacity: 1 !important;
 }
 
-@keyframes opacity-wave {
-  0%, 100%   { opacity: 0.1; }
-  50%  { opacity: 0.25; }
-}
 
-.opacity-wave--1 { animation: opacity-wave 5s infinite }
-.opacity-wave--2 { animation: opacity-wave 5s infinite 1s }
-.opacity-wave--3 { animation: opacity-wave 5s infinite 2s }
+
 
 /* BACKGROUNDS */
 
@@ -970,13 +974,6 @@ label:hover:before {
 .background--green     { background: $green; }
 .background--blue      { background: $blue; }
 .background--purple    { background: $purple; }
-
-// .background--red-md       { background: $red--md; }
-// .background--orange-md    { background: $orange--md; }
-// .background--yellow-md    { background: $yellow--md; }
-// .background--green-md     { background: $green--md; }
-// .background--blue-md      { background: $blue--md; }
-// .background--purple-md    { background: $purple--md; }
 
 .background--red-light       { background: $red--light; }
 .background--orange-light    { background: $orange--light; }
@@ -1074,6 +1071,186 @@ label:hover:before {
   background-size: cover;
 }
 
+.background-image {
+  background-position: left top;
+  background-size: cover;
+}
+
+.background-center {
+  background-position: center center;
+}
+
+.background-image--curved-path-1 {
+  background-image: url('https://adamruf.com/images/2018-refresh/curved-path-01.svg');
+      background-position: left 18rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: -3;
+}
+
+.background-image--job-hunt {
+  background-image: url('../images/2018-refresh/job-hunt@2x.png');
+}
+.background-image--portfolio-reviews {
+  background-image: url('../images/2018-refresh/portfolio-reviews@2x.png');
+}
+.background-image--ux-design-contest {
+  background-image: url('../images/2018-refresh/ux-design-contest@2x.png');
+}
+.background-image--zero-to-portfolio {
+  background-image: url('../images/2018-refresh/zero-to-portfolio@2x.png');
+}
+.background-image--digital-cartoons {
+  background-image: url('../images/2018-refresh/digital-cartoons@2x.png');
+}
+
+.background-image--twitch {
+  background-image: url('../images/2018-refresh/twitch@2x.png');
+}
+.background-image--yahoo {
+  background-image: url('../images/2018-refresh/yahoo@2x.png');
+}
+.background-image--brightroll {
+  background-image: url('../images/2018-refresh/brightroll@2x.png');
+}
+.background-image--usertesting {
+  background-image: url('../images/2018-refresh/usertesting@2x.png');
+}
+.background-image--designlab {
+  background-image: url('../images/2018-refresh/designlab@2x.png');
+}
+.background-image--aau {
+  background-image: url('../images/2018-refresh/aau@2x.png');
+}
+.background-image--ux-design-contest-alt {
+  background-image: url('../images/2018-refresh/uxd-contests.png');
+}
+.background-image--dialogue-flow-tool {
+  background-image: url('../images/2018-refresh/dialogue-flow-tool-alt.png');
+}
+.background-image--trip-idea-generator {
+  background-image: url('../images/2018-refresh/trip-idea-generator-alt.png');
+}
+
+.background-gradient {
+  // margin-bottom:20rem;
+  margin-top: -15rem;
+  height:100%;
+  width:100%;
+  position: absolute;
+  z-index:-2;
+}
+
+.background-gradient--1 {
+  background: linear-gradient(45deg, rgba(255,206,255,1) 0%, rgba(178,190,255,1) 100%);
+  clip-path: polygon(
+    0 calc(10% - 1vw),
+    100% 0,
+    100% calc(90% - 1vw),
+    0 100%
+  );
+  height: 60rem;
+}
+
+.background-gradient--2 {
+  background: linear-gradient(45deg, rgba(130,149,255,1) 0%, rgba(131,211,255,1) 100%);
+  /* clip-path: url('/images/2018-refresh/wavy-clip-path.svg'); */
+  clip-path: polygon(
+    0 0,
+    5% 5%,
+    10% 0,
+    15% 5%,
+    20% 0,
+    25% 5%,
+    30% 0,
+    35% 5%,
+    40% 0,
+    45% 5%,
+    50% 0,
+    55% 5%,
+    60% 0,
+    65% 5%,
+    70% 0,
+    75% 5%,
+    80% 0,
+    85% 5%,
+    90% 0,
+    95% 5%,
+    100% 0,
+    100% 100%,
+    95% 95%,
+    90% 100%,
+    85% 95%,
+    80% 100%,
+    75% 95%,
+    70% 100%,
+    65% 95%,
+    60% 100%,
+    55% 95%,
+    50% 100%,
+    45% 95%,
+    40% 100%,
+    35% 95%,
+    30% 100%,
+    25% 95%,
+    20% 100%,
+    15% 95%,
+    10% 100%,
+    5% 95%,
+    0 100%
+  );
+  height: 700px;
+  margin-top: 20rem;
+  opacity: 0.1;
+}
+
+.background-gradient--3 {
+  background: $green--pale;
+  background-image: linear-gradient($green--pale, #CFFFE4);
+  border-radius: 50% 50% 0 0;
+  box-shadow: 0 -4rem 8rem $green--pale;
+  height: 500px;
+  margin-left: -15%;
+  margin-right: -15%;
+  top: 0;
+  width: 130%;
+}
+
+.background-gradient--4 {
+  background: #BFA8FF;
+  background-image: linear-gradient(#BFA8FF, #909AFF);
+  border-radius: 50% 50% 0 0;
+  bottom: 0;
+  box-shadow: 0 -1rem 20rem #BFA8FF;
+  height: 240px;
+  margin-left: -15%;
+  margin-right: -15%;
+  width: 130%;
+}
+
+.background-gradient--5 {
+  background: linear-gradient(90deg, transparentize($yellow,0.5) 0%, transparentize($green,0.5) 100%);
+  // background: $button--secondary;
+  // background: $yellow;
+  // -webkit-clip-path: polygon(0 0, 100% calc(50% - 1vw), 100% 100%, 0 50%);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
+  height: 52rem;
+  // -webkit-clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  // clip-path: polygon(50% 20%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+  // -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  // -webkit-clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  // clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+
+//* IMAGES *//
+.img-bordered
+
 .img--intro-video {
   transition: all 0.5s ease-in-out;
 }
@@ -1121,7 +1298,7 @@ label:hover:before {
 
 .ar-card--project {
   .ar-card__body {
-    min-height: 158px;
+    min-height: 165px;
   }
   &:hover,
   &:focus {
@@ -1210,6 +1387,13 @@ label:hover:before {
   }
 }
 
+.ar-card__image-header {
+  height: 300px;
+  @media screen and (max-width: 571px) {
+    height: 200px;
+  }
+}
+
 
 .ar-card__body {
   color: $text;
@@ -1223,10 +1407,20 @@ label:hover:before {
 
 .ar-card__heading,
 .modal-title {
+  color: $text;
   font-family: 'Montserrat';
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.15;
+}
+
+.ar-card__heading--md {
+  min-height: 7rem;
+}
+
+.ar-card__heading--sm {
+  font-size: 2.5rem;
+  min-height: 9rem;
 }
 
 
@@ -1254,13 +1448,13 @@ label:hover:before {
   border-bottom-right-radius: 1rem;
 }
 
-.modal-body__text {
-  color: $text--light;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 28px;
-  margin-bottom: 2rem;
-}
+// .modal-body__text {
+//   color: $text--light;
+//   font-size: 1.7rem;
+//   font-weight: 400;
+//   line-height: 28px;
+//   margin-bottom: 2rem;
+// }
 
 .modal-image--xs {
   width: 100px;
@@ -1308,12 +1502,29 @@ label:hover:before {
 
 .figure-caption {
   background: transparentize($black, 0.95);
-  border-radius: 1rem;
   color: $text--light;
   margin: 0 auto;
   margin-top: 1rem;
-  max-width: 400px;
   padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.figure-caption--alt {
+  background: transparentize($black, 0.95);
+  color: $text--light;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-borders-rounded {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.bottom-borders-rounded {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 
@@ -1413,8 +1624,7 @@ label:hover:before {
 @media (max-width: 500px) {
   .bd-navbar .navbar-nav-scroll {
     max-width: 100%;
-    height: 2.5rem;
-    margin-top: .25rem;
+    height: 3.5rem;
     overflow: hidden;
     font-size: .875rem;
   }
@@ -1486,6 +1696,34 @@ label:hover:before {
 }
 
 /////* HELPERS */////
+
+//* BORDERS *//
+.border {
+  border-color: $border;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-top,
+.border-left,
+.border-right,
+.border-bottom {
+  border-color: $border !important;
+}
+
+.border--rounded-1 {
+  border-radius: 1rem;
+}
+
+//* POINTERS *//
+.cursor--default {
+  cursor: default !important;
+}
+
+//* SIZING *//
+.max-w-100 {
+  max-width: 100%;
+}
 
 //* SPACING *//
 $spaceWhole: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100); // Adjust this to include the pixel amounts you need.
@@ -1572,7 +1810,53 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   }
 }
 
+//* IFRAMES *//
+iframe {
+  border-radius: 3rem;
+}
+
+//* WIDTH *//
+.full-width {
+  width: 100%;
+}
+
 /////* ANIMATION */////
+
+.spin-me {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+  &:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.flip-me {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+          transition:         transform .4s ease-in-out;
+  &:hover {
+    -webkit-transform: scaleY(-1);
+            transform: scaleY(-1);
+  }
+}
+
+.grow-me {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+  &:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+
+.skew-me {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+  &:hover {
+    -webkit-transform: skewY(-40deg);
+            transform: skewY(-40deg);
+  }
+}
 
 /* From animate.css by Daniel Eden -- https://daneden.github.io/animate.css/ */
 .animated--1 {
@@ -1801,3 +2085,12 @@ $sides: (top, bottom, left, right); // Leave this variable alone
 .zoomInUp {
   animation-name: zoomInUp;
 }
+
+@keyframes opacity-wave {
+  0%, 100%   { opacity: 0.1; }
+  50%  { opacity: 0.25; }
+}
+
+.opacity-wave--1 { animation: opacity-wave 5s infinite }
+.opacity-wave--2 { animation: opacity-wave 5s infinite 1s }
+.opacity-wave--3 { animation: opacity-wave 5s infinite 2s }

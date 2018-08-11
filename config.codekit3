@@ -31,13 +31,6 @@
 		"oAP": "\/404.html",
 		"oF": 0
 		},
-	"\/about--refresh.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/about--refresh.html",
-		"oF": 0
-		},
 	"\/about-ux-ui-designer-adam-ruf.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -52,17 +45,10 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
-	"\/contact--refresh.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/contact--refresh.html",
-		"oF": 0
-		},
 	"\/contact-ux-ui-designer-adam-ruf.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/contact-ux-ui-designer-adam-ruf.html",
 		"oF": 0
 		},
@@ -99,6 +85,17 @@
 		"oA": 0,
 		"oAP": "\/forty-three-million-dollar-painting.html",
 		"oF": 0
+		},
+	"\/images\/2018-refresh\/aau@2x.png": {
+		"ft": 32768,
+		"iS": 130929,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/aau@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/2018-refresh\/bg-transition--shapes-1-v2.png": {
 		"ft": 32768,
@@ -162,6 +159,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/2018-refresh\/brightroll-animation.gif": {
+		"ft": 4194304,
+		"iS": 36078,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/brightroll-animation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/2018-refresh\/brightroll@2x.png": {
+		"ft": 32768,
+		"iS": 82101,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/brightroll@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/2018-refresh\/bullet--gem.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -188,6 +204,39 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/2018-refresh\/designlab@2x.png": {
+		"ft": 32768,
+		"iS": 309902,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/designlab@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/dialogue-flow-tool-alt.png": {
+		"ft": 32768,
+		"iS": 774980,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/dialogue-flow-tool-alt.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/dialogue-flow-tool@2x.png": {
+		"ft": 32768,
+		"iS": 77262,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/dialogue-flow-tool@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/2018-refresh\/digital-cartooning@2x.png": {
 		"ft": 32768,
@@ -324,6 +373,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/2018-refresh\/job-hunt@2x.png": {
+		"ft": 32768,
+		"iS": 61256,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/job-hunt@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/2018-refresh\/link-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -343,6 +403,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/2018-refresh\/plant@2x.jpg": {
+		"ft": 16384,
+		"iS": 155094,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/plant@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/plant@2x.png": {
+		"ft": 32768,
+		"iS": 156466,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/plant@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/2018-refresh\/portfolio-reviews@2x.png": {
 		"ft": 32768,
@@ -438,6 +520,77 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/2018-refresh\/trip-idea-generator-alt.png": {
+		"ft": 32768,
+		"iS": 496584,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/trip-idea-generator-alt.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/trip-idea-generator@2x.png": {
+		"ft": 32768,
+		"iS": 90836,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/trip-idea-generator@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/twitch-animation-alt.gif": {
+		"ft": 4194304,
+		"iS": 39817,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/twitch-animation-alt.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/2018-refresh\/twitch-animation.gif": {
+		"ft": 4194304,
+		"iS": 296780,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/twitch-animation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/2018-refresh\/twitch@2x.png": {
+		"ft": 32768,
+		"iS": 367584,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/twitch@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/usertesting@2x.png": {
+		"ft": 32768,
+		"iS": 87223,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/usertesting@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/ux-design-contest-alt@2x.png": {
+		"ft": 32768,
+		"iS": 66705,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/ux-design-contest-alt@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/2018-refresh\/ux-design-contest@2x.png": {
 		"ft": 32768,
 		"iS": 29749,
@@ -446,6 +599,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/2018-refresh\/uxd-contests.png": {
+		"ft": 32768,
+		"iS": 509687,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/uxd-contests.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -502,6 +666,25 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/2018-refresh\/yahoo-animation.gif": {
+		"ft": 4194304,
+		"iS": 64091,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/yahoo-animation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/2018-refresh\/yahoo@2x.png": {
+		"ft": 32768,
+		"iS": 172274,
+		"oA": 0,
+		"oAP": "\/images\/2018-refresh\/yahoo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/2018-refresh\/yellow-triangle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -514,12 +697,12 @@
 		},
 	"\/images\/2018-refresh\/zero-to-portfolio@2x.png": {
 		"ft": 32768,
-		"iS": 40441,
+		"iS": 44401,
 		"oA": 0,
 		"oAP": "\/images\/2018-refresh\/zero-to-portfolio@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1756,6 +1939,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/usertesting-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/usertesting-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/usertesting-logo@2x.png": {
 		"ft": 32768,
 		"iS": 14029,
@@ -1900,13 +2093,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/index--refresh.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index--refresh.html",
-		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -4014,6 +4200,13 @@
 		"oAP": "\/staging\/404.ai",
 		"oF": 0
 		},
+	"\/staging\/about-ux-ui-designer-adam-ruf--OLD.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/about-ux-ui-designer-adam-ruf--OLD.html",
+		"oF": 0
+		},
 	"\/staging\/adam-chart.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4116,6 +4309,13 @@
 		"oAP": "\/staging\/coder-character-icons.sketch",
 		"oF": 0
 		},
+	"\/staging\/contact-ux-ui-designer-adam-ruf--OLD.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/contact-ux-ui-designer-adam-ruf--OLD.html",
+		"oF": 0
+		},
 	"\/staging\/DEC-2016-project-thumb-template.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -4213,6 +4413,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/icons-for-ux-portfolio-mentorship.sketch",
+		"oF": 0
+		},
+	"\/staging\/index--OLD.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/index--OLD.html",
 		"oF": 0
 		},
 	"\/staging\/index-rotate-test.html": {
@@ -4749,11 +4956,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/staging\/ux-design-mentorship.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/ux-design-mentorship.html",
+		"oF": 0
+		},
 	"\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/staging\/ux-portfolio-mentorship-program-typeform-image.sketch",
+		"oF": 0
+		},
+	"\/staging\/ux-ui-designer-adam-ruf-portfolio--OLD.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/ux-ui-designer-adam-ruf-portfolio--OLD.html",
+		"oF": 0
+		},
+	"\/staging\/ux-ui-designer-adam-ruf-recommended-resources--OLD.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/ux-ui-designer-adam-ruf-recommended-resources--OLD.html",
+		"oF": 0
+		},
+	"\/staging\/ux-ui-designer-adam-ruf-recommended-resources.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/staging\/ux-ui-designer-adam-ruf-recommended-resources.html",
 		"oF": 0
 		},
 	"\/staging\/ux_adam-podcast-page.sketch": {
@@ -4858,25 +5093,11 @@
 		"oAP": "\/twitch-overlays\/character-messages.html",
 		"oF": 0
 		},
-	"\/ux-design-mentorship.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ux-design-mentorship.html",
-		"oF": 0
-		},
 	"\/ux-ui-designer-adam-ruf-portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/ux-ui-designer-adam-ruf-portfolio.html",
-		"oF": 0
-		},
-	"\/ux-ui-designer-adam-ruf-recommended-resources.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/ux-ui-designer-adam-ruf-recommended-resources.html",
 		"oF": 0
 		}
 	},
