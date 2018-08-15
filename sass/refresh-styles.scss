@@ -336,6 +336,15 @@ a {
       transition: all .3s ease-out;
     }
   }
+
+  &.link--white {
+    color: $white;
+    &:hover,
+    &:active,
+    &:focus {
+      background: $link;
+    }
+  }
 }
 
 .nav-item {

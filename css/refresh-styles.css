@@ -216,6 +216,10 @@ a {
       opacity: 1;
       transform: translateX(1rem);
       transition: all .3s ease-out; }
+  a.link--white {
+    color: #FFFFFF; }
+    a.link--white:hover, a.link--white:active, a.link--white:focus {
+      background: #5866FF; }
 
 .nav-item {
   margin: 0; }
