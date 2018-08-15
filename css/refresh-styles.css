@@ -178,6 +178,7 @@ a {
   a.link--subtle {
     color: rgba(22, 32, 24, 0.4); }
   a.link--padded {
+    border-radius: 0.5rem;
     padding: 0.5rem 1rem; }
   a.nav-link {
     color: rgba(22, 32, 24, 0.8) !important;
@@ -186,6 +187,7 @@ a {
     padding: 0.5rem 1rem; }
     a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
       background: rgba(88, 102, 255, 0.05);
+      border-bottom: none;
       border-radius: 0.5rem;
       color: #5866FF !important; }
   a.link--arrow:after {
@@ -203,23 +205,28 @@ a {
   a.link--arrow-green:after {
     background-image: url("https://adamruf.com/images/2018-refresh/green-arrow.svg"); }
   a:hover, a:active, a:focus {
-    background: rgba(88, 102, 255, 0.05);
-    border-radius: 0.5rem;
-    border-bottom: 2px solid inherit;
+    background-color: rgba(88, 102, 255, 0.05);
+    border-bottom: 1px solid rgba(88, 102, 255, 0.5);
     color: #5866FF;
     text-decoration: none;
-    transition: all .3s ease-in; }
+    transition: background-color .2s ease-in; }
     a:hover.link--subtle, a:active.link--subtle, a:focus.link--subtle {
       background: rgba(22, 32, 24, 0);
       color: rgba(22, 32, 24, 0.7); }
+    a:hover.link--arrow, a:active.link--arrow, a:focus.link--arrow {
+      border-radius: 0.5rem;
+      border-bottom: none; }
     a:hover.link--arrow:after, a:active.link--arrow:after, a:focus.link--arrow:after {
+      border-radius: 0.5rem;
+      border-bottom: none;
       opacity: 1;
       transform: translateX(1rem);
       transition: all .3s ease-out; }
   a.link--white {
     color: #FFFFFF; }
     a.link--white:hover, a.link--white:active, a.link--white:focus {
-      background: #5866FF; }
+      background: #5866FF;
+      border-bottom: none; }
 
 .nav-item {
   margin: 0; }
@@ -258,6 +265,7 @@ a {
   color: #ff4c77; }
   .link--red:hover, .link--red:focus, .link--red:active {
     background: rgba(255, 127, 158, 0.15);
+    border-color: rgba(255, 127, 158, 0.5);
     border-radius: 0;
     color: #ff4c77 !important; }
 
@@ -265,6 +273,7 @@ a {
   color: #ffba4c; }
   .link--orange:hover, .link--orange:focus, .link--orange:active {
     background: rgba(255, 206, 127, 0.15);
+    border-color: rgba(255, 206, 127, 0.5);
     border-radius: 0;
     color: #ffba4c !important; }
 
@@ -272,6 +281,7 @@ a {
   color: #fffc4c; }
   .link--yellow:hover, .link--yellow:focus, .link--yellow:active {
     background: rgba(255, 253, 127, 0.15);
+    border-color: rgba(255, 253, 127, 0.5);
     border-radius: 0;
     color: #fffc4c !important; }
 
@@ -279,6 +289,7 @@ a {
   color: #00e568; }
   .link--green:hover, .link--green:focus, .link--green:active {
     background: rgba(127, 255, 185, 0.15);
+    border-color: rgba(127, 255, 185, 0.5);
     border-radius: 0;
     color: #00e568 !important; }
 
@@ -286,6 +297,7 @@ a {
   color: #4cf2ff; }
   .link--blue:hover, .link--blue:focus, .link--blue:active {
     background: rgba(127, 246, 255, 0.15);
+    border-color: rgba(127, 246, 255, 0.5);
     border-radius: 0;
     color: #4cf2ff !important; }
 
@@ -293,6 +305,7 @@ a {
   color: #a763ff; }
   .link--purple:hover, .link--purple:focus, .link--purple:active {
     background: rgba(196, 150, 255, 0.15);
+    border-color: rgba(196, 150, 255, 0.5);
     border-radius: 0;
     color: #a763ff !important; }
 
@@ -394,7 +407,7 @@ a {
   padding: 0; }
 
 .img-bullets--gem {
-  background: url("https://adamruf.com/images/2018-refresh/bullet--gem.svg") no-repeat left top/20px 28px;
+  background: url("https://adamruf.com/images/2018-refresh/bullet--gem.svg") no-repeat left center/20px 18px;
   padding-left: 2.5rem; }
 
 header {
@@ -543,6 +556,7 @@ label:hover:before {
   white-space: nowrap; }
   .button:hover, .button:focus {
     background-color: #f7f8f8;
+    border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
     text-decoration: none;
     transform: translateY(-1px); }
@@ -2268,6 +2282,10 @@ iframe {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); }
 
+.spin {
+  animation-name: spin;
+  transform-origin: center center; }
+
 .flip-me {
   -webkit-transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out; }
@@ -2316,6 +2334,20 @@ iframe {
 
 .infinite {
   animation-iteration-count: infinite; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@keyframes grow {
+  from {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.3); }
+  to {
+    transform: scale(1); } }
 
 @keyframes bounce {
   from,
