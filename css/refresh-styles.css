@@ -407,7 +407,7 @@ a {
   padding: 0; }
 
 .img-bullets--gem {
-  background: url("https://adamruf.com/images/2018-refresh/bullet--gem.svg") no-repeat left center/20px 18px;
+  background: url("https://adamruf.com/images/2018-refresh/bullet--gem.svg") no-repeat left 6px/20px 18px;
   padding-left: 2.5rem; }
 
 header {
