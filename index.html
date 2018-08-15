@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.0/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4="
     crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://adamruf.com/css/refresh-styles.css">
+  <link rel="stylesheet" href="/css/refresh-styles.css">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
@@ -37,7 +37,7 @@
 </head>
 
 <body>
-  <header class="navbar navbar-light navbar-expand flex-column flex-md-row bd-navbar p-y-2 p-x-6 sticky-top border-bottom">
+  <header class="navbar navbar-light navbar-expand flex-column flex-md-row bd-navbar sticky-top border-bottom">
     <a class="nav-link m-r-3" style="white-space: nowrap;" href="#" aria-label="Bootstrap">
       ux_adam ruf
     </a>
@@ -101,7 +101,7 @@
   <div class="container-fluid p-0 no-overflow-x">
     <section id="hero">
       <div class="background-image--curved-path-1"></div>
-      <div class="container p-y-10">
+      <div class="container p-x-3 p-y-10">
         <div class="row align-items-stretch justify-content-between">
           <div class="col-lg-7 col-md-10 col-sm-12 col-xs-10 m-b-10">
             <h1 class="m-b-5" style="max-width: 650px;">👋 Hi, I'm
@@ -899,45 +899,18 @@
       <div class="container-fluid background-gradient background-gradient--5 p-0 m-0 position-absolute">
         <div class="background-pattern background-pattern--emoji-hands"></div>
       </div>
-      <div class="container p-t-50">
+      <div class="container p-t-50 p-x-4">
         <div class="row p-t-5 m-b-20">
-          <div class="col text-center">
+          <div class="col d-none d-lg-block d-xl-block text-center">
             <h2 class="text--lg">
               <span class="d-block small-heading m-b-1">Looks like we're running out of scrollbar...</span>
-              <span class="d-block">Ready to chat about working together?</span>
+              <span class="d-block m-b-20">Ready to chat about working together?</span>
             </h2>
-            <div class="donger position-absolute">
-              <!-- <p class="position-absolute">🧢</p> -->
-              <!-- <svg style="width: 600px;top: 0;position: absolute;left: 0; z-index: -2;" xmlns="https://www.w3.org/2000/svg">
-                <animateTransform attributeName="transform" begin="1s" dur="1s" keyTimes="0; 1" repeatCount="indefinite" type="scale" values="1; 1.5"
-                />
-                <animate
-                attributeName="opacity"
-                begin="1s"
-                dur="1s"
-                repeatCount="indefinite"
-                values="0.3; 0"
-                />
-                <text x="0" y="100" fill="#EAECFF">ᕙ(˵ ಠ ਊ ಠ ˵)ᕗ</text>
-                <!-- <animateTransform attributeName="transform" begin="1s" dur="1s" keyTimes="0; 1" repeatCount="indefinite" type="translate" values="0 0; 0 -20"
-                /> -->
-              <!-- </svg> -->
-              <svg style="width: 600px;" xmlns="https://www.w3.org/2000/svg">
-                <!-- <linearGradient id="text-fill-1" x1="50%" x2="50%" y1="10%" y2="100%">
-                  <stop stop-color="#C496FF" stop-opacity="100%" offset="0%" />
-                  <stop stop-color="#5866FF" offset="100%" />
-                </linearGradient>
-                <linearGradient id="text-fill-2" x1="50%" x2="50%" y1="10%" y2="100%">
-                  <stop stop-color="#FFFD7F" stop-opacity="100%" offset="0%" />
-                  <stop stop-color="#7FFFB9" offset="100%" />
-                </linearGradient> -->
-                <!-- <animateTransform attributeName="transform" begin="0s" dur="2s" keyTimes="0; 0.45; 0.55; 1" repeatCount="indefinite" type="translate" values="0 0; 0 -5; 0 -5; 0 0"
-                /> -->
-                <text x="0" y="100" fill="#48554A">ᕙ(˵ ಠ ਊ ಠ ˵)ᕗ</text>
-              </svg>
+            <div class="donger">
+              ᕙ(˵ ಠ ਊ ಠ ˵)ᕗ
             </div>
-            <div class="m-b-50" style="font-family:Chewy;text-transform:capitalize;margin-top: -10rem;position: relative;">
-              <svg class="position-absolute svg-elevation-1 d-none d-lg-block" style="font-size: 6rem;height: 150px;width: 330px;right:2rem;top:7rem;" xmlns="https://www.w3.org/2000/svg">
+            <div class="donger-text d-none d-lg-block" style="font-family:Chewy;text-transform:capitalize;">
+              <svg class="position-absolute svg-elevation-1" style="font-size: 6rem;height: 150px;width: 330px;right:2rem;top:7rem;" xmlns="https://www.w3.org/2000/svg">
                 <animateTransform attributeName="transform" dur="1s" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" type="translate" values="-60 0; 0 0; 60 0; 0 0; -60 0"
                 />
                 <text class="fill--yellow" x="0" y="100">Looking good!</text>
@@ -947,7 +920,7 @@
                 />
                 <text class="fill--red" x="0" y="100">Awesome!</text>
               </svg>
-              <svg class="position-absolute svg-elevation-1 d-none d-lg-block" style="font-size: 8rem;height: 150px;width: 200px;left:0;top:10rem;" xmlns="https://www.w3.org/2000/svg">
+              <svg class="position-absolute svg-elevation-1" style="font-size: 8rem;height: 150px;width: 200px;left:0;top:10rem;" xmlns="https://www.w3.org/2000/svg">
                 <animateTransform attributeName="transform" dur="1s" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" type="translate" values="30 -60; 60 -30; 30 0; -60 -30; 30 -60"
                 />
                 <text class="fill--blue" x="0" y="100">WDYT?</text>
@@ -962,7 +935,7 @@
                 />
                 <text class="fill--yellow" x="0" y="100" >Pull the trigger!</text>
               </svg>
-              <svg class="position-absolute svg-elevation-1  d-none d-lg-block" style="font-size: 8rem;height: 150px;width: 270px;right:3rem;top:15rem;"
+              <svg class="position-absolute svg-elevation-1 " style="font-size: 8rem;height: 150px;width: 270px;right:3rem;top:15rem;"
                 xmlns="https://www.w3.org/2000/svg">
                 <animateTransform attributeName="transform" dur="0.075s" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" type="translate" values="0 0; 4 4; 8 8; -4 4; 0 0"
                 />
@@ -990,20 +963,20 @@
             <a class="typeform-share cursor--default button button--secondary  m-r-1 m-b-1" href="https://adamruf.typeform.com/to/UlV8eu?page=home" data-mode="1">⏱️ Design Project</a>
             <a class="typeform-share cursor--default button button--secondary m-r-1 m-b-1" href="https://adamruf.typeform.com/to/dun9GE?page=home" data-mode="1">💼 Full-time Role</a>
             <a class="typeform-share cursor--default button button--secondary m-b-1" href="https://adamruf.typeform.com/to/g9K67Z?page=home" data-mode="1">🌱 Mentorship</a>
-            <!-- <button class="button button--secondary m-r-1 m-b-1">💼 Full-time Role</button>
-            <button class="button button--secondary m-b-1">🌱 Mentorship</button> -->
-            <!-- <p style="
-                font-size: 10rem;
-                margin-top: -5rem;
-                z-index: -1;
-                position: relative;
-                      ">) &nbsp;&nbsp; )</p>
-            <p style="
-                font-size: 10rem;
-                margin-top: -8rem;
-                z-index: -1;
-                position: relative;
-            ">👟 👟</p> -->
+          </div>
+
+          <div class="col d-lg-none text-center">
+            <h2 class="text--lg">
+              <span class="d-block small-heading m-b-1">Looks like we're running out of scrollbar...</span>
+              <span class="d-block">Ready to chat about working together?</span>
+            </h2>
+            <div class="donger">
+              ᕙ(˵ ಠ ਊ ಠ ˵)ᕗ
+            </div>
+            <p class="small-heading">💪 <a class="link--subtle" href="https://sivers.org/hellyeah" target="_blank">HELL YEAH!</a> Let's talk about how I might help you with a</p>
+            <a class="typeform-share cursor--default button button--secondary  m-r-1 m-b-1" href="https://adamruf.typeform.com/to/UlV8eu?page=home" data-mode="1">⏱️ Design Project</a>
+            <a class="typeform-share cursor--default button button--secondary m-r-1 m-b-1" href="https://adamruf.typeform.com/to/dun9GE?page=home" data-mode="1">💼 Full-time Role</a>
+            <a class="typeform-share cursor--default button button--secondary m-b-1" href="https://adamruf.typeform.com/to/g9K67Z?page=home" data-mode="1">🌱 Mentorship</a>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -1138,7 +1111,7 @@
       <div class="container p-0">
         <div class="row justify-content-center">
           <div class="col-md-10 text-center">
-            <div class="p-t-4 p-x-4 p-b-2 m-x-1 m-b-7">
+            <div class="p-t-4 p-x-2 p-b-2 m-b-7">
               <p class="position-absolute" style="top: -5rem;
     left: calc(50% - 40px);">
                 <a class="d-block link--image" style="width:80px;height:68px;" href="https://www.youtube.com/watch?v=Hkqi3D-oN8Y" target="blank">
