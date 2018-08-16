@@ -374,6 +374,7 @@ a {
 /* Styles that allow top nav to scroll */
 @media (max-width: 500px) {
   .bd-navbar .navbar-nav-scroll {
+    font-size: 1.6rem;
     height: 3.5rem;
     max-width: 100%;
     overflow: hidden; }
@@ -387,7 +388,7 @@ a {
     width: 2rem;
     height: 100%;
     position: absolute;
-    left: 6rem;
+    left: 4rem;
     bottom: 0;
     background: linear-gradient(to right, white, transparent 20px); }
   .fade-out--right:before {
@@ -395,7 +396,7 @@ a {
     width: 2rem;
     height: 100%;
     position: absolute;
-    right: 6rem;
+    right: 4rem;
     bottom: 0;
     background: linear-gradient(to left, white, transparent 20px); } }
 
