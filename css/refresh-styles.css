@@ -964,6 +964,11 @@ label:hover:before {
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
   height: 52rem; }
 
+.img--avatar {
+  filter: drop-shadow(0 2px 2px rgba(22, 32, 24, 0.1));
+  margin-right: 0.5rem;
+  width: 25px; }
+
 .img--intro-video {
   transition: all 0.5s ease-in-out; }
 

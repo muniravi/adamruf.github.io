@@ -1326,6 +1326,12 @@ label:hover:before {
 
 
 //* IMAGES *//
+.img--avatar {
+  filter: drop-shadow(0 2px 2px transparentize($black, 0.9));
+  margin-right: 0.5rem;
+  width: 25px;
+}
+
 .img--intro-video {
   transition: all 0.5s ease-in-out;
 }
