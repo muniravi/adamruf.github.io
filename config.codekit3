@@ -2142,6 +2142,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/refresh-scripts-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/refresh-scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/resources-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2158,6 +2168,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/refresh-scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/refresh-scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

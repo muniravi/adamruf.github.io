@@ -1,0 +1,1 @@
+var offset=4040,duration=300;$(window).scroll(function(){$(this).scrollTop()>offset?$(".back-to-top").fadeIn():$(".back-to-top").fadeOut()}),$(".back-to-top").click(function(o){return o.preventDefault(),$("html, body").animate({scrollTop:0},duration),!1});

@@ -813,6 +813,45 @@ label:hover:before {
   }
 }
 
+.back-to-top {
+  background-color: $blue--pale;
+  // background-image: linear-gradient(transparentize($blue--pale, 0.9), transparentize($blue, 0.9));
+  border-radius: 1rem;
+  border: none;
+  box-shadow: $elevation-2;
+  color: $black;
+  display: none;
+  font-size: 1.8rem;
+  font-variant: all-small-caps;
+  line-height: 1;
+  padding: 0 1.5rem 1rem;
+  position: fixed;
+    bottom: 15rem;
+    right: -0.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 1px transparentize($black, 0.9);
+  transition: background-color 0.3s ease-in-out;
+  z-index: 999;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $blue--light;
+    // background-image: linear-gradient($blue--pale, $blue--light);
+    border-bottom: none;
+    box-shadow: $elevation-3;
+    color: $black;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+  span {
+    font-size: 4rem;
+  }
+  @media screen and (max-width: 400px) {
+    display: none !important;
+  }
+}
+
 .nav-pills .nav-link {
   background: transparent;
   border: none;
