@@ -242,7 +242,10 @@ a {
 
 .link--image {
   background: none !important; }
+  .link--image:hover, .link--image:active {
+    border: none; }
   .link--image:focus {
+    border: none;
     box-shadow: none;
     outline: none;
     transform: scale(1.1);
@@ -390,7 +393,8 @@ a {
     position: absolute;
     left: 4rem;
     bottom: 0;
-    background: linear-gradient(to right, white, transparent 20px); }
+    background: linear-gradient(to right, white, transparent 20px);
+    z-index: 1; }
   .fade-out--right:before {
     content: '';
     width: 2rem;
@@ -398,7 +402,8 @@ a {
     position: absolute;
     right: 4rem;
     bottom: 0;
-    background: linear-gradient(to left, white, transparent 20px); } }
+    background: linear-gradient(to left, white, transparent 20px);
+    z-index: 1; } }
 
 /* READING PROGRESS BAR */
 /* Lists */
