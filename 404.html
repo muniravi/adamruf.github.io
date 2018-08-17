@@ -1,140 +1,142 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorry, Page Not Found - Adam Ruf - San Francisco UX Designer, Mentor, &amp; Speaker</title>
-    <meta name="author" content="UX Designer, Adam Ruf">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sorry, Page Not Found - Adam Ruf - San Francisco UX Product Designer + Design Mentor</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Slab:300" rel="stylesheet" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans:400,600|Chewy" rel="stylesheet">
 
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.0/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4="
+    crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="https://adamruf.com/css/refresh-styles.css">
 
-    <link rel="stylesheet" href="//adamruf.com/css/style.css">
+  <style>
+    canvas{ display: block; opacity: 0.3; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #162018; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ 
 
-    <!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
+    .four-o-four-wrapper {
+      background: rgba(0,0,0,0.3);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
 
-    <script type="text/javascript">
+    h1 {
+      color: #fff;
+      font-size: calc(10rem + 5vw);
+      margin: 0;
+    }
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-5552191-4']);
-      _gaq.push(['_trackPageview']);
+    p {
+      color: #fff;
+      font-size: 4rem;
+      line-height: 1.618;
+      margin: 0;
+      margin-bottom: 2.618rem;
+    }
+  </style>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+  <!-- Font Awesome -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+    crossorigin="anonymous"></script> -->
 
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5552191-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!-- Preloading Content -->
+  <!-- <link rel="preload" href="https://adamruf.typeform.com/to/nuDolJ" as="document"> -->
+</head>
+<body>
+  <div class="container-fluid p-0 no-overflow-x">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <div class="four-o-four-wrapper text-center p-y-20 p-x-4">
+      <h1>404</h1>
+      <p>¯\_(⊙_ʖ⊙)_/¯</p>
+      
+      <a class="button button--primary" href="https://adamruf.com">🚀 Go Back Home</a>
+    </div>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script>
+      particlesJS("particles-js", {"particles":{"number":{"value":105,"density":{"enable":true,"value_area":555}},"color":{"value":"#727dff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#fff"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":5,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":100,"color":"#ff7f9e","opacity":0.5,"width":5},"move":{"enable":true,"speed":0.25,"direction":"none","random":true,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":55,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
     </script>
-  </head>
+  </div>
 
-  <body>
-    <header class="mg-b-xl">
-      <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="nav-row navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a id="home" class="navbar-brand" href="//adamruf.com/"><span>ux_adam <span class="muted">ruf</span></span></a></div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="top-nav nav navbar-nav">
-              <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Portfolio</a></li>
-              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">resources <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
-  resources</a></li>
-                  <!-- <li><a href="#">newsletter</a></li>
-                  <li><a href="#">workshops</a></li>
-                  <li><a href="#">templates</a></li> -->
-                </ul>
-              </li>
-              <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
-              <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
-              <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li>newsletter</li> -->
-              <!-- <li><a href="#">presentations</a></li>
-                  <li><a href="#">workshops</a></li>
-                  <li><a href="#">events</a></li>
-                </ul>
-              </li> -->
-            </ul>
-            <ul class="top-nav nav navbar-nav pull-right navbar-icons">
-              <li>
-                <a href="https://www.linkedin.com/in/adamruf" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin
-"></i></a>
-              </li>
-              <li>
-                <a href="https://www.twitch.tv/ux_adam" target="_blank" title="Join me on Twitch"><i class="fab fa-twitch
-"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/#!/ux_adam" target="_blank" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="https://github.com/adamruf" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!--/.container-->
-      </nav>
-      <div id="newsletter-banner" class="banner">
-        <p>Want to be a better UX/UI designer? <a href="https://www.twitch.tv/ux_adam" target="_blank">Watch Adam's live design stream</a></p>
-      </div>
-    </header>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="/js/min/refresh-scripts-min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.0/aos.js" integrity="sha256-8mhhK6WerRskNTu3fWZ4O8xDWv8cIr5fk8QLrDhplo4="
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+  </script>  -->
+  <!-- <script>
+    // TODO Find Script for Reading Progress Bar //
+  </script> -->
+  <!-- Embedded Typeforms -->
+  <script src="https://embed.typeform.com/embed.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    let projectInquiry, mentoringInquiry, jobInquiry;
+    window.addEventListener('DOMContentLoaded', function () {        
+      // When instantiating a popup embed, you must provide the URL
+      // of your typeform and your desired embed settings. If you don't
+      // provide any settings, a default 'popup' embed is instantiated.
+      projectInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/UlV8eu?page=home', {        
+        hideHeaders: true,
+        hideFooter: true
+      });
 
-    <section id="missing" class="container padded mg-b-lg">
-      <div class="row">
-        <div class="col-md-8 col-md-push-4">
-          <img class="js--404 fill-width mg-b-xs z-0" src="https://adamruf.com/images/404@2x.png" alt="404 error" title="Don't click me" />
-        </div>
-        <div class="col-md-4 col-md-pull-8 z-n-1">
-          <p class="lead error-page-message">Unless you're here to check out my 404 page, the page you wanted wasn't found</p>
-          <p class="error-page-message">Try the links above, <a href="https://adamruf.com">head home</a>, or <a href="https://404sites.tumblr.com" target="_blank">browse more 404 pages</a></p>
-        </div>
-      </div>
-    </section>
+      mentoringInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/g9K67Z?page=home', {
+        hideHeaders: true,
+        hideFooter: true
+      });
 
-    <footer class="text-center">
-      <div class="container padded">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="mg-b-sm">For 💪 design tips, 💯 articles, live design schedule, and more</p>
-            <p class="mg-b-sm">
-              <a class="button button-xs style--twitter-blue" href="https://twitter.com/intent/user?screen_name=ux_adam" target="_blank"><i class="fab fa-twitter"></i> Follow @ux_adam on Twitter</a>
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p class="heart-container">
-              <a class="img-link heart-link" href="https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work" target="blank">
-                <img class="heart animated pulse infinite" src="//adamruf.com/images/footer-heart.svg" alt="Smiling heart">
-              </a>
-            </p>
-            <p class="text--tiny">
-              &copy;2008
-              <script>new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());</script> UX Product Designer + Mentor, Adam Ruf. All rights and lefts reserved.
-            </p>
-          </div>
-        </div>
-      </div><!--/container-->
-    </footer>
+      jobInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/dun9GE?page=home', {        
+        hideHeaders: true,
+        hideFooter: true
+      });
+    
+      // giveFeedback = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/jD2Ykz?page=home', {
+      //   hideHeaders: true,
+      //   hideFooter: true
+      // });
+    })
 
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="//adamruf.com/js/min/scripts-min.js"></script>
-  </body>
+    // Now we bind our buttons to open our previously instantiated
+    // embedded typeforms when clicked
+    document.getElementById('tf-project-inquiry').addEventListener('click', function () {
+      projectInquiry.open();
+    });
+
+    document.getElementById('tf-mentoring-inquiry').addEventListener('click', function () {
+      mentoringInquiry.open();
+    });
+
+    document.getElementById('tf-job-inquiry').addEventListener('click', function () {
+      jobInquiry.open();
+    });
+  </script>
+</body>
 </html>
