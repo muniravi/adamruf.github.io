@@ -399,9 +399,11 @@ a {
   &:focus {
     border: none;
     box-shadow: none;
+    -webkit-filter: drop-shadow(0 0 7px $red--light);
+    filter: drop-shadow(0 0 7px $red--light);
     outline: none;
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
     &:after {
       border: none;
     }
