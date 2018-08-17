@@ -1085,27 +1085,27 @@ label:hover:before {
   transition: all .3s ease-in;
   width: 2rem; }
 
-.ar-card--link:hover, .ar-card--link:focus {
-  background: #FFFFFF;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
-  color: rgba(22, 32, 24, 0.3);
-  text-decoration: none;
-  transform: translateY(-5px); }
-  .ar-card--link:hover .right-arrow:after, .ar-card--link:focus .right-arrow:after {
-    opacity: 1;
-    transform: translateX(0.5rem); }
-
-.ar-card--link:focus.ar-card--link-red {
-  background: #FFBFCE; }
-
-.ar-card--link:focus.ar-card--link-yellow {
-  background: #FFFEBF; }
-
-.ar-card--link:focus.ar-card--link-green {
-  background: #BFFFDC; }
-
-.ar-card--link:focus.ar-card--link-blue {
-  background: #BFFAFF; }
+.ar-card--link {
+  transition: all 0.3s ease-in-out; }
+  .ar-card--link:hover, .ar-card--link:focus {
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
+    color: rgba(22, 32, 24, 0.3);
+    text-decoration: none;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out; }
+    .ar-card--link:hover .right-arrow:after, .ar-card--link:focus .right-arrow:after {
+      opacity: 1;
+      transform: translateX(0.5rem); }
+  .ar-card--link:focus.ar-card--link-red {
+    background: #FFBFCE; }
+  .ar-card--link:focus.ar-card--link-yellow {
+    background: #FFFEBF; }
+  .ar-card--link:focus.ar-card--link-green {
+    background: #BFFFDC; }
+  .ar-card--link:focus.ar-card--link-blue {
+    background: #BFFAFF; }
 
 .ar-card__image-header {
   height: 300px; }
