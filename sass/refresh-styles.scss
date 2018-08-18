@@ -1925,6 +1925,12 @@ iframe {
 
 /////* ANIMATION */////
 
+@media screen and (max-width: 480px) {
+  [data-aos-delay] {
+    transition-delay: 0s !important;
+  }
+}
+
 .spin-me {
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
