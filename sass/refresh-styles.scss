@@ -749,7 +749,6 @@ label:hover:before {
   text-align: center;
   text-transform: uppercase;
   padding: 1.5rem 3rem;
-  transition: all 0.15s ease-in-out !important;
   white-space: nowrap;
   
   &:hover,
@@ -759,6 +758,7 @@ label:hover:before {
     box-shadow: $elevation-2;
     text-decoration: none;
     transform: translateY(-1px) !important;
+    transition: all 0.15s ease-in-out !important;
   }
   &:focus {
     box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($link, 0.9);
@@ -923,7 +923,7 @@ label:hover:before {
   font-weight: 500;
   padding: 2rem;
   position: relative;
-  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   will-change: transform;
   // transition: all 0.3s ease-in-out;
 
@@ -1400,7 +1400,7 @@ label:hover:before {
   overflow: hidden;
   padding: 2rem;
   position: relative;
-  transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out;
 }
 
 // .ar-card:hover .background-image,
@@ -1436,6 +1436,7 @@ label:hover:before {
   &:focus {
     box-shadow: $elevation-3;
     transform: translateY(-5px) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   &:focus {
     &.ar-card--red {
@@ -1499,7 +1500,6 @@ label:hover:before {
 }
 
 .ar-card--link {
-  transition: all 0.3s ease-in-out;
   &:hover,
   &:focus {
     background: $white;
