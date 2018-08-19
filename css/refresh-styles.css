@@ -560,14 +560,14 @@ label:hover:before {
   text-align: center;
   text-transform: uppercase;
   padding: 1.5rem 3rem;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out !important;
   white-space: nowrap; }
   .button:hover, .button:focus {
     background-color: #f7f8f8;
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
     text-decoration: none;
-    transform: translateY(-1px); }
+    transform: translateY(-1px) !important; }
   .button:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1), 0 0 3rem 1rem rgba(88, 102, 255, 0.1); }
   .button:active {
@@ -678,12 +678,12 @@ label:hover:before {
   font-weight: 500;
   padding: 2rem;
   position: relative;
-  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
   will-change: transform; }
   .ar-alert:hover, .ar-alert:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
-    transform: translateY(-1px);
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateY(-1px) !important;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
     will-change: transform; }
     .ar-alert:hover:after, .ar-alert:focus:after {
       opacity: 1; }
@@ -1024,7 +1024,7 @@ label:hover:before {
   overflow: hidden;
   padding: 2rem;
   position: relative;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out !important; }
 
 .ar-card--sm {
   min-height: 300px;
@@ -1041,7 +1041,7 @@ label:hover:before {
 
 .ar-card--project:hover, .ar-card--project:focus {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
-  transform: translateY(-5px); }
+  transform: translateY(-5px) !important; }
 
 .ar-card--project:focus.ar-card--red {
   background: #FFFFFF;
@@ -1098,8 +1098,8 @@ label:hover:before {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
     color: rgba(22, 32, 24, 0.3);
     text-decoration: none;
-    transform: translateY(-5px);
-    transition: all 0.3s ease-in-out; }
+    transform: translateY(-5px) !important;
+    transition: all 0.3s ease-in-out !important; }
     .ar-card--link:hover .right-arrow:after, .ar-card--link:focus .right-arrow:after {
       opacity: 1;
       transform: translateX(0.5rem); }
