@@ -152,12 +152,14 @@ body {
 }
 
 ::selection {
-  background: $black; /* Webkit */
-  color: $white;
+  background: $yellow; /* Webkit */
+  color: $black;
+  text-shadow: none;
 }
 ::-moz-selection {
-  background: $black; /* Firefox */
-  color: $white;
+  background: $yellow; /* Firefox */
+  color: $black;
+  text-shadow: none;
 }
 
 h1,h2,h3,h4,h5 {

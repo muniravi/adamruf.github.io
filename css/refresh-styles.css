@@ -45,14 +45,16 @@ body {
   outline: none !important; }
 
 ::selection {
-  background: #162018;
+  background: #FFFD7F;
   /* Webkit */
-  color: #FFFFFF; }
+  color: #162018;
+  text-shadow: none; }
 
 ::-moz-selection {
-  background: #162018;
+  background: #FFFD7F;
   /* Firefox */
-  color: #FFFFFF; }
+  color: #162018;
+  text-shadow: none; }
 
 h1, h2, h3, h4, h5 {
   font-family: Montserrat;
