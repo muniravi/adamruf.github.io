@@ -559,6 +559,7 @@ label:hover:before {
   /* min-width: 236px; */
   text-align: center;
   text-transform: uppercase;
+  transition: all 0.15s ease-in-out;
   padding: 1.5rem 3rem;
   white-space: nowrap; }
   .button:hover, .button:focus {
@@ -566,8 +567,7 @@ label:hover:before {
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
     text-decoration: none;
-    transform: translateY(-1px) !important;
-    transition: all 0.15s ease-in-out !important; }
+    transform: translateY(-1px); }
   .button:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1), 0 0 3rem 1rem rgba(88, 102, 255, 0.1); }
   .button:active {
@@ -1041,8 +1041,8 @@ label:hover:before {
 
 .ar-card--project:hover, .ar-card--project:focus {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
-  transform: translateY(-5px) !important;
-  transition: all 0.3s ease-in-out !important; }
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out; }
 
 .ar-card--project:focus.ar-card--red {
   background: #FFFFFF;

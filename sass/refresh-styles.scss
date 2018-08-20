@@ -748,17 +748,18 @@ label:hover:before {
   /* min-width: 236px; */
   text-align: center;
   text-transform: uppercase;
+  transition: all 0.15s ease-in-out;
   padding: 1.5rem 3rem;
   white-space: nowrap;
-  
+
   &:hover,
   &:focus {
     background-color: lighten($button--secondary, 1%);
     border: none;
     box-shadow: $elevation-2;
     text-decoration: none;
-    transform: translateY(-1px) !important;
-    transition: all 0.15s ease-in-out !important;
+    transform: translateY(-1px);
+
   }
   &:focus {
     box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($link, 0.9);
@@ -1435,8 +1436,8 @@ label:hover:before {
   &:hover,
   &:focus {
     box-shadow: $elevation-3;
-    transform: translateY(-5px) !important;
-    transition: all 0.3s ease-in-out !important;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
   }
   &:focus {
     &.ar-card--red {
