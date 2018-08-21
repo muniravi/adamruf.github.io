@@ -246,6 +246,10 @@ abbr {
 .label--blurple { background: transparentize($blurple,0.85); }
 .label--purple { background: transparentize($red,0.85); }
 
+.strong {
+  font-weight: bold;
+}
+
 .uppercase {
   text-transform: uppercase;
 }

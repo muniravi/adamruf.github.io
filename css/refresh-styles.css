@@ -156,6 +156,9 @@ abbr {
 .label--purple {
   background: rgba(255, 127, 158, 0.15); }
 
+.strong {
+  font-weight: bold; }
+
 .uppercase {
   text-transform: uppercase; }
 
