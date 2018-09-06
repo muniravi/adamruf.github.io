@@ -107,7 +107,7 @@
 		},
 	"\/images\/2018-refresh\/bg-transition--shapes-1-v2.png": {
 		"ft": 32768,
-		"iS": 879746,
+		"iS": 602417,
 		"oA": 0,
 		"oAP": "\/images\/2018-refresh\/bg-transition--shapes-1-v2.png",
 		"oF": 0,
@@ -560,14 +560,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/images\/2018-refresh\/tumbleweed@2x.gif": {
-		"ft": 4194304,
-		"iS": 640571,
-		"oA": 0,
-		"oAP": "\/images\/2018-refresh\/tumbleweed@2x.gif",
-		"oF": 0,
-		"opt": 1
 		},
 	"\/images\/2018-refresh\/tumbleweed@2x.png": {
 		"ft": 32768,
