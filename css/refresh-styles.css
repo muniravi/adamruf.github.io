@@ -572,7 +572,8 @@ label:hover:before {
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
     text-decoration: none;
-    transform: translateY(-1px); }
+    transform: translateY(-1px);
+    transition: all 0.15s ease-in-out; }
   .button:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1), 0 0 3rem 1rem rgba(88, 102, 255, 0.1); }
   .button:active {
@@ -586,14 +587,14 @@ label:hover:before {
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(77, 90, 228, 0.44); }
   .button--primary:hover, .button--primary:focus {
-    background-color: #7c86ff; }
+    background-color: #6874ff; }
 
 .button--red {
   background-color: #FFBFCE;
   color: #FFFFFF !important;
   text-shadow: 0 1px 3px #D02045; }
   .button--red:hover, .button--red:focus {
-    background-color: #ffc4d2; }
+    background-color: #ffbaca; }
   .button--red:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1), 0 0 3rem 1rem rgba(255, 127, 158, 0.1); }
 
@@ -657,7 +658,7 @@ label:hover:before {
 .ar-submit {
   border-radius: 0 0.5rem 0.5rem 0; }
   .ar-submit:hover {
-    background: #7c86ff;
+    background: #6874ff;
     transform: translateY(0); }
   .ar-submit:focus {
     transform: translateY(0); }

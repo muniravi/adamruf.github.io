@@ -765,6 +765,7 @@ label:hover:before {
     box-shadow: $elevation-2;
     text-decoration: none;
     transform: translateY(-1px);
+    transition: all 0.15s ease-in-out;
 
   }
   &:focus {
@@ -785,10 +786,10 @@ label:hover:before {
   background-color: $button--primary;
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(77, 90, 228, 0.44);
-  
+
   &:hover,
   &:focus {
-    background-color: lighten($button--primary,2%);
+    background-color: darken($button--primary,2%);
   }
 }
 
@@ -796,10 +797,10 @@ label:hover:before {
   background-color: $red--light;
   color: $white !important;
   text-shadow: 0 1px 3px $red--dark;
-  
+
   &:hover,
   &:focus {
-    background-color: lighten($red--light,1%);
+    background-color: darken($red--light,1%);
   }
 
   &:focus {
@@ -811,7 +812,7 @@ label:hover:before {
   background-color: $green--light;
   color: $white !important;
   text-shadow: 0 1px 3px $green--dark;
-  
+
   &:hover,
   &:focus {
     background-color: darken($green,2%);
@@ -902,7 +903,7 @@ label:hover:before {
 .ar-submit {
   border-radius: 0 0.5rem 0.5rem 0;
   &:hover {
-    background: lighten($blurple,2%);
+    background: darken($blurple,2%);
     // color: $link !important;
     transform: translateY(0);
   }
