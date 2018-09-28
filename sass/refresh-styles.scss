@@ -3,19 +3,14 @@
 //* COLORS *//
 $white:                   #FFFFFF;
 $black:                   #162018;
-$text:                    transparentize(#162018, 0.2);
-$text--light:             transparentize(#162018, 0.3);
-$text--subtle:            transparentize(#162018, 0.6);
-$text--placeholder:       transparentize(#162018, 0.8);
-// $text:                    transparentize(#48554A, 0.2);
-// $text--subtle:            transparentize(#48554A, 0.4);
-// $text--placeholder:       transparentize(#48554A, 0.6);
-// $text--subtle:            #707571;
-// $text--placeholder:       #A2A9A3;
+$text:                    transparentize($black, 0.2);
+$text--light:             transparentize($black, 0.3);
+$text--subtle:            transparentize($black, 0.6);
+$text--placeholder:       transparentize($black, 0.8);
+
 $border:                  transparentize($black,0.93);
 $border--gray:            #D1D4D1;
 $button--secondary:       #F4F5F6;
-// $button--primary:         #4D5AE4;
 $button--primary:         #727dff;
 $link:                    #5866FF;
 
@@ -25,23 +20,8 @@ $gold:                    #FFEB4B;
 $yellow:                  #FFFD7F;
 $green:                   #7FFFB9;
 $blue:                    #7FF6FF;
-// $blurple:                 #5866FF;
 $blurple:                 #727dff;
 $purple:                  #C496FF;
-
-// $red--md:                 #FFBFCF;
-// $orange--md:              #FFE7BF;
-// $yellow--md:              #FFFEBF;
-// $green--md:               #BFFFDD;
-// $blue--md:                #BFFBFF;
-// $purple--md:              #E2CBFF;
-
-// $red--light:             #FFDFE7;
-// $orange--light:          #FFF3DF;
-// $yellow--light:          #FFFFDF;
-// $green--light:           #DFFFEE;
-// $blue--light:            #DFFDFF;
-// $purple--light:          #F1E5FF;
 
 $red--light:             #FFBFCE;
 $orange--light:          #FFE6BF;
@@ -66,24 +46,6 @@ $green--dark:            #16C766;
 $blue--dark:             #16BCC5;
 $blurple--dark:          #141FC5;
 $purple--dark:           #743EC5;
-
-// $red--dark:              darken($red,10%);
-// $orange--dark:           darken($orange,10%);
-// $yellow--dark:           darken($yellow,10%);
-// $green--dark:            darken($green,10%);
-// $blue--dark:             darken($blue,10%);
-// $blurple--dark:          darken($blurple,10%);
-// $purple--dark:           darken($purple,10%);
-
-// $red--pale:              #FFF3F6;
-// $orange--pale:           #FFF8EC;
-// $yellow--pale:           #FFFEEB;
-// $green--pale:            #F3FFF8;
-// $blue--pale:             #F3FFFF;
-// $purple--pale:           #F9F4FF;
-
-
-
 
 //* FILLS *//
 .fill--red      { fill: $red; }
@@ -148,7 +110,6 @@ body {
 
 *:focus {
   outline: none !important;
-  // box-shadow: 0 2px 3rem transparentize($link, 0.75) !important;
 }
 
 ::selection {
@@ -366,22 +327,6 @@ a {
   margin: 0;
 }
 
-// .nav--active .nav-link {
-//   background: $button--primary;
-//   border-radius: 0.5rem;
-//   color: $white !important;
-//   &:hover,
-//   &:active {
-//     background: $button--primary;
-//     color: $white !important;
-//   }
-//   &:focus {
-//     background: $button--primary;
-//     box-shadow: 0 0 3rem 1rem transparentize($link, 0.85);
-//     color: $white !important;
-//   }
-// }
-
 .nav--active .nav-link {
   background: transparentize($link, 0.95);
   border-radius: 0.5rem;
@@ -392,7 +337,6 @@ a {
   &:focus {
     background: transparentize($link, 0.95);
     box-shadow: 0 0 1rem 1rem transparentize($link, 0.85);
-    // color: $white !important;
   }
 }
 
