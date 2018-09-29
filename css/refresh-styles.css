@@ -772,10 +772,10 @@ label:hover:before {
   transition: opacity .3s ease-in-out; }
 
 .fade-top {
-  -webkit-mask-image: -webkit-gradient(linear, left 50%, left top, from(black), to(transparent)); }
+  -webkit-mask-image: -webkit-gradient(linear, left 50%, left top, from(black), to(rgba(0, 0, 0, 0))); }
 
 .fade-bottom {
-  -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(black), to(transparent)); }
+  -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(black), to(rgba(0, 0, 0, 0))); }
 
 .opacity-100 {
   opacity: 1 !important; }
@@ -1002,7 +1002,7 @@ label:hover:before {
   border-radius: 50% 50% 0 0;
   bottom: 0;
   box-shadow: 0 -1rem 20rem #BFA8FF;
-  height: 240px;
+  height: 220px;
   margin-left: -15%;
   margin-right: -15%;
   width: 130%; }
