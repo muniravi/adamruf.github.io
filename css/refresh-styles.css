@@ -1128,7 +1128,8 @@ label:hover:before {
   background: #BFFAFF; }
 
 .ar-card__image-header {
-  height: 300px; }
+  height: 300px;
+  width: 100%; }
   @media screen and (max-width: 571px) {
     .ar-card__image-header {
       height: 200px; } }

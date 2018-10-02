@@ -1475,6 +1475,7 @@ label:hover:before {
 
 .ar-card__image-header {
   height: 300px;
+  width: 100%;
   @media screen and (max-width: 571px) {
     height: 200px;
   }
