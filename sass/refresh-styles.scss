@@ -1158,12 +1158,21 @@ label:hover:before {
     z-index: -3;
 }
 
-.background-image--job-hunt {
-  background-image: url('../images/2018-refresh/job-hunt@2x.png');
+.current-project_background-image {
   height: 234px;
   @media screen and (max-width: 580px){
     height: 155px;
   }
+}
+
+.background-image--job-hunt {
+  background-image: url('../images/2018-refresh/job-hunt@2x.png');
+}
+.background-image--angellist {
+  background-image: url('../images/2018-refresh/joined-angellist@2x.png')
+}
+.background-image--trivia-game {
+  background-image: url('../images/2018-refresh/adam-ruf-trivia-game.gif');
 }
 .background-image--portfolio-reviews {
   background-image: url('../images/2018-refresh/portfolio-reviews@2x.png');
