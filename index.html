@@ -135,7 +135,7 @@
         <div class="row align-items-stretch justify-content-between">
           <div class="col-lg-7 col-md-10 col-sm-12 col-xs-10 m-b-10">
             <h1 class="m-b-5" style="max-width: 650px;"><span data-aos="fade-up" data-aos-delay="300">👋 Hi, I'm
-              <span class="text--blurple">Adam Ruf</span>, a Product Designer in San Francisco</span>
+              <span class="text--blurple">Adam <span data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='text--blurple'>Rhymes with <em>stuff</em></span>">Ruf</span></span>, a Product Designer in San Francisco</span>
               <br>
               <br> <span data-aos="fade-up" data-aos-delay="1200">I work to
               <span class="text--red">empower creativity</span> and help teams + designers win through <span class="text--green">empathic design</span></span>
@@ -867,7 +867,7 @@
             <h2 class="text--lg text-center m-b-3">
               <span class="d-block small-heading m-b-1">Never miss out on anything awesome from Adam</span>
               <span class="d-block">Crush the 2-minute 🙀
-              <abbr class="text--purple" title="Fear Of Missing Out">FOMO</abbr> Checklist</span>
+              <span class="text--purple" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='text--purple'>Fear Of Missing Out</span>">FOMO</span> Checklist</span>
             </h2>
 
             <ul class="list-unstyled">
@@ -1048,6 +1048,13 @@
       easing: 'ease',
       delay: 0,
     });
+  </script>
+
+  <script>
+    // Initialize Bootstrap tooltips
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
   <!-- <script>
     // TODO Find Script for Reading Progress Bar //

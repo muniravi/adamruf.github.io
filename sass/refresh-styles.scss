@@ -101,7 +101,6 @@ body {
   font-weight: 400;
   letter-spacing: -0.005em;
   line-height: 1.618;
-  
 }
 
 .serif {
@@ -206,6 +205,32 @@ abbr {
 .label--blue { background: transparentize($blue,0.85); }
 .label--blurple { background: transparentize($blurple,0.85); }
 .label--purple { background: transparentize($red,0.85); }
+
+.tooltip-inner {
+  background-color: $white !important;
+  border-radius: 0.6rem;
+  box-shadow: $elevation-2;
+  color: $text--light;
+  font-size: 1.4rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: $white !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: $white !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: $white !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: $white !important;
+}
+
 
 .strong {
   font-weight: bold;

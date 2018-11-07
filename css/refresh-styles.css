@@ -156,6 +156,29 @@ abbr {
 .label--purple {
   background: rgba(255, 127, 158, 0.15); }
 
+.tooltip-inner {
+  background-color: #FFFFFF !important;
+  border-radius: 0.6rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
+  color: rgba(22, 32, 24, 0.7);
+  font-size: 1.4rem;
+  font-weight: 700;
+  opacity: 1 !important;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase; }
+
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #FFFFFF !important; }
+
+.tooltip.bs-tooltip-left .arrow:before {
+  border-left-color: #FFFFFF !important; }
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #FFFFFF !important; }
+
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #FFFFFF !important; }
+
 .strong {
   font-weight: bold; }
 
