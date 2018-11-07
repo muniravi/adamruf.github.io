@@ -266,6 +266,23 @@ a {
     }
   }
 
+  &.help-wanted {
+    background: transparentize($yellow, 0.5);
+    border-bottom: none;
+    border-radius: 0.5rem;
+    color: $text !important;
+    transition: all 0.3s ease-in-out;
+    &:hover,
+    &:focus,
+    &:active {
+      background: $yellow;
+      border-bottom: none;
+      border-radius: 0.5rem;
+      color: $text !important;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
   &.link--arrow:after {
     background-image: url('https://adamruf.com/images/2018-refresh/link-arrow.svg');
     background-repeat: no-repeat;

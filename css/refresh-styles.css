@@ -195,6 +195,18 @@ a {
       border-bottom: none;
       border-radius: 0.5rem;
       color: #5866FF !important; }
+  a.help-wanted {
+    background: rgba(255, 253, 127, 0.5);
+    border-bottom: none;
+    border-radius: 0.5rem;
+    color: rgba(22, 32, 24, 0.8) !important;
+    transition: all 0.3s ease-in-out; }
+    a.help-wanted:hover, a.help-wanted:focus, a.help-wanted:active {
+      background: #FFFD7F;
+      border-bottom: none;
+      border-radius: 0.5rem;
+      color: rgba(22, 32, 24, 0.8) !important;
+      transition: all 0.3s ease-in-out; }
   a.link--arrow:after {
     background-image: url("https://adamruf.com/images/2018-refresh/link-arrow.svg");
     background-repeat: no-repeat;
