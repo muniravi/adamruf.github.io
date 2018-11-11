@@ -1415,11 +1415,14 @@ label:hover:before {
 .ar-card--sm {
   min-height: 300px;
   max-width: 350px;
+  min-width: 300px;
 }
 
 .ar-card--md {
   min-height: 300px;
   max-width: 500px;
+  min-width: 350px;
+  width: 85vw;
 }
 
 // .ar-card--full {
@@ -1589,7 +1592,7 @@ label:hover:before {
   width: 100px;
 }
 
-.modal-close { font-size: 4rem; }
+.modal-close { font-size: 2rem; }
 
 .close { opacity: 0.4; }
 
@@ -1618,7 +1621,7 @@ label:hover:before {
 }
 
 .modal-header .close {
-    margin: -1.5rem -1rem -1.5rem auto;
+    margin: -1rem -1rem -1.5rem auto;
 }
 
 /* FIGURES */
