@@ -1910,6 +1910,12 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   }
 }
 
+#hero .p-y-10 {
+  @media screen and (max-width: 500px) {
+    padding-top: 5rem !important;
+  }
+}
+
 //* IFRAMES *//
 iframe {
   border-radius: 3rem;
