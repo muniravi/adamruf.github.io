@@ -206,6 +206,18 @@ abbr {
 .label--blurple { background: transparentize($blurple,0.85); }
 .label--purple { background: transparentize($red,0.85); }
 
+.has-tooltip {
+  line-height: 1;
+  margin-bottom: -2rem;
+  display: inline-block;
+  &.has-tooltip--blurple {
+    border-bottom: 3px dashed transparentize($blurple, 0.66);
+  }
+  &.has-tooltip--purple {
+    border-bottom: 3px dashed transparentize($purple, 0.66);
+  }
+}
+
 .tooltip-inner {
   background-color: $white !important;
   border-radius: 0.6rem;

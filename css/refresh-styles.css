@@ -156,6 +156,15 @@ abbr {
 .label--purple {
   background: rgba(255, 127, 158, 0.15); }
 
+.has-tooltip {
+  line-height: 1;
+  margin-bottom: -2rem;
+  display: inline-block; }
+  .has-tooltip.has-tooltip--blurple {
+    border-bottom: 3px dashed rgba(114, 125, 255, 0.34); }
+  .has-tooltip.has-tooltip--purple {
+    border-bottom: 3px dashed rgba(196, 150, 255, 0.34); }
+
 .tooltip-inner {
   background-color: #FFFFFF !important;
   border-radius: 0.6rem;
