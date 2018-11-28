@@ -900,6 +900,7 @@ label:hover:before {
 
 .ar-submit {
   border-radius: 0 0.5rem 0.5rem 0;
+  padding: 1.4rem 3rem;
   &:hover {
     background: darken($blurple,2%);
     // color: $link !important;

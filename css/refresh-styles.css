@@ -700,7 +700,8 @@ label:hover:before {
       box-shadow: 0 0 3rem 1rem rgba(88, 102, 255, 0.15); }
 
 .ar-submit {
-  border-radius: 0 0.5rem 0.5rem 0; }
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 1.4rem 3rem; }
   .ar-submit:hover {
     background: #6874ff;
     transform: translateY(0); }
