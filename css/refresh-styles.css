@@ -2432,7 +2432,7 @@ label:hover:before {
   padding-bottom: 0.5rem !important; }
 
 @media screen and (max-width: 500px) {
-  .p-y-10 {
+  .p-y-10, .p-t-10 {
     padding-top: 5rem !important; } }
 
 iframe {

@@ -1999,7 +1999,7 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   }
 }
 
-.p-y-10 {
+.p-y-10, .p-t-10 {
   @media screen and (max-width: 500px) {
     padding-top: 5rem !important;
   }
