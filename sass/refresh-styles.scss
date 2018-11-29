@@ -1220,6 +1220,10 @@ label:hover:before {
   }
 }
 
+.volunteer_background-image {
+  height: 200px;
+}
+
 .background-image--job-hunt {
   background-image: url('../images/2018-refresh/job-hunt@2x.png');
 }
@@ -1425,6 +1429,12 @@ label:hover:before {
 //   height: 234px;
 // }
 
+.ar-card--xs {
+  min-height: 200px;
+  max-width: 200px;
+  min-width: 200px;
+}
+
 .ar-card--sm {
   min-height: 300px;
   max-width: 350px;
@@ -1566,6 +1576,10 @@ label:hover:before {
 .ar-card__heading--sm {
   font-size: 2.5rem;
   min-height: 9rem;
+}
+
+.ar-card__heading--xs {
+  font-size: 2.5rem;
 }
 
 
