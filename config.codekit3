@@ -665,6 +665,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/2018-refresh/volunteer-placeholder-blue@2x.png": {
+		"ft": 32768,
+		"iS": 14004,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer-placeholder-blue@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer-placeholder-green@2x.png": {
+		"ft": 32768,
+		"iS": 14648,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer-placeholder-green@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer-placeholder-purple@2x.png": {
+		"ft": 32768,
+		"iS": 13896,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer-placeholder-purple@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer-placeholder-red@2x.png": {
+		"ft": 32768,
+		"iS": 14149,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer-placeholder-red@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer-placeholder-yellow@2x.png": {
+		"ft": 32768,
+		"iS": 14093,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer-placeholder-yellow@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/2018-refresh/wavy-clip-path-v2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5177,6 +5232,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/ux-ui-designer-adam-ruf-portfolio.html",
+		"oF": 0
+		},
+	"/volunteering/design-volunteers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/volunteering/design-volunteers.html",
 		"oF": 0
 		}
 	},
