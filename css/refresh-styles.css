@@ -1104,6 +1104,41 @@ label:hover:before {
   min-width: 350px;
   width: 85vw; }
 
+.ar-card__body:focus.ar-card--red {
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -o-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
+
+.ar-card__body:focus.ar-card--yellow {
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -o-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
+
+.ar-card__body:focus.ar-card--green {
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -o-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
+
+.ar-card__body:focus.ar-card--blue {
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -o-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
+
+.ar-card__body:focus.ar-card--purple {
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
+  background-image: -o-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
+
 .ar-card--project .ar-card__body {
   min-height: 165px; }
 
@@ -1111,41 +1146,6 @@ label:hover:before {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
   transform: translateY(-5px);
   transition: all 0.3s ease-in-out; }
-
-.ar-card--project:focus.ar-card--red {
-  background: #FFFFFF;
-  background-image: -webkit-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -moz-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -ms-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -o-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
-
-.ar-card--project:focus.ar-card--yellow {
-  background: #FFFFFF;
-  background-image: -webkit-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -moz-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -ms-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -o-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
-
-.ar-card--project:focus.ar-card--green {
-  background: #FFFFFF;
-  background-image: -webkit-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -moz-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -ms-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -o-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
-
-.ar-card--project:focus.ar-card--blue {
-  background: #FFFFFF;
-  background-image: -webkit-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -moz-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -ms-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -o-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
-
-.ar-card--project:focus.ar-card--purple {
-  background: #FFFFFF;
-  background-image: -webkit-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -moz-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -ms-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
-  background-image: -o-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
 
 .right-arrow:after {
   background-image: url("https://adamruf.com/images/2018-refresh/right-arrow.svg");
