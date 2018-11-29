@@ -1403,6 +1403,13 @@ label:hover:before {
   width: 25px;
 }
 
+.img--volunteer-avatar {
+  filter: drop-shadow(0 2px 2px transparentize($black, 0.9));
+  margin-right: 0.5rem;
+  margin-top: -0.5rem;
+  width: 3.5rem;
+}
+
 .img--intro-video {
   transition: all 0.5s ease-in-out;
 }
