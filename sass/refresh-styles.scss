@@ -1220,9 +1220,27 @@ label:hover:before {
   }
 }
 
-.volunteer_background-image {
+.volunteer_background-image,
+.volunteer_placeholder {
   height: 200px;
 }
+
+.volunteer_placeholder--red {
+  background-image: url('../images/2018-refresh/volunteer-placeholder-red@2x.png');
+}
+.volunteer_placeholder--yellow {
+  background-image: url('../images/2018-refresh/volunteer-placeholder-yellow@2x.png');
+}
+.volunteer_placeholder--green {
+  background-image: url('../images/2018-refresh/volunteer-placeholder-green@2x.png');
+}
+.volunteer_placeholder--blue {
+  background-image: url('../images/2018-refresh/volunteer-placeholder-blue@2x.png');
+}
+.volunteer_placeholder--purple {
+  background-image: url('../images/2018-refresh/volunteer-placeholder-purple@2x.png');
+}
+
 
 .background-image--job-hunt {
   background-image: url('../images/2018-refresh/job-hunt@2x.png');
