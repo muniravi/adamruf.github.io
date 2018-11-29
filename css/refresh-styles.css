@@ -731,9 +731,10 @@ label:hover:before {
   position: relative;
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   will-change: transform; }
+  .ar-alert:hover {
+    transform: translateY(-1px) !important; }
   .ar-alert:hover, .ar-alert:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
-    transform: translateY(-1px) !important;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
     will-change: transform; }
     .ar-alert:hover:after, .ar-alert:focus:after {
@@ -1192,13 +1193,15 @@ label:hover:before {
   transition: all .3s ease-in;
   width: 2rem; }
 
+.ar-card--link:hover {
+  transform: translateY(-5px) !important; }
+
 .ar-card--link:hover, .ar-card--link:focus {
   background: #FFFFFF;
   border: none;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
   color: rgba(22, 32, 24, 0.3);
   text-decoration: none;
-  transform: translateY(-5px) !important;
   transition: all 0.3s ease-in-out !important; }
   .ar-card--link:hover .right-arrow:after, .ar-card--link:focus .right-arrow:after {
     opacity: 1;

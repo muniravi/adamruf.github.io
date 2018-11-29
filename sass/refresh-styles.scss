@@ -948,10 +948,13 @@ label:hover:before {
   //   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   // }
 
+  &:hover {
+    transform: translateY(-1px) !important;
+  }
+
   &:hover,
   &:focus {
     box-shadow: $elevation-2;
-    transform: translateY(-1px) !important;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
     will-change: transform;
     // transform: scale(1.1) translateY(-1px);
@@ -1572,6 +1575,9 @@ label:hover:before {
 }
 
 .ar-card--link {
+  &:hover {
+    transform: translateY(-5px) !important;
+  }
   &:hover,
   &:focus {
     background: $white;
@@ -1579,7 +1585,6 @@ label:hover:before {
     box-shadow: $elevation-3;
     color: transparentize($text, 0.5);
     text-decoration: none;
-    transform: translateY(-5px) !important;
     transition: all 0.3s ease-in-out !important;
     .right-arrow:after {
       opacity: 1;
