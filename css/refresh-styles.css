@@ -1123,35 +1123,35 @@ label:hover:before {
   min-width: 350px;
   width: 85vw; }
 
-.ar-card__body:focus.ar-card--red {
+.ar-card:focus.ar-card--red {
   background: #FFFFFF;
   background-image: -webkit-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -moz-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -ms-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -o-linear-gradient(bottom, rgba(255, 191, 206, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
 
-.ar-card__body:focus.ar-card--yellow {
+.ar-card:focus.ar-card--yellow {
   background: #FFFFFF;
   background-image: -webkit-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -moz-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -ms-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -o-linear-gradient(bottom, rgba(255, 254, 191, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
 
-.ar-card__body:focus.ar-card--green {
+.ar-card:focus.ar-card--green {
   background: #FFFFFF;
   background-image: -webkit-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -moz-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -ms-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -o-linear-gradient(bottom, rgba(191, 255, 220, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
 
-.ar-card__body:focus.ar-card--blue {
+.ar-card:focus.ar-card--blue {
   background: #FFFFFF;
   background-image: -webkit-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -moz-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -ms-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -o-linear-gradient(bottom, rgba(191, 250, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%); }
 
-.ar-card__body:focus.ar-card--purple {
+.ar-card:focus.ar-card--purple {
   background: #FFFFFF;
   background-image: -webkit-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);
   background-image: -moz-linear-gradient(bottom, rgba(225, 202, 255, 0.4) 0%, #FFFFFF 25%, #FFFFFF 100%);

@@ -1486,7 +1486,7 @@ label:hover:before {
 //   width: 100%;
 // }
 
-.ar-card__body:focus {
+.ar-card:focus {
   &.ar-card--red {
     background: $white;
     background-image: -webkit-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
