@@ -216,6 +216,9 @@ abbr {
   &.has-tooltip--purple {
     border-bottom: 3px dashed transparentize($purple, 0.66);
   }
+  &.has-tooltip--black {
+    border-bottom: 3px dashed transparentize($black, 0.66);
+  }
 }
 
 .tooltip-inner {
@@ -225,6 +228,7 @@ abbr {
   color: $text--light;
   font-size: 1.4rem;
   font-weight: 700;
+  max-width: 600px;
   opacity: 1 !important;
   padding: 0.8rem 2rem;
   text-transform: uppercase;

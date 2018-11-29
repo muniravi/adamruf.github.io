@@ -164,6 +164,8 @@ abbr {
     border-bottom: 3px dashed rgba(114, 125, 255, 0.34); }
   .has-tooltip.has-tooltip--purple {
     border-bottom: 3px dashed rgba(196, 150, 255, 0.34); }
+  .has-tooltip.has-tooltip--black {
+    border-bottom: 3px dashed rgba(22, 32, 24, 0.34); }
 
 .tooltip-inner {
   background-color: #FFFFFF !important;
@@ -172,6 +174,7 @@ abbr {
   color: rgba(22, 32, 24, 0.7);
   font-size: 1.4rem;
   font-weight: 700;
+  max-width: 600px;
   opacity: 1 !important;
   padding: 0.8rem 2rem;
   text-transform: uppercase; }
