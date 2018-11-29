@@ -1021,6 +1021,9 @@ label:hover:before {
 .background-image--trivia-game {
   background-image: url("../images/2018-refresh/adam-ruf-trivia-game.gif"); }
 
+.background-image--raj-jangra {
+  background-image: url("https://adamruf.com/images/adam-ruf-larger-profile-pic.jpg"); }
+
 .background-gradient {
   margin-top: -15rem;
   height: 100%;
