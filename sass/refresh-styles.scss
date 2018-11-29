@@ -1423,6 +1423,24 @@ label:hover:before {
   transition: all 0.3s ease-in-out;
 }
 
+.ar-card.elevation-1 {
+  &:hover,
+  &:focus {
+    box-shadow: $elevation-2;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.ar-card.elevation-2 {
+  &:hover,
+  &:focus {
+    box-shadow: $elevation-3;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 // .ar-card:hover .background-image,
 // .ar-card:focus .background-image {
 //   transform: scale(1.2);
@@ -1498,12 +1516,12 @@ label:hover:before {
   .ar-card__body {
     min-height: 165px;
   }
-  &:hover,
-  &:focus {
-    box-shadow: $elevation-3;
-    transform: translateY(-5px);
-    transition: all 0.3s ease-in-out;
-  }
+  // &:hover,
+  // &:focus {
+  //   box-shadow: $elevation-3;
+  //   transform: translateY(-5px);
+  //   transition: all 0.3s ease-in-out;
+  // }
 }
 
 .right-arrow:after {

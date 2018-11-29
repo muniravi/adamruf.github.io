@@ -1088,6 +1088,16 @@ label:hover:before {
   position: relative;
   transition: all 0.3s ease-in-out; }
 
+.ar-card.elevation-1:hover, .ar-card.elevation-1:focus {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07), 0 7px 14px rgba(50, 78, 93, 0.1);
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in-out; }
+
+.ar-card.elevation-2:hover, .ar-card.elevation-2:focus {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out; }
+
 .ar-card--xs {
   min-height: 200px;
   max-width: 200px;
@@ -1141,11 +1151,6 @@ label:hover:before {
 
 .ar-card--project .ar-card__body {
   min-height: 165px; }
-
-.ar-card--project:hover, .ar-card--project:focus {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06), 0 15px 35px rgba(50, 78, 93, 0.09);
-  transform: translateY(-5px);
-  transition: all 0.3s ease-in-out; }
 
 .right-arrow:after {
   background-image: url("https://adamruf.com/images/2018-refresh/right-arrow.svg");
