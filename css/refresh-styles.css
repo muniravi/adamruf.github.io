@@ -960,23 +960,22 @@ label:hover:before {
     .current-project_background-image {
       height: 155px; } }
 
-.volunteer_background-image,
-.volunteer_placeholder {
+.volunteer-background-image {
   height: 200px; }
 
-.volunteer_placeholder--red {
+.volunteer-placeholder--red {
   background-image: url("../images/2018-refresh/volunteer-placeholder-red@2x.png"); }
 
-.volunteer_placeholder--yellow {
+.volunteer-placeholder--yellow {
   background-image: url("../images/2018-refresh/volunteer-placeholder-yellow@2x.png"); }
 
-.volunteer_placeholder--green {
+.volunteer-placeholder--green {
   background-image: url("../images/2018-refresh/volunteer-placeholder-green@2x.png"); }
 
-.volunteer_placeholder--blue {
+.volunteer-placeholder--blue {
   background-image: url("../images/2018-refresh/volunteer-placeholder-blue@2x.png"); }
 
-.volunteer_placeholder--purple {
+.volunteer-placeholder--purple {
   background-image: url("../images/2018-refresh/volunteer-placeholder-purple@2x.png"); }
 
 .background-image--job-hunt {
