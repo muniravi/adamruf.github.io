@@ -654,6 +654,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/2018-refresh/volunteer--caroline.png": {
+		"ft": 32768,
+		"iS": 305075,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer--caroline.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer--claudia.png": {
+		"ft": 32768,
+		"iS": 86483,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer--claudia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer--deepak.png": {
+		"ft": 32768,
+		"iS": 252285,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer--deepak.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/volunteer--lauro.png": {
+		"ft": 32768,
+		"iS": 68891,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/volunteer--lauro.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/2018-refresh/volunteer-application-bg.png": {
 		"ft": 32768,
 		"iS": 145438,
