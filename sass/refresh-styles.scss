@@ -1,62 +1,79 @@
 //////* VARIABLES */////
 
 //* COLORS *//
-$white:                   #FFFFFF;
-$black:                   #162018;
-$background--primary:     #FFFFFF;
-$background--secondary:   #FAFAFA;
-$text:                    transparentize($black, 0.2);
-$text--light:             transparentize($black, 0.3);
-$text--subtle:            transparentize($black, 0.6);
-$text--placeholder:       transparentize($black, 0.8);
+html {
+  --white:                   hsla(0, 100%, 100%, 1);
+  --black:                   hsla(132, 19%, 11%, 1);
+  --background--primary:     hsla(0, 100%, 100%, 1);
+  --background--secondary:   hsla(0, 0%, 98%, 1);
+  --text:                    hsla(132,31,13,0.8);
+  --text--light:             hsla(132,31,13,0.7);
+  --text--subtle:            hsla(132,31,13,0.4);
+  --text--placeholder:       hsla(132,31,13,0.2);
+  --link:                    hsla(235, 100%, 67%, 1);
 
-$border:                  transparentize($black,0.93);
-$border--gray:            #D1D4D1;
-$button--secondary:       #F4F5F6;
-$button--primary:         #727dff;
-$link:                    #5866FF;
+  --border:                  hsla(132,31,13,0.07);
+  --border--gray:            hsla(120, 3%, 83%, 1);
+  --button--primary:         hsla(235, 100%, 72%, 1);
+  --button--secondary:       hsla(210, 10%, 96%, 1);
 
-$red:                     #FF7F9E;
-$orange:                  #FFCE7F;
-$gold:                    #FFEB4B;
-$yellow:                  #FFFD7F;
-$green:                   #7FFFB9;
-$blue:                    #7FF6FF;
-$blurple:                 #727dff;
-$purple:                  #C496FF;
+  --red:                     hsla(345, 100%, 75%, 1);
+  --orange:                  hsla(37, 100%, 75%, 1);
+  --gold:                    hsla(53, 100%, 65%, 1);
+  --yellow:                  hsla(59, 100%, 75%, 1);
+  --green:                   hsla(147, 100%, 75%, 1);
+  --blue:                    hsla(184, 100%, 75%, 1);
+  --blurple:                 hsla(235, 100%, 72%, 1);
+  --purple:                  hsla(266, 100%, 79%, 1);
 
-$red--light:             #FFBFCE;
-$orange--light:          #FFE6BF;
-$yellow--light:          #FFFEBF;
-$green--light:           #BFFFDC;
-$blue--light:            #BFFAFF;
-$blurple--light:         #B8BEFF;
-$purple--light:          #E1CAFF;
+  --red--light:             hsla(346, 100%, 87%, 1);
+  --orange--light:          hsla(37, 100%, 87%, 1);
+  --yellow--light:          hsla(59, 100%, 87%, 1);
+  --green--light:           hsla(147, 100%, 87%, 1);
+  --blue--light:            hsla(185, 100%, 87%, 1);
+  --blurple--light:         hsla(235, 100%, 86%, 1);
+  --purple--light:          hsla(266, 100%, 90%, 1);
 
-$red--pale:              #FFECF1;
-$orange--pale:           #FFF8EC;
-$yellow--pale:           #FFFFEC;
-$green--pale:            #ECFFF5;
-$blue--pale:             #ECFEFF;
-$blurple--pale:          #EAECFF;
-$purple--pale:           #F6F0FF;
+  --red--pale:              hsla(344, 100%, 96%, 1);
+  --orange--pale:           hsla(38, 100%, 96%, 1);
+  --yellow--pale:           hsla(60, 100%, 96%, 1);
+  --green--pale:            hsla(148, 100%, 96%, 1);
+  --blue--pale:             hsla(183, 100%, 96%, 1);
+  --blurple--pale:          hsla(234, 100%, 96%, 1);
+  --purple--pale:           hsla(264, 100%, 97%, 1);
 
-$red--dark:              #D02045;
-$orange--dark:           #D07D20;
-$yellow--dark:           #FFEB4B;
-$green--dark:            #16C766;
-$blue--dark:             #16BCC5;
-$blurple--dark:          #141FC5;
-$purple--dark:           #743EC5;
+  --red--dark:              hsla(345, 73%, 47%, 1);
+  --orange--dark:           hsla(37, 73%, 47%, 1);
+  --yellow--dark:           hsla(59, 100%, 65%, 1);
+  --green--dark:            hsla(147, 80%, 43%, 1);
+  --blue--dark:             hsla(185, 80%, 43%, 1);
+  --blurple--dark:          hsla(235, 82%, 43%, 1);
+  --purple--dark:           hsla(266, 54%, 51%, 1);
+}
+
+html.theme--dark {
+  --background--primary:     hsla(240, 19%, 11%, 1);
+  --background--secondary:   hsla(240, 11%, 16%, 1);
+  --text:                    hsla(360,100%,100%,0.8);
+  --text--light:             hsla(360,100%,100%,0.7);
+  --text--subtle:            hsla(360,100%,100%,0.4);
+  --text--placeholder:       hsla(360,100%,100%,0.2);
+
+  --border:                  hsla(360,100%,100%,0.07);
+  --border--gray:            hsla(120, 3%, 83%, 1);
+  --button--secondary:       hsla(210, 10%, 96%, 1);
+  --button--primary:         hsla(235, 100%, 72%, 1);
+  --link:                    hsla(235, 100%, 67%, 1);
+}
 
 //* FILLS *//
-.fill--red      { fill: $red; }
-.fill--orange   { fill: $orange; }
-.fill--yellow   { fill: $yellow; }
-.fill--green    { fill: $green; }
-.fill--blue     { fill: $blue; }
-.fill--purple   { fill: $purple; }
-.fill--black    { fill: $text; }
+.fill--red      { fill: var(--red); }
+.fill--orange   { fill: var(--orange); }
+.fill--yellow   { fill: var(--yellow); }
+.fill--green    { fill: var(--green); }
+.fill--blue     { fill: var(--blue); }
+.fill--purple   { fill: var(--purple); }
+.fill--black    { fill: var(--text); }
 
 
 //* FONTS *//
@@ -84,7 +101,7 @@ $elevation-4: 0 10px 30px rgba(0,0,0,0.05), 0 30px 70px rgba(50,78,93,0.08);
 }
 
 @mixin push--auto {
-    margin: { 
+    margin: {
         left: auto;
         right: auto;
     }
@@ -97,24 +114,9 @@ html {
   }
 }
 
-html[data-theme='dark'] {
-  $background--primary:     #161620;
-  $background--secondary:   #24242D;
-  $text:                    transparentize($white, 0.2);
-  $text--light:             transparentize($white, 0.3);
-  $text--subtle:            transparentize($white, 0.6);
-  $text--placeholder:       transparentize($white, 0.8);
-
-  $border:                  transparentize($white,0.93);
-  $border--gray:            #D1D4D1;
-  $button--secondary:       #F4F5F6;
-  $button--primary:         #727dff;
-  $link:                    #5866FF;
-}
-
 body {
-  background: $background--primary;
-  color: $text;
+  background: var(--background--primary);
+  color: var(--text);
   @include font-size(1.6);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -131,13 +133,13 @@ body {
 }
 
 ::selection {
-  background: $yellow; /* Webkit */
-  color: $black;
+  background: var(--yellow); /* Webkit */
+  color: var(--black);
   text-shadow: none;
 }
 ::-moz-selection {
-  background: $yellow; /* Firefox */
-  color: $black;
+  background: var(--yellow); /* Firefox */
+  color: var(--black);
   text-shadow: none;
 }
 
@@ -163,20 +165,20 @@ h2 {
 
 .small-heading {
   @include font-size(2);
-  color: $text--subtle;
+  color: var(--text--subtle);
   font-family: $font--sans-serif;
   font-weight: normal;
 }
 
 .heading--xs {
   @include font-size(1.6);
-  color: $text--subtle;
+  color: var(--text--subtle);
   font-family: $font--sans-serif;
   font-weight: normal;
 }
 
 p {
-  color: $text--light;
+  color: var(--text--light);
   font-size: 1.7rem;
   font-weight: 400;
   margin-bottom: 2.618rem;
@@ -187,23 +189,23 @@ ul {
 }
 
 li {
-  color: $text--light;
+  color: var(--text--light);
   font-size: 1.7rem;
   font-weight: 400;
   margin-bottom: 1.618rem;
 }
 
 abbr {
-  text-decoration: underline dotted $text--subtle !important;
+  text-decoration: underline dotted var(--text--subtle) !important;
   text-decoration-skip-ink: none;
 }
 
 .label {
   // background-color: transparentize($blue,0.85);
-  background: $button--secondary;
+  background: var(--button--secondary);
   border-radius: 2rem;
   // box-shadow: $elevation-1;
-  color: $text;
+  color: var(--text);
   display: inline-block;
   font-size: 1.4rem;
   font-weight: bold;
@@ -211,40 +213,33 @@ abbr {
   padding: 1rem 2rem;
 }
 
-.label--red { background: transparentize($red,0.85); }
-.label--yellow { background: transparentize($yellow,0.85); }
-.label--green { background: transparentize($green,0.85); }
-.label--blue { background: transparentize($blue,0.85); }
-.label--blurple { background: transparentize($blurple,0.85); }
-.label--purple { background: transparentize($red,0.85); }
-
-.label--red { background: linear-gradient($purple--pale, $red--pale); }
-.label--yellow { background: transparentize($yellow,0.85); }
-.label--green { background: transparentize($green,0.85); }
-.label--blue { background: transparentize($blue,0.85); }
-.label--blurple { background: transparentize($blurple,0.85); }
-.label--purple { background: transparentize($red,0.85); }
+.label--red { background: hsla(345, 100%, 75%, 0.15); }
+.label--yellow { background: hsla(59, 100%, 75%,0.15); }
+.label--green { background: hsla(147, 100%, 75%, 0.15); }
+.label--blue { background: hsla(184, 100%, 75%, 0.15); }
+.label--blurple { background: hsla(235, 100%, 72%, 0.15); }
+.label--purple { background: hsla(266, 100%, 79%, 0.15); }
 
 .has-tooltip {
   line-height: 1;
   margin-bottom: -2rem;
   display: inline-block;
   &.has-tooltip--blurple {
-    border-bottom: 3px dashed transparentize($blurple, 0.66);
+    border-bottom: 3px dashed hsla(235, 100%, 72%, 0.33);
   }
   &.has-tooltip--purple {
-    border-bottom: 3px dashed transparentize($purple, 0.66);
+    border-bottom: 3px dashed hsla(266, 100%, 79%, 0.33);
   }
   &.has-tooltip--black {
-    border-bottom: 3px dashed transparentize($black, 0.66);
+    border-bottom: 3px dashed hsla(132, 19%, 11%, 0.33);
   }
 }
 
 .tooltip-inner {
-  background-color: $background--primary !important;
+  background-color: var(--background--primary) !important;
   border-radius: 0.6rem;
   box-shadow: $elevation-2;
-  color: $text--light;
+  color: var(--text--light);
   font-size: 1.4rem;
   font-weight: 700;
   max-width: 600px;
@@ -254,16 +249,16 @@ abbr {
 }
 
 .tooltip.bs-tooltip-right .arrow:before {
-    border-right-color: $background--primary !important;
+    border-right-color: var(--background--primary) !important;
 }
 .tooltip.bs-tooltip-left .arrow:before {
-    border-left-color: $background--primary !important;
+    border-left-color: var(--background--primary) !important;
 }
 .tooltip.bs-tooltip-bottom .arrow:before {
-    border-bottom-color: $background--primary !important;
+    border-bottom-color: var(--background--primary) !important;
 }
 .tooltip.bs-tooltip-top .arrow:before {
-    border-top-color: $background--primary !important;
+    border-top-color: var(--background--primary) !important;
 }
 
 
@@ -298,11 +293,11 @@ abbr {
 }
 
 a {
-  color: $link;
+  color: var(--link);
   transition: all .2s ease-in-out;
 
   &.link--subtle {
-    color: $text--subtle;
+    color: var(--text--subtle);
   }
 
   &.link--padded {
@@ -311,7 +306,7 @@ a {
   }
 
   &.nav-link {
-    color: $text !important;
+    color: var(--text) !important;
     font-size: 1.6rem;
     font-weight: 700;
     padding: 0.5rem 1rem;
@@ -319,26 +314,26 @@ a {
     &:hover,
     &:focus,
     &:active {
-      background: transparentize($link, 0.95);
+      background: hsla(235, 100%, 67%, 0.05);
       border-bottom: none;
       border-radius: 0.5rem;
-      color: $link !important;
+      color: var(--link) !important;
     }
   }
 
   &.help-wanted {
-    background: transparentize($yellow, 0.5);
+    background: hsla(59, 100%, 75%, 0.95);
     border-bottom: none;
     border-radius: 0.5rem;
-    color: $text !important;
+    color: var(--text) !important;
     transition: all 0.3s ease-in-out;
     &:hover,
     &:focus,
     &:active {
-      background: $yellow;
+      background: var(--yellow);
       border-bottom: none;
       border-radius: 0.5rem;
-      color: $text !important;
+      color: var(--text) !important;
       transition: all 0.3s ease-in-out;
     }
   }
@@ -347,7 +342,7 @@ a {
     background-image: url('https://adamruf.com/images/2018-refresh/link-arrow.svg');
     background-repeat: no-repeat;
     content: "";
-    color: transparentize($link, 0.5);
+    color: hsla(235, 100%, 67%, 0.5);
     display: inline-block;
     height: 1.2rem;
     opacity: 0;
@@ -364,15 +359,15 @@ a {
   &:hover,
   &:active,
   &:focus {
-    background-color: transparentize($link, 0.95);
-    border-bottom: 1px solid transparentize($link, 0.5);
-    color: $link;
+    background-color: hsla(235, 100%, 67%, 0.05);
+    border-bottom: 1px solid hsla(235, 100%, 67%, 0.5);
+    color: var(--link);
     text-decoration: none;
     transition: background-color .2s ease-in;
 
     &.link--subtle {
-      background: transparentize($text--light, 0.95);
-      color: $text--light;
+      background: hsla(132,31,13,0.67);
+      color: var(--text--light);
     }
 
     &.link--arrow {
@@ -390,11 +385,11 @@ a {
   }
 
   &.link--white {
-    color: $white;
+    color: var(--white);
     &:hover,
     &:active,
     &:focus {
-      background: $link;
+      background: --link;
       border-bottom: none;
     }
   }
@@ -405,15 +400,15 @@ a {
 }
 
 .nav--active .nav-link {
-  background: transparentize($link, 0.95);
+  background: hsla(235, 100%, 67%, 0.05);
   border-radius: 0.5rem;
   &:hover,
   &:active {
-    background: transparentize($link, 0.9);
+    background: hsla(235, 100%, 67%, 0.1);
   }
   &:focus {
-    background: transparentize($link, 0.95);
-    box-shadow: 0 0 1rem 1rem transparentize($link, 0.85);
+    background: hsla(235, 100%, 67%, 0.05);
+    box-shadow: 0 0 1rem 1rem hsla(235, 100%, 67%, 0.15);
   }
 }
 
@@ -426,8 +421,8 @@ a {
   &:focus {
     border: none;
     box-shadow: none;
-    -webkit-filter: drop-shadow(0 0 7px $red--light);
-    filter: drop-shadow(0 0 7px $red--light);
+    -webkit-filter: drop-shadow(0 0 7px var(--red--light));
+    filter: drop-shadow(0 0 7px var(--red--light));
     outline: none;
     transform: scale(1.3);
     transition: all 0.5s ease-in-out;
@@ -442,7 +437,7 @@ a {
     background-image: url('https://adamruf.com/images/2018-refresh/right-arrow.svg');
     background-repeat: no-repeat;
     content: "";
-    color: transparentize($text, 0.5);
+    color: hsla(132,31,13,0.4);
     display: inline-block;
     height: 1.2rem;
     opacity: 1;
@@ -452,113 +447,103 @@ a {
 }
 
 .link--red {
-  color: darken($red,10%);
+  color: hsla(345, 100%, 68%, 1);
   &:hover,
   &:focus,
   &:active {
-    background: transparentize($red, 0.85);
-    border-color: transparentize($red, 0.5);
+    background: hsla(345, 100%, 75%, 0.15);
+    border-color: hsla(345, 100%, 75%, 0.5);
     border-radius: 0;
-    color: darken($red,10%) !important;
+    color: hsla(345, 100%, 68%, 1) !important;
   }
 }
 
 .link--orange {
-  color: darken($orange,10%);
+  color: hsla(37, 100%, 68%, 1);
   &:hover,
   &:focus,
   &:active {
-    background: transparentize($orange, 0.85);
-    border-color: transparentize($orange, 0.5);
+    background: hsla(37, 100%, 75%, 0.15);
+    border-color: hsla(37, 100%, 75%, 0.5);
     border-radius: 0;
-    color: darken($orange,10%) !important;
+    color: hsla(37, 100%, 68%, 1) !important;
   }
 }
 
 .link--yellow {
-  color: darken($yellow,10%);
+  color: hsla(59, 100%, 68%, 1);
   &:hover,
   &:focus,
   &:active {
-    background: transparentize($yellow, 0.85);
-    border-color: transparentize($yellow, 0.5);
+    background: hsla(59, 100%, 75%, 0.15);
+    border-color: hsla(59, 100%, 75%, 0.5);
     border-radius: 0;
-    color: darken($yellow,10%) !important;
+    color: hsla(59, 100%, 68%, 1) !important;
   }
 }
 
 .link--green {
-  color: darken($green,30%);
+  color: hsla(147, 100%, 53%, 1);
   &:hover,
   &:focus,
   &:active {
-    background: transparentize($green, 0.85);
-    border-color: transparentize($green, 0.5);
+    background: hsla(147, 100%, 75%, 0.15);
+    border-color: hsla(147, 100%, 75%, 0.5);
     border-radius: 0;
-    color: darken($green,30%) !important;
+    color: hsla(147, 100%, 75%, 0.15) !important;
   }
 }
 
 .link--blue {
-  color: darken($blue,10%);
+  color: hsla(184, 100%, 68%, 1);
   &:hover,
   &:focus,
   &:active {
-    background: transparentize($blue, 0.85);
-    border-color: transparentize($blue, 0.5);
+    background: hsla(184, 100%, 75%, 0.15);
+    border-color: hsla(184, 100%, 75%, 0.5);
     border-radius: 0;
-    color: darken($blue,10%) !important;
+    color: hsla(184, 100%, 68%, 1) !important;
   }
 }
 
 .link--purple {
-  color: darken($purple,10%);
+  color: hsla(266, 100%, 71%, 1);
   &:hover,
   &:focus,
   &:active {
-    background: transparentize($purple, 0.85);
-    border-color: transparentize($purple, 0.5);
+    background: hsla(266, 100%, 79%, 0.15);
+    border-color: hsla(266, 100%, 79%, 0.5);
     border-radius: 0;
-    color: darken($purple,10%) !important;
-    // &:before {
-    //   content: '';
-    //   position: absolute;
-    //   background: transparentize($purple, 0.85);
-    //   height: 2rem;
-    //   min-width: 20rem;
-    //   bottom: -0.2rem;
-    //   left: 4rem;
-    // }
+    color: hsla(266, 100%, 71%, 1) !important;
   }
-  
 }
 
-.text--blurple { color: $blurple; }
-.text--placeholder { color: $text--placeholder; }
+.text--blurple { color: var(--blurple); }
+.text--placeholder { color: var(--text--placeholder); }
 
-.text--red { color: $red; }
-.text--orange { color: $orange; }
-.text--yellow { color: $yellow--dark; }
-.text--green { color: $green; }
-.text--blue { color: $blue; }
-.text--blurple { color: $blurple; }
-.text--purple { color: $purple; }
+.text--red { color: var(--red); }
+.text--orange { color: var(--orange); }
+.text--yellow { color: var(--yellow--dark); }
+.text--green { color: var(--green); }
+.text--blue { color: var(--blue); }
+.text--blurple { color: var(--blurple); }
+.text--purple { color: var(--purple); }
 
-.text--subtle { color: $text--subtle; }
+.text--subtle { color: var(--text--subtle); }
 
-.text-shadow--red { text-shadow: 0 2px 6px $red--dark; }
-.text-shadow--orange { text-shadow: 0 2px 6px $orange--dark; }
-.text-shadow--yellow { text-shadow: 0 2px 6px $yellow--dark; }
-.text-shadow--green { text-shadow: 0 2px 6px $green--dark; }
-.text-shadow--blue { text-shadow: 0 2px 6px $blue--dark; }
-.text-shadow--blurple { text-shadow: 0 2px 6px $blurple; }
-.text-shadow--purple { text-shadow: 0 2px 6px $purple--dark; }
+.text-shadow--red { text-shadow: 0 2px 6px var(--red--dark); }
+.text-shadow--orange { text-shadow: 0 2px 6px var(--orange--dark); }
+.text-shadow--yellow { text-shadow: 0 2px 6px var(--yellow--dark); }
+.text-shadow--green { text-shadow: 0 2px 6px var(--green--dark); }
+.text-shadow--blue { text-shadow: 0 2px 6px var(--blue--dark); }
+.text-shadow--blurple { text-shadow: 0 2px 6px var(--blurple); }
+.text-shadow--purple { text-shadow: 0 2px 6px var(--purple--dark); }
 
 /* TOP NAV */
 .nav-icon {font-size: 2rem;}
 
 .navbar-light {
-  background: $white;
+  background: var(--background--primary);
   padding: 2rem 6rem !important;
   @media screen and (max-width: 400px) {
     padding: 1rem 4rem !important;
@@ -586,7 +571,7 @@ a {
     position:absolute;
     left: 4rem;
     bottom:0;
-    background: linear-gradient(to right, white, transparent 20px);
+    background: linear-gradient(to right, var(--white) transparent 20px);
     z-index: 1;
   }
   .fade-out--right:before {
@@ -596,7 +581,7 @@ a {
     position:absolute;
     right: 4rem;
     bottom:0;
-    background: linear-gradient(to left, white, transparent 20px);
+    background: linear-gradient(to left, var(--white) transparent 20px);
     z-index: 1;
   }
 }
@@ -625,16 +610,16 @@ header {
   font-weight: 700;
 }
 header a {
-  color: $text;
+  color: var(--text);
 
   &:hover,
   &:focus,
-  &:active {color: $link;}
+  &:active {color: var(--link);}
 }
 
 .testimonial-message {
   @include font-size(3);
-  color: $text--light;
+  color: var(--text--light);
   font-family: Times, 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
@@ -648,9 +633,9 @@ header a {
 /////* FORMS */////
 
 .ar-input--text {
-  border: 1px solid $white;
+  border: 1px solid var(--white);
   box-shadow: $elevation-1;
-  color: $link !important;
+  color: var(--link) !important;
   font-size: 1.8rem;
   height: 57px;
   min-width: 33rem;
@@ -658,14 +643,14 @@ header a {
   padding: 1.5rem;
   transition: all 0.2s ease-in-out;
   &:focus {
-    border: 1px solid $white !important;
-    border-bottom: 4px solid transparentize($blurple, 0.5) !important;
+    border: 1px solid var(--white) !important;
+    border-bottom: 4px solid hsla(235, 100%, 72%, 0.5) !important;
     box-shadow: $elevation-1;
   }
   &::-webkit-input-placeholder,
   &::-moz-placeholder,
   &:-ms-input-placeholder {
-    color: $text--placeholder;
+    color: var(--text--placeholder);
   }
   @media screen and (max-width: 585px){
     border-radius: 0.4rem;
@@ -694,8 +679,8 @@ header a {
   position: absolute;
   left: 0; top: 0;
   width: 30px; height: 30px;
-  border: 3px solid transparentize($purple,0.5);
-  background: $white;
+  border: 3px solid hsla(266, 100%, 79%, 0.5);
+  background: var(--white);
   border-radius: 4px;
   box-shadow: inset 0 1px 5px rgba(0,0,0,.1);
 }
@@ -707,10 +692,10 @@ header a {
   top: -11px;
   left: 5px;
   font-size: 4rem;
-  color: darken($purple,10%);
+  color: hsla(266, 100%, 71%, 1);
   line-height: 1;
   transition: all .2s ease-in-out;
-  text-shadow: 1px 2px 2px transparentize($text,0.555);
+  text-shadow: 1px 2px 2px hsla(132,31,13,0.45);
 }
 
 .check--water + label:after {
@@ -722,7 +707,7 @@ header a {
 
 .check--speak + label:after {
   content: '🗣️' !important;
-  color: darken($purple,10%);
+  color: hsla(266, 100%, 71%, 1);
   position: absolute;
   left: -5px !important;
   top: -8px !important;
@@ -753,22 +738,22 @@ header a {
 /* accessibility */
 [type="checkbox"]:checked:focus + label:before,
 [type="checkbox"]:not(:checked):focus + label:before {
-  box-shadow: 0 0 10px transparentize($purple,0.5);
+  box-shadow: 0 0 10px hsla(266, 100%, 79%, 0.5);
 }
 
 /* hover style just for information */
 label:hover:before {
-  border: 3px solid $purple !important;
+  border: 3px solid var(--purple) !important;
 }
 
 
 
 .button {
-  background-color: $button--secondary;
+  background-color: var(--button--secondary);
   border: none;
   border-radius: 0.5rem;
   box-shadow: $elevation-1;
-  color: $text--light !important;
+  color: var(--text--light) !important;
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 600;
@@ -781,7 +766,7 @@ label:hover:before {
 
   &:hover,
   &:focus {
-    background-color: lighten($button--secondary, 1%);
+    background-color: hsla(210, 10%, 97%, 1);
     border: none;
     box-shadow: $elevation-2;
     text-decoration: none;
@@ -790,7 +775,7 @@ label:hover:before {
 
   }
   &:focus {
-    box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($link, 0.9);
+    box-shadow: $elevation-2, 0 0 3rem 1rem hsla(235, 100%, 67%, 0.1);
   }
 
   &:active {
@@ -804,53 +789,52 @@ label:hover:before {
 }
 
 .button--primary {
-  background-color: $button--primary;
+  background-color: --button--primary;
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(77, 90, 228, 0.44);
 
   &:hover,
   &:focus {
-    background-color: darken($button--primary,2%);
+    background-color: hsla(235, 100%, 70%, 1);
   }
 }
 
 .button--red {
-  background-color: $red--light;
-  color: $white !important;
-  text-shadow: 0 1px 3px $red--dark;
+  background-color: var(--red--light);
+  color: var(--white) !important;
+  text-shadow: 0 1px 3px var(--red--dark);
 
   &:hover,
   &:focus {
-    background-color: darken($red--light,1%);
+    background-color: hsla(346, 100%, 86%, 1);
   }
 
   &:focus {
-    box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($red, 0.9);
+    box-shadow: $elevation-2, 0 0 3rem 1rem hsla(345, 100%, 75%, 0.1);
   }
 }
 
 .button--green {
-  background-color: $green--light;
-  color: $white !important;
-  text-shadow: 0 1px 3px $green--dark;
+  background-color: var(--green--light);
+  color: var(--white) !important;
+  text-shadow: 0 1px 3px var(--green--dark);
 
   &:hover,
   &:focus {
-    background-color: darken($green,2%);
+    background-color: hsla(147, 100%, 73%, 1);
   }
 
   &:focus {
-    box-shadow: $elevation-2, 0 0 3rem 1rem transparentize($green, 0.9);
+    box-shadow: $elevation-2, 0 0 3rem 1rem hsla(147, 100%, 75%, 0.1);
   }
 }
 
 .back-to-top {
-  background-color: $blue--pale;
-  // background-image: linear-gradient(transparentize($blue--pale, 0.9), transparentize($blue, 0.9));
+  background-color: var(--blue--pale);
   border-radius: 1rem;
   border: none;
   box-shadow: $elevation-2;
-  color: $black;
+  color: var(--black);
   display: none;
   font-size: 1.8rem;
   font-variant: all-small-caps;
@@ -861,17 +845,17 @@ label:hover:before {
     right: -0.5rem;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0 1px 1px transparentize($black, 0.9);
+  text-shadow: 0 1px 1px hsla(132, 19%, 11%, 0.1);
   transition: background-color 0.3s ease-in-out;
   z-index: 999;
   &:hover,
   &:active,
   &:focus {
-    background-color: $blue--light;
+    background-color: var(--blue--light);
     // background-image: linear-gradient($blue--pale, $blue--light);
     border-bottom: none;
     box-shadow: $elevation-3;
-    color: $black;
+    color: var(--black);
     text-decoration: none;
     transform: translateY(-1px);
   }
@@ -887,28 +871,22 @@ label:hover:before {
   background: transparent;
   border: none;
   border-radius: 0.5rem !important;
-  color: $text--light;
+  color: var(--text--light);
   padding: 1rem 1.5rem;
   transition: 0.15s ease;
 
   &:hover,
   &:focus {
-    background: transparentize($button--primary, 0.9);
-    // border-bottom: 3px solid lighten($link, 25%);
-    color: $link !important;
+    background: hsla(235, 100%, 72%, 0.1);
+    color: var(--link) !important;
   }
 
-  // &:focus {
-  //   box-shadow: 0 0 3rem 1rem 1rem transparentize($link, 0.9);
-  //   color: $text--light !important;
-  // }
-
   &.active {
-    background: $button--primary;
-    // border-bottom: 3px solid $link;
-    color: white !important;
+    background: var(--button--primary);
+    // border-bottom: 3px solid var(--link);
+    color: var(--white) !important;
     &:focus {
-      box-shadow: 0 0 3rem 1rem transparentize($link, 0.85);
+      box-shadow: 0 0 3rem 1rem hsla(235, 100%, 67%, 0.15);
     }
   }
 }
@@ -925,8 +903,8 @@ label:hover:before {
   border-radius: 0 0.5rem 0.5rem 0;
   padding: 1.4rem 3rem;
   &:hover {
-    background: darken($blurple,2%);
-    // color: $link !important;
+    background: hsla(235, 100%, 70%, 1);
+    // color: var(--link) !important;
     transform: translateY(0);
   }
   &:focus {transform: translateY(0);}
@@ -939,15 +917,15 @@ label:hover:before {
 
 .cta-text {
   @include font-size(1.8);
-  color: $text--light;
+  color: var(--text--light);
 }
 
 .ar-alert {
-  background: $button--secondary;
+  background: var(--button--secondary);
   border: 5px solid transparent;
   border-radius: 1rem;
   box-shadow: $elevation-1;
-  color: transparentize($text,0.15);
+  color: hsla(132,31,13,0.68);
   display: block;
   font-family: 'Montserrat';
   font-weight: 500;
@@ -1007,51 +985,51 @@ label:hover:before {
 }
 
 .ar-bg--red {
-  background: $red--pale !important;
+  background: var(--red--pale) !important;
   &:hover,
   &:active,
   &:focus {
-    border-color: transparentize($red, 0.9);
+    border-color: hsla(345, 100%, 75%, 0.1);
   }
 }
 .ar-bg--orange {
-  background: $orange--pale !important;
+  background: var(--orange--pale) !important;
   &:hover,
   &:active,
   &:focus {
-    border-color: transparentize($orange, 0.9);
+    border-color: hsla(37, 100%, 75%, 0.1);
   }
 }
 .ar-bg--yellow {
-  background: $yellow--pale !important;
+  background: var(--yellow--pale) !important;
   &:hover,
   &:active,
   &:focus {
-    border-color: transparentize($gold, 0.75);
+    border-color: hsla(53, 100%, 65%, 0.25);
   }
 }
 .ar-bg--green {
-  background: $green--pale !important;
+  background: var(--green--pale) !important;
   &:hover,
   &:active,
   &:focus {
-    border-color: transparentize($green, 0.75);
+    border-color: hsla(147, 100%, 75%, 0.25);
   }
 }
 .ar-bg--blue {
-  background: $blue--pale !important;
+  background: var(--blue--pale) !important;
   &:hover,
   &:active,
   &:focus {
-    border-color: transparentize($blue, 0.75);
+    border-color: hsla(184, 100%, 75%, 0.25);
   }
 }
 .ar-bg--purple {
-  background: $purple--pale !important;
+  background: var(--purple--pale) !important;
   &:hover,
   &:active,
   &:focus {
-    border-color: transparentize($purple, 0.9);
+    border-color: hsla(266, 100%, 79%, 0.1);
   }
 }
 
@@ -1115,19 +1093,19 @@ label:hover:before {
 
 /* BACKGROUNDS */
 
-.background--red       { background: $red; }
-.background--orange    { background: $orange; }
-.background--yellow    { background: $yellow; }
-.background--green     { background: $green; }
-.background--blue      { background: $blue; }
-.background--purple    { background: $purple; }
+.background--red       { background: var(--red); }
+.background--orange    { background: var(--orange); }
+.background--yellow    { background: var(--yellow); }
+.background--green     { background: var(--green); }
+.background--blue      { background: var(--blue); }
+.background--purple    { background: var(--purple); }
 
-.background--red-light       { background: $red--light; }
-.background--orange-light    { background: $orange--light; }
-.background--yellow-light    { background: $yellow--light; }
-.background--green-light     { background: $green--light; }
-.background--blue-light      { background: $blue--light; }
-.background--purple-light    { background: $purple--light; }
+.background--red-light       { background: var(--red--light); }
+.background--orange-light    { background: var(--orange--light); }
+.background--yellow-light    { background: var(--yellow--light); }
+.background--green-light     { background: var(--green--light); }
+.background--blue-light      { background: var(--blue--light); }
+.background--purple-light    { background: var(--purple--light); }
 
 .background-pattern {
   height: 100%;
@@ -1177,7 +1155,7 @@ label:hover:before {
   background-repeat: no-repeat;
   background-size: 371px;
   bottom: 25rem;
-  filter: drop-shadow(0 -1rem 15rem $purple);
+  filter: drop-shadow(0 -1rem 15rem --purple);
   left: -10rem;
 
 }
@@ -1187,7 +1165,7 @@ label:hover:before {
   background-repeat: no-repeat;
   background-size: 385px;
   bottom: 25rem;
-  filter: drop-shadow(0 -1rem 15rem $purple);
+  filter: drop-shadow(0 -1rem 15rem --purple);
   right: -10rem;
 }
 
@@ -1426,10 +1404,10 @@ label:hover:before {
 }
 
 .background-gradient--3 {
-  background: $green--pale;
-  background-image: linear-gradient($green--pale, #CFFFE4);
+  background: var(--green--pale);
+  background-image: linear-gradient(var(--green--pale), #CFFFE4);
   border-radius: 50% 50% 0 0;
-  box-shadow: 0 -4rem 8rem $green--pale;
+  box-shadow: 0 -4rem 8rem var(--green--pale);
   height: 500px;
   margin-left: -15%;
   margin-right: -15%;
@@ -1450,9 +1428,9 @@ label:hover:before {
 }
 
 .background-gradient--5 {
-  background: linear-gradient(90deg, transparentize($yellow,0.5) 0%, transparentize($green,0.5) 100%);
-  // background: $button--secondary;
-  // background: $yellow;
+  background: linear-gradient(90deg, hsla(59, 100%, 75%, 0.5) 0%, hsla(147, 100%, 75%, 0.5) 100%);
+  // background: var(--button--secondary);
+  // background: var(--yellow);
   // -webkit-clip-path: polygon(0 0, 100% calc(50% - 1vw), 100% 100%, 0 50%);
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
   height: 52rem;
@@ -1467,13 +1445,13 @@ label:hover:before {
 
 //* IMAGES *//
 .img--avatar {
-  filter: drop-shadow(0 2px 2px transparentize($black, 0.9));
+  filter: drop-shadow(0 2px 2px hsla(132, 19%, 11%, 0.1));
   margin-right: 0.5rem;
   width: 25px;
 }
 
 .img--volunteer-avatar {
-  filter: drop-shadow(0 2px 2px transparentize($black, 0.9));
+  filter: drop-shadow(0 2px 2px hsla(132, 19%, 11%, 0.1));
   margin-right: 1rem;
   margin-top: -0.5rem;
   width: 3.5rem;
@@ -1490,7 +1468,7 @@ label:hover:before {
 //* CARDS *//
 
 .ar-card {
-  background: $white;
+  background: var(--white);
   border: none;
   border-radius: 1rem;
   overflow: hidden;
@@ -1555,40 +1533,40 @@ label:hover:before {
 
 .ar-card:focus {
   &.ar-card--red {
-    background: $white;
-    background-image: -webkit-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -moz-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -ms-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -o-linear-gradient(bottom, transparentize($red--light,0.6) 0%, $white 25%, $white 100%);
+    background: var(--white);
+    background-image: -webkit-linear-gradient(bottom, hsla(346, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -moz-linear-gradient(bottom, hsla(346, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -ms-linear-gradient(bottom, hsla(346, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
+    background-image: -o-linear-gradient(bottom, hsla(346, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
   }
   &.ar-card--yellow {
-    background: $white;
-    background-image: -webkit-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -moz-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -ms-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -o-linear-gradient(bottom, transparentize($yellow--light,0.6) 0%, $white 25%, $white 100%);
+    background: var(--white);
+    background-image: -webkit-linear-gradient(bottom, hsla(59, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -moz-linear-gradient(bottom, hsla(59, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
+    background-image: -ms-linear-gradient(bottom, hsla(59, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
+    background-image: -o-linear-gradient(bottom, hsla(59, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
   }
   &.ar-card--green {
-    background: $white;
-    background-image: -webkit-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -moz-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -ms-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -o-linear-gradient(bottom, transparentize($green--light,0.6) 0%, $white 25%, $white 100%);
+    background: var(--white);
+    background-image: -webkit-linear-gradient(bottom, hsla(147, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -moz-linear-gradient(bottom, hsla(147, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -ms-linear-gradient(bottom, hsla(147, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
+    background-image: -o-linear-gradient(bottom, hsla(147, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
   }
 
   &.ar-card--blue {
-    background: $white;
-    background-image: -webkit-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -moz-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -ms-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -o-linear-gradient(bottom, transparentize($blue--light,0.6) 0%, $white 25%, $white 100%);
+    background: var(--white);
+    background-image: -webkit-linear-gradient(bottom, hsla(185, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -moz-linear-gradient(bottom, hsla(185, 100%, 87%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -ms-linear-gradient(bottom, hsla(185, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
+    background-image: -o-linear-gradient(bottom, hsla(185, 100%, 87%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
   }
   &.ar-card--purple {
-    background: $white;
-    background-image: -webkit-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -moz-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -ms-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
-    background-image: -o-linear-gradient(bottom, transparentize($purple--light,0.6) 0%, $white 25%, $white 100%);
+    background: var(--white);
+    background-image: -webkit-linear-gradient(bottom, hsla(266, 100%, 90%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -moz-linear-gradient(bottom, hsla(266, 100%, 90%, 0.4) 0%, var(--white) 25%, var(--white) 100%);
+    background-image: -ms-linear-gradient(bottom, hsla(266, 100%, 90%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
+    background-image: -o-linear-gradient(bottom, hsla(266, 100%, 90%, 0.4) 0%,var( --whit)e 25%, var(--white) 100%);
   }
 }
 
@@ -1608,7 +1586,7 @@ label:hover:before {
   background-image: url('https://adamruf.com/images/2018-refresh/right-arrow.svg');
   background-repeat: no-repeat;
   content: "";
-  color: transparentize($text, 0.5);
+  color: hsla(132,31,13,0.4);
   display: inline-block;
   height: 1.2rem;
   opacity: 0;
@@ -1623,10 +1601,10 @@ label:hover:before {
   }
   &:hover,
   &:focus {
-    background: $white;
+    background: var(--white);
     border: none;
     box-shadow: $elevation-3;
-    color: transparentize($text, 0.5);
+    color: hsla(132,31,13,0.4);
     text-decoration: none;
     transition: all 0.3s ease-in-out !important;
     .right-arrow:after {
@@ -1635,10 +1613,10 @@ label:hover:before {
     }
   }
   &:focus {
-    &.ar-card--link-red { background: $red--light; }
-    &.ar-card--link-yellow { background: $yellow--light; }
-    &.ar-card--link-green { background: $green--light; }
-    &.ar-card--link-blue { background: $blue--light; }
+    &.ar-card--link-red { background: var(--red--light); }
+    &.ar-card--link-yellow { background: var(--yellow--light); }
+    &.ar-card--link-green { background: var(--green--light); }
+    &.ar-card--link-blue { background: var(--blue--light); }
   }
 }
 
@@ -1652,18 +1630,18 @@ label:hover:before {
 
 
 .ar-card__body {
-  color: $text;
+  color: var(--text);
   text-align: left;
   transition: all 0.3s ease-in-out;
 }
 
 .ar-transparent-gray-text {
-  color: transparentize($text,0.15);
+  color: hsla(132,31,13,0.68);
 }
 
 .ar-card__heading,
 .modal-title {
-  color: $text;
+  color: var(--text);
   font-family: 'Montserrat';
   font-size: 3rem;
   font-weight: bold;
@@ -1685,17 +1663,17 @@ label:hover:before {
 
 
 /* MODALS */
-.modal-backdrop { background: transparentize($black, 0.4); }
+.modal-backdrop { background: hsla(132, 19%, 11%, 0.6); }
 
 .modal-title {
   max-width: 90%;
 }
 
-.modal-content { 
-  background: $white;
+.modal-content {
+  background: var(--white);
   border: none;
   border-radius: 1rem;
-  box-shadow: $elevation-4; 
+  box-shadow: $elevation-4;
 }
 
 .modal-header {
@@ -1709,7 +1687,7 @@ label:hover:before {
 }
 
 // .modal-body__text {
-//   color: $text--light;
+//   color: var(--text--light);
 //   font-size: 1.7rem;
 //   font-weight: 400;
 //   line-height: 28px;
@@ -1725,26 +1703,26 @@ label:hover:before {
 .close { opacity: 0.4; }
 
 .modal-close--red {
-  color: $red;
+  color: var(--red);
   &:hover,
   &:focus {
-    color: $red;
+    color: var(--red);
   }
 }
 
 .modal-close--green {
-  color: darken($green,10%);
+  color: hsla(147, 100%, 68%, 1);
   &:hover,
   &:focus {
-    color: darken($green,10%);
+    color: hsla(147, 100%, 68%, 1);
   }
 }
 
 .modal-close--purple {
-  color: $purple;
+  color: var(--purple);
   &:hover,
   &:focus {
-    color: $purple;
+    color: var(--purple);
   }
 }
 
@@ -1761,8 +1739,8 @@ label:hover:before {
 }
 
 .figure-caption {
-  background: transparentize($black, 0.95);
-  color: $text--light;
+  background: hsla(132, 19%, 11%, 0.05);
+  color: var(--text--light);
   margin: 0 auto;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
@@ -1770,8 +1748,8 @@ label:hover:before {
 }
 
 .figure-caption--alt {
-  background: transparentize($black, 0.95);
-  color: $text--light;
+  background: hsla(132, 19%, 11%, 0.05);
+  color: var(--text--light);
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
@@ -1793,29 +1771,29 @@ label:hover:before {
 /* ICONS */
 .ar-icon {display: inline-block;}
 
-.ar-icon--red {color: $red;}
-.ar-icon--orange {color: $orange;}
-.ar-icon--gold {color: $gold;}
-.ar-icon--yellow {color: $yellow--dark;}
-.ar-icon--green {color: $green;}
-.ar-icon--blue {color: $blue;}
-.ar-icon--purple {color: $purple;}
+.ar-icon--red {color: var(--red);}
+.ar-icon--orange {color: var(--orange);}
+.ar-icon--gold {color: var(--gold);}
+.ar-icon--yellow {color: var(--yellow--dark);}
+.ar-icon--green {color: var(--green);}
+.ar-icon--blue {color: var(--blue);}
+.ar-icon--purple {color: var(--purple);}
 
 .ar-icon--lg {font-size: 4rem; min-width: 5rem;}
 .ar-icon--xl {font-size: 5rem; min-width: 6rem;}
 
 /* TODO Create a SASS Helpers loop for generating borders */
-// .border-b-red {border-bottom: 10px solid $red;}
-// .border-b-orange {border-bottom: 10px solid $orange;}
-// .border-b-yellow {border-bottom: 10px solid $yellow;}
-// .border-b-green {border-bottom: 10px solid $green;}
-// .border-b-blue {border-bottom: 10px solid $blue;}
-// .border-b-purple {border-bottom: 10px solid $purple;}
+// .border-b-red {border-bottom: 10px solid var(--red);}
+// .border-b-orange {border-bottom: 10px solid var(--orange);}
+// .border-b-yellow {border-bottom: 10px solid var(--yellow);}
+// .border-b-green {border-bottom: 10px solid var(}
+// .b)order-b-blue {border-bottom: 10px solid var(--blue);}
+// .border-b-purple {border-bottom: 10px solid var(--purple);}
 
 
 .border-b-red:after {
   content:"";
-  background: -webkit-linear-gradient(left,$red--light 0%,$red 33%,$red 66%,$red--light 100%);
+  background: -webkit-linear-gradient(left,var(--red--light) 0%,var(--red) 33%,var(--red) 66%,var(--red--light) 100%);
   display: block;
   height:10px;
   width: 100%;
@@ -1826,7 +1804,7 @@ label:hover:before {
 
 .border-b-orange:after {
   content:"";
-  background: -webkit-linear-gradient(left,$orange--light 0%,$orange 33%,$orange 66%,$orange--light 100%);
+  background: -webkit-linear-gradient(left,var(--orange--light) 0%,var(--orange) 33%,var(--orange) 66%,var(--orange--light) 100%);
   display: block;
   height:10px;
   width: 100%;
@@ -1837,7 +1815,7 @@ label:hover:before {
 
 .border-b-yellow:after {
   content:"";
-  background: -webkit-linear-gradient(left,$yellow--light 0%,$yellow 33%,$yellow 66%,$yellow--light 100%);
+  background: -webkit-linear-gradient(left,var(--yellow--light) 0%,var(--yellow) 33%,var(--yellow) 66%,var(--yellow--light) 100%);
   display: block;
   height:10px;
   width: 100%;
@@ -1848,7 +1826,7 @@ label:hover:before {
 
 .border-b-green:after {
   content:"";
-  background: -webkit-linear-gradient(left,$green--light 0%,$green 33%,$green 66%,$green--light 100%);
+  background: -webkit-linear-gradient(left,var(--green--light) 0%,var(--green) 33%,var(--green) 66%,var(--green--light) 100%);
   display: block;
   height:10px;
   width: 100%;
@@ -1859,7 +1837,7 @@ label:hover:before {
 
 .border-b-blue:after {
   content:"";
-  background: -webkit-linear-gradient(left,$blue--light 0%,$blue 33%,$blue 66%,$blue--light 100%);
+  background: -webkit-linear-gradient(left,var(--blue--light) 0%,var(--blue) 33%,var(--blue) 66%,var(--blue--light) 100%);
   display: block;
   height:10px;
   width: 100%;
@@ -1870,7 +1848,7 @@ label:hover:before {
 
 .border-b-purple:after {
   content:"";
-  background: -webkit-linear-gradient(left,$purple--light 0%,$purple 33%,$purple 66%,$purple--light 100%);
+  background: -webkit-linear-gradient(left,var(--purple--light) 0%,var(--purple) 33%,var(--purple) 66%,var(--purple--light) 100%);
   display: block;
   height:10px;
   width: 100%;
@@ -1927,7 +1905,7 @@ label:hover:before {
 
 //* BORDERS *//
 .border {
-  border-color: $border;
+  border-color: var(--border);
   border-style: solid;
   border-width: 1px;
 }
@@ -1936,7 +1914,7 @@ label:hover:before {
 .border-left,
 .border-right,
 .border-bottom {
-  border-color: $border !important;
+  border-color: var(--border) !important;
 }
 
 .border--rounded-1 {
