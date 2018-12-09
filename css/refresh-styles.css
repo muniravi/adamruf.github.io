@@ -30,9 +30,10 @@ html {
       font-size: 58%; } }
 
 body {
+  background: #FFFFFF;
+  color: rgba(22, 32, 24, 0.8);
   font-size: 16px;
   font-size: 1.6rem;
-  color: rgba(22, 32, 24, 0.8);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   letter-spacing: -0.005em;

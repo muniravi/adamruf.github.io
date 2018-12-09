@@ -3,6 +3,8 @@
 //* COLORS *//
 $white:                   #FFFFFF;
 $black:                   #162018;
+$background--primary:     #FFFFFF;
+$background--secondary:   #FAFAFA;
 $text:                    transparentize($black, 0.2);
 $text--light:             transparentize($black, 0.3);
 $text--subtle:            transparentize($black, 0.6);
@@ -94,9 +96,26 @@ html {
     font-size: 58%;
   }
 }
+
+html[data-theme='dark'] {
+  $background--primary:     #161620;
+  $background--secondary:   #24242D;
+  $text:                    transparentize($white, 0.2);
+  $text--light:             transparentize($white, 0.3);
+  $text--subtle:            transparentize($white, 0.6);
+  $text--placeholder:       transparentize($white, 0.8);
+
+  $border:                  transparentize($white,0.93);
+  $border--gray:            #D1D4D1;
+  $button--secondary:       #F4F5F6;
+  $button--primary:         #727dff;
+  $link:                    #5866FF;
+}
+
 body {
-  @include font-size(1.6);
+  background: $background--primary;
   color: $text;
+  @include font-size(1.6);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   letter-spacing: -0.005em;
@@ -222,7 +241,7 @@ abbr {
 }
 
 .tooltip-inner {
-  background-color: $white !important;
+  background-color: $background--primary !important;
   border-radius: 0.6rem;
   box-shadow: $elevation-2;
   color: $text--light;
@@ -235,16 +254,16 @@ abbr {
 }
 
 .tooltip.bs-tooltip-right .arrow:before {
-    border-right-color: $white !important;
+    border-right-color: $background--primary !important;
 }
 .tooltip.bs-tooltip-left .arrow:before {
-    border-left-color: $white !important;
+    border-left-color: $background--primary !important;
 }
 .tooltip.bs-tooltip-bottom .arrow:before {
-    border-bottom-color: $white !important;
+    border-bottom-color: $background--primary !important;
 }
 .tooltip.bs-tooltip-top .arrow:before {
-    border-top-color: $white !important;
+    border-top-color: $background--primary !important;
 }
 
 
