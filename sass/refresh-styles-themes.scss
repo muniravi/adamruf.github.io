@@ -553,7 +553,7 @@ a {
 
 .navbar-light {
   background: var(--background--primary);
-  height: 86px;
+  min-height: 86px;
   padding: 2rem 6rem !important;
   @media screen and (max-width: 400px) {
     padding: 1rem 4rem !important;
