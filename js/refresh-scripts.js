@@ -1,3 +1,22 @@
+// Time-based Greeting
+var date = new Date();
+var hours = date.getHours();
+var greeting = document.getElementById("greeting");
+
+if (hours < 18) {
+
+  // root.classList.add("light");
+  greeting.innerHTML = "Good afternoon";
+} else if (hours < 12) {
+  // document.getElementById("root");
+  // root.classList.add("light");
+  greeting.innerHTML = "Good morning";
+} else {
+  // document.getElementById("root");
+  // root.classList.add("dark");
+  greeting.innerHTML = "Good evening";
+}
+
 // Back to Top link
 var offset = 4040;
 var duration = 300;

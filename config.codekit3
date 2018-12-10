@@ -52,6 +52,16 @@
 		"oAP": "/contact-ux-ui-designer-adam-ruf.html",
 		"oF": 0
 		},
+	"/css/refresh-styles-themes.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/css/refresh-styles-themes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/refresh-styles.css": {
 		"aP": 0,
 		"bl": 0,
