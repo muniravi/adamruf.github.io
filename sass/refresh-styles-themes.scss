@@ -187,7 +187,7 @@ h2 {
 }
 
 p {
-  color: var(--text--light);
+  color: var(--text);
   font-size: 1.7rem;
   font-weight: 400;
   margin-bottom: 2.618rem;
@@ -1645,10 +1645,6 @@ label:hover:before {
   color: var(--text);
   text-align: left;
   transition: all 0.3s ease-in-out;
-}
-
-.ar-transparent-gray-text {
-  color: hsla(132,31,13,0.68);
 }
 
 .ar-card__heading,
