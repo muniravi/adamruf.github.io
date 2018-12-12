@@ -1,7 +1,7 @@
 // Time-based Greeting
-var date=new Date,hours=date.getHours(),greeting=document.getElementById("greeting");
+var date=new Date,hour=date.getHours(),greet=document.getElementById("greeting");
 // root.classList.add("light");
-greeting.innerHTML=hours<18?"Good afternoon":hours<12?"Good morning":"Good evening";
+greet.innerHTML=0<=hour&&hour<12?"Good morning":12<=hour&&hour<18?"Good afternoon":"Good evening";
 // Back to Top link
 var offset=4040,duration=300;$(window).scroll(function(){$(this).scrollTop()>offset?
 // TODO replace this with an opacity transition for smoother visual appearance

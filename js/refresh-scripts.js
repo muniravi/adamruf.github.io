@@ -1,20 +1,20 @@
 // Time-based Greeting
 var date = new Date();
-var hours = date.getHours();
-var greeting = document.getElementById("greeting");
+var hour = date.getHours();
+// var root = document.getElementById("root");
+var greet = document.getElementById("greeting");
 
-if (hours < 18) {
-
+if (hour >= 0 && hour < 12) {
   // root.classList.add("light");
-  greeting.innerHTML = "Good afternoon";
-} else if (hours < 12) {
-  // document.getElementById("root");
+  greet.innerHTML = "Good morning";
+}
+else if (hour >= 12 && hour < 18) {
   // root.classList.add("light");
-  greeting.innerHTML = "Good morning";
-} else {
-  // document.getElementById("root");
+  greet.innerHTML = "Good afternoon";
+}
+else {
   // root.classList.add("dark");
-  greeting.innerHTML = "Good evening";
+  greet.innerHTML = "Good evening";
 }
 
 // Back to Top link
