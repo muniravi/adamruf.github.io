@@ -395,7 +395,7 @@ a {
     background: rgba(128, 255, 185, 0.15);
     border-color: rgba(128, 255, 185, 0.5);
     border-radius: 0;
-    color: rgba(128, 255, 185, 0.15) !important; }
+    color: #0fff7b !important; }
 
 .link--blue {
   color: #5cf4ff; }
