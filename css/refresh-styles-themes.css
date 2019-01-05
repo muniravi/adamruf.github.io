@@ -470,12 +470,15 @@ a {
 
 .navbar-light {
   background: var(--background--primary);
-  min-height: 86px;
+  min-height: 70px;
   padding: 2rem 6rem !important; }
   @media screen and (max-width: 575px) {
     .navbar-light {
       min-height: 70px;
       padding: 2rem 4rem !important; } }
+  @media screen and (min-width: 768px) {
+    .navbar-light {
+      min-height: 86px; } }
 
 /* Styles that allow top nav to scroll */
 @media (max-width: 500px) {
@@ -1156,6 +1159,11 @@ label:hover:before {
   background: linear-gradient(90deg, rgba(255, 253, 128, 0.5) 0%, rgba(128, 255, 185, 0.5) 100%);
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
   height: 52rem; }
+
+@media screen and (max-width: 500px) {
+  .img--accent {
+    opacity: 0.25;
+    transition: opacity 0.4s ease; } }
 
 .img--avatar {
   filter: drop-shadow(0 2px 2px rgba(23, 33, 25, 0.1));
