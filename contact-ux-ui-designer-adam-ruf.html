@@ -158,17 +158,28 @@
     <section id="contact" class="container p-x-3 p-y-10 m-b-10">
       <div class="row">
         <div class="col-md-12 m-b-10">
-          <h1>Contact Adam</h1>
+          <h1 class="m-b-2">Contact Adam</h1>
+          <p class="m-b-2">
+            <a href="mailto:adam@adamruf.com" class="button button--secondary">✍️ Email Me</a>
+          </p>
         </div>
       </div>
+
+      <!-- <div class="row">
+        <div class="col-lg-8 col-md-12 m-b-10">
+          <h2 class="m-b-1">Email is the best way to reach Adam</h2>
+          <p class="m-b-2">[his name]@adamruf.com</p>
+        </div>
+      </div> -->
 
       <div class="row">
         <div class="col-lg-8 col-md-12 m-b-10">
           <h2 class="m-b-1">Need some help?</h2>
-          <p class="m-b-2">Adam loves to help customers, companies, teams, and individuals.<br> What kind of help do you need?</p>
+          <p class="m-b-2">I love to help customers, companies, teams, and individuals.<br> What kind of help do you need?</p>
           <button id="tf-project-inquiry" class="button button--secondary  m-r-1 m-b-2">⏱️ Project</button>
           <!-- <button id="tf-job-inquiry" class="button button--secondary m-r-1 m-b-2">💼 Full-time</button> -->
-          <button id="tf-mentoring-inquiry" class="button button--secondary m-b-2">🌱 Mentor</button>
+          <button id="tf-mentoring-inquiry" class="button button--secondary m-r-1 m-b-2">🌱 Mentor</button>
+          <!-- <button id="tf-mentoring-inquiry" class="button button--secondary m-b-2">🙋🏽‍♀️ Feedback</button> -->
         </div>
         <!-- <div class="col-lg-5 col-md-12 m-b-10">
           <div class="ar-card p-0 elevation-2 m-x-2 m-b-4">
@@ -354,17 +365,17 @@
       // When instantiating a popup embed, you must provide the URL
       // of your typeform and your desired embed settings. If you don't
       // provide any settings, a default 'popup' embed is instantiated.
-      projectInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/UlV8eu?page=home', {
+      projectInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/UlV8eu?page=contact', {
         hideHeaders: true,
         hideFooter: true
       });
 
-      mentoringInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/g9K67Z?page=home', {
+      mentoringInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/g9K67Z?page=contact', {
         hideHeaders: true,
         hideFooter: true
       });
 
-      jobInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/dun9GE?page=home', {
+      jobInquiry = window.typeformEmbed.makePopup('https://adamruf.typeform.com/to/dun9GE?page=contact', {
         hideHeaders: true,
         hideFooter: true
       });

@@ -495,7 +495,7 @@ a {
     position: absolute;
     left: 4rem;
     bottom: 0;
-    background: linear-gradient(to right, var(--white) transparent 20px);
+    background: linear-gradient(to right, white transparent 20px);
     z-index: 1; }
   .fade-out--right:before {
     content: '';
@@ -504,7 +504,7 @@ a {
     position: absolute;
     right: 4rem;
     bottom: 0;
-    background: linear-gradient(to left, var(--white) transparent 20px);
+    background: linear-gradient(to left, white transparent 20px);
     z-index: 1; } }
 
 /* READING PROGRESS BAR */
