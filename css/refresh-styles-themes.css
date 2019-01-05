@@ -1324,6 +1324,9 @@ label:hover:before {
 .modal-backdrop {
   background: #172119; }
 
+.modal-dialog {
+  margin: 2rem; }
+
 .modal-title {
   max-width: 90%; }
 
