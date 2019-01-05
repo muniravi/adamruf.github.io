@@ -472,6 +472,9 @@ a {
   background: var(--background--primary);
   min-height: 86px;
   padding: 2rem 6rem !important; }
+  @media screen and (max-width: 575px) {
+    .navbar-light {
+      min-height: 70px; } }
   @media screen and (max-width: 400px) {
     .navbar-light {
       padding: 1rem 4rem !important; } }
@@ -493,18 +496,18 @@ a {
     width: 2rem;
     height: 100%;
     position: absolute;
-    left: 4rem;
+    left: 6rem;
     bottom: 0;
-    background: linear-gradient(to right, white transparent 20px);
+    background: linear-gradient(to right, white, transparent);
     z-index: 1; }
   .fade-out--right:before {
     content: '';
     width: 2rem;
     height: 100%;
     position: absolute;
-    right: 4rem;
+    right: 6rem;
     bottom: 0;
-    background: linear-gradient(to left, white transparent 20px);
+    background: linear-gradient(to left, white, transparent);
     z-index: 1; } }
 
 /* READING PROGRESS BAR */
