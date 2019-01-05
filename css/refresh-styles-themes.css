@@ -474,10 +474,8 @@ a {
   padding: 2rem 6rem !important; }
   @media screen and (max-width: 575px) {
     .navbar-light {
-      min-height: 70px; } }
-  @media screen and (max-width: 400px) {
-    .navbar-light {
-      padding: 1rem 4rem !important; } }
+      min-height: 70px;
+      padding: 2rem 4rem !important; } }
 
 /* Styles that allow top nav to scroll */
 @media (max-width: 500px) {
@@ -496,7 +494,7 @@ a {
     width: 2rem;
     height: 100%;
     position: absolute;
-    left: 6rem;
+    left: 4rem;
     bottom: 0;
     background: linear-gradient(to right, white, transparent);
     z-index: 1; }
@@ -505,7 +503,7 @@ a {
     width: 2rem;
     height: 100%;
     position: absolute;
-    right: 6rem;
+    right: 4rem;
     bottom: 0;
     background: linear-gradient(to left, white, transparent);
     z-index: 1; } }

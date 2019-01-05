@@ -557,9 +557,7 @@ a {
   padding: 2rem 6rem !important;
   @media screen and (max-width: 575px) {
     min-height: 70px;
-  }
-  @media screen and (max-width: 400px) {
-    padding: 1rem 4rem !important;
+    padding: 2rem 4rem !important;
   }
 }
 
@@ -582,7 +580,7 @@ a {
     width: 2rem;
     height: 100%;
     position:absolute;
-    left: 6rem;
+    left: 4rem;
     bottom:0;
     background: linear-gradient(to right, white, transparent);
     z-index: 1;
@@ -592,7 +590,7 @@ a {
     width: 2rem;
     height: 100%;
     position:absolute;
-    right: 6rem;
+    right: 4rem;
     bottom:0;
     background: linear-gradient(to left, white, transparent);
     z-index: 1;
