@@ -653,6 +653,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/2018-refresh/ux-design-contests/uxd-contest-7-vui-prototype@2x.png": {
+		"ft": 32768,
+		"iS": 46769,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/ux-design-contests/uxd-contest-7-vui-prototype@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/2018-refresh/uxd-contests.png": {
 		"ft": 32768,
 		"iS": 509687,
@@ -5178,6 +5189,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/staging/ux-design-contest-graphics-for-portfolio-website.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/staging/ux-design-contest-graphics-for-portfolio-website.sketch",
+		"oF": 0
 		},
 	"/staging/ux-design-mentorship.html": {
 		"cB": 0,
