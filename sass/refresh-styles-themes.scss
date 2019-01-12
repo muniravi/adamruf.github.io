@@ -1221,19 +1221,19 @@ label:hover:before {
 
 .background-image--curved-path-1 {
   background-image: url('https://adamruf.com/images/2018-refresh/curved-path-01.svg');
-      background-position: left 18rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    opacity: 0.5;
-    position: absolute;
-    width: 100%;
-    z-index: -3;
+  background-position: left 18rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
 }
 
 .current-project_background-image {
   height: 234px;
-  @media screen and (max-width: 580px){
+  @media screen and (max-width: 550px){
     height: 155px;
   }
 }
@@ -1349,12 +1349,11 @@ label:hover:before {
 }
 
 .background-gradient {
-  // margin-bottom:20rem;
   margin-top: -15rem;
   height:100%;
   width:100%;
   position: absolute;
-  z-index:-2;
+  z-index:0;
 }
 
 .background-gradient--1 {
@@ -1461,6 +1460,7 @@ label:hover:before {
 
 
 //* IMAGES *//
+.z-1 {z-index: 1;}
 .img--accent {
   @media screen and (max-width: 500px) {
     opacity: 0.25;

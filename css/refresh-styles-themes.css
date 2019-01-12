@@ -1008,11 +1008,11 @@ label:hover:before {
   opacity: 0.5;
   position: absolute;
   width: 100%;
-  z-index: -3; }
+  z-index: 0; }
 
 .current-project_background-image {
   height: 234px; }
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 550px) {
     .current-project_background-image {
       height: 155px; } }
 
@@ -1121,7 +1121,7 @@ label:hover:before {
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -2; }
+  z-index: 0; }
 
 .background-gradient--1 {
   background: linear-gradient(45deg, #ffceff 0%, #b2beff 100%);
@@ -1162,6 +1162,9 @@ label:hover:before {
   background: linear-gradient(90deg, rgba(255, 253, 128, 0.5) 0%, rgba(128, 255, 185, 0.5) 100%);
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
   height: 52rem; }
+
+.z-1 {
+  z-index: 1; }
 
 @media screen and (max-width: 500px) {
   .img--accent {
