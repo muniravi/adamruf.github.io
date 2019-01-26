@@ -2336,6 +2336,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/vdqt-logo@2x.png": {
+		"ft": 32768,
+		"iS": 4281,
+		"oA": 0,
+		"oAP": "/images/vdqt-logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/vdqt-toggle-check.svg": {
 		"ft": 2097152,
 		"miP": 0,
