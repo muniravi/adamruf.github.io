@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121" height="28" viewBox="0 0 121 28">
+  <defs>
+    <rect id="vdqt-logo@2x-b" width="7" height="14" x="17.08" y="13.44"/>
+    <filter id="vdqt-logo@2x-a" width="142.9%" height="121.4%" x="-21.4%" y="-10.7%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.137254902   0 0 0 0 0.160784314   0 0 0 0 0.145098039  0 0 0 0.06 0"/>
+    </filter>
+    <circle id="vdqt-logo@2x-d" cx="10.92" cy="10.92" r="10.92"/>
+    <filter id="vdqt-logo@2x-c" width="132.1%" height="132.1%" x="-16%" y="-11.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.137254902   0 0 0 0 0.160784314   0 0 0 0 0.145098039  0 0 0 0.06 0"/>
+    </filter>
+    <filter id="vdqt-logo@2x-e" width="122.9%" height="122.9%" x="-11.4%" y="-6.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.125490196   0 0 0 0 0.160784314   0 0 0 0 0.133333333  0 0 0 0.03 0"/>
+    </filter>
+    <linearGradient id="vdqt-logo@2x-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#202922"/>
+    </linearGradient>
+    <circle id="vdqt-logo@2x-g" cx="10.92" cy="10.92" r="5.46"/>
+    <circle id="vdqt-logo@2x-h" cx="14.82" cy="7.02" r="3.51"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(61.6)">
+      <circle cx="14" cy="14" r="14" fill="#F1F2F1"/>
+      <g transform="rotate(-45 20.58 20.44)">
+        <use fill="#000" filter="url(#vdqt-logo@2x-a)" xlink:href="#vdqt-logo@2x-b"/>
+        <use fill="#F1F2F1" xlink:href="#vdqt-logo@2x-b"/>
+      </g>
+      <rect width="9.24" height="14" x="9.52" y="7" fill="#F1F2F1" transform="rotate(-45 14.14 14)"/>
+    </g>
+    <path fill="#F1F2F1" d="M114.24,14 L114.24,28 L100.24,28 L100.24,14 L93.24,14 L93.24,-1.3353602e-14 L121.24,-1.50681075e-14 L121.24,14 L114.24,14 Z"/>
+    <polygon fill="#F1F2F1" points="14 0 28 28 0 28" transform="matrix(1 0 0 -1 0 28)"/>
+    <path fill="#F1F2F1" d="M30.24,0 L44.24,1.77635684e-15 C51.9719865,3.56013962e-16 58.24,6.2680135 58.24,14 L58.24,14 C58.24,21.7319865 51.9719865,28 44.24,28 L30.24,28 L30.24,0 Z"/>
+    <g transform="translate(33.32 3.08)">
+      <use fill="#000" filter="url(#vdqt-logo@2x-c)" xlink:href="#vdqt-logo@2x-d"/>
+      <use fill="#FFF" xlink:href="#vdqt-logo@2x-d"/>
+      <use fill="#000" filter="url(#vdqt-logo@2x-e)" xlink:href="#vdqt-logo@2x-d"/>
+      <use fill="url(#vdqt-logo@2x-f)" xlink:href="#vdqt-logo@2x-g"/>
+      <use fill="#BCBFBD" xlink:href="#vdqt-logo@2x-g"/>
+      <use fill="url(#vdqt-logo@2x-f)" xlink:href="#vdqt-logo@2x-h"/>
+      <use fill="#FFF" xlink:href="#vdqt-logo@2x-h"/>
+    </g>
+  </g>
+</svg>
