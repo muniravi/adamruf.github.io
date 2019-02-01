@@ -375,7 +375,7 @@ a {
     transition: background-color .2s ease-in;
 
     &.link--subtle {
-      background: hsla(132,31,13,0.67);
+      background: var(--blue--pale);
       color: var(--text--light);
     }
 
@@ -398,7 +398,7 @@ a {
     &:hover,
     &:active,
     &:focus {
-      background: --link;
+      background: var(--link);
       border-bottom: none;
     }
   }
@@ -549,7 +549,7 @@ a {
 .text-shadow--purple { text-shadow: 0 2px 6px var(--purple--dark); }
 
 /* TOP NAV */
-.nav-icon {font-size: 2rem;}
+.nav-icon .nav-link { font-size: 1.8rem; }
 
 .navbar-light {
   background: var(--background--primary);

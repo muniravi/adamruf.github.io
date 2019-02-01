@@ -310,7 +310,7 @@ a {
     text-decoration: none;
     transition: background-color .2s ease-in; }
     a:hover.link--subtle, a:active.link--subtle, a:focus.link--subtle {
-      background: rgba(23, 43, 27, 0.67);
+      background: var(--blue--pale);
       color: var(--text--light); }
     a:hover.link--arrow, a:active.link--arrow, a:focus.link--arrow {
       border-radius: 0.5rem;
@@ -324,7 +324,7 @@ a {
   a.link--white {
     color: var(--white); }
     a.link--white:hover, a.link--white:active, a.link--white:focus {
-      background: --link;
+      background: var(--link);
       border-bottom: none; }
 
 .nav-item {
@@ -465,8 +465,8 @@ a {
   text-shadow: 0 2px 6px var(--purple--dark); }
 
 /* TOP NAV */
-.nav-icon {
-  font-size: 2rem; }
+.nav-icon .nav-link {
+  font-size: 1.8rem; }
 
 .navbar-light {
   background: var(--background--primary);
