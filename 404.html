@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans:400,600|Chewy" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="https://adamruf.com/css/refresh-styles.css"> -->
   <link rel="stylesheet" href="/css/refresh-styles-themes.css">
 
   <style>
-    canvas{ display: block; opacity: 0.3; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #162018; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ 
+    canvas{ display: block; opacity: 0.3; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #162018; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */
 
     .four-o-four-wrapper {
       background: rgba(0,0,0,0.3);
@@ -47,9 +49,13 @@
     _gaq.push(['_trackPageview']);
 
     (function () {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
     })();
   </script>
 
@@ -59,28 +65,67 @@
     window['_fs_host'] = 'fullstory.com';
     window['_fs_org'] = '9XG8F';
     window['_fs_namespace'] = 'FS';
-    (function(m,n,e,t,l,o,g,y){
-        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
-        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};g.event=function(i,v){g('event',{n:i,p:v})};
-        g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-        g.consent=function(a){g("consent",!arguments.length||a)};
-        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-        g.clearUserCookie=function(){};
-    })(window,document,window['_fs_namespace'],'script','user');
+    (function (m, n, e, t, l, o, g, y) {
+      if (e in m) {
+        if (m.console && m.console.log) {
+          m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');
+        }
+        return;
+      }
+      g = m[e] = function (a, b) {
+        g.q ? g.q.push([a, b]) : g._api(a, b);
+      };
+      g.q = [];
+      o = n.createElement(t);
+      o.async = 1;
+      o.src = 'https://' + _fs_host + '/s/fs.js';
+      y = n.getElementsByTagName(t)[0];
+      y.parentNode.insertBefore(o, y);
+      g.identify = function (i, v) {
+        g(l, {
+          uid: i
+        });
+        if (v) g(l, v)
+      };
+      g.setUserVars = function (v) {
+        g(l, v)
+      };
+      g.event = function (i, v) {
+        g('event', {
+          n: i,
+          p: v
+        })
+      };
+      g.shutdown = function () {
+        g("rec", !1)
+      };
+      g.restart = function () {
+        g("rec", !0)
+      };
+      g.consent = function (a) {
+        g("consent", !arguments.length || a)
+      };
+      g.identifyAccount = function (i, v) {
+        o = 'account';
+        v = v || {};
+        v.acctId = i;
+        g(o, v)
+      };
+      g.clearUserCookie = function () {};
+    })(window, document, window['_fs_namespace'], 'script', 'user');
   </script>
 
   <!-- Start of Async Drift Code -->
   <script>
     "use strict";
 
-    !function () {
+    ! function () {
       var t = window.driftt = window.drift = window.driftt || [];
       if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+        if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide",
+            "off", "on"
+          ],
           t.factory = function (e) {
             return function () {
               var n = Array.prototype.slice.call(arguments);
@@ -89,8 +134,11 @@
           }, t.methods.forEach(function (e) {
             t[e] = t.factory(e);
           }), t.load = function (t) {
-            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+            var e = 3e5,
+              n = Math.ceil(new Date() / e) * e,
+              o = document.createElement("script");
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src =
+              "https://js.driftt.com/include/" + n + "/" + t + ".js";
             var i = document.getElementsByTagName("script")[0];
             i.parentNode.insertBefore(o, i);
           };
@@ -101,6 +149,7 @@
   </script>
   <!-- End of Async Drift Code -->
 </head>
+
 <body>
   <div class="container-fluid p-0 no-overflow-x">
     <!-- particles.js container -->
@@ -115,7 +164,116 @@
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-      particlesJS("particles-js", {"particles":{"number":{"value":105,"density":{"enable":true,"value_area":555}},"color":{"value":"#727dff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#fff"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":5,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":100,"color":"#ff7f9e","opacity":0.5,"width":5},"move":{"enable":true,"speed":0.25,"direction":"none","random":true,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":55,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+      particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 105,
+            "density": {
+              "enable": true,
+              "value_area": 555
+            }
+          },
+          "color": {
+            "value": "#727dff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#fff"
+            },
+            "polygon": {
+              "nb_sides": 3
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 5,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 100,
+            "color": "#ff7f9e",
+            "opacity": 0.5,
+            "width": 5
+          },
+          "move": {
+            "enable": true,
+            "speed": 0.25,
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "bounce",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": false,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": false,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 55,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
     </script>
   </div>
 
@@ -127,4 +285,5 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
 </body>
+
 </html>

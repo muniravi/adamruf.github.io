@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="robots" content="noindex, nofollow">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SF Bay Area Design Events Calendar</title>
-    <meta name="description" content="A calendar highlighting events in the SF Bay Area for designers, curated by Product Designer + Mentor, Adam Ruf.">
-    <meta name="author" content="UX Designer, Adam Ruf">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Slab:300" rel="stylesheet" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SF Bay Area Design Events Calendar</title>
+  <meta name="description" content="A calendar highlighting events in the SF Bay Area for designers, curated by Product Designer + Mentor, Adam Ruf.">
+  <meta name="author" content="UX Designer, Adam Ruf">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto+Slab:300" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 
-    <!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="/js/html5shiv.js"></script><![endif]-->
 
-    <script type="text/javascript">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5552191-4']);
+    _gaq.push(['_trackPageview']);
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-5552191-4']);
-      _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-
-    <!-- Full Story Experiment -->
-    <script>
-      window['_fs_debug'] = false;
+  <!-- Full Story Experiment -->
+  <script>
+    window['_fs_debug'] = false;
       window['_fs_host'] = 'fullstory.com';
       window['_fs_org'] = '9XG8F';
       window['_fs_namespace'] = 'FS';
@@ -52,155 +56,174 @@
           ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
       })(window,document,window['_fs_namespace'],'script','user');
     </script>
-  </head>
+</head>
 
-  <body>
-    <header class="mg-b-xl">
-      <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="nav-row navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a id="home" class="navbar-brand" href="//adamruf.com/"><span>ux_adam <span class="muted">ruf</span></span></a></div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="top-nav nav navbar-nav">
-              <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Portfolio</a></li>
-              <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">resources <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://www.twitch.tv/ux_adam" target="_blank">live design on twitch</a></li>
-                  <li><a href="http://uxdesigncontest.com" target="_blank">ux design contest</a></li>
-                  <li><a href="http://uxdesignbookclub.com" target="_blank">ux design book club</a></li>
-                  <li><a href="//adamruf.com/sf-bay-area-design-events.html">sf design events</a></li>
-                  <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
-  resources</a></li>
-                  <!--<li><a href="#">workshops</a></li>
+<body>
+  <header class="mg-b-xl">
+    <nav id="top-nav" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="nav-row navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="home" class="navbar-brand" href="//adamruf.com/"><span>ux_adam <span class="muted">ruf</span></span></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="nav-row collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="top-nav nav navbar-nav">
+            <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-portfolio.html">Portfolio</a></li>
+            <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">resources <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.twitch.tv/ux_adam" target="_blank">live design on twitch</a></li>
+                <li><a href="http://uxdesigncontest.com" target="_blank">ux design contest</a></li>
+                <li><a href="http://uxdesignbookclub.com" target="_blank">ux design book club</a></li>
+                <li><a href="//adamruf.com/sf-bay-area-design-events.html">sf design events</a></li>
+                <li><a href="//adamruf.com/ux-ui-designer-adam-ruf-recommended-resources.html">recommended
+                    resources</a></li>
+                <!--<li><a href="#">workshops</a></li>
                   <li><a href="#">templates</a></li> -->
-                </ul>
-              </li>
-              <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
-              <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
-              <!-- <li class="dropdown">
+              </ul>
+            </li>
+            <li><a href="//adamruf.com/about-ux-ui-designer-adam-ruf.html">About</a></li>
+            <li><a href="//adamruf.com/contact-ux-ui-designer-adam-ruf.html">Contact</a></li>
+            <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more <i class="fa fa-caret-down"></i></a>
                 <ul class="dropdown-menu">
                   <li>newsletter</li> -->
-              <!-- <li><a href="#">presentations</a></li>
+            <!-- <li><a href="#">presentations</a></li>
                   <li><a href="#">workshops</a></li>
                   <li><a href="#">events</a></li>
                 </ul>
               </li> -->
-            </ul>
-            <ul class="top-nav nav navbar-nav pull-right navbar-icons">
-              <li>
-                <a href="https://www.linkedin.com/in/adamruf" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin
+          </ul>
+          <ul class="top-nav nav navbar-nav pull-right navbar-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/adamruf" target="_blank" title="Connect with me on LinkedIn"><i
+                  class="fab fa-linkedin
 "></i></a>
-              </li>
-              <li>
-                <a href="https://www.twitch.tv/ux_adam" target="_blank" title="Join me on Twitch"><i class="fab fa-twitch
+            </li>
+            <li>
+              <a href="https://www.twitch.tv/ux_adam" target="_blank" title="Join me on Twitch"><i class="fab fa-twitch
 "></i></a>
-              </li>
-              <li>
-                <a href="https://dribbble.com/ux_adam" target="_blank" title="Check out my design shots on Dribbble"><i class="fab fa-dribbble"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/#!/ux_adam" target="_blank" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="https://github.com/adamruf" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
+            </li>
+            <li>
+              <a href="https://dribbble.com/ux_adam" target="_blank" title="Check out my design shots on Dribbble"><i
+                  class="fab fa-dribbble"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/#!/ux_adam" target="_blank" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/adamruf" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
         </div>
-        <!--/.container-->
-      </nav>
-      <div id="newsletter-banner" class="banner">
-        <p>
-          👋Join our 💯design community:
-          <a href="https://twitch.tv/ux_adam" target="_blank">Live on Twitch Tue + Thu</a>
-        </p>
-        <!-- <p>Grow your portfolio: <a href="http://uxdesigncontest.com">UX Design Contest #5 is ON</a></p> -->
-        <!-- <p>Grow your portfolio: <a href="//uxdesigncontest.com" target="_blank">Get notified before the next Design Contest</a></p> -->
+        <!-- /.navbar-collapse -->
       </div>
-    </header>
+      <!--/.container-->
+    </nav>
+    <div id="newsletter-banner" class="banner">
+      <p>
+        👋Join our 💯design community:
+        <a href="https://twitch.tv/ux_adam" target="_blank">Live on Twitch Tue + Thu</a>
+      </p>
+      <!-- <p>Grow your portfolio: <a href="http://uxdesigncontest.com">UX Design Contest #5 is ON</a></p> -->
+      <!-- <p>Grow your portfolio: <a href="//uxdesigncontest.com" target="_blank">Get notified before the next Design Contest</a></p> -->
+    </div>
+  </header>
 
-    <section id="design-events" class="container padded mg-b-xs text-center">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>SF Bay Area Design Events Calendar</h1>
-        </div>
+  <section id="design-events" class="container padded mg-b-xs text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>SF Bay Area Design Events Calendar</h1>
       </div>
-      <div class="row">
-        <div class="col-md-7">
-          <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ffffff&amp;src=adamruf.com_g5sdsver5kn4pjd57gmprik54c%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles"
-            style="border-width:0; width:100%" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-        <div class="col-md-5">
-            <a class="img-link" href="https://twitch.tv/ux_adam" target="_blank">
-              <img class="max-w-100p img-thumbnail" src="https://adamruf.com/images/events-calendar-ad--adam-on-twitch@2x.png" alt="Join Adam for live design chat, projects, portfolio reviews and more at twitch.tv/ux_adam">
-            </a>
-            <a class="img-link" href="https://bit.ly/ux-portfolio-review" target="_blank">
-              <img class="max-w-100p img-thumbnail" src="https://adamruf.com/images/events-calendar-ad--portfolio-reviews@2x.png" alt="Sign up to get your portfolio">
-            </a>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ffffff&amp;src=adamruf.com_g5sdsver5kn4pjd57gmprik54c%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles"
+          style="border-width:0; width:100%" height="600" frameborder="0" scrolling="no"></iframe>
       </div>
-    </section>
+      <div class="col-md-5">
+        <a class="img-link" href="https://twitch.tv/ux_adam" target="_blank">
+          <img class="max-w-100p img-thumbnail" src="https://adamruf.com/images/events-calendar-ad--adam-on-twitch@2x.png"
+            alt="Join Adam for live design chat, projects, portfolio reviews and more at twitch.tv/ux_adam">
+        </a>
+        <a class="img-link" href="https://bit.ly/ux-portfolio-review" target="_blank">
+          <img class="max-w-100p img-thumbnail" src="https://adamruf.com/images/events-calendar-ad--portfolio-reviews@2x.png"
+            alt="Sign up to get your portfolio">
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <section id="submit-event" class="mg-b-lg">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <a id="hero-cta" class="typeform-share mg-b-xs" href="https://adamruf.typeform.com/to/XBMuMs" data-mode="1">Submit an event</a>
-          <!-- <a class="typeform-share button" href="https://adamruf.typeform.com/to/XBMuMs" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+  <section id="submit-event" class="mg-b-lg">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a id="hero-cta" class="typeform-share mg-b-xs" href="https://adamruf.typeform.com/to/XBMuMs" data-mode="1">Submit
+          an event</a>
+        <!-- <a class="typeform-share button" href="https://adamruf.typeform.com/to/XBMuMs" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
             target="_blank">Submit an event </a>
           <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="utility-belt" class="mg-b-xs">
+    <div id="utility-pouch-1" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100"
+      data-aos-delay="0"></div>
+    <div id="utility-pouch-2" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100"
+      data-aos-delay="100"></div>
+    <div id="utility-pouch-3" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100"
+      data-aos-delay="200"></div>
+    <div id="utility-pouch-4" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100"
+      data-aos-delay="300"></div>
+    <div id="utility-pouch-5" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100"
+      data-aos-delay="400"></div>
+  </section>
+
+  <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i><br>Top</a>
+
+  <footer class="text-center">
+    <div class="container padded">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="mg-b-sm">For 💪 design tips, 💯 articles, live design schedule, and more</p>
+          <p class="mg-b-sm">
+            <a class="button button-xs style--twitter-blue" href="https://twitter.com/intent/user?screen_name=ux_adam"
+              target="_blank"><i class="fab fa-twitter"></i> Follow @ux_adam on Twitter</a>
+          </p>
         </div>
       </div>
-    </section>
-
-    <section id="utility-belt" class="mg-b-xs">
-      <div id="utility-pouch-1" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="0"></div>
-      <div id="utility-pouch-2" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="100"></div>
-      <div id="utility-pouch-3" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="200"></div>
-      <div id="utility-pouch-4" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="300"></div>
-      <div id="utility-pouch-5" class="utility-pouch" data-aos="fade-down" data-aos-offset="150" data-aos-duration="100" data-aos-delay="400"></div>
-    </section>
-
-    <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i><br>Top</a>
-
-    <footer class="text-center">
-      <div class="container padded">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="mg-b-sm">For 💪 design tips, 💯 articles, live design schedule, and more</p>
-            <p class="mg-b-sm">
-              <a class="button button-xs style--twitter-blue" href="https://twitter.com/intent/user?screen_name=ux_adam" target="_blank"><i class="fab fa-twitter"></i> Follow @ux_adam on Twitter</a>
-            </p>
-          </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="heart-container">
+            <a class="img-link heart-link" href="https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work"
+              target="blank">
+              <img class="heart animated pulse infinite" src="//adamruf.com/images/footer-heart.svg" alt="Smiling heart">
+            </a>
+          </p>
+          <p class="text--tiny">
+            &copy;2008
+            <script>
+              new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());
+            </script> UX Product Designer + Mentor, Adam Ruf. All rights and lefts reserved.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p class="heart-container">
-              <a class="img-link heart-link" href="https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work" target="blank">
-                <img class="heart animated pulse infinite" src="//adamruf.com/images/footer-heart.svg" alt="Smiling heart">
-              </a>
-            </p>
-            <p class="text--tiny">
-              &copy;2008
-              <script>new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());</script> UX Product Designer + Mentor, Adam Ruf. All rights and lefts reserved.
-            </p>
-          </div>
-        </div>
-      </div><!--/container-->
-    </footer>
+      </div>
+    </div>
+    <!--/container-->
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script src="//adamruf.com/js/min/scripts-min.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="//adamruf.com/js/min/scripts-min.js"></script>
+</body>
+
 </html>
