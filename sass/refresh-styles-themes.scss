@@ -936,7 +936,7 @@ label:hover:before {
 
 .ar-alert {
   background: var(--button--secondary);
-  border: 5px solid transparent;
+  border: 5px solid transparent !important;
   border-radius: 1rem;
   box-shadow: $elevation-1;
   display: block;
@@ -993,7 +993,7 @@ label:hover:before {
   margin: 0;
   max-width: 400px;
   width: 85%;
-  @media screen and (max-width: 426px){
+  @media screen and (max-width: 490px){
     width: 75%;
   }
 }
@@ -1003,7 +1003,7 @@ label:hover:before {
   &:hover,
   &:active,
   &:focus {
-    border-color: hsla(345, 100%, 75%, 0.1);
+    border-color: hsla(345, 100%, 75%, 0.1) !important;
   }
 }
 .ar-bg--orange {
@@ -1011,7 +1011,7 @@ label:hover:before {
   &:hover,
   &:active,
   &:focus {
-    border-color: hsla(37, 100%, 75%, 0.1);
+    border-color: hsla(37, 100%, 75%, 0.1) !important;
   }
 }
 .ar-bg--yellow {
@@ -1019,7 +1019,7 @@ label:hover:before {
   &:hover,
   &:active,
   &:focus {
-    border-color: hsla(53, 100%, 65%, 0.25);
+    border-color: hsla(53, 100%, 65%, 0.25) !important;
   }
 }
 .ar-bg--green {
@@ -1027,7 +1027,7 @@ label:hover:before {
   &:hover,
   &:active,
   &:focus {
-    border-color: hsla(147, 100%, 75%, 0.25);
+    border-color: hsla(147, 100%, 75%, 0.25) !important;
   }
 }
 .ar-bg--blue {
@@ -1035,7 +1035,7 @@ label:hover:before {
   &:hover,
   &:active,
   &:focus {
-    border-color: hsla(184, 100%, 75%, 0.25);
+    border-color: hsla(184, 100%, 75%, 0.25) !important;
   }
 }
 .ar-bg--purple {
@@ -1043,7 +1043,7 @@ label:hover:before {
   &:hover,
   &:active,
   &:focus {
-    border-color: hsla(266, 100%, 79%, 0.1);
+    border-color: hsla(266, 100%, 79%, 0.1) !important;
   }
 }
 
@@ -1294,8 +1294,8 @@ label:hover:before {
 .background-image--ux-design-contest {
   background-image: url('../images/2018-refresh/ux-design-contest@2x.png');
 }
-.background-image--ux-design-contest-7 {
-  background-image: url('../images/2018-refresh/ux-design-contests/ux-design-contest-7@2x.png');
+.background-image--ux-design-contest-8 {
+  background-image: url('../images/2018-refresh/ux-design-contests/ux-design-contest-8@2x.png');
 }
 .background-image--zero-to-portfolio {
   background-image: url('../images/2018-refresh/zero-to-portfolio@2x.png');

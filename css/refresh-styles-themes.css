@@ -775,7 +775,7 @@ label:hover:before {
 
 .ar-alert {
   background: var(--button--secondary);
-  border: 5px solid transparent;
+  border: 5px solid transparent !important;
   border-radius: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(50, 78, 93, 0.11);
   display: block;
@@ -807,39 +807,39 @@ label:hover:before {
   margin: 0;
   max-width: 400px;
   width: 85%; }
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 490px) {
     .ar-alert_text {
       width: 75%; } }
 
 .ar-bg--red {
   background: var(--red--pale) !important; }
   .ar-bg--red:hover, .ar-bg--red:active, .ar-bg--red:focus {
-    border-color: rgba(255, 128, 159, 0.1); }
+    border-color: rgba(255, 128, 159, 0.1) !important; }
 
 .ar-bg--orange {
   background: var(--orange--pale) !important; }
   .ar-bg--orange:hover, .ar-bg--orange:active, .ar-bg--orange:focus {
-    border-color: rgba(255, 206, 128, 0.1); }
+    border-color: rgba(255, 206, 128, 0.1) !important; }
 
 .ar-bg--yellow {
   background: var(--yellow--pale) !important; }
   .ar-bg--yellow:hover, .ar-bg--yellow:active, .ar-bg--yellow:focus {
-    border-color: rgba(255, 234, 77, 0.25); }
+    border-color: rgba(255, 234, 77, 0.25) !important; }
 
 .ar-bg--green {
   background: var(--green--pale) !important; }
   .ar-bg--green:hover, .ar-bg--green:active, .ar-bg--green:focus {
-    border-color: rgba(128, 255, 185, 0.25); }
+    border-color: rgba(128, 255, 185, 0.25) !important; }
 
 .ar-bg--blue {
   background: var(--blue--pale) !important; }
   .ar-bg--blue:hover, .ar-bg--blue:active, .ar-bg--blue:focus {
-    border-color: rgba(128, 247, 255, 0.25); }
+    border-color: rgba(128, 247, 255, 0.25) !important; }
 
 .ar-bg--purple {
   background: var(--purple--pale) !important; }
   .ar-bg--purple:hover, .ar-bg--purple:active, .ar-bg--purple:focus {
-    border-color: rgba(194, 148, 255, 0.1); }
+    border-color: rgba(194, 148, 255, 0.1) !important; }
 
 .ar-alert--sm {
   max-width: 50rem; }
@@ -1067,8 +1067,8 @@ label:hover:before {
 .background-image--ux-design-contest {
   background-image: url("../images/2018-refresh/ux-design-contest@2x.png"); }
 
-.background-image--ux-design-contest-7 {
-  background-image: url("../images/2018-refresh/ux-design-contests/ux-design-contest-7@2x.png"); }
+.background-image--ux-design-contest-8 {
+  background-image: url("../images/2018-refresh/ux-design-contests/ux-design-contest-8@2x.png"); }
 
 .background-image--zero-to-portfolio {
   background-image: url("../images/2018-refresh/zero-to-portfolio@2x.png");

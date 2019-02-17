@@ -59,35 +59,6 @@
     })(window,document,window['_fs_namespace'],'script','user');
   </script>
 
-  <!-- Start of Async Drift Code -->
-  <!-- <script>
-    "use strict";
-
-    !function () {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-          t.factory = function (e) {
-            return function () {
-              var n = Array.prototype.slice.call(arguments);
-              return n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function (e) {
-            t[e] = t.factory(e);
-          }), t.load = function (t) {
-            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-            var i = document.getElementsByTagName("script")[0];
-            i.parentNode.insertBefore(o, i);
-          };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('cvvmkzeruiku');
-  </script> -->
-  <!-- End of Async Drift Code -->
-
   <!-- Preloading Content -->
   <!-- <link rel="preload" href="https://adamruf.typeform.com/to/nuDolJ" as="document"> -->
   <!-- <link rel="preload" href="https://adamruf.com/images/2018-refresh/ghost-story.gif" as="image"> -->
@@ -197,8 +168,7 @@
               </li>
               <li class="img-bullets--gem" data-aos="fade-right" data-aos-delay="2500" data-aos-offset="0"
                 data-aos-once="true">
-                <a class="link--padded link--arrow" href="https://twitch.tv/ux_adam">Join Adam for live design on
-                  Twitch</a>
+                <a class="link--padded link--arrow" href="https://twitch.tv/ux_adam">Join Adam for live design on Twitch</a>
               </li>
               <!-- <li class="img-bullets--gem">
                 <a class="link--padded link--arrow" href="#">Check out my course, From Zero to Design Portfolio</a>
@@ -214,21 +184,21 @@
             </ul>
             <!-- <button class="ar-alert ar-alert--sm ar-bg--purple m-b-2 text-left" data-toggle="modal" data-target="#twitchModal">
               <i class="fab fa-twitch ar-alert_icon ar-icon--purple"></i>
-              <p class="ar-alert_text">Did you know I'm streaming design live on Twitch?</p>
-            </button>
-            <button class="ar-alert ar-alert--sm ar-bg--red text-left" data-toggle="modal" data-target="#portfolioReviewModal">
-              <i class="fas fa-suitcase ar-alert_icon ar-icon--red"></i>
-              <p class="ar-alert_text">I review design portfolios most Thursdays: Fresh-eyes feedback + actionable advice</p>
+              <p class="ar-alert_text">Join Adam and a community of designers for live design edutainment on Twitch</p>
+            </button> -->
+            <!-- <button class="ar-alert ar-alert--sm ar-bg--green text-left" style="position:absolute;bottom:-11rem;z-index:1;" data-toggle="modal" data-target="#portfolioReviewModal" data-aos="fade-right" data-aos-delay="3000" data-aos-offset="0">
+              <i class="fas fa-suitcase ar-alert_icon ar-icon--green"></i>
+              <p class="ar-alert_text">Sign up for a design portfolio review to get fresh-eyes feedback + actionable advice</p>
             </button> -->
           </div>
 
           <!-- Alert Modals -->
-          <!-- <div class="modal fade" id="twitchModal" tabindex="-1" role="dialog" aria-labelledby="twitchModalLabel" aria-hidden="true">
+          <!-- <<div class="modal fade" id="twitchModal" tabindex="-1" role="dialog" aria-labelledby="twitchModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header background--purple-light p-4">
                   <h5 class="modal-title text-white text-shadow--purple" id="twitchModalLabel">Live Design Streaming on Twitch</h5>
-                  <button type="button" class="close modal-close modal-close--purple" data-dismiss="modal" aria-label="Close">
+                  <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                   </button>
                 </div>
@@ -246,26 +216,31 @@
           <div class="modal fade" id="portfolioReviewModal" tabindex="-1" role="dialog" aria-labelledby="portfolioReviewModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
               <div class="modal-content">
-                <div class="modal-header background--red-light p-4">
-                  <h5 class="modal-title text-white text-shadow--red" id="portfolioReviewModalLabel">Portfolio Review Thursdays on Twitch</h5>
-                  <button type="button" class="close modal-close modal-close--red" data-dismiss="modal" aria-label="Close">
+                <div class="modal-header background--green-light p-4">
+                  <h5 class="modal-title text-white text-shadow--green" id="portfolioReviewModalLabel">Live Portfolio Reviews on Twitch</h5>
+                  <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">
                       <i class="fas fa-times"></i>
                     </span>
                   </button>
                 </div>
                 <div class="modal-body p-4">
-                  <p>Join me most Thursdays at 6pm Pacific at
-                    <a class="link--red" href="https://twitch.tv/ux_adam" target="_blank">twitch.tv/ux_adam</a> for inspiration and actionable tips to strengthen your design portfolio.</p>
+                  <p>I’ve helped hundreds of UX and Product Designers like you improve their portfolios. Sign up below to add your design portfolio request to the queue.</p>
 
-                  <p>I’ve helped hundreds of UX and Product Designers like you improve their portfolios. Sign up below to get your design portfolio reviewed.</p>
+                  <p><a class="link--red" href="https://twitch.tv/ux_adam" target="_blank">Join me on Twitch Thursdays at 9pm ET / 8pm CT
+                    / 6pm PT</a> as I review one or two portfolios from the queue to provide inspiration and
+                    actionable tips to level up your design portfolio.</p>
+
+                  <p>💪💼👍Let's get your portfolio working harder for you!<br>
+                    <img class="img--avatar" src="https://adamruf.com/images/adam-ruf-email-signature.png" alt="Adam Ruf's profile photo">
+                    ux_adam</p>
 
                   <div class="typeform-widget border elevation-2 m-b-2" data-url="https://adamruf.typeform.com/to/nuDolJ" style="width: 100%; height: 400px;"></div>
                   <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
-                  <p class="text-center">Want 1:1 help?
+                  <!-- <p class="text-center">Want 1:1 help?
                     <a class="link--red" href="#">See mentorship opportunities</a>
-                  </p>
-                </div>
+                  </p> -->
+                <!--</div>
               </div>
             </div>
           </div> -->
@@ -344,10 +319,10 @@
 
             <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="300">
               <button class="ar-card ar-card--md ar-card--project ar-card--red p-0 elevation-2 m-x-2 m-b-4" data-toggle="modal"
-                data-target="#uxdContest7Modal" tabindex="0">
-                <div class="background-image current-project_background-image background-image--ux-design-contest-7 border-b-red position-relative"></div>
+                data-target="#uxdContestModal" tabindex="0">
+                <div class="background-image current-project_background-image background-image--ux-design-contest-8 border-b-red position-relative"></div>
                 <div class="ar-card__body p-4">
-                  <p class="ar-card__heading ar-card__heading--md">🏆 January Design Contest</p>
+                  <p class="ar-card__heading ar-card__heading--md">🏆 February UX Design Contest</p>
                 </div>
               </button>
             </div>
@@ -408,36 +383,45 @@
         </div>
       </div>
 
-      <div class="modal fade" id="uxdContest7Modal" tabindex="-1" role="dialog" aria-labelledby="#uxdContest7ModalLabel"
+      <div class="modal fade" id="uxdContestModal" tabindex="-1" role="dialog" aria-labelledby="#uxdContestModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header border-b-red p-4 position-relative">
-              <h3 class="modal-title" id="uxdContest7Modal">🏆 January Design Contest</h3>
+              <h3 class="modal-title" id="uxdContestModal">🏆 February UX Design Contest</h3>
               <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true"><i class="fas fa-times"></i></span>
               </button>
             </div>
             <div class="modal-body p-4">
 
-              <p>Happy New Year, Designers!</p>
-              <p>I'm excited to announce the first UX Design Contest of 2019: <strong><a href="https://docs.google.com/document/d/1JA_p5OAgXMc5OONXGrBZ1swEm46rdJb6m6wTXYuWfUk/edit?usp=sharing"
-                    target="_blank">Designing a Voice UI Prototype with Adobe XD</a></strong>.</p>
+              <p>Hey, Designers!</p>
+<p>This time around, you have <strong>a chance to win $100 for your charity</strong> when you participate in <strong><a
+                    href="https://docs.google.com/document/d/1lMHQjaeE25eb-DTJkbEhB3n7ngJSuU4ZNexxicVgwsU/edit?usp=sharing"
+                    target="_blank">UX Design Contest #8:
+  Design a Better Search Experience</a></strong>.</p>
 
-              <!-- <p>For a first-hand look at designing Voice UI (VUI) experiences and good presentations, join me at <strong><a href="https://twitch.tv/ux_adam" target="_blank">twitch.tv/ux_adam</a></strong> for two special live design streams:
-                <ul class="list-unstyled">
+              <!-- <div style="background:hsla(264, 100%, 97%, 1); padding: 16px;"> -->
+
+<p>Join me as I demonstrate evaluating, prototyping, and testing search experiences with tools like <a href="https://invisionapp.com"
+    target="_blank">InVision</a> and <a href="https://usabilityhub.com" target="_blank">UsabilityHub</a>:
+                <ul class="list-unstyled" style="background:hsla(264, 100%, 97%, 1); border-radius: 0.5rem; padding: 16px;">
                   <li>
-                    <strong>🗣 Building a Voice UI Prototype with Adobe XD</strong><br>
-                    Thursday, Jan 17 @6pm PST
+<strong><a href="https://twitch.tv/ux_adam" target="_blank">💪 Lean Heuristic Evaluations and Best Practices for Search</a></strong><br>
+                    Thursday, Feb 21 • 9pm ET | 8pm CT | 6pm PT
                   </li>
                   <li>
-                    <strong>🙌 Designing good presentations fast</strong><br>
-                    Thursday, Jan 24 @6pm PST
+<strong><a href="https://twitch.tv/ux_adam" target="_blank">🔥Prototyping and Testing a Search Experience</a></strong><br>
+                    Thursday, Feb 28 • 9pm ET | 8pm CT | 6pm PT
                   </li>
                 </ul>
-              </p> -->
+              </p>
+              <!-- </div> -->
+              <p>
+                <a href="https://docs.google.com/document/d/1lMHQjaeE25eb-DTJkbEhB3n7ngJSuU4ZNexxicVgwsU/edit?usp=sharing" target="_blank" class="button button--primary">View Contest Details</a>
+              </p>
 
-              <p>Good Luck and Happy Designing!™️<br>
+              <p>🤞Good Luck and Happy Designing!<br>
                 <img class="img--avatar" src="https://adamruf.com/images/adam-ruf-email-signature.png" alt="Adam Ruf's profile photo">
                 ux_adam</p>
             </div>
