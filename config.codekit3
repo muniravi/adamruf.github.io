@@ -217,6 +217,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/2018-refresh/create@2x.png": {
+		"ft": 32768,
+		"iS": 220174,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/create@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/2018-refresh/current-project-content.hemingway": {
 		"cB": 0,
 		"ft": 8192,
