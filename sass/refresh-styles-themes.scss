@@ -244,6 +244,10 @@ abbr {
   }
 }
 
+.tooltip.show {
+  opacity: 1 !important;
+}
+
 .tooltip-inner {
   background-color: var(--background--secondary) !important;
   border-radius: 0.6rem;
@@ -252,7 +256,6 @@ abbr {
   font-size: 1.4rem;
   font-weight: 700;
   max-width: 600px;
-  opacity: 1 !important;
   padding: 0.8rem 2rem;
   text-transform: uppercase;
 }
