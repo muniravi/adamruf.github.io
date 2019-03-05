@@ -7,11 +7,12 @@
 		"uuidString": "DAF7A6B4-A59A-4E81-8754-B3738AB47BD6"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/.gitignore",
 		"oF": 0
@@ -27,6 +28,7 @@
 	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/404.html",
 		"oF": 0
@@ -34,6 +36,7 @@
 	"/about-ux-ui-designer-adam-ruf.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/about-ux-ui-designer-adam-ruf.html",
 		"oF": 0
@@ -41,6 +44,7 @@
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/CNAME",
 		"oF": 0
@@ -48,6 +52,7 @@
 	"/contact-ux-ui-designer-adam-ruf.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/contact-ux-ui-designer-adam-ruf.html",
 		"oF": 0
@@ -85,6 +90,7 @@
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/favicon.ico",
 		"oF": 0
@@ -92,6 +98,7 @@
 	"/forty-three-million-dollar-painting.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/forty-three-million-dollar-painting.html",
 		"oF": 0
@@ -231,6 +238,7 @@
 	"/images/2018-refresh/current-project-content.hemingway": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/images/2018-refresh/current-project-content.hemingway",
 		"oF": 0
@@ -680,6 +688,17 @@
 		"iS": 36444,
 		"oA": 0,
 		"oAP": "/images/2018-refresh/ux-design-contests/ux-design-contest-8@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/2018-refresh/ux-design-contests/ux-design-contest-9@2x.png": {
+		"ft": 32768,
+		"iS": 57133,
+		"oA": 0,
+		"oAP": "/images/2018-refresh/ux-design-contests/ux-design-contest-9@2x.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -2365,11 +2384,13 @@
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/index.html",
 		"oF": 0
 		},
 	"/js/bootstrap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2380,6 +2401,7 @@
 		"tS": 0
 		},
 	"/js/bootstrap.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2390,6 +2412,7 @@
 		"tS": 0
 		},
 	"/js/html5shiv.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2400,6 +2423,7 @@
 		"tS": 0
 		},
 	"/js/min/refresh-scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2410,6 +2434,7 @@
 		"tS": 0
 		},
 	"/js/min/resources-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2420,6 +2445,7 @@
 		"tS": 0
 		},
 	"/js/min/scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2430,6 +2456,7 @@
 		"tS": 0
 		},
 	"/js/refresh-scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2440,6 +2467,7 @@
 		"tS": 0
 		},
 	"/js/resources.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2450,6 +2478,7 @@
 		"tS": 0
 		},
 	"/js/retina.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2460,6 +2489,7 @@
 		"tS": 0
 		},
 	"/js/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2470,6 +2500,7 @@
 		"tS": 0
 		},
 	"/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2480,6 +2511,7 @@
 		"tS": 0
 		},
 	"/js/wufoo.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2492,6 +2524,7 @@
 	"/live/index-v2.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/live/index-v2.html",
 		"oF": 0
@@ -2499,6 +2532,7 @@
 	"/live/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/live/index.html",
 		"oF": 0
@@ -2593,6 +2627,7 @@
 	"/portfolio/favorite-fruit/watermelon.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/favorite-fruit/watermelon.html",
 		"oF": 0
@@ -2640,6 +2675,7 @@
 	"/portfolio/fontastic-questions/fonts/BPreplay/BPreplay-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/fontastic-questions/fonts/BPreplay/BPreplay-webfont.eot",
 		"oF": 0
@@ -2647,6 +2683,7 @@
 	"/portfolio/fontastic-questions/fonts/BPreplay/BPreplay-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/fontastic-questions/fonts/BPreplay/BPreplay-webfont.ttf",
 		"oF": 0
@@ -2654,6 +2691,7 @@
 	"/portfolio/fontastic-questions/fonts/BPreplay/BPreplay-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/fontastic-questions/fonts/BPreplay/BPreplay-webfont.woff",
 		"oF": 0
@@ -2661,6 +2699,7 @@
 	"/portfolio/fontastic-questions/fonts/BPreplay/BPreplayBold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/fontastic-questions/fonts/BPreplay/BPreplayBold-webfont.eot",
 		"oF": 0
@@ -2668,6 +2707,7 @@
 	"/portfolio/fontastic-questions/fonts/BPreplay/BPreplayBold-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/fontastic-questions/fonts/BPreplay/BPreplayBold-webfont.ttf",
 		"oF": 0
@@ -2675,6 +2715,7 @@
 	"/portfolio/fontastic-questions/fonts/BPreplay/BPreplayBold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/fontastic-questions/fonts/BPreplay/BPreplayBold-webfont.woff",
 		"oF": 0
@@ -2682,6 +2723,7 @@
 	"/portfolio/fontastic-questions/how-high-is-mount-everest.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/fontastic-questions/how-high-is-mount-everest.html",
 		"oF": 0
@@ -2689,6 +2731,7 @@
 	"/portfolio/fontastic-questions/how-many-stars-are-there-in-the-universe.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/fontastic-questions/how-many-stars-are-there-in-the-universe.html",
 		"oF": 0
@@ -2762,6 +2805,7 @@
 	"/portfolio/fontastic-questions/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/fontastic-questions/index.html",
 		"oF": 0
@@ -2769,6 +2813,7 @@
 	"/portfolio/fontastic-questions/why-is-the-sky-blue.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/fontastic-questions/why-is-the-sky-blue.html",
 		"oF": 0
@@ -2787,6 +2832,7 @@
 	"/portfolio/gsd/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/gsd/index.html",
 		"oF": 0
@@ -2979,11 +3025,13 @@
 	"/portfolio/lunch-inviterator/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/lunch-inviterator/index.html",
 		"oF": 0
 		},
 	"/portfolio/lunch-inviterator/js/min/random-lunch-invite-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2994,6 +3042,7 @@
 		"tS": 0
 		},
 	"/portfolio/lunch-inviterator/js/random-lunch-invite.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4003,6 +4052,7 @@
 	"/portfolio/moringa/assets/fonts/open_sans/OpenSans-bold.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/moringa/assets/fonts/open_sans/OpenSans-bold.woff",
 		"oF": 0
@@ -4010,6 +4060,7 @@
 	"/portfolio/moringa/assets/fonts/open_sans/OpenSans-light.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/moringa/assets/fonts/open_sans/OpenSans-light.woff",
 		"oF": 0
@@ -4017,6 +4068,7 @@
 	"/portfolio/moringa/assets/fonts/open_sans/OpenSans-semibold.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/moringa/assets/fonts/open_sans/OpenSans-semibold.woff",
 		"oF": 0
@@ -4024,6 +4076,7 @@
 	"/portfolio/moringa/assets/fonts/open_sans/OpenSans.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/portfolio/moringa/assets/fonts/open_sans/OpenSans.woff",
 		"oF": 0
@@ -4040,6 +4093,7 @@
 		"q": 100
 		},
 	"/portfolio/moringa/assets/html5shim/html5.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4060,6 +4114,7 @@
 		"oS": 0
 		},
 	"/portfolio/moringa/assets/json2/json2.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4081,6 +4136,7 @@
 		"q": 100
 		},
 	"/portfolio/moringa/assets/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4137,6 +4193,7 @@
 	"/portfolio/moringa/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/portfolio/moringa/index.html",
 		"oF": 0
@@ -4144,6 +4201,7 @@
 	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/robots.txt",
 		"oF": 0
@@ -4151,6 +4209,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_accordions.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_accordions.scssc",
 		"oF": 0
@@ -4158,6 +4217,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_animations.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_animations.scssc",
 		"oF": 0
@@ -4165,6 +4225,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_banner.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_banner.scssc",
 		"oF": 0
@@ -4172,6 +4233,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_buttons.scssc",
 		"oF": 0
@@ -4179,6 +4241,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_colors.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_colors.scssc",
 		"oF": 0
@@ -4186,6 +4249,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_helpers.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_helpers.scssc",
 		"oF": 0
@@ -4193,6 +4257,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_modals.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_modals.scssc",
 		"oF": 0
@@ -4200,6 +4265,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_navbar.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_navbar.scssc",
 		"oF": 0
@@ -4207,6 +4273,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_tooltips.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_tooltips.scssc",
 		"oF": 0
@@ -4214,6 +4281,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_typography.scssc",
 		"oF": 0
@@ -4221,6 +4289,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_utility-belt.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/_utility-belt.scssc",
 		"oF": 0
@@ -4228,6 +4297,7 @@
 	"/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/sass/.sass-cache/dffeeaa09c1ea936afe605743f881b01d0fb3930/style.scssc",
 		"oF": 0
@@ -4469,6 +4539,7 @@
 	"/sf-bay-area-design-events.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/sf-bay-area-design-events.html",
 		"oF": 0
@@ -4476,6 +4547,7 @@
 	"/staging/2018 Redesign/adamruf-dot-com-redesign.studio": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/2018 Redesign/adamruf-dot-com-redesign.studio",
 		"oF": 0
@@ -4483,6 +4555,7 @@
 	"/staging/2018 Redesign/portfolio-site-redesign-2018.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/2018 Redesign/portfolio-site-redesign-2018.sketch",
 		"oF": 0
@@ -4490,6 +4563,7 @@
 	"/staging/2018 Redesign/sandbox-experiments.studio": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/2018 Redesign/sandbox-experiments.studio",
 		"oF": 0
@@ -4497,6 +4571,7 @@
 	"/staging/404--OLD.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/404--OLD.html",
 		"oF": 0
@@ -4504,6 +4579,7 @@
 	"/staging/404.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/404.ai",
 		"oF": 0
@@ -4511,11 +4587,13 @@
 	"/staging/about-ux-ui-designer-adam-ruf--OLD.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/about-ux-ui-designer-adam-ruf--OLD.html",
 		"oF": 0
 		},
 	"/staging/adam-chart.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4528,6 +4606,7 @@
 	"/staging/adam-ruf-ux-design-and-career-mentoring": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/adam-ruf-ux-design-and-career-mentoring",
 		"oF": 0
@@ -4535,6 +4614,7 @@
 	"/staging/adam-ruf-ux-design-and-career-mentoring.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/adam-ruf-ux-design-and-career-mentoring.html",
 		"oF": 0
@@ -4542,6 +4622,7 @@
 	"/staging/adam-ruf-ux-design-speaking": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/adam-ruf-ux-design-speaking",
 		"oF": 0
@@ -4560,6 +4641,7 @@
 	"/staging/adamruf-dot-com.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/adamruf-dot-com.sketch",
 		"oF": 0
@@ -4567,6 +4649,7 @@
 	"/staging/ar-portfolio-template.psd": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ar-portfolio-template.psd",
 		"oF": 0
@@ -4574,6 +4657,7 @@
 	"/staging/avatar-sprite-eps.eps": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/avatar-sprite-eps.eps",
 		"oF": 0
@@ -4613,6 +4697,7 @@
 	"/staging/coder-character-icons.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/coder-character-icons.sketch",
 		"oF": 0
@@ -4620,6 +4705,7 @@
 	"/staging/contact-ux-ui-designer-adam-ruf--OLD.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/contact-ux-ui-designer-adam-ruf--OLD.html",
 		"oF": 0
@@ -4627,6 +4713,7 @@
 	"/staging/DEC-2016-project-thumb-template.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/DEC-2016-project-thumb-template.sketch",
 		"oF": 0
@@ -4654,6 +4741,7 @@
 	"/staging/email-signature.psd": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/email-signature.psd",
 		"oF": 0
@@ -4681,6 +4769,7 @@
 	"/staging/hero-image-v3.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/hero-image-v3.ai",
 		"oF": 0
@@ -4688,6 +4777,7 @@
 	"/staging/hero-image-v4.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/hero-image-v4.ai",
 		"oF": 0
@@ -4695,6 +4785,7 @@
 	"/staging/hero-image.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/hero-image.ai",
 		"oF": 0
@@ -4702,6 +4793,7 @@
 	"/staging/hero-image.eps": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/hero-image.eps",
 		"oF": 0
@@ -4719,6 +4811,7 @@
 	"/staging/icons-for-ux-portfolio-mentorship.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/icons-for-ux-portfolio-mentorship.sketch",
 		"oF": 0
@@ -4726,6 +4819,7 @@
 	"/staging/index--OLD.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/index--OLD.html",
 		"oF": 0
@@ -4733,6 +4827,7 @@
 	"/staging/index-rotate-test.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/staging/index-rotate-test.html",
 		"oF": 0
@@ -4740,6 +4835,7 @@
 	"/staging/Invision-CD-Sketch/121_ios7_uikit (template version).sketch/Data": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/121_ios7_uikit (template version).sketch/Data",
 		"oF": 0
@@ -4747,6 +4843,7 @@
 	"/staging/Invision-CD-Sketch/121_ios7_uikit (template version).sketch/metadata": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/121_ios7_uikit (template version).sketch/metadata",
 		"oF": 0
@@ -4754,6 +4851,7 @@
 	"/staging/Invision-CD-Sketch/121_ios7_uikit (template version).sketch/version": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/121_ios7_uikit (template version).sketch/version",
 		"oF": 0
@@ -4761,6 +4859,7 @@
 	"/staging/Invision-CD-Sketch/121_ios7_uikit.sketch/Data": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/121_ios7_uikit.sketch/Data",
 		"oF": 0
@@ -4768,6 +4867,7 @@
 	"/staging/Invision-CD-Sketch/121_ios7_uikit.sketch/metadata": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/121_ios7_uikit.sketch/metadata",
 		"oF": 0
@@ -4775,6 +4875,7 @@
 	"/staging/Invision-CD-Sketch/121_ios7_uikit.sketch/version": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/121_ios7_uikit.sketch/version",
 		"oF": 0
@@ -4782,6 +4883,7 @@
 	"/staging/Invision-CD-Sketch/INSTRUCTIONS.rtf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Invision-CD-Sketch/INSTRUCTIONS.rtf",
 		"oF": 0
@@ -4800,6 +4902,7 @@
 	"/staging/kawaii-ux-hierarchy-pyramids.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/kawaii-ux-hierarchy-pyramids.ai",
 		"oF": 0
@@ -4829,6 +4932,7 @@
 	"/staging/kawaii-ux-pyramid-for-stickermule.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/kawaii-ux-pyramid-for-stickermule.ai",
 		"oF": 0
@@ -4836,6 +4940,7 @@
 	"/staging/kawaii-ux-pyramid-for-stickermule.eps": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/kawaii-ux-pyramid-for-stickermule.eps",
 		"oF": 0
@@ -4843,6 +4948,7 @@
 	"/staging/kawaii-ux-pyramid-v2.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/kawaii-ux-pyramid-v2.ai",
 		"oF": 0
@@ -4861,6 +4967,7 @@
 	"/staging/kawaii-ux-pyramid.ai": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/kawaii-ux-pyramid.ai",
 		"oF": 0
@@ -4868,6 +4975,7 @@
 	"/staging/kawaii-ux-pyramid.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/kawaii-ux-pyramid.sketch",
 		"oF": 0
@@ -4875,6 +4983,7 @@
 	"/staging/master-kawaii-ux-pyramid-v4.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/master-kawaii-ux-pyramid-v4.sketch",
 		"oF": 0
@@ -4882,6 +4991,7 @@
 	"/staging/master-kawaii-ux-pyramid-v5.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/master-kawaii-ux-pyramid-v5.sketch",
 		"oF": 0
@@ -4889,6 +4999,7 @@
 	"/staging/master-kawaii-ux-pyramid-v6.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/master-kawaii-ux-pyramid-v6.sketch",
 		"oF": 0
@@ -4896,6 +5007,7 @@
 	"/staging/master-utility-belt-graphics-brighter.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/master-utility-belt-graphics-brighter.sketch",
 		"oF": 0
@@ -5090,6 +5202,7 @@
 	"/staging/peek tests/JAN-23-peek-test-of-adam-ruf-dot-com.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/peek tests/JAN-23-peek-test-of-adam-ruf-dot-com.mp4",
 		"oF": 0
@@ -5097,6 +5210,7 @@
 	"/staging/peek tests/peek-adamruf-feb-01.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/peek tests/peek-adamruf-feb-01.mp4",
 		"oF": 0
@@ -5104,6 +5218,7 @@
 	"/staging/peek tests/peek-adamruf-feb-02.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/peek tests/peek-adamruf-feb-02.mp4",
 		"oF": 0
@@ -5111,6 +5226,7 @@
 	"/staging/peek tests/peek-adamruf-feb-03.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/peek tests/peek-adamruf-feb-03.mp4",
 		"oF": 0
@@ -5118,6 +5234,7 @@
 	"/staging/photo-template.psd": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/photo-template.psd",
 		"oF": 0
@@ -5125,6 +5242,7 @@
 	"/staging/polldaddy-rating-alternate-graphics.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/polldaddy-rating-alternate-graphics.sketch",
 		"oF": 0
@@ -5132,6 +5250,7 @@
 	"/staging/portfolio-image-template.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/portfolio-image-template.sketch",
 		"oF": 0
@@ -5139,6 +5258,7 @@
 	"/staging/pug/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/pug/index.html",
 		"oF": 0
@@ -5146,6 +5266,7 @@
 	"/staging/pyramid-xs.eps": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/pyramid-xs.eps",
 		"oF": 0
@@ -5163,6 +5284,7 @@
 	"/staging/recommendation-page-iterations.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/recommendation-page-iterations.sketch",
 		"oF": 0
@@ -5170,6 +5292,7 @@
 	"/staging/resources-list-2015.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/staging/resources-list-2015.html",
 		"oF": 0
@@ -5177,6 +5300,7 @@
 	"/staging/sf-bay-area-design-events-page.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/sf-bay-area-design-events-page.sketch",
 		"oF": 0
@@ -5184,6 +5308,7 @@
 	"/staging/twitter-card-image-template.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/twitter-card-image-template.sketch",
 		"oF": 0
@@ -5191,6 +5316,7 @@
 	"/staging/Untitled.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Untitled.sketch",
 		"oF": 0
@@ -5198,6 +5324,7 @@
 	"/staging/Use-this Portfolio img template.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/Use-this Portfolio img template.sketch",
 		"oF": 0
@@ -5205,6 +5332,7 @@
 	"/staging/userflow-index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/staging/userflow-index.html",
 		"oF": 0
@@ -5267,6 +5395,7 @@
 	"/staging/ux-design-contest-graphics-for-portfolio-website.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux-design-contest-graphics-for-portfolio-website.sketch",
 		"oF": 0
@@ -5274,6 +5403,7 @@
 	"/staging/ux-design-mentorship.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux-design-mentorship.html",
 		"oF": 0
@@ -5281,6 +5411,7 @@
 	"/staging/ux-portfolio-mentorship-program-typeform-image.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux-portfolio-mentorship-program-typeform-image.sketch",
 		"oF": 0
@@ -5288,6 +5419,7 @@
 	"/staging/ux-ui-designer-adam-ruf-portfolio--OLD.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux-ui-designer-adam-ruf-portfolio--OLD.html",
 		"oF": 0
@@ -5295,6 +5427,7 @@
 	"/staging/ux-ui-designer-adam-ruf-recommended-resources--OLD.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux-ui-designer-adam-ruf-recommended-resources--OLD.html",
 		"oF": 0
@@ -5302,6 +5435,7 @@
 	"/staging/ux-ui-designer-adam-ruf-recommended-resources.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux-ui-designer-adam-ruf-recommended-resources.html",
 		"oF": 0
@@ -5309,6 +5443,7 @@
 	"/staging/ux_adam-podcast-page.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/ux_adam-podcast-page.sketch",
 		"oF": 0
@@ -5316,6 +5451,7 @@
 	"/staging/whos-that-tweeting-thought-leader.sketch": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/staging/whos-that-tweeting-thought-leader.sketch",
 		"oF": 0
@@ -5333,6 +5469,7 @@
 	"/thank-you.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/thank-you.html",
 		"oF": 0
@@ -5350,11 +5487,13 @@
 	"/tools/ux-design-dialogue-flow-tool/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/tools/ux-design-dialogue-flow-tool/index.html",
 		"oF": 0
 		},
 	"/tools/ux-design-dialogue-flow-tool/js/min/scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5365,6 +5504,7 @@
 		"tS": 0
 		},
 	"/tools/ux-design-dialogue-flow-tool/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5377,6 +5517,7 @@
 	"/tools/ux-design-dialogue-flow-tool/sass/.sass-cache/380bebc72f83d51e384d0aa2bafbf4b9aa727fa0/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/tools/ux-design-dialogue-flow-tool/sass/.sass-cache/380bebc72f83d51e384d0aa2bafbf4b9aa727fa0/style.scssc",
 		"oF": 0
@@ -5397,6 +5538,7 @@
 	"/twitch-chat.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/twitch-chat.html",
 		"oF": 0
@@ -5404,6 +5546,7 @@
 	"/twitch-overlays/character-messages.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/twitch-overlays/character-messages.html",
 		"oF": 0
@@ -5411,6 +5554,7 @@
 	"/ux-ui-designer-adam-ruf-portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/ux-ui-designer-adam-ruf-portfolio.html",
 		"oF": 0
@@ -5418,6 +5562,7 @@
 	"/volunteering/design-volunteers.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/volunteering/design-volunteers.html",
 		"oF": 0
@@ -5517,6 +5662,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -5536,6 +5687,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -5586,6 +5767,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -5619,10 +5803,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -6571,6 +6761,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 1,
 			"optionString": ""
@@ -7233,6 +7427,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -7254,6 +7449,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -7276,7 +7472,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -7315,6 +7512,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -7324,7 +7522,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -7345,7 +7544,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -7374,7 +7574,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -7462,16 +7663,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -7483,14 +7688,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -7513,6 +7718,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -7538,10 +7747,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -7550,13 +7755,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -7568,6 +7773,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -7590,13 +7799,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -7605,10 +7814,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -7632,6 +7837,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -7666,6 +7875,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -7675,6 +7888,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7702,15 +7919,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
